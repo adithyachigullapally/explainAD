@@ -123,6 +123,32 @@ class DinoCore(PatchCore):
         return tokens[:, 1:].float()   # drop the CLS token -> (N, P, 768)
 
 
+CLIP_MEAN = torch.tensor([0.48145466, 0.4578275, 0.40821073]).view(1, 3, 1, 1)
+CLIP_STD = torch.tensor([0.26862954, 0.26130258, 0.27577711]).view(1, 3, 1, 1)
+
+
+class ClipCore(PatchCore):
+    """PatchCore on CLIP ViT-B/16 (Radford et al., ICML 2021) patch tokens of layers 6 and 9,
+    concatenated: mid-level, as PatchCore prefers; CLIP's last-layer patch tokens localise poorly."""
+    LAYERS = (6, 9)
+
+    def _backbone(self):
+        if self._net is None:
+            from transformers import CLIPVisionModel
+            net = CLIPVisionModel.from_pretrained("openai/clip-vit-base-patch16")
+            self._net = net.eval().half().to(self.device)
+        return self._net
+
+    @torch.no_grad()
+    def _embed(self, images: np.ndarray) -> torch.Tensor:
+        x = torch.as_tensor(images).permute(0, 3, 1, 2).float() / 255.0
+        x = ((x - CLIP_MEAN) / CLIP_STD).to(self.device).half()
+        hs = self._backbone()(pixel_values=x, output_hidden_states=True,
+                              interpolate_pos_encoding=True).hidden_states
+        self.grid = (x.shape[-2] // 16, x.shape[-1] // 16)
+        return torch.cat([hs[i][:, 1:] for i in self.LAYERS], dim=-1).float()   # (N, P, 1536)
+
+
 def _gaussian_blur(x: torch.Tensor, sigma: float) -> torch.Tensor:
     if sigma <= 0:
         return x
