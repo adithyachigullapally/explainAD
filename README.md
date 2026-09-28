@@ -1,6 +1,7 @@
 # ExplainAD
 
-Factory defect inspection from an ordinary camera image, built from published models:
+Factory defect inspection that works from an ordinary camera image and becomes more accurate when a 3D
+scanner is also available, built from published models:
 
 1. **SAM** (Kirillov et al., *Segment Anything*, ICCV 2023) separates the object from the background.
 2. **SegAD** (Baitieva et al., *Supervised Anomaly Detection for Complex Industrial Images*, CVPR 2024)
@@ -8,9 +9,10 @@ Factory defect inspection from an ordinary camera image, built from published mo
    **DINO** ViT-B/8 features (Caron et al., *Emerging Properties in Self-Supervised Vision Transformers*,
    ICCV 2021) and on **CLIP** ViT-B/16 features (Radford et al., *Learning Transferable Visual Models From
    Natural Language Supervision*, ICML 2021), and decides whether the part is defective and where.
+   With a 3D scanner (3D mode), a fourth PatchCore map on the measured depth image is added.
 3. **Qwen3-VL-2B-Instruct** describes the flagged defect in one sentence (demo only; not part of the score).
 
-## Result (MVTec 3D-AD, RGB images, 10 classes × 10 seeds, image AUROC)
+## Result (MVTec 3D-AD, 10 classes × 10 seeds, image AUROC)
 
 | Setup | 3D sensor needed | AUROC |
 |---|---|---|
@@ -18,11 +20,12 @@ Factory defect inspection from an ordinary camera image, built from published mo
 | SegAD + SAM parts (colour-clustered) | no | 78.7 ± 1.1 |
 | SegAD + SAM object/background (v1) | no | 82.4 ± 0.9 |
 | SegAD + SAM object/background + DINO (v2) | no | 85.2 ± 1.1 |
-| **SegAD + SAM object/background + DINO + CLIP (v3)** | **no** | **87.5 ± 0.9** |
-| SegAD + real 3D-sensor depth (same protocol, separate run) | yes | 90.4 ± 1.0 |
+| **ExplainAD camera mode: + CLIP (v3)** | **no** | **87.5 ± 0.9** |
+| **ExplainAD 3D mode: + real depth (v4)** | **yes** | **92.1 ± 1.3** |
+| SegAD, 1 segment + real 3D-sensor depth (separate GeoAD run) | yes | 90.4 ± 1.0 |
 
-SAM object/background adds +3.8 AUROC, DINO as a second detector +2.8, CLIP as a third +2.3. Together they
-close about 76 % of the gap to a 3D sensor.
+SAM object/background adds +3.8 AUROC, DINO as a second detector +2.8, CLIP as a third +2.3. Adding the 3D
+scanner's depth adds another +4.6 (largest on potato, cookie and cable gland).
 Per-class numbers: `results/report.txt`; per seed: `results/per_seed.csv`.
 Protocol: SegAD head trained on validation/good plus 10 defective test images per seed (official SegAD seeds),
 evaluated on the remaining test images.
@@ -42,9 +45,9 @@ Data: MVTec 3D-AD, expected at `../GeoAD/data/mvtec3d/<class>/{train,validation,
 ```
 pip install -r requirements.txt
 powershell -ExecutionPolicy Bypass -File scripts\watchdog.ps1   # optional laptop GPU guard
-python pipeline.py fit         # SAM part maps + PatchCore (WRN50, DINO, CLIP) per class (~5 min/class, 8 GB laptop GPU)
-python pipeline.py eval        # SegAD heads -> results/report.txt
-python pipeline.py explain ../GeoAD/data/mvtec3d/dowel/test/bent/rgb/000.png   # -> results/explain_*.png
+python pipeline.py fit         # SAM part maps + PatchCore (WRN50, DINO, CLIP, real depth) per class (~5 min/class, 8 GB laptop GPU)
+python pipeline.py eval        # SegAD heads for camera and 3D modes -> results/report.txt
+python pipeline.py explain ../GeoAD/data/mvtec3d/dowel/test/bent/rgb/000.png   # camera-mode demo -> results/explain_*.png
 ```
 
 Models download from Hugging Face on first use (`facebook/sam-vit-base`, `facebook/dino-vitb8`,

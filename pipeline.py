@@ -59,6 +59,20 @@ def load_rgb(p: Path) -> np.ndarray:
     return np.asarray(Image.open(p).convert("RGB").resize((SIZE, SIZE), Image.BILINEAR))
 
 
+def load_depth(p: Path) -> np.ndarray:
+    """Real 3D-sensor depth for the RGB image at p (optional 3D mode): z channel of the xyz scan,
+    sensor holes filled with the nearest valid reading, near = high, min-max to [0, 1], SIZE px.
+    Same processing as GeoAD's real-depth run."""
+    import tifffile
+    from scipy import ndimage
+    z = tifffile.imread(p.parent.parent / "xyz" / f"{p.stem}.tiff")[..., 2].astype(np.float32)
+    valid = z > 0
+    assert valid.any(), f"no valid depth in {p}"
+    z = -z[tuple(ndimage.distance_transform_edt(~valid, return_distances=False, return_indices=True))]
+    z = np.asarray(Image.fromarray(z).resize((SIZE, SIZE), Image.BILINEAR))
+    return ((z - z.min()) / (z.max() - z.min() + 1e-8)).astype(np.float32)
+
+
 # ---------------------------------------------------------------- fit
 def fit(cls: str) -> None:
     CACHE.mkdir(exist_ok=True)
@@ -73,13 +87,13 @@ def fit(cls: str) -> None:
         segs = np.stack([parts.part_map(r, _masks(r), km) for r in map(load_rgb, todo)]).astype(np.uint8)
         np.save(seg_f, segs)
         print(f"[sam] {cls}: {len(todo)} part maps", flush=True)
-    for name, Det, bank_f, maps_f, batch in detectors(cls):
+    for name, Det, bank_f, maps_f, batch, load in detectors(cls):
         if bank_f.exists() and maps_f.exists():
             continue
-        det = Det(seed=0).fit([load_rgb(p) for p in paths(cls, "train")], batch=batch)
+        det = Det(seed=0).fit([load(p) for p in paths(cls, "train")], batch=batch)
         torch.save(det.bank.cpu(), bank_f)
         maps = [m for i in range(0, len(todo), batch)
-                for m in det.score(np.stack([load_rgb(p) for p in todo[i:i + batch]]), batch=batch)]
+                for m in det.score(np.stack([load(p) for p in todo[i:i + batch]]), batch=batch)]
         np.save(maps_f, np.stack(maps).astype(np.float16))
         del det
         torch.cuda.empty_cache()
@@ -89,10 +103,13 @@ def fit(cls: str) -> None:
 # The three PatchCore detectors SegAD combines. DINO (ICCV 2021) added +2.8 AUROC and CLIP
 # (ICML 2021) another +2.3 in the pre-registered ablations (improve.py, improve2.py). CLIP keeps
 # batch 2, as in its ablation: batch size changes PatchCore's random memory-bank sample.
+# The fourth, optional detector is the 3D mode: PatchCore-WRN50 on real sensor depth. Camera-only
+# mode uses the first three; with a 3D scanner, all four.
 def detectors(cls: str):
-    return [("wrn", PatchCore, CACHE / f"bank_{cls}.pt", CACHE / f"maps_{cls}.npy", 4),
-            ("dino", DinoCore, CACHE / f"bank_dino_{cls}.pt", CACHE / f"maps_dino_full_{cls}.npy", 4),
-            ("clip", ClipCore, CACHE / f"bank_clip_{cls}.pt", CACHE / f"maps_clip_256_{cls}.npy", 2)]
+    return [("wrn", PatchCore, CACHE / f"bank_{cls}.pt", CACHE / f"maps_{cls}.npy", 4, load_rgb),
+            ("dino", DinoCore, CACHE / f"bank_dino_{cls}.pt", CACHE / f"maps_dino_full_{cls}.npy", 4, load_rgb),
+            ("clip", ClipCore, CACHE / f"bank_clip_{cls}.pt", CACHE / f"maps_clip_256_{cls}.npy", 2, load_rgb),
+            ("depth", PatchCore, CACHE / f"bank_depth_{cls}.pt", CACHE / f"maps_depth_{cls}.npy", 4, load_depth)]
 
 
 def _masks(rgb: np.ndarray) -> list[np.ndarray]:
@@ -113,7 +130,8 @@ def features(cls: str) -> dict[str, np.ndarray]:
             "SAM object/bg": np.stack([segment_stats(m, o, 2) for m, o in zip(maps, obj)]),
             **{arm: np.hstack([np.stack([segment_stats(m, o, 2) for m, o in zip(
                 np.load(d[3]).astype(np.float32), obj)]) for d in detectors(cls)[:n]])
-               for arm, n in (("SAM object/bg + DINO", 2), ("SAM object/bg + DINO + CLIP", 3))}}
+               for arm, n in (("SAM object/bg + DINO", 2), ("SAM object/bg + DINO + CLIP", 3),
+                              ("with 3D scanner: + real depth", 4))}}
 
 
 # Added after the first 4 classes (09-28): colour-clustered parts flip between images (a darker
@@ -211,7 +229,7 @@ def explain(path: Path, threshold: float = 0.5) -> dict:
     rgb = load_rgb(path)
     seg = parts.part_map(rgb, parts.sam_masks(rgb), joblib.load(CACHE / f"parts_{cls}.joblib"))
     maps = []
-    for _, Det, bank_f, _, _ in detectors(cls):
+    for _, Det, bank_f, _, _, _ in detectors(cls)[:3]:   # the demo is camera-only
         det = Det(seed=0)
         det.bank = torch.load(bank_f).to(det.device)
         maps.append(det.score(rgb[None], batch=1)[0])

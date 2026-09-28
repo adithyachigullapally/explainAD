@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 results/*.log
 results/fit_log.txt
+# publishers' PDFs, kept locally only
+papers/

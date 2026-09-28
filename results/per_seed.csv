@@ -19,6 +19,10 @@ bagel,333,SAM object/bg + DINO + CLIP,all,93.35664335664336
 bagel,333,SAM object/bg + DINO + CLIP,geometric,94.06565656565657
 bagel,333,SAM object/bg + DINO + CLIP,surface,92.27272727272727
 bagel,333,SAM object/bg + DINO + CLIP,mixed,93.18181818181819
+bagel,333,with 3D scanner: + real depth,all,94.98834498834499
+bagel,333,with 3D scanner: + real depth,geometric,95.70707070707071
+bagel,333,with 3D scanner: + real depth,surface,94.54545454545455
+bagel,333,with 3D scanner: + real depth,mixed,94.21487603305785
 bagel,576,1 segment,all,92.48251748251748
 bagel,576,1 segment,geometric,94.1919191919192
 bagel,576,1 segment,surface,84.84848484848484
@@ -39,6 +43,10 @@ bagel,576,SAM object/bg + DINO + CLIP,all,96.18298368298368
 bagel,576,SAM object/bg + DINO + CLIP,geometric,94.50757575757575
 bagel,576,SAM object/bg + DINO + CLIP,surface,96.1038961038961
 bagel,576,SAM object/bg + DINO + CLIP,mixed,99.13419913419914
+bagel,576,with 3D scanner: + real depth,all,95.97902097902097
+bagel,576,with 3D scanner: + real depth,geometric,93.68686868686868
+bagel,576,with 3D scanner: + real depth,surface,96.75324675324676
+bagel,576,with 3D scanner: + real depth,mixed,99.13419913419914
 bagel,725,1 segment,all,93.38578088578089
 bagel,725,1 segment,geometric,94.377990430622
 bagel,725,1 segment,surface,87.38636363636364
@@ -59,6 +67,10 @@ bagel,725,SAM object/bg + DINO + CLIP,all,91.11305361305362
 bagel,725,SAM object/bg + DINO + CLIP,geometric,89.29425837320574
 bagel,725,SAM object/bg + DINO + CLIP,surface,96.24999999999999
 bagel,725,SAM object/bg + DINO + CLIP,mixed,89.43181818181819
+bagel,725,with 3D scanner: + real depth,all,90.9965034965035
+bagel,725,with 3D scanner: + real depth,geometric,89.23444976076554
+bagel,725,with 3D scanner: + real depth,surface,95.68181818181817
+bagel,725,with 3D scanner: + real depth,mixed,89.6590909090909
 bagel,823,1 segment,all,89.80186480186481
 bagel,823,1 segment,geometric,90.50116550116549
 bagel,823,1 segment,surface,81.69191919191918
@@ -79,6 +91,10 @@ bagel,823,SAM object/bg + DINO + CLIP,all,92.65734265734267
 bagel,823,SAM object/bg + DINO + CLIP,geometric,90.20979020979021
 bagel,823,SAM object/bg + DINO + CLIP,surface,95.45454545454545
 bagel,823,SAM object/bg + DINO + CLIP,mixed,94.80519480519482
+bagel,823,with 3D scanner: + real depth,all,92.68648018648018
+bagel,823,with 3D scanner: + real depth,geometric,89.39393939393939
+bagel,823,with 3D scanner: + real depth,surface,95.7070707070707
+bagel,823,with 3D scanner: + real depth,mixed,96.21212121212122
 bagel,831,1 segment,all,91.25874125874127
 bagel,831,1 segment,geometric,92.48251748251748
 bagel,831,1 segment,surface,85.79545454545455
@@ -99,6 +115,10 @@ bagel,831,SAM object/bg + DINO + CLIP,all,93.997668997669
 bagel,831,SAM object/bg + DINO + CLIP,geometric,92.65734265734265
 bagel,831,SAM object/bg + DINO + CLIP,surface,94.43181818181817
 bagel,831,SAM object/bg + DINO + CLIP,mixed,96.29186602870813
+bagel,831,with 3D scanner: + real depth,all,93.15268065268066
+bagel,831,with 3D scanner: + real depth,geometric,91.66666666666666
+bagel,831,with 3D scanner: + real depth,surface,94.31818181818183
+bagel,831,with 3D scanner: + real depth,mixed,94.97607655502392
 bagel,902,1 segment,all,93.2109557109557
 bagel,902,1 segment,geometric,95.14742014742015
 bagel,902,1 segment,surface,86.98347107438018
@@ -119,6 +139,10 @@ bagel,902,SAM object/bg + DINO + CLIP,all,97.31934731934732
 bagel,902,SAM object/bg + DINO + CLIP,geometric,97.66584766584768
 bagel,902,SAM object/bg + DINO + CLIP,surface,96.28099173553719
 bagel,902,SAM object/bg + DINO + CLIP,mixed,97.8468899521531
+bagel,902,with 3D scanner: + real depth,all,90.38461538461537
+bagel,902,with 3D scanner: + real depth,geometric,87.83783783783785
+bagel,902,with 3D scanner: + real depth,surface,95.66115702479338
+bagel,902,with 3D scanner: + real depth,mixed,89.23444976076556
 bagel,226,1 segment,all,95.13403263403262
 bagel,226,1 segment,geometric,96.99197860962568
 bagel,226,1 segment,surface,89.0495867768595
@@ -139,6 +163,10 @@ bagel,226,SAM object/bg + DINO + CLIP,all,93.7937062937063
 bagel,226,SAM object/bg + DINO + CLIP,geometric,91.17647058823529
 bagel,226,SAM object/bg + DINO + CLIP,surface,96.17768595041322
 bagel,226,SAM object/bg + DINO + CLIP,mixed,95.45454545454545
+bagel,226,with 3D scanner: + real depth,all,94.52214452214453
+bagel,226,with 3D scanner: + real depth,geometric,91.31016042780749
+bagel,226,with 3D scanner: + real depth,surface,98.14049586776859
+bagel,226,with 3D scanner: + real depth,mixed,95.86776859504133
 bagel,598,1 segment,all,92.80303030303031
 bagel,598,1 segment,geometric,93.57954545454545
 bagel,598,1 segment,surface,86.58008658008657
@@ -159,6 +187,10 @@ bagel,598,SAM object/bg + DINO + CLIP,all,93.7062937062937
 bagel,598,SAM object/bg + DINO + CLIP,geometric,92.38636363636364
 bagel,598,SAM object/bg + DINO + CLIP,surface,94.37229437229436
 bagel,598,SAM object/bg + DINO + CLIP,mixed,95.98930481283422
+bagel,598,with 3D scanner: + real depth,all,95.0174825174825
+bagel,598,with 3D scanner: + real depth,geometric,93.125
+bagel,598,with 3D scanner: + real depth,surface,97.40259740259741
+bagel,598,with 3D scanner: + real depth,mixed,96.52406417112299
 bagel,874,1 segment,all,94.02680652680652
 bagel,874,1 segment,geometric,95.0358851674641
 bagel,874,1 segment,surface,87.27272727272727
@@ -179,6 +211,10 @@ bagel,874,SAM object/bg + DINO + CLIP,all,94.23076923076923
 bagel,874,SAM object/bg + DINO + CLIP,geometric,91.98564593301435
 bagel,874,SAM object/bg + DINO + CLIP,surface,96.36363636363636
 bagel,874,SAM object/bg + DINO + CLIP,mixed,96.36363636363636
+bagel,874,with 3D scanner: + real depth,all,93.15268065268064
+bagel,874,with 3D scanner: + real depth,geometric,91.14832535885168
+bagel,874,with 3D scanner: + real depth,surface,94.6590909090909
+bagel,874,with 3D scanner: + real depth,mixed,95.45454545454545
 bagel,589,1 segment,all,91.60839160839161
 bagel,589,1 segment,geometric,92.93611793611794
 bagel,589,1 segment,surface,85.56818181818183
@@ -199,6 +235,10 @@ bagel,589,SAM object/bg + DINO + CLIP,all,94.98834498834499
 bagel,589,SAM object/bg + DINO + CLIP,geometric,97.05159705159704
 bagel,589,SAM object/bg + DINO + CLIP,surface,89.54545454545455
 bagel,589,SAM object/bg + DINO + CLIP,mixed,96.53679653679653
+bagel,589,with 3D scanner: + real depth,all,89.51048951048952
+bagel,589,with 3D scanner: + real depth,geometric,91.03194103194103
+bagel,589,with 3D scanner: + real depth,surface,87.27272727272728
+bagel,589,with 3D scanner: + real depth,mixed,88.96103896103897
 cable_gland,333,1 segment,all,73.87136672850959
 cable_gland,333,1 segment,geometric,73.87136672850959
 cable_gland,333,SAM parts,all,65.18243661100804
@@ -209,6 +249,8 @@ cable_gland,333,SAM object/bg + DINO,all,77.05627705627707
 cable_gland,333,SAM object/bg + DINO,geometric,77.05627705627707
 cable_gland,333,SAM object/bg + DINO + CLIP,all,84.32282003710576
 cable_gland,333,SAM object/bg + DINO + CLIP,geometric,84.32282003710576
+cable_gland,333,with 3D scanner: + real depth,all,95.11440940012368
+cable_gland,333,with 3D scanner: + real depth,geometric,95.11440940012368
 cable_gland,576,1 segment,all,76.9016697588126
 cable_gland,576,1 segment,geometric,76.9016697588126
 cable_gland,576,SAM parts,all,62.46134817563389
@@ -219,6 +261,8 @@ cable_gland,576,SAM object/bg + DINO,all,82.25108225108227
 cable_gland,576,SAM object/bg + DINO,geometric,82.25108225108227
 cable_gland,576,SAM object/bg + DINO + CLIP,all,90.1669758812616
 cable_gland,576,SAM object/bg + DINO + CLIP,geometric,90.1669758812616
+cable_gland,576,with 3D scanner: + real depth,all,95.36178107606679
+cable_gland,576,with 3D scanner: + real depth,geometric,95.36178107606679
 cable_gland,725,1 segment,all,70.9647495361781
 cable_gland,725,1 segment,geometric,70.9647495361781
 cable_gland,725,SAM parts,all,65.67717996289424
@@ -229,6 +273,8 @@ cable_gland,725,SAM object/bg + DINO,all,84.53927025355597
 cable_gland,725,SAM object/bg + DINO,geometric,84.53927025355597
 cable_gland,725,SAM object/bg + DINO + CLIP,all,90.4143475572047
 cable_gland,725,SAM object/bg + DINO + CLIP,geometric,90.4143475572047
+cable_gland,725,with 3D scanner: + real depth,all,98.57761286332715
+cable_gland,725,with 3D scanner: + real depth,geometric,98.57761286332715
 cable_gland,823,1 segment,all,70.1917130488559
 cable_gland,823,1 segment,geometric,70.1917130488559
 cable_gland,823,SAM parts,all,70.68645640074212
@@ -239,6 +285,8 @@ cable_gland,823,SAM object/bg + DINO,all,79.83920841063699
 cable_gland,823,SAM object/bg + DINO,geometric,79.83920841063699
 cable_gland,823,SAM object/bg + DINO + CLIP,all,86.70377241805814
 cable_gland,823,SAM object/bg + DINO + CLIP,geometric,86.70377241805814
+cable_gland,823,with 3D scanner: + real depth,all,97.40259740259741
+cable_gland,823,with 3D scanner: + real depth,geometric,97.40259740259741
 cable_gland,831,1 segment,all,66.1100803957947
 cable_gland,831,1 segment,geometric,66.1100803957947
 cable_gland,831,SAM parts,all,66.91403834260977
@@ -249,6 +297,8 @@ cable_gland,831,SAM object/bg + DINO,all,80.95238095238095
 cable_gland,831,SAM object/bg + DINO,geometric,80.95238095238095
 cable_gland,831,SAM object/bg + DINO + CLIP,all,86.70377241805814
 cable_gland,831,SAM object/bg + DINO + CLIP,geometric,86.70377241805814
+cable_gland,831,with 3D scanner: + real depth,all,94.18676561533704
+cable_gland,831,with 3D scanner: + real depth,geometric,94.18676561533704
 cable_gland,902,1 segment,all,69.60420531849104
 cable_gland,902,1 segment,geometric,69.60420531849104
 cable_gland,902,SAM parts,all,70.81014223871367
@@ -259,6 +309,8 @@ cable_gland,902,SAM object/bg + DINO,all,87.87878787878788
 cable_gland,902,SAM object/bg + DINO,geometric,87.87878787878788
 cable_gland,902,SAM object/bg + DINO + CLIP,all,90.1669758812616
 cable_gland,902,SAM object/bg + DINO + CLIP,geometric,90.1669758812616
+cable_gland,902,with 3D scanner: + real depth,all,97.64996907854051
+cable_gland,902,with 3D scanner: + real depth,geometric,97.64996907854051
 cable_gland,226,1 segment,all,75.47928262213975
 cable_gland,226,1 segment,geometric,75.47928262213975
 cable_gland,226,SAM parts,all,73.5930735930736
@@ -269,6 +321,8 @@ cable_gland,226,SAM object/bg + DINO,all,79.34446505875077
 cable_gland,226,SAM object/bg + DINO,geometric,79.34446505875077
 cable_gland,226,SAM object/bg + DINO + CLIP,all,87.87878787878786
 cable_gland,226,SAM object/bg + DINO + CLIP,geometric,87.87878787878786
+cable_gland,226,with 3D scanner: + real depth,all,88.3116883116883
+cable_gland,226,with 3D scanner: + real depth,geometric,88.3116883116883
 cable_gland,598,1 segment,all,69.44959802102659
 cable_gland,598,1 segment,geometric,69.44959802102659
 cable_gland,598,SAM parts,all,60.04947433518863
@@ -279,6 +333,8 @@ cable_gland,598,SAM object/bg + DINO,all,71.36672850958566
 cable_gland,598,SAM object/bg + DINO,geometric,71.36672850958566
 cable_gland,598,SAM object/bg + DINO + CLIP,all,78.16944959802102
 cable_gland,598,SAM object/bg + DINO + CLIP,geometric,78.16944959802102
+cable_gland,598,with 3D scanner: + real depth,all,91.65120593692022
+cable_gland,598,with 3D scanner: + real depth,geometric,91.65120593692022
 cable_gland,874,1 segment,all,63.9764996907854
 cable_gland,874,1 segment,geometric,63.9764996907854
 cable_gland,874,SAM parts,all,66.91403834260976
@@ -289,6 +345,8 @@ cable_gland,874,SAM object/bg + DINO,all,82.31292517006801
 cable_gland,874,SAM object/bg + DINO,geometric,82.31292517006801
 cable_gland,874,SAM object/bg + DINO + CLIP,all,88.00247371675944
 cable_gland,874,SAM object/bg + DINO + CLIP,geometric,88.00247371675944
+cable_gland,874,with 3D scanner: + real depth,all,95.60915275200989
+cable_gland,874,with 3D scanner: + real depth,geometric,95.60915275200989
 cable_gland,589,1 segment,all,68.42918985776129
 cable_gland,589,1 segment,geometric,68.42918985776129
 cable_gland,589,SAM parts,all,68.95485466914039
@@ -299,6 +357,8 @@ cable_gland,589,SAM object/bg + DINO,all,82.31292517006803
 cable_gland,589,SAM object/bg + DINO,geometric,82.31292517006803
 cable_gland,589,SAM object/bg + DINO + CLIP,all,89.61038961038962
 cable_gland,589,SAM object/bg + DINO + CLIP,geometric,89.61038961038962
+cable_gland,589,with 3D scanner: + real depth,all,93.69202226345084
+cable_gland,589,with 3D scanner: + real depth,geometric,93.69202226345084
 carrot,333,1 segment,all,89.25318761384335
 carrot,333,1 segment,geometric,87.1141975308642
 carrot,333,1 segment,surface,92.43827160493827
@@ -319,6 +379,10 @@ carrot,333,SAM object/bg + DINO + CLIP,all,95.08196721311477
 carrot,333,SAM object/bg + DINO + CLIP,geometric,93.41563786008228
 carrot,333,SAM object/bg + DINO + CLIP,surface,95.21604938271604
 carrot,333,SAM object/bg + DINO + CLIP,mixed,99.57264957264957
+carrot,333,with 3D scanner: + real depth,all,97.31329690346084
+carrot,333,with 3D scanner: + real depth,geometric,96.86213991769547
+carrot,333,with 3D scanner: + real depth,surface,96.21913580246913
+carrot,333,with 3D scanner: + real depth,mixed,99.57264957264957
 carrot,576,1 segment,all,91.19611414693382
 carrot,576,1 segment,geometric,88.54981742305687
 carrot,576,1 segment,surface,96.86609686609687
@@ -339,6 +403,10 @@ carrot,576,SAM object/bg + DINO + CLIP,all,94.0649666059502
 carrot,576,SAM object/bg + DINO + CLIP,geometric,91.41888367240479
 carrot,576,SAM object/bg + DINO + CLIP,surface,96.01139601139602
 carrot,576,SAM object/bg + DINO + CLIP,mixed,99.55555555555556
+carrot,576,with 3D scanner: + real depth,all,96.02307225258045
+carrot,576,with 3D scanner: + real depth,geometric,95.07042253521128
+carrot,576,with 3D scanner: + real depth,surface,96.01139601139602
+carrot,576,with 3D scanner: + real depth,mixed,98.74074074074073
 carrot,725,1 segment,all,84.9271402550091
 carrot,725,1 segment,geometric,83.71913580246914
 carrot,725,1 segment,surface,85.61253561253562
@@ -359,6 +427,10 @@ carrot,725,SAM object/bg + DINO + CLIP,all,92.22829386763813
 carrot,725,SAM object/bg + DINO + CLIP,geometric,90.74074074074075
 carrot,725,SAM object/bg + DINO + CLIP,surface,90.17094017094017
 carrot,725,SAM object/bg + DINO + CLIP,mixed,98.91975308641976
+carrot,725,with 3D scanner: + real depth,all,93.19975713418336
+carrot,725,with 3D scanner: + real depth,geometric,93.56995884773663
+carrot,725,with 3D scanner: + real depth,surface,88.31908831908832
+carrot,725,with 3D scanner: + real depth,mixed,97.37654320987654
 carrot,823,1 segment,all,86.09593199757134
 carrot,823,1 segment,geometric,82.87037037037037
 carrot,823,1 segment,surface,88.73456790123458
@@ -379,6 +451,10 @@ carrot,823,SAM object/bg + DINO + CLIP,all,94.83910139647844
 carrot,823,SAM object/bg + DINO + CLIP,geometric,93.15843621399176
 carrot,823,SAM object/bg + DINO + CLIP,surface,95.83333333333333
 carrot,823,SAM object/bg + DINO + CLIP,mixed,98.57549857549857
+carrot,823,with 3D scanner: + real depth,all,93.59441408621736
+carrot,823,with 3D scanner: + real depth,geometric,93.15843621399176
+carrot,823,with 3D scanner: + real depth,surface,91.82098765432099
+carrot,823,with 3D scanner: + real depth,mixed,96.43874643874643
 carrot,831,1 segment,all,86.23254401942927
 carrot,831,1 segment,geometric,83.62962962962963
 carrot,831,1 segment,surface,89.35185185185185
@@ -399,6 +475,10 @@ carrot,831,SAM object/bg + DINO + CLIP,all,94.53551912568305
 carrot,831,SAM object/bg + DINO + CLIP,geometric,93.13580246913581
 carrot,831,SAM object/bg + DINO + CLIP,surface,95.679012345679
 carrot,831,SAM object/bg + DINO + CLIP,mixed,97.90660225442835
+carrot,831,with 3D scanner: + real depth,all,96.78202792956893
+carrot,831,with 3D scanner: + real depth,geometric,96.5432098765432
+carrot,831,with 3D scanner: + real depth,surface,95.37037037037037
+carrot,831,with 3D scanner: + real depth,mixed,99.03381642512078
 carrot,902,1 segment,all,87.03703703703702
 carrot,902,1 segment,geometric,85.13374485596708
 carrot,902,1 segment,surface,91.76954732510288
@@ -419,6 +499,10 @@ carrot,902,SAM object/bg + DINO + CLIP,all,93.12386156648452
 carrot,902,SAM object/bg + DINO + CLIP,geometric,91.28086419753087
 carrot,902,SAM object/bg + DINO + CLIP,surface,94.78737997256516
 carrot,902,SAM object/bg + DINO + CLIP,mixed,96.94041867954913
+carrot,902,with 3D scanner: + real depth,all,97.54098360655738
+carrot,902,with 3D scanner: + real depth,geometric,97.47942386831275
+carrot,902,with 3D scanner: + real depth,surface,96.15912208504801
+carrot,902,with 3D scanner: + real depth,mixed,99.35587761674718
 carrot,226,1 segment,all,86.35397692774741
 carrot,226,1 segment,geometric,82.76972624798711
 carrot,226,1 segment,surface,91.02564102564104
@@ -439,6 +523,10 @@ carrot,226,SAM object/bg + DINO + CLIP,all,91.01396478445659
 carrot,226,SAM object/bg + DINO + CLIP,geometric,89.80139559849705
 carrot,226,SAM object/bg + DINO + CLIP,surface,86.8945868945869
 carrot,226,SAM object/bg + DINO + CLIP,mixed,98.079561042524
+carrot,226,with 3D scanner: + real depth,all,95.62841530054644
+carrot,226,with 3D scanner: + real depth,geometric,95.49114331723028
+carrot,226,with 3D scanner: + real depth,surface,92.87749287749287
+carrot,226,with 3D scanner: + real depth,mixed,98.62825788751715
 carrot,598,1 segment,all,87.14329083181542
 carrot,598,1 segment,geometric,85.87654320987654
 carrot,598,1 segment,surface,93.20987654320987
@@ -459,6 +547,10 @@ carrot,598,SAM object/bg + DINO + CLIP,all,93.80692167577413
 carrot,598,SAM object/bg + DINO + CLIP,geometric,92.64197530864199
 carrot,598,SAM object/bg + DINO + CLIP,surface,95.21604938271606
 carrot,598,SAM object/bg + DINO + CLIP,mixed,96.1352657004831
+carrot,598,with 3D scanner: + real depth,all,95.11232544019428
+carrot,598,with 3D scanner: + real depth,geometric,94.91358024691358
+carrot,598,with 3D scanner: + real depth,surface,94.59876543209876
+carrot,598,with 3D scanner: + real depth,mixed,96.29629629629629
 carrot,874,1 segment,all,85.94414086217364
 carrot,874,1 segment,geometric,84.2092092092092
 carrot,874,1 segment,surface,88.42592592592592
@@ -479,6 +571,10 @@ carrot,874,SAM object/bg + DINO + CLIP,all,91.49969641772921
 carrot,874,SAM object/bg + DINO + CLIP,geometric,89.01401401401401
 carrot,874,SAM object/bg + DINO + CLIP,surface,92.05246913580247
 carrot,874,SAM object/bg + DINO + CLIP,mixed,98.6111111111111
+carrot,874,with 3D scanner: + real depth,all,95.17304189435336
+carrot,874,with 3D scanner: + real depth,geometric,94.14414414414414
+carrot,874,with 3D scanner: + real depth,surface,93.82716049382717
+carrot,874,with 3D scanner: + real depth,mixed,99.69135802469135
 carrot,589,1 segment,all,87.46205221615057
 carrot,589,1 segment,geometric,84.84126984126983
 carrot,589,1 segment,surface,89.92592592592592
@@ -499,6 +595,10 @@ carrot,589,SAM object/bg + DINO + CLIP,all,93.57923497267761
 carrot,589,SAM object/bg + DINO + CLIP,geometric,91.82539682539682
 carrot,589,SAM object/bg + DINO + CLIP,surface,91.85185185185185
 carrot,589,SAM object/bg + DINO + CLIP,mixed,99.72565157750344
+carrot,589,with 3D scanner: + real depth,all,96.05343047966
+carrot,589,with 3D scanner: + real depth,geometric,95.5026455026455
+carrot,589,with 3D scanner: + real depth,surface,94.51851851851852
+carrot,589,with 3D scanner: + real depth,mixed,98.90260631001372
 cookie,333,1 segment,all,75.57603686635946
 cookie,333,1 segment,geometric,82.41459627329193
 cookie,333,1 segment,surface,77.48447204968944
@@ -519,6 +619,10 @@ cookie,333,SAM object/bg + DINO + CLIP,all,79.62749615975423
 cookie,333,SAM object/bg + DINO + CLIP,geometric,90.48913043478262
 cookie,333,SAM object/bg + DINO + CLIP,surface,79.19254658385093
 cookie,333,SAM object/bg + DINO + CLIP,mixed,59.226190476190474
+cookie,333,with 3D scanner: + real depth,all,86.63594470046083
+cookie,333,with 3D scanner: + real depth,geometric,96.50621118012423
+cookie,333,with 3D scanner: + real depth,surface,88.81987577639751
+cookie,333,with 3D scanner: + real depth,mixed,65.625
 cookie,576,1 segment,all,75.84485407066052
 cookie,576,1 segment,geometric,82.80279503105591
 cookie,576,1 segment,surface,71.94940476190477
@@ -539,6 +643,10 @@ cookie,576,SAM object/bg + DINO + CLIP,all,81.18279569892472
 cookie,576,SAM object/bg + DINO + CLIP,geometric,90.37267080745342
 cookie,576,SAM object/bg + DINO + CLIP,surface,77.08333333333333
 cookie,576,SAM object/bg + DINO + CLIP,mixed,67.08074534161491
+cookie,576,with 3D scanner: + real depth,all,99.86559139784946
+cookie,576,with 3D scanner: + real depth,geometric,99.7282608695652
+cookie,576,with 3D scanner: + real depth,surface,100.0
+cookie,576,with 3D scanner: + real depth,mixed,100.0
 cookie,725,1 segment,all,66.39784946236558
 cookie,725,1 segment,geometric,69.7172619047619
 cookie,725,1 segment,surface,62.732919254658384
@@ -559,6 +667,10 @@ cookie,725,SAM object/bg + DINO + CLIP,all,80.60675883256529
 cookie,725,SAM object/bg + DINO + CLIP,geometric,91.81547619047619
 cookie,725,SAM object/bg + DINO + CLIP,surface,75.62111801242236
 cookie,725,SAM object/bg + DINO + CLIP,mixed,61.36363636363637
+cookie,725,with 3D scanner: + real depth,all,89.07450076804916
+cookie,725,with 3D scanner: + real depth,geometric,97.43303571428571
+cookie,725,with 3D scanner: + real depth,surface,94.72049689440993
+cookie,725,with 3D scanner: + real depth,mixed,64.93506493506493
 cookie,823,1 segment,all,74.61597542242704
 cookie,823,1 segment,geometric,80.17113095238095
 cookie,823,1 segment,surface,72.95918367346938
@@ -579,6 +691,10 @@ cookie,823,SAM object/bg + DINO + CLIP,all,77.13133640552995
 cookie,823,SAM object/bg + DINO + CLIP,geometric,85.19345238095238
 cookie,823,SAM object/bg + DINO + CLIP,surface,72.95918367346938
 cookie,823,SAM object/bg + DINO + CLIP,mixed,64.65773809523809
+cookie,823,with 3D scanner: + real depth,all,82.21966205837172
+cookie,823,with 3D scanner: + real depth,geometric,88.61607142857143
+cookie,823,with 3D scanner: + real depth,surface,86.22448979591837
+cookie,823,with 3D scanner: + real depth,mixed,65.92261904761905
 cookie,831,1 segment,all,66.95468509984639
 cookie,831,1 segment,geometric,71.07142857142857
 cookie,831,1 segment,surface,53.649068322981364
@@ -599,6 +715,10 @@ cookie,831,SAM object/bg + DINO + CLIP,all,79.3394777265745
 cookie,831,SAM object/bg + DINO + CLIP,geometric,84.35714285714285
 cookie,831,SAM object/bg + DINO + CLIP,surface,77.32919254658385
 cookie,831,SAM object/bg + DINO + CLIP,mixed,69.10714285714286
+cookie,831,with 3D scanner: + real depth,all,99.46236559139786
+cookie,831,with 3D scanner: + real depth,geometric,99.0
+cookie,831,with 3D scanner: + real depth,surface,100.0
+cookie,831,with 3D scanner: + real depth,mixed,100.0
 cookie,902,1 segment,all,70.08448540706605
 cookie,902,1 segment,geometric,72.3404255319149
 cookie,902,1 segment,surface,69.71428571428572
@@ -619,6 +739,10 @@ cookie,902,SAM object/bg + DINO + CLIP,all,81.95084485407065
 cookie,902,SAM object/bg + DINO + CLIP,geometric,88.67781155015197
 cookie,902,SAM object/bg + DINO + CLIP,surface,70.28571428571428
 cookie,902,SAM object/bg + DINO + CLIP,mixed,80.78231292517006
+cookie,902,with 3D scanner: + real depth,all,99.76958525345621
+cookie,902,with 3D scanner: + real depth,geometric,99.54407294832826
+cookie,902,with 3D scanner: + real depth,surface,100.0
+cookie,902,with 3D scanner: + real depth,mixed,100.0
 cookie,226,1 segment,all,72.2926267281106
 cookie,226,1 segment,geometric,77.96266233766234
 cookie,226,1 segment,surface,70.85714285714285
@@ -639,6 +763,10 @@ cookie,226,SAM object/bg + DINO + CLIP,all,75.17281105990784
 cookie,226,SAM object/bg + DINO + CLIP,geometric,87.37824675324674
 cookie,226,SAM object/bg + DINO + CLIP,surface,69.5
 cookie,226,SAM object/bg + DINO + CLIP,mixed,58.70535714285714
+cookie,226,with 3D scanner: + real depth,all,84.15898617511522
+cookie,226,with 3D scanner: + real depth,geometric,95.41396103896103
+cookie,226,with 3D scanner: + real depth,surface,79.0
+cookie,226,with 3D scanner: + real depth,mixed,68.89880952380952
 cookie,598,1 segment,all,71.02534562211981
 cookie,598,1 segment,geometric,74.28571428571429
 cookie,598,1 segment,surface,64.51863354037268
@@ -659,6 +787,10 @@ cookie,598,SAM object/bg + DINO + CLIP,all,82.14285714285714
 cookie,598,SAM object/bg + DINO + CLIP,geometric,91.85714285714286
 cookie,598,SAM object/bg + DINO + CLIP,surface,77.48447204968944
 cookie,598,SAM object/bg + DINO + CLIP,mixed,63.21428571428571
+cookie,598,with 3D scanner: + real depth,all,99.98079877112134
+cookie,598,with 3D scanner: + real depth,geometric,99.96428571428571
+cookie,598,with 3D scanner: + real depth,surface,100.0
+cookie,598,with 3D scanner: + real depth,mixed,100.0
 cookie,874,1 segment,all,74.23195084485407
 cookie,874,1 segment,geometric,81.04956268221575
 cookie,874,1 segment,surface,71.67207792207792
@@ -679,6 +811,10 @@ cookie,874,SAM object/bg + DINO + CLIP,all,79.16666666666666
 cookie,874,SAM object/bg + DINO + CLIP,geometric,88.08309037900874
 cookie,874,SAM object/bg + DINO + CLIP,surface,79.22077922077922
 cookie,874,SAM object/bg + DINO + CLIP,mixed,59.25324675324675
+cookie,874,with 3D scanner: + real depth,all,86.82795698924731
+cookie,874,with 3D scanner: + real depth,geometric,96.50145772594753
+cookie,874,with 3D scanner: + real depth,surface,89.12337662337663
+cookie,874,with 3D scanner: + real depth,mixed,62.98701298701298
 cookie,589,1 segment,all,67.97235023041475
 cookie,589,1 segment,geometric,70.97264437689971
 cookie,589,1 segment,surface,63.798701298701296
@@ -699,6 +835,10 @@ cookie,589,SAM object/bg + DINO + CLIP,all,81.22119815668202
 cookie,589,SAM object/bg + DINO + CLIP,geometric,84.04255319148936
 cookie,589,SAM object/bg + DINO + CLIP,surface,69.64285714285715
 cookie,589,SAM object/bg + DINO + CLIP,mixed,86.30952380952381
+cookie,589,with 3D scanner: + real depth,all,99.80798771121351
+cookie,589,with 3D scanner: + real depth,geometric,99.62006079027356
+cookie,589,with 3D scanner: + real depth,surface,100.0
+cookie,589,with 3D scanner: + real depth,mixed,100.0
 dowel,333,1 segment,all,88.7684124386252
 dowel,333,1 segment,geometric,99.23076923076923
 dowel,333,1 segment,surface,59.15384615384616
@@ -719,6 +859,10 @@ dowel,333,SAM object/bg + DINO + CLIP,all,97.13584288052373
 dowel,333,SAM object/bg + DINO + CLIP,geometric,100.0
 dowel,333,SAM object/bg + DINO + CLIP,surface,89.23076923076924
 dowel,333,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,333,with 3D scanner: + real depth,all,97.83142389525369
+dowel,333,with 3D scanner: + real depth,geometric,100.0
+dowel,333,with 3D scanner: + real depth,surface,91.84615384615384
+dowel,333,with 3D scanner: + real depth,mixed,100.0
 dowel,576,1 segment,all,92.32815057283143
 dowel,576,1 segment,geometric,97.86324786324786
 dowel,576,1 segment,surface,73.95833333333334
@@ -739,6 +883,10 @@ dowel,576,SAM object/bg + DINO + CLIP,all,96.68576104746319
 dowel,576,SAM object/bg + DINO + CLIP,geometric,99.91452991452991
 dowel,576,SAM object/bg + DINO + CLIP,surface,87.17948717948718
 dowel,576,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,576,with 3D scanner: + real depth,all,97.25859247135843
+dowel,576,with 3D scanner: + real depth,geometric,99.48717948717949
+dowel,576,with 3D scanner: + real depth,surface,90.22435897435898
+dowel,576,with 3D scanner: + real depth,mixed,100.0
 dowel,725,1 segment,all,91.22340425531914
 dowel,725,1 segment,geometric,98.03600654664484
 dowel,725,1 segment,surface,68.1438127090301
@@ -759,6 +907,10 @@ dowel,725,SAM object/bg + DINO + CLIP,all,96.76759410801964
 dowel,725,SAM object/bg + DINO + CLIP,geometric,100.0
 dowel,725,SAM object/bg + DINO + CLIP,surface,86.78929765886288
 dowel,725,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,725,with 3D scanner: + real depth,all,96.21522094926351
+dowel,725,with 3D scanner: + real depth,geometric,99.75450081833061
+dowel,725,with 3D scanner: + real depth,surface,85.0334448160535
+dowel,725,with 3D scanner: + real depth,mixed,100.0
 dowel,823,1 segment,all,89.68903436988543
 dowel,823,1 segment,geometric,98.03600654664486
 dowel,823,1 segment,surface,64.92307692307692
@@ -779,6 +931,10 @@ dowel,823,SAM object/bg + DINO + CLIP,all,97.15630114566285
 dowel,823,SAM object/bg + DINO + CLIP,geometric,100.0
 dowel,823,SAM object/bg + DINO + CLIP,surface,89.3076923076923
 dowel,823,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,823,with 3D scanner: + real depth,all,98.01554828150572
+dowel,823,with 3D scanner: + real depth,geometric,100.0
+dowel,823,with 3D scanner: + real depth,surface,92.53846153846153
+dowel,823,with 3D scanner: + real depth,mixed,100.0
 dowel,831,1 segment,all,92.10310965630116
 dowel,831,1 segment,geometric,98.20234113712375
 dowel,831,1 segment,surface,72.51602564102564
@@ -799,6 +955,10 @@ dowel,831,SAM object/bg + DINO + CLIP,all,95.51963993453356
 dowel,831,SAM object/bg + DINO + CLIP,geometric,100.0
 dowel,831,SAM object/bg + DINO + CLIP,surface,82.45192307692307
 dowel,831,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,831,with 3D scanner: + real depth,all,95.8265139116203
+dowel,831,with 3D scanner: + real depth,geometric,100.0
+dowel,831,with 3D scanner: + real depth,surface,83.65384615384616
+dowel,831,with 3D scanner: + real depth,mixed,100.0
 dowel,902,1 segment,all,91.0392798690671
 dowel,902,1 segment,geometric,97.69230769230768
 dowel,902,1 segment,surface,67.89297658862877
@@ -819,6 +979,10 @@ dowel,902,SAM object/bg + DINO + CLIP,all,97.42225859247135
 dowel,902,SAM object/bg + DINO + CLIP,geometric,100.0
 dowel,902,SAM object/bg + DINO + CLIP,surface,89.4648829431438
 dowel,902,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,902,with 3D scanner: + real depth,all,97.2176759410802
+dowel,902,with 3D scanner: + real depth,geometric,100.0
+dowel,902,with 3D scanner: + real depth,surface,88.62876254180601
+dowel,902,with 3D scanner: + real depth,mixed,100.0
 dowel,226,1 segment,all,91.7962356792144
 dowel,226,1 segment,geometric,97.9933110367893
 dowel,226,1 segment,surface,69.14335664335664
@@ -839,6 +1003,10 @@ dowel,226,SAM object/bg + DINO + CLIP,all,97.0949263502455
 dowel,226,SAM object/bg + DINO + CLIP,geometric,100.0
 dowel,226,SAM object/bg + DINO + CLIP,surface,87.58741258741259
 dowel,226,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,226,with 3D scanner: + real depth,all,97.54500818330605
+dowel,226,with 3D scanner: + real depth,geometric,100.0
+dowel,226,with 3D scanner: + real depth,surface,89.5104895104895
+dowel,226,with 3D scanner: + real depth,mixed,100.0
 dowel,598,1 segment,all,92.34860883797054
 dowel,598,1 segment,geometric,98.03418803418802
 dowel,598,1 segment,surface,74.76923076923079
@@ -859,6 +1027,10 @@ dowel,598,SAM object/bg + DINO + CLIP,all,96.86988543371523
 dowel,598,SAM object/bg + DINO + CLIP,geometric,99.82905982905983
 dowel,598,SAM object/bg + DINO + CLIP,surface,88.53846153846155
 dowel,598,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,598,with 3D scanner: + real depth,all,97.93371522094927
+dowel,598,with 3D scanner: + real depth,geometric,99.7008547008547
+dowel,598,with 3D scanner: + real depth,surface,92.76923076923077
+dowel,598,with 3D scanner: + real depth,mixed,100.0
 dowel,874,1 segment,all,93.0441898527005
 dowel,874,1 segment,geometric,97.90969899665552
 dowel,874,1 segment,surface,76.76282051282051
@@ -879,6 +1051,10 @@ dowel,874,SAM object/bg + DINO + CLIP,all,97.2176759410802
 dowel,874,SAM object/bg + DINO + CLIP,geometric,100.0
 dowel,874,SAM object/bg + DINO + CLIP,surface,89.1025641025641
 dowel,874,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,874,with 3D scanner: + real depth,all,98.07692307692308
+dowel,874,with 3D scanner: + real depth,geometric,100.0
+dowel,874,with 3D scanner: + real depth,surface,92.46794871794873
+dowel,874,with 3D scanner: + real depth,mixed,100.0
 dowel,589,1 segment,all,88.99345335515548
 dowel,589,1 segment,geometric,95.76138147566718
 dowel,589,1 segment,surface,60.62271062271062
@@ -899,6 +1075,10 @@ dowel,589,SAM object/bg + DINO + CLIP,all,95.90834697217676
 dowel,589,SAM object/bg + DINO + CLIP,geometric,99.29356357927787
 dowel,589,SAM object/bg + DINO + CLIP,surface,83.33333333333333
 dowel,589,SAM object/bg + DINO + CLIP,mixed,100.0
+dowel,589,with 3D scanner: + real depth,all,96.64484451718494
+dowel,589,with 3D scanner: + real depth,geometric,99.68602825745683
+dowel,589,with 3D scanner: + real depth,surface,86.08058608058607
+dowel,589,with 3D scanner: + real depth,mixed,99.67948717948718
 foam,333,1 segment,all,96.32142857142857
 foam,333,1 segment,geometric,87.67857142857143
 foam,333,1 segment,surface,98.28947368421052
@@ -919,6 +1099,10 @@ foam,333,SAM object/bg + DINO + CLIP,all,96.92857142857143
 foam,333,SAM object/bg + DINO + CLIP,geometric,88.92857142857143
 foam,333,SAM object/bg + DINO + CLIP,surface,98.94736842105263
 foam,333,SAM object/bg + DINO + CLIP,mixed,98.88888888888889
+foam,333,with 3D scanner: + real depth,all,96.57142857142857
+foam,333,with 3D scanner: + real depth,geometric,86.78571428571429
+foam,333,with 3D scanner: + real depth,surface,99.21052631578947
+foam,333,with 3D scanner: + real depth,mixed,98.61111111111111
 foam,576,1 segment,all,96.25000000000001
 foam,576,1 segment,geometric,91.16666666666667
 foam,576,1 segment,surface,97.08333333333333
@@ -939,6 +1123,10 @@ foam,576,SAM object/bg + DINO + CLIP,all,97.85714285714285
 foam,576,SAM object/bg + DINO + CLIP,geometric,89.99999999999999
 foam,576,SAM object/bg + DINO + CLIP,surface,100.0
 foam,576,SAM object/bg + DINO + CLIP,mixed,100.0
+foam,576,with 3D scanner: + real depth,all,97.42857142857143
+foam,576,with 3D scanner: + real depth,geometric,88.0
+foam,576,with 3D scanner: + real depth,surface,100.0
+foam,576,with 3D scanner: + real depth,mixed,100.0
 foam,725,1 segment,all,93.78571428571428
 foam,725,1 segment,geometric,81.80555555555557
 foam,725,1 segment,surface,97.27941176470588
@@ -959,6 +1147,10 @@ foam,725,SAM object/bg + DINO + CLIP,all,97.21428571428572
 foam,725,SAM object/bg + DINO + CLIP,geometric,89.72222222222223
 foam,725,SAM object/bg + DINO + CLIP,surface,100.0
 foam,725,SAM object/bg + DINO + CLIP,mixed,99.44444444444444
+foam,725,with 3D scanner: + real depth,all,97.07142857142857
+foam,725,with 3D scanner: + real depth,geometric,89.16666666666666
+foam,725,with 3D scanner: + real depth,surface,100.0
+foam,725,with 3D scanner: + real depth,mixed,99.44444444444444
 foam,823,1 segment,all,95.07142857142857
 foam,823,1 segment,geometric,82.94117647058823
 foam,823,1 segment,surface,98.81578947368422
@@ -979,6 +1171,10 @@ foam,823,SAM object/bg + DINO + CLIP,all,98.07142857142857
 foam,823,SAM object/bg + DINO + CLIP,geometric,92.64705882352942
 foam,823,SAM object/bg + DINO + CLIP,surface,99.73684210526315
 foam,823,SAM object/bg + DINO + CLIP,mixed,100.0
+foam,823,with 3D scanner: + real depth,all,97.85714285714285
+foam,823,with 3D scanner: + real depth,geometric,91.76470588235294
+foam,823,with 3D scanner: + real depth,surface,99.73684210526315
+foam,823,with 3D scanner: + real depth,mixed,100.0
 foam,831,1 segment,all,95.71428571428572
 foam,831,1 segment,geometric,89.4736842105263
 foam,831,1 segment,surface,96.96969696969697
@@ -999,6 +1195,10 @@ foam,831,SAM object/bg + DINO + CLIP,all,96.71428571428574
 foam,831,SAM object/bg + DINO + CLIP,geometric,88.15789473684211
 foam,831,SAM object/bg + DINO + CLIP,surface,99.84848484848484
 foam,831,SAM object/bg + DINO + CLIP,mixed,100.0
+foam,831,with 3D scanner: + real depth,all,96.64285714285714
+foam,831,with 3D scanner: + real depth,geometric,88.1578947368421
+foam,831,with 3D scanner: + real depth,surface,99.6969696969697
+foam,831,with 3D scanner: + real depth,mixed,100.0
 foam,902,1 segment,all,94.03571428571429
 foam,902,1 segment,geometric,85.44117647058823
 foam,902,1 segment,surface,96.36363636363636
@@ -1019,6 +1219,10 @@ foam,902,SAM object/bg + DINO + CLIP,all,98.71428571428572
 foam,902,SAM object/bg + DINO + CLIP,geometric,94.70588235294117
 foam,902,SAM object/bg + DINO + CLIP,surface,100.0
 foam,902,SAM object/bg + DINO + CLIP,mixed,100.0
+foam,902,with 3D scanner: + real depth,all,98.85714285714286
+foam,902,with 3D scanner: + real depth,geometric,95.29411764705881
+foam,902,with 3D scanner: + real depth,surface,100.0
+foam,902,with 3D scanner: + real depth,mixed,100.0
 foam,226,1 segment,all,92.64285714285714
 foam,226,1 segment,geometric,83.84615384615385
 foam,226,1 segment,surface,94.45945945945947
@@ -1039,6 +1243,10 @@ foam,226,SAM object/bg + DINO + CLIP,all,96.35714285714285
 foam,226,SAM object/bg + DINO + CLIP,geometric,90.38461538461539
 foam,226,SAM object/bg + DINO + CLIP,surface,98.1081081081081
 foam,226,SAM object/bg + DINO + CLIP,mixed,97.0
+foam,226,with 3D scanner: + real depth,all,95.92857142857143
+foam,226,with 3D scanner: + real depth,geometric,86.15384615384616
+foam,226,with 3D scanner: + real depth,surface,98.24324324324326
+foam,226,with 3D scanner: + real depth,mixed,98.0
 foam,598,1 segment,all,94.92857142857143
 foam,598,1 segment,geometric,85.27777777777777
 foam,598,1 segment,surface,97.94117647058825
@@ -1059,6 +1267,10 @@ foam,598,SAM object/bg + DINO + CLIP,all,96.14285714285715
 foam,598,SAM object/bg + DINO + CLIP,geometric,85.27777777777779
 foam,598,SAM object/bg + DINO + CLIP,surface,99.8529411764706
 foam,598,SAM object/bg + DINO + CLIP,mixed,100.0
+foam,598,with 3D scanner: + real depth,all,96.35714285714286
+foam,598,with 3D scanner: + real depth,geometric,86.1111111111111
+foam,598,with 3D scanner: + real depth,surface,99.8529411764706
+foam,598,with 3D scanner: + real depth,mixed,100.0
 foam,874,1 segment,all,88.28571428571429
 foam,874,1 segment,geometric,68.15789473684211
 foam,874,1 segment,surface,94.85294117647058
@@ -1079,6 +1291,10 @@ foam,874,SAM object/bg + DINO + CLIP,all,96.07142857142857
 foam,874,SAM object/bg + DINO + CLIP,geometric,85.52631578947368
 foam,874,SAM object/bg + DINO + CLIP,surface,100.0
 foam,874,SAM object/bg + DINO + CLIP,mixed,100.0
+foam,874,with 3D scanner: + real depth,all,95.85714285714285
+foam,874,with 3D scanner: + real depth,geometric,84.73684210526315
+foam,874,with 3D scanner: + real depth,surface,100.0
+foam,874,with 3D scanner: + real depth,mixed,100.0
 foam,589,1 segment,all,94.82142857142857
 foam,589,1 segment,geometric,86.97368421052632
 foam,589,1 segment,surface,97.87878787878789
@@ -1099,6 +1315,10 @@ foam,589,SAM object/bg + DINO + CLIP,all,95.64285714285714
 foam,589,SAM object/bg + DINO + CLIP,geometric,86.05263157894736
 foam,589,SAM object/bg + DINO + CLIP,surface,99.3939393939394
 foam,589,SAM object/bg + DINO + CLIP,mixed,98.88888888888889
+foam,589,with 3D scanner: + real depth,all,95.32142857142857
+foam,589,with 3D scanner: + real depth,geometric,85.92105263157895
+foam,589,with 3D scanner: + real depth,surface,98.7878787878788
+foam,589,with 3D scanner: + real depth,mixed,98.88888888888889
 peach,333,1 segment,all,53.004807692307686
 peach,333,1 segment,geometric,51.522435897435905
 peach,333,1 segment,surface,57.53205128205129
@@ -1119,6 +1339,10 @@ peach,333,SAM object/bg + DINO + CLIP,all,91.90705128205127
 peach,333,SAM object/bg + DINO + CLIP,geometric,88.9423076923077
 peach,333,SAM object/bg + DINO + CLIP,surface,93.91025641025641
 peach,333,SAM object/bg + DINO + CLIP,mixed,95.83333333333334
+peach,333,with 3D scanner: + real depth,all,97.31570512820514
+peach,333,with 3D scanner: + real depth,geometric,96.875
+peach,333,with 3D scanner: + real depth,surface,95.51282051282051
+peach,333,with 3D scanner: + real depth,mixed,100.0
 peach,576,1 segment,all,47.41586538461539
 peach,576,1 segment,geometric,48.117839607201304
 peach,576,1 segment,surface,51.109467455621306
@@ -1139,6 +1363,10 @@ peach,576,SAM object/bg + DINO + CLIP,all,92.3076923076923
 peach,576,SAM object/bg + DINO + CLIP,geometric,88.379705400982
 peach,576,SAM object/bg + DINO + CLIP,surface,95.85798816568047
 peach,576,SAM object/bg + DINO + CLIP,mixed,96.32107023411372
+peach,576,with 3D scanner: + real depth,all,95.5128205128205
+peach,576,with 3D scanner: + real depth,geometric,92.71685761047462
+peach,576,with 3D scanner: + real depth,surface,96.89349112426035
+peach,576,with 3D scanner: + real depth,mixed,99.66555183946488
 peach,725,1 segment,all,54.22676282051282
 peach,725,1 segment,geometric,54.631083202511775
 peach,725,1 segment,surface,54.84615384615385
@@ -1159,6 +1387,10 @@ peach,725,SAM object/bg + DINO + CLIP,all,91.74679487179486
 peach,725,SAM object/bg + DINO + CLIP,geometric,88.54003139717426
 peach,725,SAM object/bg + DINO + CLIP,surface,93.38461538461537
 peach,725,SAM object/bg + DINO + CLIP,mixed,97.02797202797203
+peach,725,with 3D scanner: + real depth,all,96.7948717948718
+peach,725,with 3D scanner: + real depth,geometric,95.05494505494505
+peach,725,with 3D scanner: + real depth,surface,97.38461538461539
+peach,725,with 3D scanner: + real depth,mixed,100.0
 peach,823,1 segment,all,52.00320512820513
 peach,823,1 segment,geometric,56.00000000000001
 peach,823,1 segment,surface,47.9020979020979
@@ -1179,6 +1411,10 @@ peach,823,SAM object/bg + DINO + CLIP,all,93.34935897435898
 peach,823,SAM object/bg + DINO + CLIP,geometric,91.61538461538461
 peach,823,SAM object/bg + DINO + CLIP,surface,94.93006993006993
 peach,823,SAM object/bg + DINO + CLIP,mixed,95.51282051282051
+peach,823,with 3D scanner: + real depth,all,96.67467948717949
+peach,823,with 3D scanner: + real depth,geometric,94.84615384615384
+peach,823,with 3D scanner: + real depth,surface,97.20279720279721
+peach,823,with 3D scanner: + real depth,mixed,100.0
 peach,831,1 segment,all,66.20592948717949
 peach,831,1 segment,geometric,61.999999999999986
 peach,831,1 segment,surface,66.18589743589743
@@ -1199,6 +1435,10 @@ peach,831,SAM object/bg + DINO + CLIP,all,93.58974358974359
 peach,831,SAM object/bg + DINO + CLIP,geometric,89.61538461538461
 peach,831,SAM object/bg + DINO + CLIP,surface,96.47435897435896
 peach,831,SAM object/bg + DINO + CLIP,mixed,99.47552447552448
+peach,831,with 3D scanner: + real depth,all,98.4775641025641
+peach,831,with 3D scanner: + real depth,geometric,98.0
+peach,831,with 3D scanner: + real depth,surface,98.07692307692307
+peach,831,with 3D scanner: + real depth,mixed,100.0
 peach,902,1 segment,all,60.877403846153854
 peach,902,1 segment,geometric,58.77403846153847
 peach,902,1 segment,surface,60.61253561253561
@@ -1219,6 +1459,10 @@ peach,902,SAM object/bg + DINO + CLIP,all,88.06089743589743
 peach,902,SAM object/bg + DINO + CLIP,geometric,82.7724358974359
 peach,902,SAM object/bg + DINO + CLIP,surface,93.3048433048433
 peach,902,SAM object/bg + DINO + CLIP,mixed,93.4065934065934
+peach,902,with 3D scanner: + real depth,all,95.63301282051283
+peach,902,with 3D scanner: + real depth,geometric,93.02884615384616
+peach,902,with 3D scanner: + real depth,surface,97.15099715099714
+peach,902,with 3D scanner: + real depth,mixed,99.63369963369964
 peach,226,1 segment,all,56.22996794871795
 peach,226,1 segment,geometric,56.02564102564103
 peach,226,1 segment,surface,59.82905982905983
@@ -1239,6 +1483,10 @@ peach,226,SAM object/bg + DINO + CLIP,all,88.9823717948718
 peach,226,SAM object/bg + DINO + CLIP,geometric,89.23076923076924
 peach,226,SAM object/bg + DINO + CLIP,surface,89.45868945868945
 peach,226,SAM object/bg + DINO + CLIP,mixed,87.98076923076923
+peach,226,with 3D scanner: + real depth,all,94.23076923076923
+peach,226,with 3D scanner: + real depth,geometric,94.61538461538461
+peach,226,with 3D scanner: + real depth,surface,90.31339031339031
+peach,226,with 3D scanner: + real depth,mixed,97.91666666666667
 peach,598,1 segment,all,55.328525641025635
 peach,598,1 segment,geometric,54.67571644042232
 peach,598,1 segment,surface,58.38461538461538
@@ -1259,6 +1507,10 @@ peach,598,SAM object/bg + DINO + CLIP,all,89.82371794871796
 peach,598,SAM object/bg + DINO + CLIP,geometric,84.38914027149322
 peach,598,SAM object/bg + DINO + CLIP,surface,94.92307692307693
 peach,598,SAM object/bg + DINO + CLIP,mixed,97.3076923076923
+peach,598,with 3D scanner: + real depth,all,97.83653846153845
+peach,598,with 3D scanner: + real depth,geometric,96.53092006033181
+peach,598,with 3D scanner: + real depth,surface,98.76923076923076
+peach,598,with 3D scanner: + real depth,mixed,100.0
 peach,874,1 segment,all,54.767628205128204
 peach,874,1 segment,geometric,52.42307692307693
 peach,874,1 segment,surface,56.57051282051282
@@ -1279,6 +1531,10 @@ peach,874,SAM object/bg + DINO + CLIP,all,92.2275641025641
 peach,874,SAM object/bg + DINO + CLIP,geometric,88.15384615384616
 peach,874,SAM object/bg + DINO + CLIP,surface,95.51282051282051
 peach,874,SAM object/bg + DINO + CLIP,mixed,97.9020979020979
+peach,874,with 3D scanner: + real depth,all,96.51442307692307
+peach,874,with 3D scanner: + real depth,geometric,94.15384615384616
+peach,874,with 3D scanner: + real depth,surface,98.23717948717949
+peach,874,with 3D scanner: + real depth,mixed,100.0
 peach,589,1 segment,all,56.1298076923077
 peach,589,1 segment,geometric,57.171474358974365
 peach,589,1 segment,surface,56.891025641025635
@@ -1299,6 +1555,10 @@ peach,589,SAM object/bg + DINO + CLIP,all,93.7099358974359
 peach,589,SAM object/bg + DINO + CLIP,geometric,90.22435897435898
 peach,589,SAM object/bg + DINO + CLIP,surface,95.99358974358975
 peach,589,SAM object/bg + DINO + CLIP,mixed,98.3974358974359
+peach,589,with 3D scanner: + real depth,all,95.67307692307692
+peach,589,with 3D scanner: + real depth,geometric,94.79166666666667
+peach,589,with 3D scanner: + real depth,surface,93.42948717948718
+peach,589,with 3D scanner: + real depth,mixed,99.67948717948718
 potato,333,1 segment,all,63.109756097560975
 potato,333,1 segment,geometric,66.66666666666667
 potato,333,1 segment,surface,58.76623376623377
@@ -1319,6 +1579,10 @@ potato,333,SAM object/bg + DINO + CLIP,all,70.06651884700665
 potato,333,SAM object/bg + DINO + CLIP,geometric,71.91142191142191
 potato,333,SAM object/bg + DINO + CLIP,surface,70.99567099567099
 potato,333,SAM object/bg + DINO + CLIP,mixed,65.90909090909092
+potato,333,with 3D scanner: + real depth,all,89.80044345898004
+potato,333,with 3D scanner: + real depth,geometric,92.3076923076923
+potato,333,with 3D scanner: + real depth,surface,85.06493506493506
+potato,333,with 3D scanner: + real depth,mixed,89.87603305785123
 potato,576,1 segment,all,51.38580931263858
 potato,576,1 segment,geometric,46.32867132867133
 potato,576,1 segment,surface,50.9297520661157
@@ -1339,6 +1603,10 @@ potato,576,SAM object/bg + DINO + CLIP,all,76.94013303769401
 potato,576,SAM object/bg + DINO + CLIP,geometric,74.82517482517483
 potato,576,SAM object/bg + DINO + CLIP,surface,80.57851239669421
 potato,576,SAM object/bg + DINO + CLIP,mixed,77.05627705627705
+potato,576,with 3D scanner: + real depth,all,90.41019955654102
+potato,576,with 3D scanner: + real depth,geometric,90.09324009324008
+potato,576,with 3D scanner: + real depth,surface,87.39669421487604
+potato,576,with 3D scanner: + real depth,mixed,94.15584415584415
 potato,725,1 segment,all,55.764966740576504
 potato,725,1 segment,geometric,50.44345898004434
 potato,725,1 segment,surface,57.57575757575757
@@ -1359,6 +1627,10 @@ potato,725,SAM object/bg + DINO + CLIP,all,62.02882483370288
 potato,725,SAM object/bg + DINO + CLIP,geometric,52.54988913525498
 potato,725,SAM object/bg + DINO + CLIP,surface,67.31601731601732
 potato,725,SAM object/bg + DINO + CLIP,mixed,75.9090909090909
+potato,725,with 3D scanner: + real depth,all,79.93348115299334
+potato,725,with 3D scanner: + real depth,geometric,82.15077605321508
+potato,725,with 3D scanner: + real depth,surface,74.89177489177489
+potato,725,with 3D scanner: + real depth,mixed,80.68181818181819
 potato,823,1 segment,all,53.3259423503326
 potato,823,1 segment,geometric,54.27489177489178
 potato,823,1 segment,surface,57.82828282828283
@@ -1379,6 +1651,10 @@ potato,823,SAM object/bg + DINO + CLIP,all,62.36141906873613
 potato,823,SAM object/bg + DINO + CLIP,geometric,63.095238095238095
 potato,823,SAM object/bg + DINO + CLIP,surface,75.25252525252525
 potato,823,SAM object/bg + DINO + CLIP,mixed,50.413223140495866
+potato,823,with 3D scanner: + real depth,all,90.13303769401331
+potato,823,with 3D scanner: + real depth,geometric,91.88311688311688
+potato,823,with 3D scanner: + real depth,surface,87.62626262626263
+potato,823,with 3D scanner: + real depth,mixed,88.84297520661157
 potato,831,1 segment,all,52.494456762749444
 potato,831,1 segment,geometric,50.79281183932347
 potato,831,1 segment,surface,54.87012987012987
@@ -1399,6 +1675,10 @@ potato,831,SAM object/bg + DINO + CLIP,all,62.6940133037694
 potato,831,SAM object/bg + DINO + CLIP,geometric,57.08245243128963
 potato,831,SAM object/bg + DINO + CLIP,surface,68.61471861471861
 potato,831,SAM object/bg + DINO + CLIP,mixed,69.1919191919192
+potato,831,with 3D scanner: + real depth,all,84.25720620842573
+potato,831,with 3D scanner: + real depth,geometric,85.4122621564482
+potato,831,with 3D scanner: + real depth,surface,75.32467532467533
+potato,831,with 3D scanner: + real depth,mixed,91.91919191919192
 potato,902,1 segment,all,50.80376940133038
 potato,902,1 segment,geometric,47.272727272727266
 potato,902,1 segment,surface,57.41106719367589
@@ -1419,6 +1699,10 @@ potato,902,SAM object/bg + DINO + CLIP,all,65.68736141906874
 potato,902,SAM object/bg + DINO + CLIP,geometric,68.97727272727273
 potato,902,SAM object/bg + DINO + CLIP,surface,70.35573122529645
 potato,902,SAM object/bg + DINO + CLIP,mixed,53.110047846889955
+potato,902,with 3D scanner: + real depth,all,89.7450110864745
+potato,902,with 3D scanner: + real depth,geometric,93.18181818181817
+potato,902,with 3D scanner: + real depth,surface,82.80632411067194
+potato,902,with 3D scanner: + real depth,mixed,90.9090909090909
 potato,226,1 segment,all,45.45454545454545
 potato,226,1 segment,geometric,42.07616707616707
 potato,226,1 segment,surface,47.233201581027664
@@ -1439,6 +1723,10 @@ potato,226,SAM object/bg + DINO + CLIP,all,73.00443458980044
 potato,226,SAM object/bg + DINO + CLIP,geometric,68.05896805896808
 potato,226,SAM object/bg + DINO + CLIP,surface,83.201581027668
 potato,226,SAM object/bg + DINO + CLIP,mixed,70.66115702479338
+potato,226,with 3D scanner: + real depth,all,87.25055432372505
+potato,226,with 3D scanner: + real depth,geometric,90.04914004914005
+potato,226,with 3D scanner: + real depth,surface,80.63241106719369
+potato,226,with 3D scanner: + real depth,mixed,89.46280991735537
 potato,598,1 segment,all,50.388026607538805
 potato,598,1 segment,geometric,44.71458773784355
 potato,598,1 segment,surface,52.38095238095237
@@ -1459,6 +1747,10 @@ potato,598,SAM object/bg + DINO + CLIP,all,70.95343680709534
 potato,598,SAM object/bg + DINO + CLIP,geometric,64.90486257928119
 potato,598,SAM object/bg + DINO + CLIP,surface,77.48917748917748
 potato,598,SAM object/bg + DINO + CLIP,mixed,77.77777777777777
+potato,598,with 3D scanner: + real depth,all,87.02882483370288
+potato,598,with 3D scanner: + real depth,geometric,87.73784355179703
+potato,598,with 3D scanner: + real depth,surface,81.16883116883116
+potato,598,with 3D scanner: + real depth,mixed,92.17171717171718
 potato,874,1 segment,all,35.310421286031044
 potato,874,1 segment,geometric,34.368070953436806
 potato,874,1 segment,surface,35.71428571428571
@@ -1479,6 +1771,10 @@ potato,874,SAM object/bg + DINO + CLIP,all,71.11973392461198
 potato,874,SAM object/bg + DINO + CLIP,geometric,64.30155210643017
 potato,874,SAM object/bg + DINO + CLIP,surface,76.62337662337663
 potato,874,SAM object/bg + DINO + CLIP,mixed,79.31818181818181
+potato,874,with 3D scanner: + real depth,all,84.31263858093126
+potato,874,with 3D scanner: + real depth,geometric,85.36585365853658
+potato,874,with 3D scanner: + real depth,surface,79.87012987012987
+potato,874,with 3D scanner: + real depth,mixed,86.81818181818181
 potato,589,1 segment,all,59.28492239467849
 potato,589,1 segment,geometric,56.81818181818182
 potato,589,1 segment,surface,66.12554112554113
@@ -1499,6 +1795,10 @@ potato,589,SAM object/bg + DINO + CLIP,all,62.86031042128604
 potato,589,SAM object/bg + DINO + CLIP,geometric,53.40909090909092
 potato,589,SAM object/bg + DINO + CLIP,surface,73.37662337662337
 potato,589,SAM object/bg + DINO + CLIP,mixed,70.34632034632034
+potato,589,with 3D scanner: + real depth,all,83.48115299334812
+potato,589,with 3D scanner: + real depth,geometric,85.0
+potato,589,with 3D scanner: + real depth,surface,79.004329004329
+potato,589,with 3D scanner: + real depth,mixed,85.06493506493507
 rope,333,1 segment,all,97.29872881355932
 rope,333,1 segment,geometric,99.82638888888889
 rope,333,1 segment,surface,93.34239130434783
@@ -1514,6 +1814,9 @@ rope,333,SAM object/bg + DINO,surface,90.69293478260869
 rope,333,SAM object/bg + DINO + CLIP,all,95.92161016949153
 rope,333,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,333,SAM object/bg + DINO + CLIP,surface,89.53804347826086
+rope,333,with 3D scanner: + real depth,all,95.70974576271186
+rope,333,with 3D scanner: + real depth,geometric,100.0
+rope,333,with 3D scanner: + real depth,surface,88.99456521739131
 rope,576,1 segment,all,99.15254237288136
 rope,576,1 segment,geometric,99.65277777777779
 rope,576,1 segment,surface,98.36956521739131
@@ -1529,6 +1832,9 @@ rope,576,SAM object/bg + DINO,surface,99.32065217391303
 rope,576,SAM object/bg + DINO + CLIP,all,99.3114406779661
 rope,576,SAM object/bg + DINO + CLIP,geometric,99.56597222222221
 rope,576,SAM object/bg + DINO + CLIP,surface,98.91304347826086
+rope,576,with 3D scanner: + real depth,all,99.78813559322035
+rope,576,with 3D scanner: + real depth,geometric,100.0
+rope,576,with 3D scanner: + real depth,surface,99.45652173913044
 rope,725,1 segment,all,99.70868644067797
 rope,725,1 segment,geometric,99.95888157894737
 rope,725,1 segment,surface,99.25595238095238
@@ -1544,6 +1850,9 @@ rope,725,SAM object/bg + DINO,surface,97.54464285714285
 rope,725,SAM object/bg + DINO + CLIP,all,99.07309322033899
 rope,725,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,725,SAM object/bg + DINO + CLIP,surface,97.39583333333333
+rope,725,with 3D scanner: + real depth,all,98.99364406779661
+rope,725,with 3D scanner: + real depth,geometric,100.0
+rope,725,with 3D scanner: + real depth,surface,97.17261904761905
 rope,823,1 segment,all,98.14618644067797
 rope,823,1 segment,geometric,100.0
 rope,823,1 segment,surface,95.0284090909091
@@ -1559,6 +1868,9 @@ rope,823,SAM object/bg + DINO,surface,90.76704545454545
 rope,823,SAM object/bg + DINO + CLIP,all,95.86864406779661
 rope,823,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,823,SAM object/bg + DINO + CLIP,surface,88.92045454545455
+rope,823,with 3D scanner: + real depth,all,95.89512711864407
+rope,823,with 3D scanner: + real depth,geometric,100.0
+rope,823,with 3D scanner: + real depth,surface,88.99147727272727
 rope,831,1 segment,all,98.4375
 rope,831,1 segment,geometric,100.0
 rope,831,1 segment,surface,95.14802631578947
@@ -1574,6 +1886,9 @@ rope,831,SAM object/bg + DINO,surface,98.76644736842105
 rope,831,SAM object/bg + DINO + CLIP,all,99.52330508474576
 rope,831,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,831,SAM object/bg + DINO + CLIP,surface,98.51973684210526
+rope,831,with 3D scanner: + real depth,all,99.54978813559322
+rope,831,with 3D scanner: + real depth,geometric,100.0
+rope,831,with 3D scanner: + real depth,surface,98.60197368421053
 rope,902,1 segment,all,99.54978813559322
 rope,902,1 segment,geometric,99.8766447368421
 rope,902,1 segment,surface,98.95833333333333
@@ -1589,6 +1904,9 @@ rope,902,SAM object/bg + DINO,surface,99.25595238095238
 rope,902,SAM object/bg + DINO + CLIP,all,99.73516949152543
 rope,902,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,902,SAM object/bg + DINO + CLIP,surface,99.25595238095238
+rope,902,with 3D scanner: + real depth,all,99.78813559322035
+rope,902,with 3D scanner: + real depth,geometric,100.0
+rope,902,with 3D scanner: + real depth,surface,99.40476190476191
 rope,226,1 segment,all,98.80826271186442
 rope,226,1 segment,geometric,100.0
 rope,226,1 segment,surface,97.0703125
@@ -1604,6 +1922,9 @@ rope,226,SAM object/bg + DINO,surface,87.76041666666666
 rope,226,SAM object/bg + DINO + CLIP,all,95.89512711864407
 rope,226,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,226,SAM object/bg + DINO + CLIP,surface,89.90885416666667
+rope,226,with 3D scanner: + real depth,all,95.63029661016948
+rope,226,with 3D scanner: + real depth,geometric,100.0
+rope,226,with 3D scanner: + real depth,surface,89.2578125
 rope,598,1 segment,all,99.41737288135593
 rope,598,1 segment,geometric,99.46646341463415
 rope,598,1 segment,surface,99.30555555555556
@@ -1619,6 +1940,9 @@ rope,598,SAM object/bg + DINO,surface,98.95833333333333
 rope,598,SAM object/bg + DINO + CLIP,all,98.88771186440678
 rope,598,SAM object/bg + DINO + CLIP,geometric,98.85670731707317
 rope,598,SAM object/bg + DINO + CLIP,surface,98.95833333333334
+rope,598,with 3D scanner: + real depth,all,98.9406779661017
+rope,598,with 3D scanner: + real depth,geometric,98.93292682926828
+rope,598,with 3D scanner: + real depth,surface,98.95833333333333
 rope,874,1 segment,all,99.70868644067797
 rope,874,1 segment,geometric,100.0
 rope,874,1 segment,surface,99.18154761904762
@@ -1634,6 +1958,9 @@ rope,874,SAM object/bg + DINO,surface,98.4375
 rope,874,SAM object/bg + DINO + CLIP,all,99.6292372881356
 rope,874,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,874,SAM object/bg + DINO + CLIP,surface,98.95833333333333
+rope,874,with 3D scanner: + real depth,all,99.52330508474576
+rope,874,with 3D scanner: + real depth,geometric,100.0
+rope,874,with 3D scanner: + real depth,surface,98.66071428571428
 rope,589,1 segment,all,98.91419491525424
 rope,589,1 segment,geometric,100.0
 rope,589,1 segment,surface,97.21467391304348
@@ -1649,6 +1976,9 @@ rope,589,SAM object/bg + DINO,surface,89.67391304347827
 rope,589,SAM object/bg + DINO + CLIP,all,96.71610169491525
 rope,589,SAM object/bg + DINO + CLIP,geometric,100.0
 rope,589,SAM object/bg + DINO + CLIP,surface,91.57608695652173
+rope,589,with 3D scanner: + real depth,all,95.44491525423729
+rope,589,with 3D scanner: + real depth,geometric,100.0
+rope,589,with 3D scanner: + real depth,surface,88.31521739130436
 tire,333,1 segment,all,73.8961038961039
 tire,333,1 segment,geometric,71.3913043478261
 tire,333,1 segment,surface,75.48148148148148
@@ -1669,6 +1999,10 @@ tire,333,SAM object/bg + DINO + CLIP,all,68.62337662337661
 tire,333,SAM object/bg + DINO + CLIP,geometric,65.95652173913044
 tire,333,SAM object/bg + DINO + CLIP,surface,72.14814814814815
 tire,333,SAM object/bg + DINO + CLIP,mixed,75.50000000000001
+tire,333,with 3D scanner: + real depth,all,67.5844155844156
+tire,333,with 3D scanner: + real depth,geometric,64.78260869565217
+tire,333,with 3D scanner: + real depth,surface,71.11111111111111
+tire,333,with 3D scanner: + real depth,mixed,76.0
 tire,576,1 segment,all,72.96103896103897
 tire,576,1 segment,geometric,68.3913043478261
 tire,576,1 segment,surface,78.07407407407408
@@ -1689,6 +2023,10 @@ tire,576,SAM object/bg + DINO + CLIP,all,70.46753246753246
 tire,576,SAM object/bg + DINO + CLIP,geometric,69.1304347826087
 tire,576,SAM object/bg + DINO + CLIP,surface,71.25925925925925
 tire,576,SAM object/bg + DINO + CLIP,mixed,80.5
+tire,576,with 3D scanner: + real depth,all,73.16883116883118
+tire,576,with 3D scanner: + real depth,geometric,70.91304347826087
+tire,576,with 3D scanner: + real depth,surface,74.8888888888889
+tire,576,with 3D scanner: + real depth,mixed,87.5
 tire,725,1 segment,all,73.81818181818181
 tire,725,1 segment,geometric,68.16666666666667
 tire,725,1 segment,surface,81.28
@@ -1709,6 +2047,10 @@ tire,725,SAM object/bg + DINO + CLIP,all,69.74025974025975
 tire,725,SAM object/bg + DINO + CLIP,geometric,66.79166666666667
 tire,725,SAM object/bg + DINO + CLIP,surface,73.28
 tire,725,SAM object/bg + DINO + CLIP,mixed,83.0
+tire,725,with 3D scanner: + real depth,all,68.15584415584415
+tire,725,with 3D scanner: + real depth,geometric,65.125
+tire,725,with 3D scanner: + real depth,surface,71.92
+tire,725,with 3D scanner: + real depth,mixed,81.0
 tire,823,1 segment,all,74.85714285714286
 tire,823,1 segment,geometric,69.57446808510637
 tire,823,1 segment,surface,81.15384615384616
@@ -1729,6 +2071,10 @@ tire,823,SAM object/bg + DINO + CLIP,all,64.31168831168831
 tire,823,SAM object/bg + DINO + CLIP,geometric,59.02127659574467
 tire,823,SAM object/bg + DINO + CLIP,surface,72.0
 tire,823,SAM object/bg + DINO + CLIP,mixed,76.5
+tire,823,with 3D scanner: + real depth,all,63.870129870129865
+tire,823,with 3D scanner: + real depth,geometric,60.04255319148937
+tire,823,with 3D scanner: + real depth,surface,68.6923076923077
+tire,823,with 3D scanner: + real depth,mixed,77.5
 tire,831,1 segment,all,71.58441558441558
 tire,831,1 segment,geometric,70.52
 tire,831,1 segment,surface,70.86956521739131
@@ -1749,6 +2095,10 @@ tire,831,SAM object/bg + DINO + CLIP,all,69.27272727272728
 tire,831,SAM object/bg + DINO + CLIP,geometric,67.96
 tire,831,SAM object/bg + DINO + CLIP,surface,72.17391304347825
 tire,831,SAM object/bg + DINO + CLIP,mixed,69.0
+tire,831,with 3D scanner: + real depth,all,69.16883116883116
+tire,831,with 3D scanner: + real depth,geometric,68.16
+tire,831,with 3D scanner: + real depth,surface,70.34782608695652
+tire,831,with 3D scanner: + real depth,mixed,75.0
 tire,902,1 segment,all,80.4155844155844
 tire,902,1 segment,geometric,75.95833333333334
 tire,902,1 segment,surface,86.66666666666667
@@ -1769,6 +2119,10 @@ tire,902,SAM object/bg + DINO + CLIP,all,70.72727272727273
 tire,902,SAM object/bg + DINO + CLIP,geometric,69.25
 tire,902,SAM object/bg + DINO + CLIP,surface,74.58333333333333
 tire,902,SAM object/bg + DINO + CLIP,mixed,66.4
+tire,902,with 3D scanner: + real depth,all,71.79220779220779
+tire,902,with 3D scanner: + real depth,geometric,69.04166666666667
+tire,902,with 3D scanner: + real depth,surface,77.58333333333334
+tire,902,with 3D scanner: + real depth,mixed,70.39999999999999
 tire,226,1 segment,all,71.61038961038962
 tire,226,1 segment,geometric,70.53333333333333
 tire,226,1 segment,surface,69.7037037037037
@@ -1789,6 +2143,10 @@ tire,226,SAM object/bg + DINO + CLIP,all,69.1948051948052
 tire,226,SAM object/bg + DINO + CLIP,geometric,65.28888888888889
 tire,226,SAM object/bg + DINO + CLIP,surface,74.8888888888889
 tire,226,SAM object/bg + DINO + CLIP,mixed,73.6
+tire,226,with 3D scanner: + real depth,all,69.97402597402598
+tire,226,with 3D scanner: + real depth,geometric,65.15555555555555
+tire,226,with 3D scanner: + real depth,surface,77.7037037037037
+tire,226,with 3D scanner: + real depth,mixed,71.6
 tire,598,1 segment,all,70.12987012987013
 tire,598,1 segment,geometric,67.84313725490196
 tire,598,1 segment,surface,73.0909090909091
@@ -1809,6 +2167,10 @@ tire,598,SAM object/bg + DINO + CLIP,all,70.96103896103895
 tire,598,SAM object/bg + DINO + CLIP,geometric,68.31372549019608
 tire,598,SAM object/bg + DINO + CLIP,surface,77.63636363636364
 tire,598,SAM object/bg + DINO + CLIP,mixed,68.0
+tire,598,with 3D scanner: + real depth,all,70.93506493506494
+tire,598,with 3D scanner: + real depth,geometric,68.27450980392157
+tire,598,with 3D scanner: + real depth,surface,78.36363636363637
+tire,598,with 3D scanner: + real depth,mixed,64.0
 tire,874,1 segment,all,75.24675324675326
 tire,874,1 segment,geometric,73.3469387755102
 tire,874,1 segment,surface,77.66666666666666
@@ -1829,6 +2191,10 @@ tire,874,SAM object/bg + DINO + CLIP,all,71.06493506493507
 tire,874,SAM object/bg + DINO + CLIP,geometric,68.89795918367346
 tire,874,SAM object/bg + DINO + CLIP,surface,76.0
 tire,874,SAM object/bg + DINO + CLIP,mixed,68.0
+tire,874,with 3D scanner: + real depth,all,70.20779220779221
+tire,874,with 3D scanner: + real depth,geometric,66.9795918367347
+tire,874,with 3D scanner: + real depth,surface,76.91666666666666
+tire,874,with 3D scanner: + real depth,mixed,69.5
 tire,589,1 segment,all,59.97402597402598
 tire,589,1 segment,geometric,62.43478260869565
 tire,589,1 segment,surface,56.15384615384615
@@ -1849,3 +2215,7 @@ tire,589,SAM object/bg + DINO + CLIP,all,71.11688311688312
 tire,589,SAM object/bg + DINO + CLIP,geometric,69.56521739130434
 tire,589,SAM object/bg + DINO + CLIP,surface,74.92307692307692
 tire,589,SAM object/bg + DINO + CLIP,mixed,65.60000000000001
+tire,589,with 3D scanner: + real depth,all,69.29870129870129
+tire,589,with 3D scanner: + real depth,geometric,68.65217391304348
+tire,589,with 3D scanner: + real depth,surface,71.46153846153847
+tire,589,with 3D scanner: + real depth,mixed,64.00000000000001
