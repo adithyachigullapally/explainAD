@@ -11,6 +11,10 @@ bagel,333,SAM object/bg,all,90.9090909090909
 bagel,333,SAM object/bg,geometric,87.5
 bagel,333,SAM object/bg,surface,95.22727272727273
 bagel,333,SAM object/bg,mixed,92.5619834710744
+bagel,333,SAM object/bg + DINO,all,95.6876456876457
+bagel,333,SAM object/bg + DINO,geometric,97.22222222222223
+bagel,333,SAM object/bg + DINO,surface,91.36363636363636
+bagel,333,SAM object/bg + DINO,mixed,97.10743801652893
 bagel,576,1 segment,all,92.48251748251748
 bagel,576,1 segment,geometric,94.1919191919192
 bagel,576,1 segment,surface,84.84848484848484
@@ -23,6 +27,10 @@ bagel,576,SAM object/bg,all,92.59906759906761
 bagel,576,SAM object/bg,geometric,93.49747474747474
 bagel,576,SAM object/bg,surface,84.95670995670996
 bagel,576,SAM object/bg,mixed,98.7012987012987
+bagel,576,SAM object/bg + DINO,all,92.16200466200465
+bagel,576,SAM object/bg + DINO,geometric,91.41414141414141
+bagel,576,SAM object/bg + DINO,surface,88.41991341991343
+bagel,576,SAM object/bg + DINO,mixed,97.18614718614718
 bagel,725,1 segment,all,93.38578088578089
 bagel,725,1 segment,geometric,94.377990430622
 bagel,725,1 segment,surface,87.38636363636364
@@ -35,6 +43,10 @@ bagel,725,SAM object/bg,all,90.41375291375292
 bagel,725,SAM object/bg,geometric,89.23444976076554
 bagel,725,SAM object/bg,surface,94.43181818181819
 bagel,725,SAM object/bg,mixed,88.63636363636364
+bagel,725,SAM object/bg + DINO,all,90.53030303030303
+bagel,725,SAM object/bg + DINO,geometric,89.05502392344498
+bagel,725,SAM object/bg + DINO,surface,94.54545454545455
+bagel,725,SAM object/bg + DINO,mixed,89.31818181818181
 bagel,823,1 segment,all,89.80186480186481
 bagel,823,1 segment,geometric,90.50116550116549
 bagel,823,1 segment,surface,81.69191919191918
@@ -47,6 +59,10 @@ bagel,823,SAM object/bg,all,91.78321678321679
 bagel,823,SAM object/bg,geometric,89.62703962703962
 bagel,823,SAM object/bg,surface,92.92929292929293
 bagel,823,SAM object/bg,mixed,94.8051948051948
+bagel,823,SAM object/bg + DINO,all,92.36596736596736
+bagel,823,SAM object/bg + DINO,geometric,90.9090909090909
+bagel,823,SAM object/bg + DINO,surface,92.92929292929293
+bagel,823,SAM object/bg + DINO,mixed,94.58874458874459
 bagel,831,1 segment,all,91.25874125874127
 bagel,831,1 segment,geometric,92.48251748251748
 bagel,831,1 segment,surface,85.79545454545455
@@ -59,6 +75,10 @@ bagel,831,SAM object/bg,all,91.81235431235432
 bagel,831,SAM object/bg,geometric,91.4918414918415
 bagel,831,SAM object/bg,surface,88.97727272727273
 bagel,831,SAM object/bg,mixed,95.45454545454545
+bagel,831,SAM object/bg + DINO,all,92.13286713286713
+bagel,831,SAM object/bg + DINO,geometric,90.67599067599068
+bagel,831,SAM object/bg + DINO,surface,90.11363636363636
+bagel,831,SAM object/bg + DINO,mixed,97.24880382775119
 bagel,902,1 segment,all,93.2109557109557
 bagel,902,1 segment,geometric,95.14742014742015
 bagel,902,1 segment,surface,86.98347107438018
@@ -71,6 +91,10 @@ bagel,902,SAM object/bg,all,96.0955710955711
 bagel,902,SAM object/bg,geometric,95.45454545454545
 bagel,902,SAM object/bg,surface,96.900826446281
 bagel,902,SAM object/bg,mixed,96.4114832535885
+bagel,902,SAM object/bg + DINO,all,96.56177156177156
+bagel,902,SAM object/bg + DINO,geometric,97.05159705159704
+bagel,902,SAM object/bg + DINO,surface,94.21487603305785
+bagel,902,SAM object/bg + DINO,mixed,98.32535885167464
 bagel,226,1 segment,all,95.13403263403262
 bagel,226,1 segment,geometric,96.99197860962568
 bagel,226,1 segment,surface,89.0495867768595
@@ -83,6 +107,10 @@ bagel,226,SAM object/bg,all,92.56993006993007
 bagel,226,SAM object/bg,geometric,90.10695187165774
 bagel,226,SAM object/bg,surface,91.73553719008264
 bagel,226,SAM object/bg,mixed,97.21074380165288
+bagel,226,SAM object/bg + DINO,all,93.73543123543124
+bagel,226,SAM object/bg + DINO,geometric,90.24064171122996
+bagel,226,SAM object/bg + DINO,surface,95.35123966942149
+bagel,226,SAM object/bg + DINO,mixed,97.52066115702479
 bagel,598,1 segment,all,92.80303030303031
 bagel,598,1 segment,geometric,93.57954545454545
 bagel,598,1 segment,surface,86.58008658008657
@@ -95,6 +123,10 @@ bagel,598,SAM object/bg,all,93.21095571095572
 bagel,598,SAM object/bg,geometric,92.04545454545456
 bagel,598,SAM object/bg,surface,93.18181818181819
 bagel,598,SAM object/bg,mixed,95.98930481283423
+bagel,598,SAM object/bg + DINO,all,94.34731934731934
+bagel,598,SAM object/bg + DINO,geometric,93.63636363636364
+bagel,598,SAM object/bg + DINO,surface,94.37229437229438
+bagel,598,SAM object/bg + DINO,mixed,95.98930481283422
 bagel,874,1 segment,all,94.02680652680652
 bagel,874,1 segment,geometric,95.0358851674641
 bagel,874,1 segment,surface,87.27272727272727
@@ -107,6 +139,10 @@ bagel,874,SAM object/bg,all,92.01631701631702
 bagel,874,SAM object/bg,geometric,91.02870813397129
 bagel,874,SAM object/bg,surface,91.13636363636364
 bagel,874,SAM object/bg,mixed,94.77272727272728
+bagel,874,SAM object/bg + DINO,all,93.73543123543125
+bagel,874,SAM object/bg + DINO,geometric,92.10526315789474
+bagel,874,SAM object/bg + DINO,surface,94.43181818181819
+bagel,874,SAM object/bg + DINO,mixed,96.13636363636363
 bagel,589,1 segment,all,91.60839160839161
 bagel,589,1 segment,geometric,92.93611793611794
 bagel,589,1 segment,surface,85.56818181818183
@@ -119,66 +155,90 @@ bagel,589,SAM object/bg,all,91.31701631701632
 bagel,589,SAM object/bg,geometric,92.50614250614251
 bagel,589,SAM object/bg,surface,84.54545454545455
 bagel,589,SAM object/bg,mixed,95.67099567099567
+bagel,589,SAM object/bg + DINO,all,92.48251748251748
+bagel,589,SAM object/bg + DINO,geometric,92.99754299754301
+bagel,589,SAM object/bg + DINO,surface,87.27272727272727
+bagel,589,SAM object/bg + DINO,mixed,96.53679653679654
 cable_gland,333,1 segment,all,73.87136672850959
 cable_gland,333,1 segment,geometric,73.87136672850959
 cable_gland,333,SAM parts,all,65.18243661100804
 cable_gland,333,SAM parts,geometric,65.18243661100804
 cable_gland,333,SAM object/bg,all,72.10884353741497
 cable_gland,333,SAM object/bg,geometric,72.10884353741497
+cable_gland,333,SAM object/bg + DINO,all,77.05627705627707
+cable_gland,333,SAM object/bg + DINO,geometric,77.05627705627707
 cable_gland,576,1 segment,all,76.9016697588126
 cable_gland,576,1 segment,geometric,76.9016697588126
 cable_gland,576,SAM parts,all,62.46134817563389
 cable_gland,576,SAM parts,geometric,62.46134817563389
 cable_gland,576,SAM object/bg,all,76.25231910946196
 cable_gland,576,SAM object/bg,geometric,76.25231910946196
+cable_gland,576,SAM object/bg + DINO,all,82.25108225108227
+cable_gland,576,SAM object/bg + DINO,geometric,82.25108225108227
 cable_gland,725,1 segment,all,70.9647495361781
 cable_gland,725,1 segment,geometric,70.9647495361781
 cable_gland,725,SAM parts,all,65.67717996289424
 cable_gland,725,SAM parts,geometric,65.67717996289424
 cable_gland,725,SAM object/bg,all,77.92207792207792
 cable_gland,725,SAM object/bg,geometric,77.92207792207792
+cable_gland,725,SAM object/bg + DINO,all,84.53927025355597
+cable_gland,725,SAM object/bg + DINO,geometric,84.53927025355597
 cable_gland,823,1 segment,all,70.1917130488559
 cable_gland,823,1 segment,geometric,70.1917130488559
 cable_gland,823,SAM parts,all,70.68645640074212
 cable_gland,823,SAM parts,geometric,70.68645640074212
 cable_gland,823,SAM object/bg,all,74.21150278293135
 cable_gland,823,SAM object/bg,geometric,74.21150278293135
+cable_gland,823,SAM object/bg + DINO,all,79.83920841063699
+cable_gland,823,SAM object/bg + DINO,geometric,79.83920841063699
 cable_gland,831,1 segment,all,66.1100803957947
 cable_gland,831,1 segment,geometric,66.1100803957947
 cable_gland,831,SAM parts,all,66.91403834260977
 cable_gland,831,SAM parts,geometric,66.91403834260977
 cable_gland,831,SAM object/bg,all,81.57081014223871
 cable_gland,831,SAM object/bg,geometric,81.57081014223871
+cable_gland,831,SAM object/bg + DINO,all,80.95238095238095
+cable_gland,831,SAM object/bg + DINO,geometric,80.95238095238095
 cable_gland,902,1 segment,all,69.60420531849104
 cable_gland,902,1 segment,geometric,69.60420531849104
 cable_gland,902,SAM parts,all,70.81014223871367
 cable_gland,902,SAM parts,geometric,70.81014223871367
 cable_gland,902,SAM object/bg,all,77.36549165120594
 cable_gland,902,SAM object/bg,geometric,77.36549165120594
+cable_gland,902,SAM object/bg + DINO,all,87.87878787878788
+cable_gland,902,SAM object/bg + DINO,geometric,87.87878787878788
 cable_gland,226,1 segment,all,75.47928262213975
 cable_gland,226,1 segment,geometric,75.47928262213975
 cable_gland,226,SAM parts,all,73.5930735930736
 cable_gland,226,SAM parts,geometric,73.5930735930736
 cable_gland,226,SAM object/bg,all,78.2312925170068
 cable_gland,226,SAM object/bg,geometric,78.2312925170068
+cable_gland,226,SAM object/bg + DINO,all,79.34446505875077
+cable_gland,226,SAM object/bg + DINO,geometric,79.34446505875077
 cable_gland,598,1 segment,all,69.44959802102659
 cable_gland,598,1 segment,geometric,69.44959802102659
 cable_gland,598,SAM parts,all,60.04947433518863
 cable_gland,598,SAM parts,geometric,60.04947433518863
 cable_gland,598,SAM object/bg,all,69.44959802102659
 cable_gland,598,SAM object/bg,geometric,69.44959802102659
+cable_gland,598,SAM object/bg + DINO,all,71.36672850958566
+cable_gland,598,SAM object/bg + DINO,geometric,71.36672850958566
 cable_gland,874,1 segment,all,63.9764996907854
 cable_gland,874,1 segment,geometric,63.9764996907854
 cable_gland,874,SAM parts,all,66.91403834260976
 cable_gland,874,SAM parts,geometric,66.91403834260976
 cable_gland,874,SAM object/bg,all,73.65491651205937
 cable_gland,874,SAM object/bg,geometric,73.65491651205937
+cable_gland,874,SAM object/bg + DINO,all,82.31292517006801
+cable_gland,874,SAM object/bg + DINO,geometric,82.31292517006801
 cable_gland,589,1 segment,all,68.42918985776129
 cable_gland,589,1 segment,geometric,68.42918985776129
 cable_gland,589,SAM parts,all,68.95485466914039
 cable_gland,589,SAM parts,geometric,68.95485466914039
 cable_gland,589,SAM object/bg,all,79.15893630179343
 cable_gland,589,SAM object/bg,geometric,79.15893630179343
+cable_gland,589,SAM object/bg + DINO,all,82.31292517006803
+cable_gland,589,SAM object/bg + DINO,geometric,82.31292517006803
 carrot,333,1 segment,all,89.25318761384335
 carrot,333,1 segment,geometric,87.1141975308642
 carrot,333,1 segment,surface,92.43827160493827
@@ -191,6 +251,10 @@ carrot,333,SAM object/bg,all,85.73163327261688
 carrot,333,SAM object/bg,geometric,83.23045267489711
 carrot,333,SAM object/bg,surface,90.27777777777779
 carrot,333,SAM object/bg,mixed,88.46153846153847
+carrot,333,SAM object/bg + DINO,all,92.69884638737098
+carrot,333,SAM object/bg + DINO,geometric,90.0462962962963
+carrot,333,SAM object/bg + DINO,surface,94.29012345679013
+carrot,333,SAM object/bg + DINO,mixed,98.57549857549857
 carrot,576,1 segment,all,91.19611414693382
 carrot,576,1 segment,geometric,88.54981742305687
 carrot,576,1 segment,surface,96.86609686609687
@@ -203,6 +267,10 @@ carrot,576,SAM object/bg,all,86.2629022465088
 carrot,576,SAM object/bg,geometric,84.92436098069902
 carrot,576,SAM object/bg,surface,89.74358974358975
 carrot,576,SAM object/bg,mixed,86.44444444444444
+carrot,576,SAM object/bg + DINO,all,94.08014571948999
+carrot,576,SAM object/bg + DINO,geometric,91.07981220657277
+carrot,576,SAM object/bg + DINO,surface,96.86609686609687
+carrot,576,SAM object/bg + DINO,mixed,99.70370370370371
 carrot,725,1 segment,all,84.9271402550091
 carrot,725,1 segment,geometric,83.71913580246914
 carrot,725,1 segment,surface,85.61253561253562
@@ -215,6 +283,10 @@ carrot,725,SAM object/bg,all,85.03339404978749
 carrot,725,SAM object/bg,geometric,81.99588477366255
 carrot,725,SAM object/bg,surface,88.8888888888889
 carrot,725,SAM object/bg,mixed,89.96913580246914
+carrot,725,SAM object/bg + DINO,all,92.16757741347905
+carrot,725,SAM object/bg + DINO,geometric,90.89506172839506
+carrot,725,SAM object/bg + DINO,surface,90.17094017094017
+carrot,725,SAM object/bg + DINO,mixed,98.14814814814815
 carrot,823,1 segment,all,86.09593199757134
 carrot,823,1 segment,geometric,82.87037037037037
 carrot,823,1 segment,surface,88.73456790123458
@@ -227,6 +299,10 @@ carrot,823,SAM object/bg,all,88.96478445658774
 carrot,823,SAM object/bg,geometric,87.08847736625515
 carrot,823,SAM object/bg,surface,92.12962962962963
 carrot,823,SAM object/bg,mixed,91.23931623931624
+carrot,823,SAM object/bg + DINO,all,94.68731026108074
+carrot,823,SAM object/bg + DINO,geometric,92.79835390946502
+carrot,823,SAM object/bg + DINO,surface,95.98765432098764
+carrot,823,SAM object/bg + DINO,mixed,98.71794871794873
 carrot,831,1 segment,all,86.23254401942927
 carrot,831,1 segment,geometric,83.62962962962963
 carrot,831,1 segment,surface,89.35185185185185
@@ -239,6 +315,10 @@ carrot,831,SAM object/bg,all,89.70856102003644
 carrot,831,SAM object/bg,geometric,87.70370370370371
 carrot,831,SAM object/bg,surface,91.51234567901234
 carrot,831,SAM object/bg,mixed,94.36392914653784
+carrot,831,SAM object/bg + DINO,all,94.26229508196721
+carrot,831,SAM object/bg + DINO,geometric,92.59259259259261
+carrot,831,SAM object/bg + DINO,surface,95.5246913580247
+carrot,831,SAM object/bg + DINO,mixed,98.38969404186795
 carrot,902,1 segment,all,87.03703703703702
 carrot,902,1 segment,geometric,85.13374485596708
 carrot,902,1 segment,surface,91.76954732510288
@@ -251,6 +331,10 @@ carrot,902,SAM object/bg,all,86.53612629022464
 carrot,902,SAM object/bg,geometric,83.71913580246914
 carrot,902,SAM object/bg,surface,89.84910836762688
 carrot,902,SAM object/bg,mixed,91.46537842190016
+carrot,902,SAM object/bg + DINO,all,92.39526411657559
+carrot,902,SAM object/bg + DINO,geometric,90.14917695473251
+carrot,902,SAM object/bg + DINO,surface,93.96433470507543
+carrot,902,SAM object/bg + DINO,mixed,97.58454106280193
 carrot,226,1 segment,all,86.35397692774741
 carrot,226,1 segment,geometric,82.76972624798711
 carrot,226,1 segment,surface,91.02564102564104
@@ -263,6 +347,10 @@ carrot,226,SAM object/bg,all,89.61748633879782
 carrot,226,SAM object/bg,geometric,87.81535158346752
 carrot,226,SAM object/bg,surface,93.30484330484332
 carrot,226,SAM object/bg,mixed,90.67215363511659
+carrot,226,SAM object/bg + DINO,all,92.16757741347905
+carrot,226,SAM object/bg + DINO,geometric,90.49919484702093
+carrot,226,SAM object/bg + DINO,surface,90.5982905982906
+carrot,226,SAM object/bg + DINO,mixed,97.94238683127571
 carrot,598,1 segment,all,87.14329083181542
 carrot,598,1 segment,geometric,85.87654320987654
 carrot,598,1 segment,surface,93.20987654320987
@@ -275,6 +363,10 @@ carrot,598,SAM object/bg,all,88.16029143897995
 carrot,598,SAM object/bg,geometric,87.95061728395062
 carrot,598,SAM object/bg,surface,90.89506172839506
 carrot,598,SAM object/bg,mixed,85.99033816425121
+carrot,598,SAM object/bg + DINO,all,94.68731026108075
+carrot,598,SAM object/bg + DINO,geometric,92.98765432098767
+carrot,598,SAM object/bg + DINO,surface,97.68518518518519
+carrot,598,SAM object/bg + DINO,mixed,97.10144927536231
 carrot,874,1 segment,all,85.94414086217364
 carrot,874,1 segment,geometric,84.2092092092092
 carrot,874,1 segment,surface,88.42592592592592
@@ -287,6 +379,10 @@ carrot,874,SAM object/bg,all,83.6065573770492
 carrot,874,SAM object/bg,geometric,81.58158158158157
 carrot,874,SAM object/bg,surface,86.11111111111111
 carrot,874,SAM object/bg,mixed,87.34567901234568
+carrot,874,SAM object/bg + DINO,all,92.42562234365514
+carrot,874,SAM object/bg + DINO,geometric,90.11511511511512
+carrot,874,SAM object/bg + DINO,surface,93.28703703703704
+carrot,874,SAM object/bg + DINO,mixed,98.68827160493827
 carrot,589,1 segment,all,87.46205221615057
 carrot,589,1 segment,geometric,84.84126984126983
 carrot,589,1 segment,surface,89.92592592592592
@@ -299,6 +395,10 @@ carrot,589,SAM object/bg,all,86.47540983606557
 carrot,589,SAM object/bg,geometric,83.59788359788361
 carrot,589,SAM object/bg,surface,88.0
 carrot,589,SAM object/bg,mixed,92.52400548696845
+carrot,589,SAM object/bg + DINO,all,92.85063752276868
+carrot,589,SAM object/bg + DINO,geometric,90.42328042328043
+carrot,589,SAM object/bg + DINO,surface,92.51851851851852
+carrot,589,SAM object/bg + DINO,mixed,99.45130315500685
 cookie,333,1 segment,all,75.57603686635946
 cookie,333,1 segment,geometric,82.41459627329193
 cookie,333,1 segment,surface,77.48447204968944
@@ -311,6 +411,10 @@ cookie,333,SAM object/bg,all,82.96850998463901
 cookie,333,SAM object/bg,geometric,92.81832298136645
 cookie,333,SAM object/bg,surface,78.1055900621118
 cookie,333,SAM object/bg,mixed,68.75
+cookie,333,SAM object/bg + DINO,all,78.12980030721967
+cookie,333,SAM object/bg + DINO,geometric,89.59627329192547
+cookie,333,SAM object/bg + DINO,surface,76.3975155279503
+cookie,333,SAM object/bg + DINO,mixed,57.812500000000014
 cookie,576,1 segment,all,75.84485407066052
 cookie,576,1 segment,geometric,82.80279503105591
 cookie,576,1 segment,surface,71.94940476190477
@@ -323,6 +427,10 @@ cookie,576,SAM object/bg,all,81.18279569892474
 cookie,576,SAM object/bg,geometric,89.32453416149069
 cookie,576,SAM object/bg,surface,76.5625
 cookie,576,SAM object/bg,mixed,69.72049689440993
+cookie,576,SAM object/bg + DINO,all,79.56989247311827
+cookie,576,SAM object/bg + DINO,geometric,88.74223602484473
+cookie,576,SAM object/bg + DINO,surface,77.23214285714286
+cookie,576,SAM object/bg + DINO,mixed,63.66459627329193
 cookie,725,1 segment,all,66.39784946236558
 cookie,725,1 segment,geometric,69.7172619047619
 cookie,725,1 segment,surface,62.732919254658384
@@ -335,6 +443,10 @@ cookie,725,SAM object/bg,all,82.87250384024577
 cookie,725,SAM object/bg,geometric,89.36011904761905
 cookie,725,SAM object/bg,surface,74.68944099378882
 cookie,725,SAM object/bg,mixed,77.27272727272728
+cookie,725,SAM object/bg + DINO,all,77.28494623655914
+cookie,725,SAM object/bg + DINO,geometric,86.23511904761905
+cookie,725,SAM object/bg + DINO,surface,73.83540372670807
+cookie,725,SAM object/bg + DINO,mixed,61.36363636363635
 cookie,823,1 segment,all,74.61597542242704
 cookie,823,1 segment,geometric,80.17113095238095
 cookie,823,1 segment,surface,72.95918367346938
@@ -347,6 +459,10 @@ cookie,823,SAM object/bg,all,82.5268817204301
 cookie,823,SAM object/bg,geometric,91.14583333333334
 cookie,823,SAM object/bg,surface,75.08503401360545
 cookie,823,SAM object/bg,mixed,71.80059523809524
+cookie,823,SAM object/bg + DINO,all,78.09139784946237
+cookie,823,SAM object/bg + DINO,geometric,85.9375
+cookie,823,SAM object/bg + DINO,surface,75.93537414965986
+cookie,823,SAM object/bg + DINO,mixed,64.28571428571429
 cookie,831,1 segment,all,66.95468509984639
 cookie,831,1 segment,geometric,71.07142857142857
 cookie,831,1 segment,surface,53.649068322981364
@@ -359,6 +475,10 @@ cookie,831,SAM object/bg,all,81.72043010752688
 cookie,831,SAM object/bg,geometric,85.28571428571429
 cookie,831,SAM object/bg,surface,78.72670807453416
 cookie,831,SAM object/bg,mixed,76.25
+cookie,831,SAM object/bg + DINO,all,77.61136712749615
+cookie,831,SAM object/bg + DINO,geometric,83.21428571428572
+cookie,831,SAM object/bg + DINO,surface,74.53416149068323
+cookie,831,SAM object/bg + DINO,mixed,67.14285714285715
 cookie,902,1 segment,all,70.08448540706605
 cookie,902,1 segment,geometric,72.3404255319149
 cookie,902,1 segment,surface,69.71428571428572
@@ -371,6 +491,10 @@ cookie,902,SAM object/bg,all,82.54608294930877
 cookie,902,SAM object/bg,geometric,88.90577507598783
 cookie,902,SAM object/bg,surface,71.21428571428572
 cookie,902,SAM object/bg,mixed,81.80272108843538
+cookie,902,SAM object/bg + DINO,all,80.03072196620585
+cookie,902,SAM object/bg + DINO,geometric,85.56231003039514
+cookie,902,SAM object/bg + DINO,surface,69.28571428571428
+cookie,902,SAM object/bg + DINO,mixed,80.44217687074831
 cookie,226,1 segment,all,72.2926267281106
 cookie,226,1 segment,geometric,77.96266233766234
 cookie,226,1 segment,surface,70.85714285714285
@@ -383,6 +507,10 @@ cookie,226,SAM object/bg,all,84.60061443932412
 cookie,226,SAM object/bg,geometric,95.57629870129871
 cookie,226,SAM object/bg,surface,80.07142857142857
 cookie,226,SAM object/bg,mixed,69.19642857142857
+cookie,226,SAM object/bg + DINO,all,82.1236559139785
+cookie,226,SAM object/bg + DINO,geometric,93.9935064935065
+cookie,226,SAM object/bg + DINO,surface,78.5
+cookie,226,SAM object/bg + DINO,mixed,64.13690476190477
 cookie,598,1 segment,all,71.02534562211981
 cookie,598,1 segment,geometric,74.28571428571429
 cookie,598,1 segment,surface,64.51863354037268
@@ -395,6 +523,10 @@ cookie,598,SAM object/bg,all,84.81182795698925
 cookie,598,SAM object/bg,geometric,92.92857142857143
 cookie,598,SAM object/bg,surface,77.71739130434783
 cookie,598,SAM object/bg,mixed,72.67857142857143
+cookie,598,SAM object/bg + DINO,all,82.33486943164363
+cookie,598,SAM object/bg + DINO,geometric,92.14285714285715
+cookie,598,SAM object/bg + DINO,surface,77.63975155279503
+cookie,598,SAM object/bg + DINO,mixed,63.21428571428571
 cookie,874,1 segment,all,74.23195084485407
 cookie,874,1 segment,geometric,81.04956268221575
 cookie,874,1 segment,surface,71.67207792207792
@@ -407,6 +539,10 @@ cookie,874,SAM object/bg,all,81.85483870967741
 cookie,874,SAM object/bg,geometric,88.5932944606414
 cookie,874,SAM object/bg,surface,81.16883116883116
 cookie,874,SAM object/bg,mixed,67.53246753246754
+cookie,874,SAM object/bg + DINO,all,76.1520737327189
+cookie,874,SAM object/bg + DINO,geometric,84.365889212828
+cookie,874,SAM object/bg + DINO,surface,76.13636363636364
+cookie,874,SAM object/bg + DINO,mixed,57.87337662337663
 cookie,589,1 segment,all,67.97235023041475
 cookie,589,1 segment,geometric,70.97264437689971
 cookie,589,1 segment,surface,63.798701298701296
@@ -419,6 +555,10 @@ cookie,589,SAM object/bg,all,74.27035330261137
 cookie,589,SAM object/bg,geometric,74.08814589665653
 cookie,589,SAM object/bg,surface,65.5844155844156
 cookie,589,SAM object/bg,mixed,82.58928571428572
+cookie,589,SAM object/bg + DINO,all,80.12672811059909
+cookie,589,SAM object/bg + DINO,geometric,83.01671732522796
+cookie,589,SAM object/bg + DINO,surface,68.01948051948052
+cookie,589,SAM object/bg + DINO,mixed,85.56547619047619
 dowel,333,1 segment,all,88.7684124386252
 dowel,333,1 segment,geometric,99.23076923076923
 dowel,333,1 segment,surface,59.15384615384616
@@ -431,6 +571,10 @@ dowel,333,SAM object/bg,all,96.9721767594108
 dowel,333,SAM object/bg,geometric,100.0
 dowel,333,SAM object/bg,surface,88.61538461538461
 dowel,333,SAM object/bg,mixed,100.0
+dowel,333,SAM object/bg + DINO,all,97.17675941080196
+dowel,333,SAM object/bg + DINO,geometric,100.0
+dowel,333,SAM object/bg + DINO,surface,89.38461538461537
+dowel,333,SAM object/bg + DINO,mixed,100.0
 dowel,576,1 segment,all,92.32815057283143
 dowel,576,1 segment,geometric,97.86324786324786
 dowel,576,1 segment,surface,73.95833333333334
@@ -443,6 +587,10 @@ dowel,576,SAM object/bg,all,96.86988543371523
 dowel,576,SAM object/bg,geometric,99.91452991452991
 dowel,576,SAM object/bg,surface,87.90064102564102
 dowel,576,SAM object/bg,mixed,100.0
+dowel,576,SAM object/bg + DINO,all,96.4607201309329
+dowel,576,SAM object/bg + DINO,geometric,99.74358974358975
+dowel,576,SAM object/bg + DINO,surface,86.61858974358974
+dowel,576,SAM object/bg + DINO,mixed,100.0
 dowel,725,1 segment,all,91.22340425531914
 dowel,725,1 segment,geometric,98.03600654664484
 dowel,725,1 segment,surface,68.1438127090301
@@ -455,6 +603,10 @@ dowel,725,SAM object/bg,all,96.29705400981996
 dowel,725,SAM object/bg,geometric,100.0
 dowel,725,SAM object/bg,surface,84.86622073578594
 dowel,725,SAM object/bg,mixed,100.0
+dowel,725,SAM object/bg + DINO,all,96.84942716857611
+dowel,725,SAM object/bg + DINO,geometric,100.0
+dowel,725,SAM object/bg + DINO,surface,87.12374581939798
+dowel,725,SAM object/bg + DINO,mixed,100.0
 dowel,823,1 segment,all,89.68903436988543
 dowel,823,1 segment,geometric,98.03600654664486
 dowel,823,1 segment,surface,64.92307692307692
@@ -467,6 +619,10 @@ dowel,823,SAM object/bg,all,96.37888707037645
 dowel,823,SAM object/bg,geometric,100.0
 dowel,823,SAM object/bg,surface,86.38461538461539
 dowel,823,SAM object/bg,mixed,100.0
+dowel,823,SAM object/bg + DINO,all,96.60392798690671
+dowel,823,SAM object/bg + DINO,geometric,100.0
+dowel,823,SAM object/bg + DINO,surface,87.23076923076923
+dowel,823,SAM object/bg + DINO,mixed,100.0
 dowel,831,1 segment,all,92.10310965630116
 dowel,831,1 segment,geometric,98.20234113712375
 dowel,831,1 segment,surface,72.51602564102564
@@ -479,6 +635,10 @@ dowel,831,SAM object/bg,all,96.66530278232406
 dowel,831,SAM object/bg,geometric,99.74916387959867
 dowel,831,SAM object/bg,surface,87.41987179487178
 dowel,831,SAM object/bg,mixed,100.0
+dowel,831,SAM object/bg + DINO,all,96.01063829787235
+dowel,831,SAM object/bg + DINO,geometric,100.0
+dowel,831,SAM object/bg + DINO,surface,84.375
+dowel,831,SAM object/bg + DINO,mixed,100.0
 dowel,902,1 segment,all,91.0392798690671
 dowel,902,1 segment,geometric,97.69230769230768
 dowel,902,1 segment,surface,67.89297658862877
@@ -491,6 +651,10 @@ dowel,902,SAM object/bg,all,97.44271685761046
 dowel,902,SAM object/bg,geometric,100.0
 dowel,902,SAM object/bg,surface,89.54849498327758
 dowel,902,SAM object/bg,mixed,100.0
+dowel,902,SAM object/bg + DINO,all,97.50409165302781
+dowel,902,SAM object/bg + DINO,geometric,100.0
+dowel,902,SAM object/bg + DINO,surface,89.79933110367892
+dowel,902,SAM object/bg + DINO,mixed,100.0
 dowel,226,1 segment,all,91.7962356792144
 dowel,226,1 segment,geometric,97.9933110367893
 dowel,226,1 segment,surface,69.14335664335664
@@ -503,6 +667,10 @@ dowel,226,SAM object/bg,all,97.4631751227496
 dowel,226,SAM object/bg,geometric,100.0
 dowel,226,SAM object/bg,surface,89.16083916083917
 dowel,226,SAM object/bg,mixed,100.0
+dowel,226,SAM object/bg + DINO,all,97.38134206219313
+dowel,226,SAM object/bg + DINO,geometric,100.0
+dowel,226,SAM object/bg + DINO,surface,88.81118881118881
+dowel,226,SAM object/bg + DINO,mixed,100.0
 dowel,598,1 segment,all,92.34860883797054
 dowel,598,1 segment,geometric,98.03418803418802
 dowel,598,1 segment,surface,74.76923076923079
@@ -515,6 +683,10 @@ dowel,598,SAM object/bg,all,96.27659574468083
 dowel,598,SAM object/bg,geometric,99.82905982905983
 dowel,598,SAM object/bg,surface,86.30769230769232
 dowel,598,SAM object/bg,mixed,100.0
+dowel,598,SAM object/bg + DINO,all,96.54255319148936
+dowel,598,SAM object/bg + DINO,geometric,99.91452991452991
+dowel,598,SAM object/bg + DINO,surface,87.15384615384615
+dowel,598,SAM object/bg + DINO,mixed,100.0
 dowel,874,1 segment,all,93.0441898527005
 dowel,874,1 segment,geometric,97.90969899665552
 dowel,874,1 segment,surface,76.76282051282051
@@ -527,6 +699,10 @@ dowel,874,SAM object/bg,all,97.36088379705402
 dowel,874,SAM object/bg,geometric,100.0
 dowel,874,SAM object/bg,surface,89.66346153846153
 dowel,874,SAM object/bg,mixed,100.0
+dowel,874,SAM object/bg + DINO,all,97.17675941080198
+dowel,874,SAM object/bg + DINO,geometric,100.0
+dowel,874,SAM object/bg + DINO,surface,88.9423076923077
+dowel,874,SAM object/bg + DINO,mixed,100.0
 dowel,589,1 segment,all,88.99345335515548
 dowel,589,1 segment,geometric,95.76138147566718
 dowel,589,1 segment,surface,60.62271062271062
@@ -539,6 +715,10 @@ dowel,589,SAM object/bg,all,97.21767594108019
 dowel,589,SAM object/bg,geometric,99.9215070643642
 dowel,589,SAM object/bg,surface,87.72893772893772
 dowel,589,SAM object/bg,mixed,100.0
+dowel,589,SAM object/bg + DINO,all,96.19476268412438
+dowel,589,SAM object/bg + DINO,geometric,98.82260596546311
+dowel,589,SAM object/bg + DINO,surface,86.81318681318682
+dowel,589,SAM object/bg + DINO,mixed,99.03846153846153
 foam,333,1 segment,all,96.32142857142857
 foam,333,1 segment,geometric,87.67857142857143
 foam,333,1 segment,surface,98.28947368421052
@@ -551,6 +731,10 @@ foam,333,SAM object/bg,all,97.57142857142857
 foam,333,SAM object/bg,geometric,94.28571428571428
 foam,333,SAM object/bg,surface,99.47368421052632
 foam,333,SAM object/bg,mixed,96.11111111111111
+foam,333,SAM object/bg + DINO,all,96.35714285714285
+foam,333,SAM object/bg + DINO,geometric,90.0
+foam,333,SAM object/bg + DINO,surface,98.28947368421052
+foam,333,SAM object/bg + DINO,mixed,97.22222222222221
 foam,576,1 segment,all,96.25000000000001
 foam,576,1 segment,geometric,91.16666666666667
 foam,576,1 segment,surface,97.08333333333333
@@ -563,6 +747,10 @@ foam,576,SAM object/bg,all,96.35714285714285
 foam,576,SAM object/bg,geometric,83.33333333333333
 foam,576,SAM object/bg,surface,100.0
 foam,576,SAM object/bg,mixed,99.73684210526315
+foam,576,SAM object/bg + DINO,all,98.42857142857143
+foam,576,SAM object/bg + DINO,geometric,92.66666666666667
+foam,576,SAM object/bg + DINO,surface,100.0
+foam,576,SAM object/bg + DINO,mixed,100.0
 foam,725,1 segment,all,93.78571428571428
 foam,725,1 segment,geometric,81.80555555555557
 foam,725,1 segment,surface,97.27941176470588
@@ -575,6 +763,10 @@ foam,725,SAM object/bg,all,97.35714285714286
 foam,725,SAM object/bg,geometric,90.83333333333333
 foam,725,SAM object/bg,surface,100.0
 foam,725,SAM object/bg,mixed,98.88888888888889
+foam,725,SAM object/bg + DINO,all,97.42857142857143
+foam,725,SAM object/bg + DINO,geometric,91.11111111111111
+foam,725,SAM object/bg + DINO,surface,100.0
+foam,725,SAM object/bg + DINO,mixed,98.88888888888889
 foam,823,1 segment,all,95.07142857142857
 foam,823,1 segment,geometric,82.94117647058823
 foam,823,1 segment,surface,98.81578947368422
@@ -587,6 +779,10 @@ foam,823,SAM object/bg,all,96.35714285714285
 foam,823,SAM object/bg,geometric,86.76470588235296
 foam,823,SAM object/bg,surface,100.0
 foam,823,SAM object/bg,mixed,98.0
+foam,823,SAM object/bg + DINO,all,98.42857142857143
+foam,823,SAM object/bg + DINO,geometric,94.70588235294117
+foam,823,SAM object/bg + DINO,surface,99.86842105263158
+foam,823,SAM object/bg + DINO,mixed,99.0
 foam,831,1 segment,all,95.71428571428572
 foam,831,1 segment,geometric,89.4736842105263
 foam,831,1 segment,surface,96.96969696969697
@@ -599,6 +795,10 @@ foam,831,SAM object/bg,all,95.78571428571429
 foam,831,SAM object/bg,geometric,84.47368421052632
 foam,831,SAM object/bg,surface,100.0
 foam,831,SAM object/bg,mixed,100.0
+foam,831,SAM object/bg + DINO,all,97.14285714285715
+foam,831,SAM object/bg + DINO,geometric,89.47368421052632
+foam,831,SAM object/bg + DINO,surface,100.0
+foam,831,SAM object/bg + DINO,mixed,100.0
 foam,902,1 segment,all,94.03571428571429
 foam,902,1 segment,geometric,85.44117647058823
 foam,902,1 segment,surface,96.36363636363636
@@ -611,6 +811,10 @@ foam,902,SAM object/bg,all,97.57142857142857
 foam,902,SAM object/bg,geometric,90.58823529411765
 foam,902,SAM object/bg,surface,100.0
 foam,902,SAM object/bg,mixed,99.5
+foam,902,SAM object/bg + DINO,all,98.07142857142857
+foam,902,SAM object/bg + DINO,geometric,92.64705882352942
+foam,902,SAM object/bg + DINO,surface,100.0
+foam,902,SAM object/bg + DINO,mixed,99.5
 foam,226,1 segment,all,92.64285714285714
 foam,226,1 segment,geometric,83.84615384615385
 foam,226,1 segment,surface,94.45945945945947
@@ -623,6 +827,10 @@ foam,226,SAM object/bg,all,95.28571428571428
 foam,226,SAM object/bg,geometric,93.07692307692308
 foam,226,SAM object/bg,surface,97.70270270270271
 foam,226,SAM object/bg,mixed,92.25
+foam,226,SAM object/bg + DINO,all,95.57142857142857
+foam,226,SAM object/bg + DINO,geometric,93.07692307692308
+foam,226,SAM object/bg + DINO,surface,96.35135135135135
+foam,226,SAM object/bg + DINO,mixed,95.75
 foam,598,1 segment,all,94.92857142857143
 foam,598,1 segment,geometric,85.27777777777777
 foam,598,1 segment,surface,97.94117647058825
@@ -635,6 +843,10 @@ foam,598,SAM object/bg,all,95.71428571428572
 foam,598,SAM object/bg,geometric,83.33333333333334
 foam,598,SAM object/bg,surface,100.0
 foam,598,SAM object/bg,mixed,100.0
+foam,598,SAM object/bg + DINO,all,96.71428571428572
+foam,598,SAM object/bg + DINO,geometric,88.8888888888889
+foam,598,SAM object/bg + DINO,surface,99.55882352941175
+foam,598,SAM object/bg + DINO,mixed,99.16666666666666
 foam,874,1 segment,all,88.28571428571429
 foam,874,1 segment,geometric,68.15789473684211
 foam,874,1 segment,surface,94.85294117647058
@@ -647,6 +859,10 @@ foam,874,SAM object/bg,all,94.25
 foam,874,SAM object/bg,geometric,78.81578947368419
 foam,874,SAM object/bg,surface,100.0
 foam,874,SAM object/bg,mixed,100.0
+foam,874,SAM object/bg + DINO,all,95.85714285714286
+foam,874,SAM object/bg + DINO,geometric,84.73684210526315
+foam,874,SAM object/bg + DINO,surface,100.0
+foam,874,SAM object/bg + DINO,mixed,100.0
 foam,589,1 segment,all,94.82142857142857
 foam,589,1 segment,geometric,86.97368421052632
 foam,589,1 segment,surface,97.87878787878789
@@ -659,6 +875,10 @@ foam,589,SAM object/bg,all,95.07142857142857
 foam,589,SAM object/bg,geometric,82.10526315789473
 foam,589,SAM object/bg,surface,99.84848484848484
 foam,589,SAM object/bg,mixed,100.0
+foam,589,SAM object/bg + DINO,all,97.42857142857143
+foam,589,SAM object/bg + DINO,geometric,91.05263157894737
+foam,589,SAM object/bg + DINO,surface,99.69696969696969
+foam,589,SAM object/bg + DINO,mixed,100.0
 peach,333,1 segment,all,53.004807692307686
 peach,333,1 segment,geometric,51.522435897435905
 peach,333,1 segment,surface,57.53205128205129
@@ -671,6 +891,10 @@ peach,333,SAM object/bg,all,69.83173076923079
 peach,333,SAM object/bg,geometric,66.90705128205128
 peach,333,SAM object/bg,surface,70.51282051282051
 peach,333,SAM object/bg,mixed,74.99999999999999
+peach,333,SAM object/bg + DINO,all,81.73076923076923
+peach,333,SAM object/bg + DINO,geometric,80.20833333333334
+peach,333,SAM object/bg + DINO,surface,81.08974358974359
+peach,333,SAM object/bg + DINO,mixed,85.41666666666667
 peach,576,1 segment,all,47.41586538461539
 peach,576,1 segment,geometric,48.117839607201304
 peach,576,1 segment,surface,51.109467455621306
@@ -683,6 +907,10 @@ peach,576,SAM object/bg,all,68.7099358974359
 peach,576,SAM object/bg,geometric,67.59410801963993
 peach,576,SAM object/bg,surface,63.75739644970413
 peach,576,SAM object/bg,mixed,76.5886287625418
+peach,576,SAM object/bg + DINO,all,84.17467948717949
+peach,576,SAM object/bg + DINO,geometric,81.66939443535188
+peach,576,SAM object/bg + DINO,surface,80.9171597633136
+peach,576,SAM object/bg + DINO,mixed,92.97658862876254
 peach,725,1 segment,all,54.22676282051282
 peach,725,1 segment,geometric,54.631083202511775
 peach,725,1 segment,surface,54.84615384615385
@@ -695,6 +923,10 @@ peach,725,SAM object/bg,all,67.42788461538463
 peach,725,SAM object/bg,geometric,63.57927786499214
 peach,725,SAM object/bg,surface,71.0769230769231
 peach,725,SAM object/bg,mixed,71.85314685314685
+peach,725,SAM object/bg + DINO,all,82.9326923076923
+peach,725,SAM object/bg + DINO,geometric,80.76923076923077
+peach,725,SAM object/bg + DINO,surface,80.92307692307692
+peach,725,SAM object/bg + DINO,mixed,90.03496503496503
 peach,823,1 segment,all,52.00320512820513
 peach,823,1 segment,geometric,56.00000000000001
 peach,823,1 segment,surface,47.9020979020979
@@ -707,6 +939,10 @@ peach,823,SAM object/bg,all,75.08012820512819
 peach,823,SAM object/bg,geometric,76.23076923076923
 peach,823,SAM object/bg,surface,73.6013986013986
 peach,823,SAM object/bg,mixed,74.03846153846155
+peach,823,SAM object/bg + DINO,all,84.05448717948718
+peach,823,SAM object/bg + DINO,geometric,83.92307692307692
+peach,823,SAM object/bg + DINO,surface,83.74125874125873
+peach,823,SAM object/bg + DINO,mixed,84.61538461538461
 peach,831,1 segment,all,66.20592948717949
 peach,831,1 segment,geometric,61.999999999999986
 peach,831,1 segment,surface,66.18589743589743
@@ -719,6 +955,10 @@ peach,831,SAM object/bg,all,76.6025641025641
 peach,831,SAM object/bg,geometric,80.76923076923077
 peach,831,SAM object/bg,surface,71.63461538461539
 peach,831,SAM object/bg,mixed,72.55244755244756
+peach,831,SAM object/bg + DINO,all,84.21474358974359
+peach,831,SAM object/bg + DINO,geometric,83.46153846153847
+peach,831,SAM object/bg + DINO,surface,77.40384615384615
+peach,831,SAM object/bg + DINO,mixed,93.35664335664336
 peach,902,1 segment,all,60.877403846153854
 peach,902,1 segment,geometric,58.77403846153847
 peach,902,1 segment,surface,60.61253561253561
@@ -731,6 +971,10 @@ peach,902,SAM object/bg,all,63.30128205128205
 peach,902,SAM object/bg,geometric,60.096153846153854
 peach,902,SAM object/bg,surface,61.965811965811966
 peach,902,SAM object/bg,mixed,72.34432234432234
+peach,902,SAM object/bg + DINO,all,79.28685897435899
+peach,902,SAM object/bg + DINO,geometric,78.52564102564102
+peach,902,SAM object/bg + DINO,surface,78.34757834757833
+peach,902,SAM object/bg + DINO,mixed,82.23443223443223
 peach,226,1 segment,all,56.22996794871795
 peach,226,1 segment,geometric,56.02564102564103
 peach,226,1 segment,surface,59.82905982905983
@@ -743,6 +987,10 @@ peach,226,SAM object/bg,all,70.99358974358974
 peach,226,SAM object/bg,geometric,72.3076923076923
 peach,226,SAM object/bg,surface,66.66666666666666
 peach,226,SAM object/bg,mixed,73.3974358974359
+peach,226,SAM object/bg + DINO,all,85.53685897435899
+peach,226,SAM object/bg + DINO,geometric,86.66666666666667
+peach,226,SAM object/bg + DINO,surface,81.05413105413105
+peach,226,SAM object/bg + DINO,mixed,88.46153846153847
 peach,598,1 segment,all,55.328525641025635
 peach,598,1 segment,geometric,54.67571644042232
 peach,598,1 segment,surface,58.38461538461538
@@ -755,6 +1003,10 @@ peach,598,SAM object/bg,all,66.58653846153845
 peach,598,SAM object/bg,geometric,63.80090497737557
 peach,598,SAM object/bg,surface,62.46153846153846
 peach,598,SAM object/bg,mixed,78.84615384615384
+peach,598,SAM object/bg + DINO,all,82.13141025641026
+peach,598,SAM object/bg + DINO,geometric,81.22171945701358
+peach,598,SAM object/bg + DINO,surface,78.0
+peach,598,SAM object/bg + DINO,mixed,89.61538461538461
 peach,874,1 segment,all,54.767628205128204
 peach,874,1 segment,geometric,52.42307692307693
 peach,874,1 segment,surface,56.57051282051282
@@ -767,6 +1019,10 @@ peach,874,SAM object/bg,all,67.02724358974359
 peach,874,SAM object/bg,geometric,68.23076923076923
 peach,874,SAM object/bg,surface,63.30128205128206
 peach,874,SAM object/bg,mixed,68.35664335664336
+peach,874,SAM object/bg + DINO,all,82.01121794871796
+peach,874,SAM object/bg + DINO,geometric,81.46153846153847
+peach,874,SAM object/bg + DINO,surface,77.08333333333334
+peach,874,SAM object/bg + DINO,mixed,88.63636363636364
 peach,589,1 segment,all,56.1298076923077
 peach,589,1 segment,geometric,57.171474358974365
 peach,589,1 segment,surface,56.891025641025635
@@ -779,6 +1035,10 @@ peach,589,SAM object/bg,all,72.79647435897435
 peach,589,SAM object/bg,geometric,72.91666666666666
 peach,589,SAM object/bg,surface,78.0448717948718
 peach,589,SAM object/bg,mixed,67.3076923076923
+peach,589,SAM object/bg + DINO,all,83.09294871794872
+peach,589,SAM object/bg + DINO,geometric,80.92948717948718
+peach,589,SAM object/bg + DINO,surface,81.89102564102565
+peach,589,SAM object/bg + DINO,mixed,88.62179487179486
 potato,333,1 segment,all,63.109756097560975
 potato,333,1 segment,geometric,66.66666666666667
 potato,333,1 segment,surface,58.76623376623377
@@ -791,6 +1051,10 @@ potato,333,SAM object/bg,all,60.31042128603104
 potato,333,SAM object/bg,geometric,62.412587412587406
 potato,333,SAM object/bg,surface,49.675324675324674
 potato,333,SAM object/bg,mixed,66.73553719008264
+potato,333,SAM object/bg + DINO,all,65.46563192904655
+potato,333,SAM object/bg + DINO,geometric,66.2004662004662
+potato,333,SAM object/bg + DINO,surface,68.61471861471861
+potato,333,SAM object/bg + DINO,mixed,61.15702479338842
 potato,576,1 segment,all,51.38580931263858
 potato,576,1 segment,geometric,46.32867132867133
 potato,576,1 segment,surface,50.9297520661157
@@ -803,6 +1067,10 @@ potato,576,SAM object/bg,all,61.30820399113082
 potato,576,SAM object/bg,geometric,56.75990675990676
 potato,576,SAM object/bg,surface,60.9504132231405
 potato,576,SAM object/bg,mixed,70.12987012987013
+potato,576,SAM object/bg + DINO,all,69.06873614190687
+potato,576,SAM object/bg + DINO,geometric,66.78321678321679
+potato,576,SAM object/bg + DINO,surface,77.27272727272727
+potato,576,SAM object/bg + DINO,mixed,64.7186147186147
 potato,725,1 segment,all,55.764966740576504
 potato,725,1 segment,geometric,50.44345898004434
 potato,725,1 segment,surface,57.57575757575757
@@ -815,6 +1083,10 @@ potato,725,SAM object/bg,all,58.53658536585367
 potato,725,SAM object/bg,geometric,55.32150776053215
 potato,725,SAM object/bg,surface,59.09090909090909
 potato,725,SAM object/bg,mixed,64.54545454545455
+potato,725,SAM object/bg + DINO,all,50.49889135254989
+potato,725,SAM object/bg + DINO,geometric,45.565410199556545
+potato,725,SAM object/bg + DINO,surface,51.73160173160174
+potato,725,SAM object/bg + DINO,mixed,59.31818181818183
 potato,823,1 segment,all,53.3259423503326
 potato,823,1 segment,geometric,54.27489177489178
 potato,823,1 segment,surface,57.82828282828283
@@ -827,6 +1099,10 @@ potato,823,SAM object/bg,all,47.72727272727273
 potato,823,SAM object/bg,geometric,53.30086580086581
 potato,823,SAM object/bg,surface,50.63131313131313
 potato,823,SAM object/bg,mixed,34.71074380165289
+potato,823,SAM object/bg + DINO,all,52.827050997782706
+potato,823,SAM object/bg + DINO,geometric,55.4112554112554
+potato,823,SAM object/bg + DINO,surface,64.14141414141415
+potato,823,SAM object/bg + DINO,mixed,38.63636363636363
 potato,831,1 segment,all,52.494456762749444
 potato,831,1 segment,geometric,50.79281183932347
 potato,831,1 segment,surface,54.87012987012987
@@ -839,6 +1115,10 @@ potato,831,SAM object/bg,all,54.933481152993345
 potato,831,SAM object/bg,geometric,49.2600422832981
 potato,831,SAM object/bg,surface,57.14285714285715
 potato,831,SAM object/bg,mixed,65.90909090909092
+potato,831,SAM object/bg + DINO,all,54.32372505543237
+potato,831,SAM object/bg + DINO,geometric,48.73150105708245
+potato,831,SAM object/bg + DINO,surface,60.17316017316017
+potato,831,SAM object/bg + DINO,mixed,60.858585858585855
 potato,902,1 segment,all,50.80376940133038
 potato,902,1 segment,geometric,47.272727272727266
 potato,902,1 segment,surface,57.41106719367589
@@ -851,6 +1131,10 @@ potato,902,SAM object/bg,all,53.492239467849224
 potato,902,SAM object/bg,geometric,57.670454545454554
 potato,902,SAM object/bg,surface,58.992094861660085
 potato,902,SAM object/bg,mixed,38.038277511961724
+potato,902,SAM object/bg + DINO,all,60.69844789356984
+potato,902,SAM object/bg + DINO,geometric,61.59090909090909
+potato,902,SAM object/bg + DINO,surface,70.35573122529644
+potato,902,SAM object/bg + DINO,mixed,47.12918660287081
 potato,226,1 segment,all,45.45454545454545
 potato,226,1 segment,geometric,42.07616707616707
 potato,226,1 segment,surface,47.233201581027664
@@ -863,6 +1147,10 @@ potato,226,SAM object/bg,all,58.536585365853654
 potato,226,SAM object/bg,geometric,59.7051597051597
 potato,226,SAM object/bg,surface,57.509881422924906
 potato,226,SAM object/bg,mixed,57.64462809917356
+potato,226,SAM object/bg + DINO,all,69.62305986696231
+potato,226,SAM object/bg + DINO,geometric,66.95331695331697
+potato,226,SAM object/bg + DINO,surface,78.65612648221342
+potato,226,SAM object/bg + DINO,mixed,64.6694214876033
 potato,598,1 segment,all,50.388026607538805
 potato,598,1 segment,geometric,44.71458773784355
 potato,598,1 segment,surface,52.38095238095237
@@ -875,6 +1163,10 @@ potato,598,SAM object/bg,all,51.33037694013303
 potato,598,SAM object/bg,geometric,47.78012684989429
 potato,598,SAM object/bg,surface,49.35064935064935
 potato,598,SAM object/bg,mixed,62.121212121212125
+potato,598,SAM object/bg + DINO,all,70.34368070953437
+potato,598,SAM object/bg + DINO,geometric,67.75898520084567
+potato,598,SAM object/bg + DINO,surface,79.00432900432901
+potato,598,SAM object/bg + DINO,mixed,66.41414141414141
 potato,874,1 segment,all,35.310421286031044
 potato,874,1 segment,geometric,34.368070953436806
 potato,874,1 segment,surface,35.71428571428571
@@ -887,6 +1179,10 @@ potato,874,SAM object/bg,all,52.4390243902439
 potato,874,SAM object/bg,geometric,50.332594235033255
 potato,874,SAM object/bg,surface,56.06060606060607
 potato,874,SAM object/bg,mixed,52.95454545454545
+potato,874,SAM object/bg + DINO,all,68.07095343680707
+potato,874,SAM object/bg + DINO,geometric,62.63858093126387
+potato,874,SAM object/bg + DINO,surface,77.27272727272727
+potato,874,SAM object/bg + DINO,mixed,69.54545454545455
 potato,589,1 segment,all,59.28492239467849
 potato,589,1 segment,geometric,56.81818181818182
 potato,589,1 segment,surface,66.12554112554113
@@ -899,6 +1195,10 @@ potato,589,SAM object/bg,all,53.71396895787141
 potato,589,SAM object/bg,geometric,51.590909090909086
 potato,589,SAM object/bg,surface,63.41991341991342
 potato,589,SAM object/bg,mixed,48.05194805194805
+potato,589,SAM object/bg + DINO,all,54.379157427937905
+potato,589,SAM object/bg + DINO,geometric,49.31818181818182
+potato,589,SAM object/bg + DINO,surface,58.87445887445888
+potato,589,SAM object/bg + DINO,mixed,59.52380952380951
 rope,333,1 segment,all,97.29872881355932
 rope,333,1 segment,geometric,99.82638888888889
 rope,333,1 segment,surface,93.34239130434783
@@ -908,6 +1208,9 @@ rope,333,SAM parts,surface,87.90760869565217
 rope,333,SAM object/bg,all,96.15995762711864
 rope,333,SAM object/bg,geometric,100.0
 rope,333,SAM object/bg,surface,90.14945652173914
+rope,333,SAM object/bg + DINO,all,96.37182203389831
+rope,333,SAM object/bg + DINO,geometric,100.0
+rope,333,SAM object/bg + DINO,surface,90.69293478260869
 rope,576,1 segment,all,99.15254237288136
 rope,576,1 segment,geometric,99.65277777777779
 rope,576,1 segment,surface,98.36956521739131
@@ -917,6 +1220,9 @@ rope,576,SAM parts,surface,97.28260869565217
 rope,576,SAM object/bg,all,98.22563559322035
 rope,576,SAM object/bg,geometric,98.69791666666666
 rope,576,SAM object/bg,surface,97.48641304347827
+rope,576,SAM object/bg + DINO,all,99.73516949152543
+rope,576,SAM object/bg + DINO,geometric,100.0
+rope,576,SAM object/bg + DINO,surface,99.32065217391303
 rope,725,1 segment,all,99.70868644067797
 rope,725,1 segment,geometric,99.95888157894737
 rope,725,1 segment,surface,99.25595238095238
@@ -926,6 +1232,9 @@ rope,725,SAM parts,surface,97.76785714285714
 rope,725,SAM object/bg,all,99.02012711864407
 rope,725,SAM object/bg,geometric,100.0
 rope,725,SAM object/bg,surface,97.24702380952381
+rope,725,SAM object/bg + DINO,all,99.1260593220339
+rope,725,SAM object/bg + DINO,geometric,100.0
+rope,725,SAM object/bg + DINO,surface,97.54464285714285
 rope,823,1 segment,all,98.14618644067797
 rope,823,1 segment,geometric,100.0
 rope,823,1 segment,surface,95.0284090909091
@@ -935,6 +1244,9 @@ rope,823,SAM parts,surface,89.91477272727273
 rope,823,SAM object/bg,all,96.10699152542372
 rope,823,SAM object/bg,geometric,100.0
 rope,823,SAM object/bg,surface,89.5596590909091
+rope,823,SAM object/bg + DINO,all,96.55720338983052
+rope,823,SAM object/bg + DINO,geometric,100.0
+rope,823,SAM object/bg + DINO,surface,90.76704545454545
 rope,831,1 segment,all,98.4375
 rope,831,1 segment,geometric,100.0
 rope,831,1 segment,surface,95.14802631578947
@@ -944,6 +1256,9 @@ rope,831,SAM parts,surface,99.42434210526316
 rope,831,SAM object/bg,all,99.73516949152543
 rope,831,SAM object/bg,geometric,100.0
 rope,831,SAM object/bg,surface,99.17763157894737
+rope,831,SAM object/bg + DINO,all,99.60275423728814
+rope,831,SAM object/bg + DINO,geometric,100.0
+rope,831,SAM object/bg + DINO,surface,98.76644736842105
 rope,902,1 segment,all,99.54978813559322
 rope,902,1 segment,geometric,99.8766447368421
 rope,902,1 segment,surface,98.95833333333333
@@ -953,6 +1268,9 @@ rope,902,SAM parts,surface,98.0654761904762
 rope,902,SAM object/bg,all,99.09957627118644
 rope,902,SAM object/bg,geometric,100.0
 rope,902,SAM object/bg,surface,97.47023809523809
+rope,902,SAM object/bg + DINO,all,99.73516949152543
+rope,902,SAM object/bg + DINO,geometric,100.0
+rope,902,SAM object/bg + DINO,surface,99.25595238095238
 rope,226,1 segment,all,98.80826271186442
 rope,226,1 segment,geometric,100.0
 rope,226,1 segment,surface,97.0703125
@@ -962,6 +1280,9 @@ rope,226,SAM parts,surface,85.02604166666666
 rope,226,SAM object/bg,all,94.27966101694916
 rope,226,SAM object/bg,geometric,100.0
 rope,226,SAM object/bg,surface,85.9375
+rope,226,SAM object/bg + DINO,all,95.02118644067798
+rope,226,SAM object/bg + DINO,geometric,100.0
+rope,226,SAM object/bg + DINO,surface,87.76041666666666
 rope,598,1 segment,all,99.41737288135593
 rope,598,1 segment,geometric,99.46646341463415
 rope,598,1 segment,surface,99.30555555555556
@@ -971,6 +1292,9 @@ rope,598,SAM parts,surface,98.52430555555556
 rope,598,SAM object/bg,all,98.33156779661016
 rope,598,SAM object/bg,geometric,98.32317073170731
 rope,598,SAM object/bg,surface,98.35069444444444
+rope,598,SAM object/bg + DINO,all,98.9406779661017
+rope,598,SAM object/bg + DINO,geometric,98.93292682926828
+rope,598,SAM object/bg + DINO,surface,98.95833333333333
 rope,874,1 segment,all,99.70868644067797
 rope,874,1 segment,geometric,100.0
 rope,874,1 segment,surface,99.18154761904762
@@ -980,6 +1304,9 @@ rope,874,SAM parts,surface,97.99107142857143
 rope,874,SAM object/bg,all,98.88771186440678
 rope,874,SAM object/bg,geometric,100.0
 rope,874,SAM object/bg,surface,96.875
+rope,874,SAM object/bg + DINO,all,99.44385593220339
+rope,874,SAM object/bg + DINO,geometric,100.0
+rope,874,SAM object/bg + DINO,surface,98.4375
 rope,589,1 segment,all,98.91419491525424
 rope,589,1 segment,geometric,100.0
 rope,589,1 segment,surface,97.21467391304348
@@ -989,6 +1316,9 @@ rope,589,SAM parts,surface,89.94565217391305
 rope,589,SAM object/bg,all,96.74258474576271
 rope,589,SAM object/bg,geometric,100.0
 rope,589,SAM object/bg,surface,91.64402173913044
+rope,589,SAM object/bg + DINO,all,95.97457627118644
+rope,589,SAM object/bg + DINO,geometric,100.0
+rope,589,SAM object/bg + DINO,surface,89.67391304347827
 tire,333,1 segment,all,73.8961038961039
 tire,333,1 segment,geometric,71.3913043478261
 tire,333,1 segment,surface,75.48148148148148
@@ -1001,6 +1331,10 @@ tire,333,SAM object/bg,all,72.72727272727273
 tire,333,SAM object/bg,geometric,70.65217391304348
 tire,333,SAM object/bg,surface,74.81481481481482
 tire,333,SAM object/bg,mixed,82.5
+tire,333,SAM object/bg + DINO,all,68.15584415584416
+tire,333,SAM object/bg + DINO,geometric,66.65217391304348
+tire,333,SAM object/bg + DINO,surface,68.59259259259258
+tire,333,SAM object/bg + DINO,mixed,82.5
 tire,576,1 segment,all,72.96103896103897
 tire,576,1 segment,geometric,68.3913043478261
 tire,576,1 segment,surface,78.07407407407408
@@ -1013,6 +1347,10 @@ tire,576,SAM object/bg,all,74.54545454545455
 tire,576,SAM object/bg,geometric,70.5217391304348
 tire,576,SAM object/bg,surface,78.96296296296296
 tire,576,SAM object/bg,mixed,90.99999999999999
+tire,576,SAM object/bg + DINO,all,71.45454545454545
+tire,576,SAM object/bg + DINO,geometric,70.34782608695652
+tire,576,SAM object/bg + DINO,surface,72.0
+tire,576,SAM object/bg + DINO,mixed,80.5
 tire,725,1 segment,all,73.81818181818181
 tire,725,1 segment,geometric,68.16666666666667
 tire,725,1 segment,surface,81.28
@@ -1025,6 +1363,10 @@ tire,725,SAM object/bg,all,71.68831168831169
 tire,725,SAM object/bg,geometric,69.25
 tire,725,SAM object/bg,surface,73.6
 tire,725,SAM object/bg,mixed,89.0
+tire,725,SAM object/bg + DINO,all,68.8051948051948
+tire,725,SAM object/bg + DINO,geometric,66.625
+tire,725,SAM object/bg + DINO,surface,70.88
+tire,725,SAM object/bg + DINO,mixed,82.0
 tire,823,1 segment,all,74.85714285714286
 tire,823,1 segment,geometric,69.57446808510637
 tire,823,1 segment,surface,81.15384615384616
@@ -1037,6 +1379,10 @@ tire,823,SAM object/bg,all,69.37662337662337
 tire,823,SAM object/bg,geometric,64.0
 tire,823,SAM object/bg,surface,76.07692307692308
 tire,823,SAM object/bg,mixed,89.0
+tire,823,SAM object/bg + DINO,all,64.54545454545455
+tire,823,SAM object/bg + DINO,geometric,59.87234042553191
+tire,823,SAM object/bg + DINO,surface,70.84615384615385
+tire,823,SAM object/bg + DINO,mixed,78.5
 tire,831,1 segment,all,71.58441558441558
 tire,831,1 segment,geometric,70.52
 tire,831,1 segment,surface,70.86956521739131
@@ -1049,6 +1395,10 @@ tire,831,SAM object/bg,all,73.35064935064935
 tire,831,SAM object/bg,geometric,71.48
 tire,831,SAM object/bg,surface,75.73913043478261
 tire,831,SAM object/bg,mixed,83.0
+tire,831,SAM object/bg + DINO,all,70.88311688311688
+tire,831,SAM object/bg + DINO,geometric,69.28
+tire,831,SAM object/bg + DINO,surface,72.78260869565217
+tire,831,SAM object/bg + DINO,mixed,80.0
 tire,902,1 segment,all,80.4155844155844
 tire,902,1 segment,geometric,75.95833333333334
 tire,902,1 segment,surface,86.66666666666667
@@ -1061,6 +1411,10 @@ tire,902,SAM object/bg,all,72.93506493506494
 tire,902,SAM object/bg,geometric,70.20833333333333
 tire,902,SAM object/bg,surface,76.16666666666666
 tire,902,SAM object/bg,mixed,83.6
+tire,902,SAM object/bg + DINO,all,74.7012987012987
+tire,902,SAM object/bg + DINO,geometric,72.0
+tire,902,SAM object/bg + DINO,surface,81.25000000000001
+tire,902,SAM object/bg + DINO,mixed,69.19999999999999
 tire,226,1 segment,all,71.61038961038962
 tire,226,1 segment,geometric,70.53333333333333
 tire,226,1 segment,surface,69.7037037037037
@@ -1073,6 +1427,10 @@ tire,226,SAM object/bg,all,65.92207792207792
 tire,226,SAM object/bg,geometric,64.62222222222222
 tire,226,SAM object/bg,surface,65.55555555555556
 tire,226,SAM object/bg,mixed,79.60000000000001
+tire,226,SAM object/bg + DINO,all,64.77922077922078
+tire,226,SAM object/bg + DINO,geometric,61.91111111111112
+tire,226,SAM object/bg + DINO,surface,69.70370370370371
+tire,226,SAM object/bg + DINO,mixed,64.0
 tire,598,1 segment,all,70.12987012987013
 tire,598,1 segment,geometric,67.84313725490196
 tire,598,1 segment,surface,73.0909090909091
@@ -1085,6 +1443,10 @@ tire,598,SAM object/bg,all,78.20779220779221
 tire,598,SAM object/bg,geometric,77.29411764705881
 tire,598,SAM object/bg,surface,78.0909090909091
 tire,598,SAM object/bg,mixed,90.5
+tire,598,SAM object/bg + DINO,all,73.1948051948052
+tire,598,SAM object/bg + DINO,geometric,71.72549019607844
+tire,598,SAM object/bg + DINO,surface,78.54545454545455
+tire,598,SAM object/bg + DINO,mixed,62.5
 tire,874,1 segment,all,75.24675324675326
 tire,874,1 segment,geometric,73.3469387755102
 tire,874,1 segment,surface,77.66666666666666
@@ -1097,6 +1459,10 @@ tire,874,SAM object/bg,all,74.2077922077922
 tire,874,SAM object/bg,geometric,72.48979591836735
 tire,874,SAM object/bg,surface,76.49999999999999
 tire,874,SAM object/bg,mixed,81.5
+tire,874,SAM object/bg + DINO,all,68.44155844155844
+tire,874,SAM object/bg + DINO,geometric,66.24489795918367
+tire,874,SAM object/bg + DINO,surface,73.25
+tire,874,SAM object/bg + DINO,mixed,66.5
 tire,589,1 segment,all,59.97402597402598
 tire,589,1 segment,geometric,62.43478260869565
 tire,589,1 segment,surface,56.15384615384615
@@ -1109,3 +1475,7 @@ tire,589,SAM object/bg,all,61.6103896103896
 tire,589,SAM object/bg,geometric,62.69565217391304
 tire,589,SAM object/bg,surface,60.53846153846154
 tire,589,SAM object/bg,mixed,57.199999999999996
+tire,589,SAM object/bg + DINO,all,65.81818181818181
+tire,589,SAM object/bg + DINO,geometric,66.52173913043478
+tire,589,SAM object/bg + DINO,surface,66.46153846153847
+tire,589,SAM object/bg + DINO,mixed,56.00000000000001

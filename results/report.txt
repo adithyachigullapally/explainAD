@@ -1,19 +1,20 @@
-group                  all    geometric      surface        mixed
-arm                                                              
-1 segment       78.62 ±1.2   78.22 ±1.7  77.14 ±1.32   80.95 ±2.1
-SAM object/bg  82.44 ±0.92  82.04 ±1.28  81.93 ±0.96  83.61 ±2.12
-SAM parts      78.67 ±1.09  78.97 ±1.65  77.75 ±1.75  79.31 ±2.75
+group                         all    geometric      surface        mixed
+arm                                                                     
+1 segment              78.62 ±1.2   78.22 ±1.7  77.14 ±1.32   80.95 ±2.1
+SAM object/bg         82.44 ±0.92  82.04 ±1.28  81.93 ±0.96  83.61 ±2.12
+SAM object/bg + DINO  85.21 ±1.08  85.04 ±1.24  84.93 ±1.97  84.95 ±1.48
+SAM parts             78.67 ±1.09  78.97 ±1.65  77.75 ±1.75  79.31 ±2.75
 
 AUROC per class (all defects, mean over seeds):
-arm          1 segment  SAM object/bg  SAM parts
-cls                                             
-bagel             93.0           92.3       88.8
-cable_gland       70.5           76.0       67.1
-carrot            87.2           87.0       79.2
-cookie            71.5           81.9       80.5
-dowel             91.1           96.9       93.8
-foam              94.2           96.1       96.5
-peach             55.6           69.8       62.3
-potato            51.7           55.2       49.5
-rope              98.9           97.7       97.6
-tire              72.4           71.5       71.4
+arm          1 segment  SAM object/bg  SAM object/bg + DINO  SAM parts
+cls                                                                   
+bagel             93.0           92.3                  93.4       88.8
+cable_gland       70.5           76.0                  80.8       67.1
+carrot            87.2           87.0                  93.2       79.2
+cookie            71.5           81.9                  79.1       80.5
+dowel             91.1           96.9                  96.8       93.8
+foam              94.2           96.1                  97.1       96.5
+peach             55.6           69.8                  82.9       62.3
+potato            51.7           55.2                  61.5       49.5
+rope              98.9           97.7                  98.1       97.6
+tire              72.4           71.5                  69.1       71.4

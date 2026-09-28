@@ -1,10 +1,11 @@
-"""ExplainAD: SAM (parts) -> SegAD (is it defective, where) -> Qwen3-VL (what is wrong, in words).
+"""ExplainAD: SAM (object/background) -> SegAD on PatchCore-WRN50 + PatchCore-DINO maps (is it defective,
+where) -> Qwen3-VL (what is wrong, in words).
 
 MVTec 3D-AD RGB images, read from GeoAD's data folder (never written). Every stage caches
 per class, so a killed run resumes.
 
-    python pipeline.py fit                    # SAM part maps + PatchCore per class (GPU)
-    python pipeline.py eval                   # SegAD heads: 1 segment vs SAM parts (CPU)
+    python pipeline.py fit                    # SAM part maps + PatchCore (WRN50, DINO) per class (GPU)
+    python pipeline.py eval                   # SegAD heads for every setup -> results/report.txt (CPU)
     python pipeline.py explain <image.png>    # full pipeline on one image -> results/*.png
 """
 from __future__ import annotations
@@ -23,7 +24,7 @@ from sklearn.metrics import roc_auc_score
 
 from explainad import head, parts
 from explainad.features import segment_stats
-from explainad.patchcore import PatchCore
+from explainad.patchcore import DinoCore, PatchCore
 
 ROOT = Path(__file__).resolve().parent
 MV = ROOT.parent / "GeoAD" / "data" / "mvtec3d"
@@ -82,6 +83,16 @@ def fit(cls: str) -> None:
         del det
         torch.cuda.empty_cache()
         print(f"[patchcore] {cls}: scored {len(todo)}", flush=True)
+    dbank_f, dmaps_f = CACHE / f"bank_dino_{cls}.pt", CACHE / f"maps_dino_full_{cls}.npy"
+    if not dbank_f.exists():   # second detector, DINO ViT-B/8 (ICCV 2021): +2.8 AUROC in the ablation
+        det = DinoCore(seed=0).fit([load_rgb(p) for p in paths(cls, "train")], batch=4)
+        torch.save(det.bank.cpu(), dbank_f)
+        maps = [m for i in range(0, len(todo), 4)
+                for m in det.score(np.stack([load_rgb(p) for p in todo[i:i + 4]]), batch=4)]
+        np.save(dmaps_f, np.stack(maps).astype(np.float16))
+        del det
+        torch.cuda.empty_cache()
+        print(f"[dino] {cls}: scored {len(todo)}", flush=True)
 
 
 def _masks(rgb: np.ndarray) -> list[np.ndarray]:
@@ -99,7 +110,11 @@ def features(cls: str) -> dict[str, np.ndarray]:
     obj = object_mask(cls, segs).astype(np.int32)
     return {"1 segment": np.stack([segment_stats(m, one, 1) for m in maps]),
             "SAM parts": np.stack([segment_stats(m, s, parts.K + 1) for m, s in zip(maps, segs)]),
-            "SAM object/bg": np.stack([segment_stats(m, o, 2) for m, o in zip(maps, obj)])}
+            "SAM object/bg": np.stack([segment_stats(m, o, 2) for m, o in zip(maps, obj)]),
+            "SAM object/bg + DINO": np.hstack([
+                np.stack([segment_stats(m, o, 2) for m, o in zip(maps, obj)]),
+                np.stack([segment_stats(m, o, 2) for m, o in zip(
+                    np.load(CACHE / f"maps_dino_full_{cls}.npy").astype(np.float32), obj)])])}
 
 
 # Added after the first 4 classes (09-28): colour-clustered parts flip between images (a darker
@@ -139,7 +154,7 @@ def evaluate(cls: str, feats=None) -> list[tuple]:
                 m = ~tr & ((y == 0) | ((groups == g) if g != "all" else True))
                 if (y[m] == 1).any():
                     rows.append((cls, seed, arm, g, 100 * roc_auc_score(y[m], p[m])))
-            if seed == SEEDS[0] and arm == "SAM object/bg":   # the demo head (best arm)
+            if seed == SEEDS[0] and arm == "SAM object/bg + DINO":   # the demo head (best arm)
                 clf.save_model(CACHE / f"head_{cls}.json")
                 (CACHE / f"head_{cls}_train.json").write_text(json.dumps([uid(todo[i]) for i in np.flatnonzero(tr)]))
     return rows
@@ -199,11 +214,15 @@ def explain(path: Path, threshold: float = 0.5) -> dict:
     det = PatchCore(seed=0)
     det.bank = torch.load(CACHE / f"bank_{cls}.pt").to(det.device)
     amap = det.score(rgb[None], batch=1)[0]
+    dino = DinoCore(seed=0)
+    dino.bank = torch.load(CACHE / f"bank_dino_{cls}.pt").to(dino.device)
+    dmap = dino.score(rgb[None], batch=1)[0]
     clf = XGBClassifier()
     clf.load_model(CACHE / f"head_{cls}.json")
     obj = (seg != bg_cluster(cls)).astype(np.int32)
-    prob = float(clf.predict_proba(segment_stats(amap, obj, 2)[None])[0, 1])
-    del det
+    x = np.concatenate([segment_stats(amap, obj, 2), segment_stats(dmap, obj, 2)])
+    prob = float(clf.predict_proba(x[None])[0, 1])
+    del det, dino
     torch.cuda.empty_cache()
     res = {"image": str(path), "class": cls, "defect_probability": round(prob, 3), "defective": prob >= threshold}
     box = None
