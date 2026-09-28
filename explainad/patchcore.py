@@ -102,6 +102,27 @@ class PatchCore:
         return np.concatenate(out).astype(np.float32)
 
 
+class DinoCore(PatchCore):
+    """PatchCore on DINO ViT-B/8 last-layer patch tokens (Caron et al., ICCV 2021).
+    Same memory bank, nearest-neighbour score and blur; only the feature network differs.
+    256 px input -> 32x32 patches, the same grid as WRN50 layer 2."""
+
+    def _backbone(self):
+        if self._net is None:
+            from transformers import ViTModel
+            net = ViTModel.from_pretrained("facebook/dino-vitb8", add_pooling_layer=False)
+            self._net = net.eval().half().to(self.device)
+        return self._net
+
+    @torch.no_grad()
+    def _embed(self, images: np.ndarray) -> torch.Tensor:
+        x = torch.as_tensor(images).permute(0, 3, 1, 2).float() / 255.0
+        x = ((x - IMAGENET_MEAN) / IMAGENET_STD).to(self.device).half()
+        tokens = self._backbone()(pixel_values=x, interpolate_pos_encoding=True).last_hidden_state
+        self.grid = (x.shape[-2] // 8, x.shape[-1] // 8)
+        return tokens[:, 1:].float()   # drop the CLS token -> (N, P, 768)
+
+
 def _gaussian_blur(x: torch.Tensor, sigma: float) -> torch.Tensor:
     if sigma <= 0:
         return x

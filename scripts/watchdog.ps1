@@ -20,7 +20,7 @@ function Log($m) { $l = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $m"; Add-Cont
 
 function Jobs {
     Get-CimInstance Win32_Process -Filter "Name='python.exe'" |
-        Where-Object { $_.CommandLine -match 'pipeline.py|explainad.' }
+        Where-Object { $_.CommandLine -match 'pipeline.py|improve.py|explainad.' }
     # dataset unpacks: no GPU, but they can fill the disk and must not be slept through
     Get-CimInstance Win32_Process -Filter "Name='tar.exe'" |
         Where-Object { $_.CommandLine -match 'mvtec' }

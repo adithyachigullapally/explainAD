@@ -122,13 +122,13 @@ def object_mask(cls: str, segs: np.ndarray) -> np.ndarray:
     return segs != bg_cluster(cls)
 
 
-def evaluate(cls: str) -> list[tuple]:
+def evaluate(cls: str, feats=None) -> list[tuple]:
     todo = paths(cls, "validation") + paths(cls, "test")
     split = np.array([p.parts[-4] for p in todo])
     groups = np.array([group_of(p.parts[-3]) for p in todo])
     y = (groups != "good").astype(int)
     bad = np.flatnonzero((split == "test") & (y == 1))
-    X, rows = features(cls), []
+    X, rows = (feats or features)(cls), []
     for seed in SEEDS:
         tr = split == "validation"
         tr[np.random.default_rng(seed).choice(bad, BAD_PARTS, replace=False)] = True
@@ -145,17 +145,17 @@ def evaluate(cls: str) -> list[tuple]:
     return rows
 
 
-def report(classes: list[str]) -> None:
-    r = pd.DataFrame([row for c in classes for row in evaluate(c)],
+def report(classes: list[str], feats=None, name: str = "report") -> None:
+    r = pd.DataFrame([row for c in classes for row in evaluate(c, feats)],
                      columns=["cls", "seed", "arm", "group", "auroc"])
     RESULTS.mkdir(exist_ok=True)
-    r.to_csv(RESULTS / "per_seed.csv", index=False)
+    r.to_csv(RESULTS / f"per_seed{name[6:]}.csv", index=False)
     pooled = r.groupby(["arm", "group", "seed"]).auroc.mean().groupby(["arm", "group"]).agg(["mean", "std"])
     table = (pooled["mean"].round(2).astype(str) + " ±" + pooled["std"].round(2).astype(str)).unstack("group")
     per_cls = r[r.group == "all"].groupby(["cls", "arm"]).auroc.mean().unstack("arm").round(1)
     txt = "\n".join([table[["all", "geometric", "surface", "mixed"]].to_string(), "",
                      "AUROC per class (all defects, mean over seeds):", per_cls.to_string()])
-    (RESULTS / "report.txt").write_text(txt, encoding="utf-8")
+    (RESULTS / f"{name}.txt").write_text(txt, encoding="utf-8")
     print(txt)
 
 
