@@ -1,0 +1,1481 @@
+cls,seed,arm,group,auroc
+bagel,333,A current,all,90.9090909090909
+bagel,333,A current,geometric,87.5
+bagel,333,A current,surface,95.22727272727273
+bagel,333,A current,mixed,92.5619834710744
+bagel,333,B + zoom,all,82.80885780885782
+bagel,333,B + zoom,geometric,82.95454545454545
+bagel,333,B + zoom,surface,83.63636363636364
+bagel,333,B + zoom,mixed,81.8181818181818
+bagel,333,C + DINO,all,95.6876456876457
+bagel,333,C + DINO,geometric,97.22222222222223
+bagel,333,C + DINO,surface,91.36363636363636
+bagel,333,C + DINO,mixed,97.10743801652893
+bagel,333,D + zoom + DINO,all,92.13286713286712
+bagel,333,D + zoom + DINO,geometric,93.81313131313132
+bagel,333,D + zoom + DINO,surface,85.68181818181819
+bagel,333,D + zoom + DINO,mixed,95.24793388429752
+bagel,576,A current,all,92.59906759906761
+bagel,576,A current,geometric,93.49747474747474
+bagel,576,A current,surface,84.95670995670996
+bagel,576,A current,mixed,98.7012987012987
+bagel,576,B + zoom,all,89.04428904428904
+bagel,576,B + zoom,geometric,91.03535353535354
+bagel,576,B + zoom,surface,79.2207792207792
+bagel,576,B + zoom,mixed,95.45454545454545
+bagel,576,C + DINO,all,92.16200466200465
+bagel,576,C + DINO,geometric,91.41414141414141
+bagel,576,C + DINO,surface,88.41991341991343
+bagel,576,C + DINO,mixed,97.18614718614718
+bagel,576,D + zoom + DINO,all,90.55944055944055
+bagel,576,D + zoom + DINO,geometric,92.67676767676768
+bagel,576,D + zoom + DINO,surface,81.16883116883116
+bagel,576,D + zoom + DINO,mixed,96.32034632034633
+bagel,725,A current,all,90.41375291375292
+bagel,725,A current,geometric,89.23444976076554
+bagel,725,A current,surface,94.43181818181819
+bagel,725,A current,mixed,88.63636363636364
+bagel,725,B + zoom,all,87.55827505827507
+bagel,725,B + zoom,geometric,90.55023923444976
+bagel,725,B + zoom,surface,83.97727272727273
+bagel,725,B + zoom,mixed,85.45454545454547
+bagel,725,C + DINO,all,90.53030303030303
+bagel,725,C + DINO,geometric,89.05502392344498
+bagel,725,C + DINO,surface,94.54545454545455
+bagel,725,C + DINO,mixed,89.31818181818181
+bagel,725,D + zoom + DINO,all,90.9090909090909
+bagel,725,D + zoom + DINO,geometric,92.70334928229664
+bagel,725,D + zoom + DINO,surface,86.13636363636363
+bagel,725,D + zoom + DINO,mixed,92.27272727272727
+bagel,823,A current,all,91.78321678321679
+bagel,823,A current,geometric,89.62703962703962
+bagel,823,A current,surface,92.92929292929293
+bagel,823,A current,mixed,94.8051948051948
+bagel,823,B + zoom,all,89.18997668997669
+bagel,823,B + zoom,geometric,92.3076923076923
+bagel,823,B + zoom,surface,82.57575757575756
+bagel,823,B + zoom,mixed,89.06926406926405
+bagel,823,C + DINO,all,92.36596736596736
+bagel,823,C + DINO,geometric,90.9090909090909
+bagel,823,C + DINO,surface,92.92929292929293
+bagel,823,C + DINO,mixed,94.58874458874459
+bagel,823,D + zoom + DINO,all,92.19114219114219
+bagel,823,D + zoom + DINO,geometric,94.17249417249417
+bagel,823,D + zoom + DINO,surface,86.36363636363636
+bagel,823,D + zoom + DINO,mixed,93.5064935064935
+bagel,831,A current,all,91.81235431235432
+bagel,831,A current,geometric,91.4918414918415
+bagel,831,A current,surface,88.97727272727273
+bagel,831,A current,mixed,95.45454545454545
+bagel,831,B + zoom,all,88.02447552447553
+bagel,831,B + zoom,geometric,90.3846153846154
+bagel,831,B + zoom,surface,82.61363636363636
+bagel,831,B + zoom,mixed,88.8755980861244
+bagel,831,C + DINO,all,92.13286713286713
+bagel,831,C + DINO,geometric,90.67599067599068
+bagel,831,C + DINO,surface,90.11363636363636
+bagel,831,C + DINO,mixed,97.24880382775119
+bagel,831,D + zoom + DINO,all,87.15034965034964
+bagel,831,D + zoom + DINO,geometric,89.91841491841491
+bagel,831,D + zoom + DINO,surface,77.61363636363636
+bagel,831,D + zoom + DINO,mixed,91.50717703349282
+bagel,902,A current,all,96.0955710955711
+bagel,902,A current,geometric,95.45454545454545
+bagel,902,A current,surface,96.900826446281
+bagel,902,A current,mixed,96.4114832535885
+bagel,902,B + zoom,all,91.6083916083916
+bagel,902,B + zoom,geometric,94.10319410319411
+bagel,902,B + zoom,surface,83.05785123966942
+bagel,902,B + zoom,mixed,96.65071770334927
+bagel,902,C + DINO,all,96.56177156177156
+bagel,902,C + DINO,geometric,97.05159705159704
+bagel,902,C + DINO,surface,94.21487603305785
+bagel,902,C + DINO,mixed,98.32535885167464
+bagel,902,D + zoom + DINO,all,90.90909090909092
+bagel,902,D + zoom + DINO,geometric,92.87469287469288
+bagel,902,D + zoom + DINO,surface,82.64462809917356
+bagel,902,D + zoom + DINO,mixed,96.65071770334927
+bagel,226,A current,all,92.56993006993007
+bagel,226,A current,geometric,90.10695187165774
+bagel,226,A current,surface,91.73553719008264
+bagel,226,A current,mixed,97.21074380165288
+bagel,226,B + zoom,all,88.86946386946387
+bagel,226,B + zoom,geometric,90.77540106951871
+bagel,226,B + zoom,surface,84.71074380165288
+bagel,226,B + zoom,mixed,90.08264462809919
+bagel,226,C + DINO,all,93.73543123543124
+bagel,226,C + DINO,geometric,90.24064171122996
+bagel,226,C + DINO,surface,95.35123966942149
+bagel,226,C + DINO,mixed,97.52066115702479
+bagel,226,D + zoom + DINO,all,91.84149184149184
+bagel,226,D + zoom + DINO,geometric,91.71122994652407
+bagel,226,D + zoom + DINO,surface,89.25619834710744
+bagel,226,D + zoom + DINO,mixed,94.62809917355372
+bagel,598,A current,all,93.21095571095572
+bagel,598,A current,geometric,92.04545454545456
+bagel,598,A current,surface,93.18181818181819
+bagel,598,A current,mixed,95.98930481283423
+bagel,598,B + zoom,all,87.32517482517483
+bagel,598,B + zoom,geometric,91.5909090909091
+bagel,598,B + zoom,surface,71.96969696969695
+bagel,598,B + zoom,mixed,96.2566844919786
+bagel,598,C + DINO,all,94.34731934731934
+bagel,598,C + DINO,geometric,93.63636363636364
+bagel,598,C + DINO,surface,94.37229437229438
+bagel,598,C + DINO,mixed,95.98930481283422
+bagel,598,D + zoom + DINO,all,93.32750582750582
+bagel,598,D + zoom + DINO,geometric,96.30681818181817
+bagel,598,D + zoom + DINO,surface,84.84848484848484
+bagel,598,D + zoom + DINO,mixed,96.79144385026738
+bagel,874,A current,all,92.01631701631702
+bagel,874,A current,geometric,91.02870813397129
+bagel,874,A current,surface,91.13636363636364
+bagel,874,A current,mixed,94.77272727272728
+bagel,874,B + zoom,all,89.97668997668997
+bagel,874,B + zoom,geometric,92.46411483253588
+bagel,874,B + zoom,surface,79.54545454545455
+bagel,874,B + zoom,mixed,95.68181818181817
+bagel,874,C + DINO,all,93.73543123543125
+bagel,874,C + DINO,geometric,92.10526315789474
+bagel,874,C + DINO,surface,94.43181818181819
+bagel,874,C + DINO,mixed,96.13636363636363
+bagel,874,D + zoom + DINO,all,93.67715617715618
+bagel,874,D + zoom + DINO,geometric,95.99282296650718
+bagel,874,D + zoom + DINO,surface,83.18181818181817
+bagel,874,D + zoom + DINO,mixed,99.77272727272728
+bagel,589,A current,all,91.31701631701632
+bagel,589,A current,geometric,92.50614250614251
+bagel,589,A current,surface,84.54545454545455
+bagel,589,A current,mixed,95.67099567099567
+bagel,589,B + zoom,all,89.1025641025641
+bagel,589,B + zoom,geometric,92.01474201474201
+bagel,589,B + zoom,surface,82.5
+bagel,589,B + zoom,mixed,90.25974025974025
+bagel,589,C + DINO,all,92.48251748251748
+bagel,589,C + DINO,geometric,92.99754299754301
+bagel,589,C + DINO,surface,87.27272727272727
+bagel,589,C + DINO,mixed,96.53679653679654
+bagel,589,D + zoom + DINO,all,88.17016317016318
+bagel,589,D + zoom + DINO,geometric,89.92628992628993
+bagel,589,D + zoom + DINO,surface,80.9090909090909
+bagel,589,D + zoom + DINO,mixed,91.991341991342
+cable_gland,333,A current,all,72.10884353741497
+cable_gland,333,A current,geometric,72.10884353741497
+cable_gland,333,B + zoom,all,92.02226345083488
+cable_gland,333,B + zoom,geometric,92.02226345083488
+cable_gland,333,C + DINO,all,77.05627705627707
+cable_gland,333,C + DINO,geometric,77.05627705627707
+cable_gland,333,D + zoom + DINO,all,95.48546691403833
+cable_gland,333,D + zoom + DINO,geometric,95.48546691403833
+cable_gland,576,A current,all,76.25231910946196
+cable_gland,576,A current,geometric,76.25231910946196
+cable_gland,576,B + zoom,all,80.76685219542364
+cable_gland,576,B + zoom,geometric,80.76685219542364
+cable_gland,576,C + DINO,all,82.25108225108227
+cable_gland,576,C + DINO,geometric,82.25108225108227
+cable_gland,576,D + zoom + DINO,all,94.0321583178726
+cable_gland,576,D + zoom + DINO,geometric,94.0321583178726
+cable_gland,725,A current,all,77.92207792207792
+cable_gland,725,A current,geometric,77.92207792207792
+cable_gland,725,B + zoom,all,92.70253555967841
+cable_gland,725,B + zoom,geometric,92.70253555967841
+cable_gland,725,C + DINO,all,84.53927025355597
+cable_gland,725,C + DINO,geometric,84.53927025355597
+cable_gland,725,D + zoom + DINO,all,95.79468150896722
+cable_gland,725,D + zoom + DINO,geometric,95.79468150896722
+cable_gland,823,A current,all,74.21150278293135
+cable_gland,823,A current,geometric,74.21150278293135
+cable_gland,823,B + zoom,all,84.53927025355597
+cable_gland,823,B + zoom,geometric,84.53927025355597
+cable_gland,823,C + DINO,all,79.83920841063699
+cable_gland,823,C + DINO,geometric,79.83920841063699
+cable_gland,823,D + zoom + DINO,all,95.36178107606679
+cable_gland,823,D + zoom + DINO,geometric,95.36178107606679
+cable_gland,831,A current,all,81.57081014223871
+cable_gland,831,A current,geometric,81.57081014223871
+cable_gland,831,B + zoom,all,90.10513296227582
+cable_gland,831,B + zoom,geometric,90.10513296227582
+cable_gland,831,C + DINO,all,80.95238095238095
+cable_gland,831,C + DINO,geometric,80.95238095238095
+cable_gland,831,D + zoom + DINO,all,93.07359307359307
+cable_gland,831,D + zoom + DINO,geometric,93.07359307359307
+cable_gland,902,A current,all,77.36549165120594
+cable_gland,902,A current,geometric,77.36549165120594
+cable_gland,902,B + zoom,all,90.4143475572047
+cable_gland,902,B + zoom,geometric,90.4143475572047
+cable_gland,902,C + DINO,all,87.87878787878788
+cable_gland,902,C + DINO,geometric,87.87878787878788
+cable_gland,902,D + zoom + DINO,all,92.08410636982065
+cable_gland,902,D + zoom + DINO,geometric,92.08410636982065
+cable_gland,226,A current,all,78.2312925170068
+cable_gland,226,A current,geometric,78.2312925170068
+cable_gland,226,B + zoom,all,79.22077922077922
+cable_gland,226,B + zoom,geometric,79.22077922077922
+cable_gland,226,C + DINO,all,79.34446505875077
+cable_gland,226,C + DINO,geometric,79.34446505875077
+cable_gland,226,D + zoom + DINO,all,92.76437847866418
+cable_gland,226,D + zoom + DINO,geometric,92.76437847866418
+cable_gland,598,A current,all,69.44959802102659
+cable_gland,598,A current,geometric,69.44959802102659
+cable_gland,598,B + zoom,all,87.75510204081633
+cable_gland,598,B + zoom,geometric,87.75510204081633
+cable_gland,598,C + DINO,all,71.36672850958566
+cable_gland,598,C + DINO,geometric,71.36672850958566
+cable_gland,598,D + zoom + DINO,all,94.06307977736549
+cable_gland,598,D + zoom + DINO,geometric,94.06307977736549
+cable_gland,874,A current,all,73.65491651205937
+cable_gland,874,A current,geometric,73.65491651205937
+cable_gland,874,B + zoom,all,87.29128014842301
+cable_gland,874,B + zoom,geometric,87.29128014842301
+cable_gland,874,C + DINO,all,82.31292517006801
+cable_gland,874,C + DINO,geometric,82.31292517006801
+cable_gland,874,D + zoom + DINO,all,93.56833642547929
+cable_gland,874,D + zoom + DINO,geometric,93.56833642547929
+cable_gland,589,A current,all,79.15893630179343
+cable_gland,589,A current,geometric,79.15893630179343
+cable_gland,589,B + zoom,all,83.33333333333333
+cable_gland,589,B + zoom,geometric,83.33333333333333
+cable_gland,589,C + DINO,all,82.31292517006803
+cable_gland,589,C + DINO,geometric,82.31292517006803
+cable_gland,589,D + zoom + DINO,all,93.13543599257885
+cable_gland,589,D + zoom + DINO,geometric,93.13543599257885
+carrot,333,A current,all,85.73163327261688
+carrot,333,A current,geometric,83.23045267489711
+carrot,333,A current,surface,90.27777777777779
+carrot,333,A current,mixed,88.46153846153847
+carrot,333,B + zoom,all,89.02550091074681
+carrot,333,B + zoom,geometric,89.6090534979424
+carrot,333,B + zoom,surface,83.10185185185186
+carrot,333,B + zoom,mixed,92.87749287749287
+carrot,333,C + DINO,all,92.69884638737098
+carrot,333,C + DINO,geometric,90.0462962962963
+carrot,333,C + DINO,surface,94.29012345679013
+carrot,333,C + DINO,mixed,98.57549857549857
+carrot,333,D + zoom + DINO,all,94.83910139647844
+carrot,333,D + zoom + DINO,geometric,92.95267489711935
+carrot,333,D + zoom + DINO,surface,95.5246913580247
+carrot,333,D + zoom + DINO,mixed,99.43019943019942
+carrot,576,A current,all,86.2629022465088
+carrot,576,A current,geometric,84.92436098069902
+carrot,576,A current,surface,89.74358974358975
+carrot,576,A current,mixed,86.44444444444444
+carrot,576,B + zoom,all,83.27261687917427
+carrot,576,B + zoom,geometric,83.25508607198748
+carrot,576,B + zoom,surface,72.64957264957265
+carrot,576,B + zoom,mixed,94.37037037037037
+carrot,576,C + DINO,all,94.08014571948999
+carrot,576,C + DINO,geometric,91.07981220657277
+carrot,576,C + DINO,surface,96.86609686609687
+carrot,576,C + DINO,mixed,99.70370370370371
+carrot,576,D + zoom + DINO,all,95.06678809957498
+carrot,576,D + zoom + DINO,geometric,92.87949921752738
+carrot,576,D + zoom + DINO,surface,96.86609686609687
+carrot,576,D + zoom + DINO,mixed,99.4074074074074
+carrot,725,A current,all,85.03339404978749
+carrot,725,A current,geometric,81.99588477366255
+carrot,725,A current,surface,88.8888888888889
+carrot,725,A current,mixed,89.96913580246914
+carrot,725,B + zoom,all,78.9617486338798
+carrot,725,B + zoom,geometric,81.89300411522633
+carrot,725,B + zoom,surface,66.23931623931625
+carrot,725,B + zoom,mixed,83.9506172839506
+carrot,725,C + DINO,all,92.16757741347905
+carrot,725,C + DINO,geometric,90.89506172839506
+carrot,725,C + DINO,surface,90.17094017094017
+carrot,725,C + DINO,mixed,98.14814814814815
+carrot,725,D + zoom + DINO,all,91.77292046144505
+carrot,725,D + zoom + DINO,geometric,91.35802469135803
+carrot,725,D + zoom + DINO,surface,87.6068376068376
+carrot,725,D + zoom + DINO,mixed,97.53086419753086
+carrot,823,A current,all,88.96478445658774
+carrot,823,A current,geometric,87.08847736625515
+carrot,823,A current,surface,92.12962962962963
+carrot,823,A current,mixed,91.23931623931624
+carrot,823,B + zoom,all,88.22100789313903
+carrot,823,B + zoom,geometric,87.08847736625516
+carrot,823,B + zoom,surface,85.80246913580247
+carrot,823,B + zoom,mixed,93.58974358974359
+carrot,823,C + DINO,all,94.68731026108074
+carrot,823,C + DINO,geometric,92.79835390946502
+carrot,823,C + DINO,surface,95.98765432098764
+carrot,823,C + DINO,mixed,98.71794871794873
+carrot,823,D + zoom + DINO,all,93.3819064966606
+carrot,823,D + zoom + DINO,geometric,91.40946502057614
+carrot,823,D + zoom + DINO,surface,94.29012345679013
+carrot,823,D + zoom + DINO,mixed,98.00569800569802
+carrot,831,A current,all,89.70856102003644
+carrot,831,A current,geometric,87.70370370370371
+carrot,831,A current,surface,91.51234567901234
+carrot,831,A current,mixed,94.36392914653784
+carrot,831,B + zoom,all,75.16697024893746
+carrot,831,B + zoom,geometric,74.8641975308642
+carrot,831,B + zoom,surface,68.82716049382717
+carrot,831,B + zoom,mixed,82.76972624798711
+carrot,831,C + DINO,all,94.26229508196721
+carrot,831,C + DINO,geometric,92.59259259259261
+carrot,831,C + DINO,surface,95.5246913580247
+carrot,831,C + DINO,mixed,98.38969404186795
+carrot,831,D + zoom + DINO,all,94.32301153612629
+carrot,831,D + zoom + DINO,geometric,93.03703703703702
+carrot,831,D + zoom + DINO,surface,93.5185185185185
+carrot,831,D + zoom + DINO,mixed,99.3558776167472
+carrot,902,A current,all,86.53612629022464
+carrot,902,A current,geometric,83.71913580246914
+carrot,902,A current,surface,89.84910836762688
+carrot,902,A current,mixed,91.46537842190016
+carrot,902,B + zoom,all,86.68791742562236
+carrot,902,B + zoom,geometric,87.70576131687243
+carrot,902,B + zoom,surface,78.9437585733882
+carrot,902,B + zoom,mixed,92.59259259259258
+carrot,902,C + DINO,all,92.39526411657559
+carrot,902,C + DINO,geometric,90.14917695473251
+carrot,902,C + DINO,surface,93.96433470507543
+carrot,902,C + DINO,mixed,97.58454106280193
+carrot,902,D + zoom + DINO,all,94.83910139647845
+carrot,902,D + zoom + DINO,geometric,93.59567901234568
+carrot,902,D + zoom + DINO,surface,94.23868312757202
+carrot,902,D + zoom + DINO,mixed,99.4363929146538
+carrot,226,A current,all,89.61748633879782
+carrot,226,A current,geometric,87.81535158346752
+carrot,226,A current,surface,93.30484330484332
+carrot,226,A current,mixed,90.67215363511659
+carrot,226,B + zoom,all,87.43169398907105
+carrot,226,B + zoom,geometric,87.76167471819647
+carrot,226,B + zoom,surface,80.76923076923077
+carrot,226,B + zoom,mixed,93.00411522633746
+carrot,226,C + DINO,all,92.16757741347905
+carrot,226,C + DINO,geometric,90.49919484702093
+carrot,226,C + DINO,surface,90.5982905982906
+carrot,226,C + DINO,mixed,97.94238683127571
+carrot,226,D + zoom + DINO,all,92.62295081967213
+carrot,226,D + zoom + DINO,geometric,92.00214707461085
+carrot,226,D + zoom + DINO,surface,89.60113960113961
+carrot,226,D + zoom + DINO,mixed,97.11934156378601
+carrot,598,A current,all,88.16029143897995
+carrot,598,A current,geometric,87.95061728395062
+carrot,598,A current,surface,90.89506172839506
+carrot,598,A current,mixed,85.99033816425121
+carrot,598,B + zoom,all,89.73891924711597
+carrot,598,B + zoom,geometric,90.17283950617283
+carrot,598,B + zoom,surface,83.33333333333334
+carrot,598,B + zoom,mixed,95.00805152979066
+carrot,598,C + DINO,all,94.68731026108075
+carrot,598,C + DINO,geometric,92.98765432098767
+carrot,598,C + DINO,surface,97.68518518518519
+carrot,598,C + DINO,mixed,97.10144927536231
+carrot,598,D + zoom + DINO,all,93.98907103825137
+carrot,598,D + zoom + DINO,geometric,93.43209876543209
+carrot,598,D + zoom + DINO,surface,91.2037037037037
+carrot,598,D + zoom + DINO,mixed,98.71175523349436
+carrot,874,A current,all,83.6065573770492
+carrot,874,A current,geometric,81.58158158158157
+carrot,874,A current,surface,86.11111111111111
+carrot,874,A current,mixed,87.34567901234568
+carrot,874,B + zoom,all,74.13479052823315
+carrot,874,B + zoom,geometric,73.57357357357358
+carrot,874,B + zoom,surface,62.80864197530863
+carrot,874,B + zoom,mixed,87.19135802469135
+carrot,874,C + DINO,all,92.42562234365514
+carrot,874,C + DINO,geometric,90.11511511511512
+carrot,874,C + DINO,surface,93.28703703703704
+carrot,874,C + DINO,mixed,98.68827160493827
+carrot,874,D + zoom + DINO,all,92.5925925925926
+carrot,874,D + zoom + DINO,geometric,90.990990990991
+carrot,874,D + zoom + DINO,surface,91.820987654321
+carrot,874,D + zoom + DINO,mixed,98.30246913580247
+carrot,589,A current,all,86.47540983606557
+carrot,589,A current,geometric,83.59788359788361
+carrot,589,A current,surface,88.0
+carrot,589,A current,mixed,92.52400548696845
+carrot,589,B + zoom,all,83.91013964784457
+carrot,589,B + zoom,geometric,82.43386243386243
+carrot,589,B + zoom,surface,81.62962962962963
+carrot,589,B + zoom,mixed,89.84910836762688
+carrot,589,C + DINO,all,92.85063752276868
+carrot,589,C + DINO,geometric,90.42328042328043
+carrot,589,C + DINO,surface,92.51851851851852
+carrot,589,C + DINO,mixed,99.45130315500685
+carrot,589,D + zoom + DINO,all,93.53369763205829
+carrot,589,D + zoom + DINO,geometric,92.01058201058203
+carrot,589,D + zoom + DINO,surface,92.88888888888889
+carrot,589,D + zoom + DINO,mixed,98.079561042524
+cookie,333,A current,all,82.96850998463901
+cookie,333,A current,geometric,92.81832298136645
+cookie,333,A current,surface,78.1055900621118
+cookie,333,A current,mixed,68.75
+cookie,333,B + zoom,all,61.53993855606758
+cookie,333,B + zoom,geometric,66.42080745341616
+cookie,333,B + zoom,surface,56.2111801242236
+cookie,333,B + zoom,mixed,57.291666666666664
+cookie,333,C + DINO,all,78.12980030721967
+cookie,333,C + DINO,geometric,89.59627329192547
+cookie,333,C + DINO,surface,76.3975155279503
+cookie,333,C + DINO,mixed,57.812500000000014
+cookie,333,D + zoom + DINO,all,64.90015360983102
+cookie,333,D + zoom + DINO,geometric,67.3136645962733
+cookie,333,D + zoom + DINO,surface,62.577639751552795
+cookie,333,D + zoom + DINO,mixed,62.5
+cookie,576,A current,all,81.18279569892474
+cookie,576,A current,geometric,89.32453416149069
+cookie,576,A current,surface,76.5625
+cookie,576,A current,mixed,69.72049689440993
+cookie,576,B + zoom,all,66.28264208909371
+cookie,576,B + zoom,geometric,66.53726708074534
+cookie,576,B + zoom,surface,64.73214285714286
+cookie,576,B + zoom,mixed,67.3913043478261
+cookie,576,C + DINO,all,79.56989247311827
+cookie,576,C + DINO,geometric,88.74223602484473
+cookie,576,C + DINO,surface,77.23214285714286
+cookie,576,C + DINO,mixed,63.66459627329193
+cookie,576,D + zoom + DINO,all,63.17204301075269
+cookie,576,D + zoom + DINO,geometric,63.74223602484472
+cookie,576,D + zoom + DINO,surface,63.095238095238095
+cookie,576,D + zoom + DINO,mixed,62.111801242236034
+cookie,725,A current,all,82.87250384024577
+cookie,725,A current,geometric,89.36011904761905
+cookie,725,A current,surface,74.68944099378882
+cookie,725,A current,mixed,77.27272727272728
+cookie,725,B + zoom,all,72.84946236559139
+cookie,725,B + zoom,geometric,74.06994047619048
+cookie,725,B + zoom,surface,61.10248447204969
+cookie,725,B + zoom,mixed,82.46753246753246
+cookie,725,C + DINO,all,77.28494623655914
+cookie,725,C + DINO,geometric,86.23511904761905
+cookie,725,C + DINO,surface,73.83540372670807
+cookie,725,C + DINO,mixed,61.36363636363635
+cookie,725,D + zoom + DINO,all,71.19815668202764
+cookie,725,D + zoom + DINO,geometric,70.20089285714286
+cookie,725,D + zoom + DINO,surface,66.22670807453416
+cookie,725,D + zoom + DINO,mixed,78.57142857142857
+cookie,823,A current,all,82.5268817204301
+cookie,823,A current,geometric,91.14583333333334
+cookie,823,A current,surface,75.08503401360545
+cookie,823,A current,mixed,71.80059523809524
+cookie,823,B + zoom,all,72.58064516129032
+cookie,823,B + zoom,geometric,73.58630952380952
+cookie,823,B + zoom,surface,69.04761904761905
+cookie,823,B + zoom,mixed,73.66071428571429
+cookie,823,C + DINO,all,78.09139784946237
+cookie,823,C + DINO,geometric,85.9375
+cookie,823,C + DINO,surface,75.93537414965986
+cookie,823,C + DINO,mixed,64.28571428571429
+cookie,823,D + zoom + DINO,all,64.88095238095238
+cookie,823,D + zoom + DINO,geometric,62.351190476190474
+cookie,823,D + zoom + DINO,surface,67.94217687074831
+cookie,823,D + zoom + DINO,mixed,67.26190476190476
+cookie,831,A current,all,81.72043010752688
+cookie,831,A current,geometric,85.28571428571429
+cookie,831,A current,surface,78.72670807453416
+cookie,831,A current,mixed,76.25
+cookie,831,B + zoom,all,72.54224270353303
+cookie,831,B + zoom,geometric,73.5
+cookie,831,B + zoom,surface,60.86956521739131
+cookie,831,B + zoom,mixed,83.57142857142857
+cookie,831,C + DINO,all,77.61136712749615
+cookie,831,C + DINO,geometric,83.21428571428572
+cookie,831,C + DINO,surface,74.53416149068323
+cookie,831,C + DINO,mixed,67.14285714285715
+cookie,831,D + zoom + DINO,all,71.889400921659
+cookie,831,D + zoom + DINO,geometric,70.78571428571428
+cookie,831,D + zoom + DINO,surface,67.70186335403726
+cookie,831,D + zoom + DINO,mixed,79.46428571428571
+cookie,902,A current,all,82.54608294930877
+cookie,902,A current,geometric,88.90577507598783
+cookie,902,A current,surface,71.21428571428572
+cookie,902,A current,mixed,81.80272108843538
+cookie,902,B + zoom,all,74.30875576036865
+cookie,902,B + zoom,geometric,75.68389057750761
+cookie,902,B + zoom,surface,66.57142857142857
+cookie,902,B + zoom,mixed,80.4421768707483
+cookie,902,C + DINO,all,80.03072196620585
+cookie,902,C + DINO,geometric,85.56231003039514
+cookie,902,C + DINO,surface,69.28571428571428
+cookie,902,C + DINO,mixed,80.44217687074831
+cookie,902,D + zoom + DINO,all,73.34869431643625
+cookie,902,D + zoom + DINO,geometric,74.3920972644377
+cookie,902,D + zoom + DINO,surface,65.57142857142857
+cookie,902,D + zoom + DINO,mixed,80.27210884353741
+cookie,226,A current,all,84.60061443932412
+cookie,226,A current,geometric,95.57629870129871
+cookie,226,A current,surface,80.07142857142857
+cookie,226,A current,mixed,69.19642857142857
+cookie,226,B + zoom,all,69.31643625192012
+cookie,226,B + zoom,geometric,73.21428571428571
+cookie,226,B + zoom,surface,62.0
+cookie,226,B + zoom,mixed,69.79166666666666
+cookie,226,C + DINO,all,82.1236559139785
+cookie,226,C + DINO,geometric,93.9935064935065
+cookie,226,C + DINO,surface,78.5
+cookie,226,C + DINO,mixed,64.13690476190477
+cookie,226,D + zoom + DINO,all,70.89093701996929
+cookie,226,D + zoom + DINO,geometric,74.7564935064935
+cookie,226,D + zoom + DINO,surface,62.57142857142858
+cookie,226,D + zoom + DINO,mixed,72.47023809523809
+cookie,598,A current,all,84.81182795698925
+cookie,598,A current,geometric,92.92857142857143
+cookie,598,A current,surface,77.71739130434783
+cookie,598,A current,mixed,72.67857142857143
+cookie,598,B + zoom,all,73.04147465437788
+cookie,598,B + zoom,geometric,76.25
+cookie,598,B + zoom,surface,61.72360248447205
+cookie,598,B + zoom,mixed,78.03571428571429
+cookie,598,C + DINO,all,82.33486943164363
+cookie,598,C + DINO,geometric,92.14285714285715
+cookie,598,C + DINO,surface,77.63975155279503
+cookie,598,C + DINO,mixed,63.21428571428571
+cookie,598,D + zoom + DINO,all,75.57603686635943
+cookie,598,D + zoom + DINO,geometric,76.92857142857143
+cookie,598,D + zoom + DINO,surface,68.94409937888199
+cookie,598,D + zoom + DINO,mixed,79.82142857142857
+cookie,874,A current,all,81.85483870967741
+cookie,874,A current,geometric,88.5932944606414
+cookie,874,A current,surface,81.16883116883116
+cookie,874,A current,mixed,67.53246753246754
+cookie,874,B + zoom,all,64.65053763440861
+cookie,874,B + zoom,geometric,64.28571428571428
+cookie,874,B + zoom,surface,64.8538961038961
+cookie,874,B + zoom,mixed,65.25974025974025
+cookie,874,C + DINO,all,76.1520737327189
+cookie,874,C + DINO,geometric,84.365889212828
+cookie,874,C + DINO,surface,76.13636363636364
+cookie,874,C + DINO,mixed,57.87337662337663
+cookie,874,D + zoom + DINO,all,64.78494623655915
+cookie,874,D + zoom + DINO,geometric,64.79591836734694
+cookie,874,D + zoom + DINO,surface,65.42207792207793
+cookie,874,D + zoom + DINO,mixed,64.12337662337661
+cookie,589,A current,all,74.27035330261137
+cookie,589,A current,geometric,74.08814589665653
+cookie,589,A current,surface,65.5844155844156
+cookie,589,A current,mixed,82.58928571428572
+cookie,589,B + zoom,all,64.66973886328725
+cookie,589,B + zoom,geometric,62.00607902735562
+cookie,589,B + zoom,surface,55.519480519480524
+cookie,589,B + zoom,mixed,78.27380952380952
+cookie,589,C + DINO,all,80.12672811059909
+cookie,589,C + DINO,geometric,83.01671732522796
+cookie,589,C + DINO,surface,68.01948051948052
+cookie,589,C + DINO,mixed,85.56547619047619
+cookie,589,D + zoom + DINO,all,76.036866359447
+cookie,589,D + zoom + DINO,geometric,75.60790273556232
+cookie,589,D + zoom + DINO,surface,66.07142857142857
+cookie,589,D + zoom + DINO,mixed,86.01190476190477
+dowel,333,A current,all,96.9721767594108
+dowel,333,A current,geometric,100.0
+dowel,333,A current,surface,88.61538461538461
+dowel,333,A current,mixed,100.0
+dowel,333,B + zoom,all,99.16121112929625
+dowel,333,B + zoom,geometric,100.0
+dowel,333,B + zoom,surface,96.84615384615384
+dowel,333,B + zoom,mixed,100.0
+dowel,333,C + DINO,all,97.17675941080196
+dowel,333,C + DINO,geometric,100.0
+dowel,333,C + DINO,surface,89.38461538461537
+dowel,333,C + DINO,mixed,100.0
+dowel,333,D + zoom + DINO,all,98.93617021276596
+dowel,333,D + zoom + DINO,geometric,100.0
+dowel,333,D + zoom + DINO,surface,96.0
+dowel,333,D + zoom + DINO,mixed,100.0
+dowel,576,A current,all,96.86988543371523
+dowel,576,A current,geometric,99.91452991452991
+dowel,576,A current,surface,87.90064102564102
+dowel,576,A current,mixed,100.0
+dowel,576,B + zoom,all,98.93617021276596
+dowel,576,B + zoom,geometric,100.0
+dowel,576,B + zoom,surface,95.83333333333333
+dowel,576,B + zoom,mixed,100.0
+dowel,576,C + DINO,all,96.4607201309329
+dowel,576,C + DINO,geometric,99.74358974358975
+dowel,576,C + DINO,surface,86.61858974358974
+dowel,576,C + DINO,mixed,100.0
+dowel,576,D + zoom + DINO,all,98.99754500818332
+dowel,576,D + zoom + DINO,geometric,100.0
+dowel,576,D + zoom + DINO,surface,96.07371794871796
+dowel,576,D + zoom + DINO,mixed,100.0
+dowel,725,A current,all,96.29705400981996
+dowel,725,A current,geometric,100.0
+dowel,725,A current,surface,84.86622073578594
+dowel,725,A current,mixed,100.0
+dowel,725,B + zoom,all,98.99754500818332
+dowel,725,B + zoom,geometric,99.91816693944354
+dowel,725,B + zoom,surface,96.07023411371237
+dowel,725,B + zoom,mixed,100.0
+dowel,725,C + DINO,all,96.84942716857611
+dowel,725,C + DINO,geometric,100.0
+dowel,725,C + DINO,surface,87.12374581939798
+dowel,725,C + DINO,mixed,100.0
+dowel,725,D + zoom + DINO,all,98.81342062193127
+dowel,725,D + zoom + DINO,geometric,99.91816693944354
+dowel,725,D + zoom + DINO,surface,95.31772575250835
+dowel,725,D + zoom + DINO,mixed,100.0
+dowel,823,A current,all,96.37888707037645
+dowel,823,A current,geometric,100.0
+dowel,823,A current,surface,86.38461538461539
+dowel,823,A current,mixed,100.0
+dowel,823,B + zoom,all,99.14075286415711
+dowel,823,B + zoom,geometric,100.0
+dowel,823,B + zoom,surface,96.76923076923076
+dowel,823,B + zoom,mixed,100.0
+dowel,823,C + DINO,all,96.60392798690671
+dowel,823,C + DINO,geometric,100.0
+dowel,823,C + DINO,surface,87.23076923076923
+dowel,823,C + DINO,mixed,100.0
+dowel,823,D + zoom + DINO,all,99.28396072013093
+dowel,823,D + zoom + DINO,geometric,100.0
+dowel,823,D + zoom + DINO,surface,97.3076923076923
+dowel,823,D + zoom + DINO,mixed,100.0
+dowel,831,A current,all,96.66530278232406
+dowel,831,A current,geometric,99.74916387959867
+dowel,831,A current,surface,87.41987179487178
+dowel,831,A current,mixed,100.0
+dowel,831,B + zoom,all,98.93617021276596
+dowel,831,B + zoom,geometric,100.0
+dowel,831,B + zoom,surface,95.83333333333334
+dowel,831,B + zoom,mixed,100.0
+dowel,831,C + DINO,all,96.01063829787235
+dowel,831,C + DINO,geometric,100.0
+dowel,831,C + DINO,surface,84.375
+dowel,831,C + DINO,mixed,100.0
+dowel,831,D + zoom + DINO,all,98.85433715220951
+dowel,831,D + zoom + DINO,geometric,100.0
+dowel,831,D + zoom + DINO,surface,95.51282051282051
+dowel,831,D + zoom + DINO,mixed,100.0
+dowel,902,A current,all,97.44271685761046
+dowel,902,A current,geometric,100.0
+dowel,902,A current,surface,89.54849498327758
+dowel,902,A current,mixed,100.0
+dowel,902,B + zoom,all,98.97708674304418
+dowel,902,B + zoom,geometric,100.0
+dowel,902,B + zoom,surface,95.81939799331104
+dowel,902,B + zoom,mixed,100.0
+dowel,902,C + DINO,all,97.50409165302781
+dowel,902,C + DINO,geometric,100.0
+dowel,902,C + DINO,surface,89.79933110367892
+dowel,902,C + DINO,mixed,100.0
+dowel,902,D + zoom + DINO,all,99.32487725040917
+dowel,902,D + zoom + DINO,geometric,100.0
+dowel,902,D + zoom + DINO,surface,97.24080267558529
+dowel,902,D + zoom + DINO,mixed,100.0
+dowel,226,A current,all,97.4631751227496
+dowel,226,A current,geometric,100.0
+dowel,226,A current,surface,89.16083916083917
+dowel,226,A current,mixed,100.0
+dowel,226,B + zoom,all,99.09983633387888
+dowel,226,B + zoom,geometric,100.0
+dowel,226,B + zoom,surface,96.15384615384615
+dowel,226,B + zoom,mixed,100.0
+dowel,226,C + DINO,all,97.38134206219313
+dowel,226,C + DINO,geometric,100.0
+dowel,226,C + DINO,surface,88.81118881118881
+dowel,226,C + DINO,mixed,100.0
+dowel,226,D + zoom + DINO,all,98.93617021276596
+dowel,226,D + zoom + DINO,geometric,100.0
+dowel,226,D + zoom + DINO,surface,95.45454545454545
+dowel,226,D + zoom + DINO,mixed,100.0
+dowel,598,A current,all,96.27659574468083
+dowel,598,A current,geometric,99.82905982905983
+dowel,598,A current,surface,86.30769230769232
+dowel,598,A current,mixed,100.0
+dowel,598,B + zoom,all,96.66530278232408
+dowel,598,B + zoom,geometric,99.74358974358975
+dowel,598,B + zoom,surface,88.23076923076924
+dowel,598,B + zoom,mixed,99.67948717948718
+dowel,598,C + DINO,all,96.54255319148936
+dowel,598,C + DINO,geometric,99.91452991452991
+dowel,598,C + DINO,surface,87.15384615384615
+dowel,598,C + DINO,mixed,100.0
+dowel,598,D + zoom + DINO,all,98.09738134206219
+dowel,598,D + zoom + DINO,geometric,100.0
+dowel,598,D + zoom + DINO,surface,92.84615384615384
+dowel,598,D + zoom + DINO,mixed,100.0
+dowel,874,A current,all,97.36088379705402
+dowel,874,A current,geometric,100.0
+dowel,874,A current,surface,89.66346153846153
+dowel,874,A current,mixed,100.0
+dowel,874,B + zoom,all,98.71112929623568
+dowel,874,B + zoom,geometric,100.0
+dowel,874,B + zoom,surface,94.95192307692308
+dowel,874,B + zoom,mixed,100.0
+dowel,874,C + DINO,all,97.17675941080198
+dowel,874,C + DINO,geometric,100.0
+dowel,874,C + DINO,surface,88.9423076923077
+dowel,874,C + DINO,mixed,100.0
+dowel,874,D + zoom + DINO,all,98.8338788870704
+dowel,874,D + zoom + DINO,geometric,100.0
+dowel,874,D + zoom + DINO,surface,95.4326923076923
+dowel,874,D + zoom + DINO,mixed,100.0
+dowel,589,A current,all,97.21767594108019
+dowel,589,A current,geometric,99.9215070643642
+dowel,589,A current,surface,87.72893772893772
+dowel,589,A current,mixed,100.0
+dowel,589,B + zoom,all,98.77250409165303
+dowel,589,B + zoom,geometric,99.76452119309262
+dowel,589,B + zoom,surface,95.42124542124542
+dowel,589,B + zoom,mixed,99.67948717948717
+dowel,589,C + DINO,all,96.19476268412438
+dowel,589,C + DINO,geometric,98.82260596546311
+dowel,589,C + DINO,surface,86.81318681318682
+dowel,589,C + DINO,mixed,99.03846153846153
+dowel,589,D + zoom + DINO,all,98.81342062193127
+dowel,589,D + zoom + DINO,geometric,99.68602825745683
+dowel,589,D + zoom + DINO,surface,95.42124542124542
+dowel,589,D + zoom + DINO,mixed,100.0
+foam,333,A current,all,97.57142857142857
+foam,333,A current,geometric,94.28571428571428
+foam,333,A current,surface,99.47368421052632
+foam,333,A current,mixed,96.11111111111111
+foam,333,B + zoom,all,65.0
+foam,333,B + zoom,geometric,56.07142857142857
+foam,333,B + zoom,surface,65.65789473684211
+foam,333,B + zoom,mixed,70.55555555555556
+foam,333,C + DINO,all,96.35714285714285
+foam,333,C + DINO,geometric,90.0
+foam,333,C + DINO,surface,98.28947368421052
+foam,333,C + DINO,mixed,97.22222222222221
+foam,333,D + zoom + DINO,all,70.0
+foam,333,D + zoom + DINO,geometric,62.857142857142854
+foam,333,D + zoom + DINO,surface,71.1842105263158
+foam,333,D + zoom + DINO,mixed,73.05555555555556
+foam,576,A current,all,96.35714285714285
+foam,576,A current,geometric,83.33333333333333
+foam,576,A current,surface,100.0
+foam,576,A current,mixed,99.73684210526315
+foam,576,B + zoom,all,66.0
+foam,576,B + zoom,geometric,46.333333333333336
+foam,576,B + zoom,surface,70.0
+foam,576,B + zoom,mixed,73.94736842105263
+foam,576,C + DINO,all,98.42857142857143
+foam,576,C + DINO,geometric,92.66666666666667
+foam,576,C + DINO,surface,100.0
+foam,576,C + DINO,mixed,100.0
+foam,576,D + zoom + DINO,all,73.57142857142858
+foam,576,D + zoom + DINO,geometric,44.333333333333336
+foam,576,D + zoom + DINO,surface,80.55555555555556
+foam,576,D + zoom + DINO,mixed,83.42105263157895
+foam,725,A current,all,97.35714285714286
+foam,725,A current,geometric,90.83333333333333
+foam,725,A current,surface,100.0
+foam,725,A current,mixed,98.88888888888889
+foam,725,B + zoom,all,69.57142857142857
+foam,725,B + zoom,geometric,48.333333333333336
+foam,725,B + zoom,surface,76.02941176470588
+foam,725,B + zoom,mixed,78.61111111111111
+foam,725,C + DINO,all,97.42857142857143
+foam,725,C + DINO,geometric,91.11111111111111
+foam,725,C + DINO,surface,100.0
+foam,725,C + DINO,mixed,98.88888888888889
+foam,725,D + zoom + DINO,all,69.5
+foam,725,D + zoom + DINO,geometric,49.44444444444444
+foam,725,D + zoom + DINO,surface,73.38235294117646
+foam,725,D + zoom + DINO,mixed,82.22222222222223
+foam,823,A current,all,96.35714285714285
+foam,823,A current,geometric,86.76470588235296
+foam,823,A current,surface,100.0
+foam,823,A current,mixed,98.0
+foam,823,B + zoom,all,77.21428571428571
+foam,823,B + zoom,geometric,52.05882352941177
+foam,823,B + zoom,surface,82.76315789473684
+foam,823,B + zoom,mixed,91.66666666666667
+foam,823,C + DINO,all,98.42857142857143
+foam,823,C + DINO,geometric,94.70588235294117
+foam,823,C + DINO,surface,99.86842105263158
+foam,823,C + DINO,mixed,99.0
+foam,823,D + zoom + DINO,all,82.78571428571428
+foam,823,D + zoom + DINO,geometric,62.35294117647059
+foam,823,D + zoom + DINO,surface,88.68421052631578
+foam,823,D + zoom + DINO,mixed,91.0
+foam,831,A current,all,95.78571428571429
+foam,831,A current,geometric,84.47368421052632
+foam,831,A current,surface,100.0
+foam,831,A current,mixed,100.0
+foam,831,B + zoom,all,76.07142857142857
+foam,831,B + zoom,geometric,65.26315789473684
+foam,831,B + zoom,surface,78.63636363636364
+foam,831,B + zoom,mixed,82.77777777777777
+foam,831,C + DINO,all,97.14285714285715
+foam,831,C + DINO,geometric,89.47368421052632
+foam,831,C + DINO,surface,100.0
+foam,831,C + DINO,mixed,100.0
+foam,831,D + zoom + DINO,all,74.49999999999999
+foam,831,D + zoom + DINO,geometric,60.52631578947367
+foam,831,D + zoom + DINO,surface,78.33333333333333
+foam,831,D + zoom + DINO,mixed,82.22222222222223
+foam,902,A current,all,97.57142857142857
+foam,902,A current,geometric,90.58823529411765
+foam,902,A current,surface,100.0
+foam,902,A current,mixed,99.5
+foam,902,B + zoom,all,71.85714285714285
+foam,902,B + zoom,geometric,61.76470588235294
+foam,902,B + zoom,surface,70.30303030303031
+foam,902,B + zoom,mixed,83.0
+foam,902,C + DINO,all,98.07142857142857
+foam,902,C + DINO,geometric,92.64705882352942
+foam,902,C + DINO,surface,100.0
+foam,902,C + DINO,mixed,99.5
+foam,902,D + zoom + DINO,all,75.07142857142858
+foam,902,D + zoom + DINO,geometric,51.764705882352935
+foam,902,D + zoom + DINO,surface,80.3030303030303
+foam,902,D + zoom + DINO,mixed,86.25
+foam,226,A current,all,95.28571428571428
+foam,226,A current,geometric,93.07692307692308
+foam,226,A current,surface,97.70270270270271
+foam,226,A current,mixed,92.25
+foam,226,B + zoom,all,70.85714285714285
+foam,226,B + zoom,geometric,56.923076923076934
+foam,226,B + zoom,surface,70.8108108108108
+foam,226,B + zoom,mixed,80.0
+foam,226,C + DINO,all,95.57142857142857
+foam,226,C + DINO,geometric,93.07692307692308
+foam,226,C + DINO,surface,96.35135135135135
+foam,226,C + DINO,mixed,95.75
+foam,226,D + zoom + DINO,all,70.64285714285714
+foam,226,D + zoom + DINO,geometric,49.23076923076923
+foam,226,D + zoom + DINO,surface,73.37837837837839
+foam,226,D + zoom + DINO,mixed,79.5
+foam,598,A current,all,95.71428571428572
+foam,598,A current,geometric,83.33333333333334
+foam,598,A current,surface,100.0
+foam,598,A current,mixed,100.0
+foam,598,B + zoom,all,76.0
+foam,598,B + zoom,geometric,68.05555555555556
+foam,598,B + zoom,surface,73.08823529411764
+foam,598,B + zoom,mixed,89.44444444444444
+foam,598,C + DINO,all,96.71428571428572
+foam,598,C + DINO,geometric,88.8888888888889
+foam,598,C + DINO,surface,99.55882352941175
+foam,598,C + DINO,mixed,99.16666666666666
+foam,598,D + zoom + DINO,all,83.0
+foam,598,D + zoom + DINO,geometric,71.66666666666667
+foam,598,D + zoom + DINO,surface,83.67647058823529
+foam,598,D + zoom + DINO,mixed,93.05555555555556
+foam,874,A current,all,94.25
+foam,874,A current,geometric,78.81578947368419
+foam,874,A current,surface,100.0
+foam,874,A current,mixed,100.0
+foam,874,B + zoom,all,78.0
+foam,874,B + zoom,geometric,58.94736842105262
+foam,874,B + zoom,surface,83.38235294117648
+foam,874,B + zoom,mixed,88.52941176470588
+foam,874,C + DINO,all,95.85714285714286
+foam,874,C + DINO,geometric,84.73684210526315
+foam,874,C + DINO,surface,100.0
+foam,874,C + DINO,mixed,100.0
+foam,874,D + zoom + DINO,all,82.57142857142857
+foam,874,D + zoom + DINO,geometric,61.31578947368421
+foam,874,D + zoom + DINO,surface,89.11764705882352
+foam,874,D + zoom + DINO,mixed,93.23529411764706
+foam,589,A current,all,95.07142857142857
+foam,589,A current,geometric,82.10526315789473
+foam,589,A current,surface,99.84848484848484
+foam,589,A current,mixed,100.0
+foam,589,B + zoom,all,73.92857142857143
+foam,589,B + zoom,geometric,51.84210526315789
+foam,589,B + zoom,surface,80.0
+foam,589,B + zoom,mixed,86.1111111111111
+foam,589,C + DINO,all,97.42857142857143
+foam,589,C + DINO,geometric,91.05263157894737
+foam,589,C + DINO,surface,99.69696969696969
+foam,589,C + DINO,mixed,100.0
+foam,589,D + zoom + DINO,all,83.07142857142858
+foam,589,D + zoom + DINO,geometric,63.421052631578945
+foam,589,D + zoom + DINO,surface,89.24242424242425
+foam,589,D + zoom + DINO,mixed,92.5
+peach,333,A current,all,69.83173076923079
+peach,333,A current,geometric,66.90705128205128
+peach,333,A current,surface,70.51282051282051
+peach,333,A current,mixed,74.99999999999999
+peach,333,B + zoom,all,72.47596153846155
+peach,333,B + zoom,geometric,70.51282051282051
+peach,333,B + zoom,surface,71.63461538461539
+peach,333,B + zoom,mixed,77.24358974358975
+peach,333,C + DINO,all,81.73076923076923
+peach,333,C + DINO,geometric,80.20833333333334
+peach,333,C + DINO,surface,81.08974358974359
+peach,333,C + DINO,mixed,85.41666666666667
+peach,333,D + zoom + DINO,all,85.8173076923077
+peach,333,D + zoom + DINO,geometric,85.8974358974359
+peach,333,D + zoom + DINO,surface,78.52564102564102
+peach,333,D + zoom + DINO,mixed,92.94871794871796
+peach,576,A current,all,68.7099358974359
+peach,576,A current,geometric,67.59410801963993
+peach,576,A current,surface,63.75739644970413
+peach,576,A current,mixed,76.5886287625418
+peach,576,B + zoom,all,68.7099358974359
+peach,576,B + zoom,geometric,68.00327332242226
+peach,576,B + zoom,surface,69.67455621301775
+peach,576,B + zoom,mixed,69.06354515050167
+peach,576,C + DINO,all,84.17467948717949
+peach,576,C + DINO,geometric,81.66939443535188
+peach,576,C + DINO,surface,80.9171597633136
+peach,576,C + DINO,mixed,92.97658862876254
+peach,576,D + zoom + DINO,all,83.05288461538461
+peach,576,D + zoom + DINO,geometric,83.30605564648118
+peach,576,D + zoom + DINO,surface,78.40236686390531
+peach,576,D + zoom + DINO,mixed,87.79264214046822
+peach,725,A current,all,67.42788461538463
+peach,725,A current,geometric,63.57927786499214
+peach,725,A current,surface,71.0769230769231
+peach,725,A current,mixed,71.85314685314685
+peach,725,B + zoom,all,70.79326923076923
+peach,725,B + zoom,geometric,69.701726844584
+peach,725,B + zoom,surface,67.53846153846153
+peach,725,B + zoom,mixed,76.92307692307693
+peach,725,C + DINO,all,82.9326923076923
+peach,725,C + DINO,geometric,80.76923076923077
+peach,725,C + DINO,surface,80.92307692307692
+peach,725,C + DINO,mixed,90.03496503496503
+peach,725,D + zoom + DINO,all,84.37499999999999
+peach,725,D + zoom + DINO,geometric,82.96703296703296
+peach,725,D + zoom + DINO,surface,79.53846153846153
+peach,725,D + zoom + DINO,mixed,93.00699300699301
+peach,823,A current,all,75.08012820512819
+peach,823,A current,geometric,76.23076923076923
+peach,823,A current,surface,73.6013986013986
+peach,823,A current,mixed,74.03846153846155
+peach,823,B + zoom,all,73.63782051282051
+peach,823,B + zoom,geometric,71.15384615384615
+peach,823,B + zoom,surface,73.77622377622377
+peach,823,B + zoom,mixed,78.68589743589743
+peach,823,C + DINO,all,84.05448717948718
+peach,823,C + DINO,geometric,83.92307692307692
+peach,823,C + DINO,surface,83.74125874125873
+peach,823,C + DINO,mixed,84.61538461538461
+peach,823,D + zoom + DINO,all,88.74198717948718
+peach,823,D + zoom + DINO,geometric,88.3076923076923
+peach,823,D + zoom + DINO,surface,80.94405594405595
+peach,823,D + zoom + DINO,mixed,96.79487179487178
+peach,831,A current,all,76.6025641025641
+peach,831,A current,geometric,80.76923076923077
+peach,831,A current,surface,71.63461538461539
+peach,831,A current,mixed,72.55244755244756
+peach,831,B + zoom,all,80.28846153846153
+peach,831,B + zoom,geometric,77.3076923076923
+peach,831,B + zoom,surface,82.37179487179488
+peach,831,B + zoom,mixed,84.7902097902098
+peach,831,C + DINO,all,84.21474358974359
+peach,831,C + DINO,geometric,83.46153846153847
+peach,831,C + DINO,surface,77.40384615384615
+peach,831,C + DINO,mixed,93.35664335664336
+peach,831,D + zoom + DINO,all,85.8573717948718
+peach,831,D + zoom + DINO,geometric,86.69230769230771
+peach,831,D + zoom + DINO,surface,76.12179487179488
+peach,831,D + zoom + DINO,mixed,94.58041958041959
+peach,902,A current,all,63.30128205128205
+peach,902,A current,geometric,60.096153846153854
+peach,902,A current,surface,61.965811965811966
+peach,902,A current,mixed,72.34432234432234
+peach,902,B + zoom,all,73.79807692307693
+peach,902,B + zoom,geometric,71.63461538461539
+peach,902,B + zoom,surface,73.64672364672366
+peach,902,B + zoom,mixed,78.93772893772895
+peach,902,C + DINO,all,79.28685897435899
+peach,902,C + DINO,geometric,78.52564102564102
+peach,902,C + DINO,surface,78.34757834757833
+peach,902,C + DINO,mixed,82.23443223443223
+peach,902,D + zoom + DINO,all,84.61538461538461
+peach,902,D + zoom + DINO,geometric,83.33333333333334
+peach,902,D + zoom + DINO,surface,78.06267806267806
+peach,902,D + zoom + DINO,mixed,95.97069597069596
+peach,226,A current,all,70.99358974358974
+peach,226,A current,geometric,72.3076923076923
+peach,226,A current,surface,66.66666666666666
+peach,226,A current,mixed,73.3974358974359
+peach,226,B + zoom,all,71.59455128205127
+peach,226,B + zoom,geometric,72.56410256410255
+peach,226,B + zoom,surface,70.7977207977208
+peach,226,B + zoom,mixed,70.67307692307693
+peach,226,C + DINO,all,85.53685897435899
+peach,226,C + DINO,geometric,86.66666666666667
+peach,226,C + DINO,surface,81.05413105413105
+peach,226,C + DINO,mixed,88.46153846153847
+peach,226,D + zoom + DINO,all,84.4551282051282
+peach,226,D + zoom + DINO,geometric,84.95726495726495
+peach,226,D + zoom + DINO,surface,77.49287749287748
+peach,226,D + zoom + DINO,mixed,91.34615384615385
+peach,598,A current,all,66.58653846153845
+peach,598,A current,geometric,63.80090497737557
+peach,598,A current,surface,62.46153846153846
+peach,598,A current,mixed,78.84615384615384
+peach,598,B + zoom,all,70.47275641025641
+peach,598,B + zoom,geometric,68.25037707390648
+peach,598,B + zoom,surface,75.6923076923077
+peach,598,B + zoom,mixed,69.61538461538461
+peach,598,C + DINO,all,82.13141025641026
+peach,598,C + DINO,geometric,81.22171945701358
+peach,598,C + DINO,surface,78.0
+peach,598,C + DINO,mixed,89.61538461538461
+peach,598,D + zoom + DINO,all,82.33173076923077
+peach,598,D + zoom + DINO,geometric,80.6184012066365
+peach,598,D + zoom + DINO,surface,76.92307692307693
+peach,598,D + zoom + DINO,mixed,93.46153846153847
+peach,874,A current,all,67.02724358974359
+peach,874,A current,geometric,68.23076923076923
+peach,874,A current,surface,63.30128205128206
+peach,874,A current,mixed,68.35664335664336
+peach,874,B + zoom,all,68.50961538461539
+peach,874,B + zoom,geometric,65.76923076923077
+peach,874,B + zoom,surface,69.71153846153847
+peach,874,B + zoom,mixed,73.42657342657343
+peach,874,C + DINO,all,82.01121794871796
+peach,874,C + DINO,geometric,81.46153846153847
+peach,874,C + DINO,surface,77.08333333333334
+peach,874,C + DINO,mixed,88.63636363636364
+peach,874,D + zoom + DINO,all,82.67227564102564
+peach,874,D + zoom + DINO,geometric,79.57692307692308
+peach,874,D + zoom + DINO,surface,80.92948717948718
+peach,874,D + zoom + DINO,mixed,91.6083916083916
+peach,589,A current,all,72.79647435897435
+peach,589,A current,geometric,72.91666666666666
+peach,589,A current,surface,78.0448717948718
+peach,589,A current,mixed,67.3076923076923
+peach,589,B + zoom,all,73.87820512820514
+peach,589,B + zoom,geometric,72.03525641025642
+peach,589,B + zoom,surface,74.19871794871796
+peach,589,B + zoom,mixed,77.24358974358975
+peach,589,C + DINO,all,83.09294871794872
+peach,589,C + DINO,geometric,80.92948717948718
+peach,589,C + DINO,surface,81.89102564102565
+peach,589,C + DINO,mixed,88.62179487179486
+peach,589,D + zoom + DINO,all,87.09935897435898
+peach,589,D + zoom + DINO,geometric,85.09615384615385
+peach,589,D + zoom + DINO,surface,85.41666666666667
+peach,589,D + zoom + DINO,mixed,92.78846153846153
+potato,333,A current,all,60.31042128603104
+potato,333,A current,geometric,62.412587412587406
+potato,333,A current,surface,49.675324675324674
+potato,333,A current,mixed,66.73553719008264
+potato,333,B + zoom,all,55.931263858093125
+potato,333,B + zoom,geometric,60.372960372960385
+potato,333,B + zoom,surface,50.64935064935065
+potato,333,B + zoom,mixed,53.099173553719005
+potato,333,C + DINO,all,65.46563192904655
+potato,333,C + DINO,geometric,66.2004662004662
+potato,333,C + DINO,surface,68.61471861471861
+potato,333,C + DINO,mixed,61.15702479338842
+potato,333,D + zoom + DINO,all,73.4478935698448
+potato,333,D + zoom + DINO,geometric,75.4079254079254
+potato,333,D + zoom + DINO,surface,68.61471861471861
+potato,333,D + zoom + DINO,mixed,74.58677685950413
+potato,576,A current,all,61.30820399113082
+potato,576,A current,geometric,56.75990675990676
+potato,576,A current,surface,60.9504132231405
+potato,576,A current,mixed,70.12987012987013
+potato,576,B + zoom,all,49.11308203991131
+potato,576,B + zoom,geometric,52.56410256410257
+potato,576,B + zoom,surface,47.31404958677686
+potato,576,B + zoom,mixed,44.58874458874459
+potato,576,C + DINO,all,69.06873614190687
+potato,576,C + DINO,geometric,66.78321678321679
+potato,576,C + DINO,surface,77.27272727272727
+potato,576,C + DINO,mixed,64.7186147186147
+potato,576,D + zoom + DINO,all,60.80931263858093
+potato,576,D + zoom + DINO,geometric,59.32400932400932
+potato,576,D + zoom + DINO,surface,61.363636363636374
+potato,576,D + zoom + DINO,mixed,62.98701298701298
+potato,725,A current,all,58.53658536585367
+potato,725,A current,geometric,55.32150776053215
+potato,725,A current,surface,59.09090909090909
+potato,725,A current,mixed,64.54545454545455
+potato,725,B + zoom,all,58.86917960088692
+potato,725,B + zoom,geometric,54.323725055432384
+potato,725,B + zoom,surface,60.60606060606061
+potato,725,B + zoom,mixed,66.36363636363636
+potato,725,C + DINO,all,50.49889135254989
+potato,725,C + DINO,geometric,45.565410199556545
+potato,725,C + DINO,surface,51.73160173160174
+potato,725,C + DINO,mixed,59.31818181818183
+potato,725,D + zoom + DINO,all,68.40354767184036
+potato,725,D + zoom + DINO,geometric,65.63192904656319
+potato,725,D + zoom + DINO,surface,66.66666666666667
+potato,725,D + zoom + DINO,mixed,75.90909090909092
+potato,823,A current,all,47.72727272727273
+potato,823,A current,geometric,53.30086580086581
+potato,823,A current,surface,50.63131313131313
+potato,823,A current,mixed,34.71074380165289
+potato,823,B + zoom,all,51.164079822616415
+potato,823,B + zoom,geometric,51.515151515151516
+potato,823,B + zoom,surface,53.78787878787878
+potato,823,B + zoom,mixed,48.34710743801652
+potato,823,C + DINO,all,52.827050997782706
+potato,823,C + DINO,geometric,55.4112554112554
+potato,823,C + DINO,surface,64.14141414141415
+potato,823,C + DINO,mixed,38.63636363636363
+potato,823,D + zoom + DINO,all,66.01995565410199
+potato,823,D + zoom + DINO,geometric,66.12554112554112
+potato,823,D + zoom + DINO,surface,65.90909090909092
+potato,823,D + zoom + DINO,mixed,65.9090909090909
+potato,831,A current,all,54.933481152993345
+potato,831,A current,geometric,49.2600422832981
+potato,831,A current,surface,57.14285714285715
+potato,831,A current,mixed,65.90909090909092
+potato,831,B + zoom,all,63.9689578713969
+potato,831,B + zoom,geometric,60.46511627906976
+potato,831,B + zoom,surface,69.04761904761905
+potato,831,B + zoom,mixed,66.41414141414141
+potato,831,C + DINO,all,54.32372505543237
+potato,831,C + DINO,geometric,48.73150105708245
+potato,831,C + DINO,surface,60.17316017316017
+potato,831,C + DINO,mixed,60.858585858585855
+potato,831,D + zoom + DINO,all,70.73170731707317
+potato,831,D + zoom + DINO,geometric,69.55602536997887
+potato,831,D + zoom + DINO,surface,69.48051948051948
+potato,831,D + zoom + DINO,mixed,74.99999999999999
+potato,902,A current,all,53.492239467849224
+potato,902,A current,geometric,57.670454545454554
+potato,902,A current,surface,58.992094861660085
+potato,902,A current,mixed,38.038277511961724
+potato,902,B + zoom,all,43.40354767184036
+potato,902,B + zoom,geometric,46.590909090909086
+potato,902,B + zoom,surface,48.023715415019765
+potato,902,B + zoom,mixed,31.100478468899517
+potato,902,C + DINO,all,60.69844789356984
+potato,902,C + DINO,geometric,61.59090909090909
+potato,902,C + DINO,surface,70.35573122529644
+potato,902,C + DINO,mixed,47.12918660287081
+potato,902,D + zoom + DINO,all,61.75166297117517
+potato,902,D + zoom + DINO,geometric,61.93181818181818
+potato,902,D + zoom + DINO,surface,63.83399209486166
+potato,902,D + zoom + DINO,mixed,58.85167464114832
+potato,226,A current,all,58.536585365853654
+potato,226,A current,geometric,59.7051597051597
+potato,226,A current,surface,57.509881422924906
+potato,226,A current,mixed,57.64462809917356
+potato,226,B + zoom,all,47.172949002217294
+potato,226,B + zoom,geometric,48.52579852579852
+potato,226,B + zoom,surface,44.86166007905138
+potato,226,B + zoom,mixed,47.31404958677686
+potato,226,C + DINO,all,69.62305986696231
+potato,226,C + DINO,geometric,66.95331695331697
+potato,226,C + DINO,surface,78.65612648221342
+potato,226,C + DINO,mixed,64.6694214876033
+potato,226,D + zoom + DINO,all,65.29933481152993
+potato,226,D + zoom + DINO,geometric,68.3046683046683
+potato,226,D + zoom + DINO,surface,59.09090909090908
+potato,226,D + zoom + DINO,mixed,66.73553719008265
+potato,598,A current,all,51.33037694013303
+potato,598,A current,geometric,47.78012684989429
+potato,598,A current,surface,49.35064935064935
+potato,598,A current,mixed,62.121212121212125
+potato,598,B + zoom,all,58.2039911308204
+potato,598,B + zoom,geometric,56.553911205073994
+potato,598,B + zoom,surface,59.95670995670995
+potato,598,B + zoom,mixed,60.1010101010101
+potato,598,C + DINO,all,70.34368070953437
+potato,598,C + DINO,geometric,67.75898520084567
+potato,598,C + DINO,surface,79.00432900432901
+potato,598,C + DINO,mixed,66.41414141414141
+potato,598,D + zoom + DINO,all,65.6319290465632
+potato,598,D + zoom + DINO,geometric,61.94503171247357
+potato,598,D + zoom + DINO,surface,67.53246753246754
+potato,598,D + zoom + DINO,mixed,72.22222222222223
+potato,874,A current,all,52.4390243902439
+potato,874,A current,geometric,50.332594235033255
+potato,874,A current,surface,56.06060606060607
+potato,874,A current,mixed,52.95454545454545
+potato,874,B + zoom,all,54.157427937915735
+potato,874,B + zoom,geometric,53.65853658536586
+potato,874,B + zoom,surface,56.926406926406926
+potato,874,B + zoom,mixed,52.27272727272727
+potato,874,C + DINO,all,68.07095343680707
+potato,874,C + DINO,geometric,62.63858093126387
+potato,874,C + DINO,surface,77.27272727272727
+potato,874,C + DINO,mixed,69.54545454545455
+potato,874,D + zoom + DINO,all,66.96230598669624
+potato,874,D + zoom + DINO,geometric,65.63192904656319
+potato,874,D + zoom + DINO,surface,62.55411255411255
+potato,874,D + zoom + DINO,mixed,74.31818181818181
+potato,589,A current,all,53.71396895787141
+potato,589,A current,geometric,51.590909090909086
+potato,589,A current,surface,63.41991341991342
+potato,589,A current,mixed,48.05194805194805
+potato,589,B + zoom,all,52.54988913525499
+potato,589,B + zoom,geometric,48.409090909090914
+potato,589,B + zoom,surface,61.904761904761905
+potato,589,B + zoom,mixed,51.082251082251084
+potato,589,C + DINO,all,54.379157427937905
+potato,589,C + DINO,geometric,49.31818181818182
+potato,589,C + DINO,surface,58.87445887445888
+potato,589,C + DINO,mixed,59.52380952380951
+potato,589,D + zoom + DINO,all,67.04545454545455
+potato,589,D + zoom + DINO,geometric,61.36363636363637
+potato,589,D + zoom + DINO,surface,67.2077922077922
+potato,589,D + zoom + DINO,mixed,77.7056277056277
+rope,333,A current,all,96.15995762711864
+rope,333,A current,geometric,100.0
+rope,333,A current,surface,90.14945652173914
+rope,333,B + zoom,all,96.15995762711864
+rope,333,B + zoom,geometric,100.0
+rope,333,B + zoom,surface,90.14945652173914
+rope,333,C + DINO,all,96.37182203389831
+rope,333,C + DINO,geometric,100.0
+rope,333,C + DINO,surface,90.69293478260869
+rope,333,D + zoom + DINO,all,96.37182203389831
+rope,333,D + zoom + DINO,geometric,100.0
+rope,333,D + zoom + DINO,surface,90.69293478260869
+rope,576,A current,all,98.22563559322035
+rope,576,A current,geometric,98.69791666666666
+rope,576,A current,surface,97.48641304347827
+rope,576,B + zoom,all,98.22563559322035
+rope,576,B + zoom,geometric,98.69791666666666
+rope,576,B + zoom,surface,97.48641304347827
+rope,576,C + DINO,all,99.73516949152543
+rope,576,C + DINO,geometric,100.0
+rope,576,C + DINO,surface,99.32065217391303
+rope,576,D + zoom + DINO,all,99.73516949152543
+rope,576,D + zoom + DINO,geometric,100.0
+rope,576,D + zoom + DINO,surface,99.32065217391303
+rope,725,A current,all,99.02012711864407
+rope,725,A current,geometric,100.0
+rope,725,A current,surface,97.24702380952381
+rope,725,B + zoom,all,99.02012711864407
+rope,725,B + zoom,geometric,100.0
+rope,725,B + zoom,surface,97.24702380952381
+rope,725,C + DINO,all,99.1260593220339
+rope,725,C + DINO,geometric,100.0
+rope,725,C + DINO,surface,97.54464285714285
+rope,725,D + zoom + DINO,all,99.1260593220339
+rope,725,D + zoom + DINO,geometric,100.0
+rope,725,D + zoom + DINO,surface,97.54464285714285
+rope,823,A current,all,96.10699152542372
+rope,823,A current,geometric,100.0
+rope,823,A current,surface,89.5596590909091
+rope,823,B + zoom,all,96.10699152542372
+rope,823,B + zoom,geometric,100.0
+rope,823,B + zoom,surface,89.5596590909091
+rope,823,C + DINO,all,96.55720338983052
+rope,823,C + DINO,geometric,100.0
+rope,823,C + DINO,surface,90.76704545454545
+rope,823,D + zoom + DINO,all,96.55720338983052
+rope,823,D + zoom + DINO,geometric,100.0
+rope,823,D + zoom + DINO,surface,90.76704545454545
+rope,831,A current,all,99.73516949152543
+rope,831,A current,geometric,100.0
+rope,831,A current,surface,99.17763157894737
+rope,831,B + zoom,all,99.73516949152543
+rope,831,B + zoom,geometric,100.0
+rope,831,B + zoom,surface,99.17763157894737
+rope,831,C + DINO,all,99.60275423728814
+rope,831,C + DINO,geometric,100.0
+rope,831,C + DINO,surface,98.76644736842105
+rope,831,D + zoom + DINO,all,99.60275423728814
+rope,831,D + zoom + DINO,geometric,100.0
+rope,831,D + zoom + DINO,surface,98.76644736842105
+rope,902,A current,all,99.09957627118644
+rope,902,A current,geometric,100.0
+rope,902,A current,surface,97.47023809523809
+rope,902,B + zoom,all,99.09957627118644
+rope,902,B + zoom,geometric,100.0
+rope,902,B + zoom,surface,97.47023809523809
+rope,902,C + DINO,all,99.73516949152543
+rope,902,C + DINO,geometric,100.0
+rope,902,C + DINO,surface,99.25595238095238
+rope,902,D + zoom + DINO,all,99.73516949152543
+rope,902,D + zoom + DINO,geometric,100.0
+rope,902,D + zoom + DINO,surface,99.25595238095238
+rope,226,A current,all,94.27966101694916
+rope,226,A current,geometric,100.0
+rope,226,A current,surface,85.9375
+rope,226,B + zoom,all,94.27966101694916
+rope,226,B + zoom,geometric,100.0
+rope,226,B + zoom,surface,85.9375
+rope,226,C + DINO,all,95.02118644067798
+rope,226,C + DINO,geometric,100.0
+rope,226,C + DINO,surface,87.76041666666666
+rope,226,D + zoom + DINO,all,95.02118644067798
+rope,226,D + zoom + DINO,geometric,100.0
+rope,226,D + zoom + DINO,surface,87.76041666666666
+rope,598,A current,all,98.33156779661016
+rope,598,A current,geometric,98.32317073170731
+rope,598,A current,surface,98.35069444444444
+rope,598,B + zoom,all,98.33156779661016
+rope,598,B + zoom,geometric,98.32317073170731
+rope,598,B + zoom,surface,98.35069444444444
+rope,598,C + DINO,all,98.9406779661017
+rope,598,C + DINO,geometric,98.93292682926828
+rope,598,C + DINO,surface,98.95833333333333
+rope,598,D + zoom + DINO,all,98.9406779661017
+rope,598,D + zoom + DINO,geometric,98.93292682926828
+rope,598,D + zoom + DINO,surface,98.95833333333333
+rope,874,A current,all,98.88771186440678
+rope,874,A current,geometric,100.0
+rope,874,A current,surface,96.875
+rope,874,B + zoom,all,98.88771186440678
+rope,874,B + zoom,geometric,100.0
+rope,874,B + zoom,surface,96.875
+rope,874,C + DINO,all,99.44385593220339
+rope,874,C + DINO,geometric,100.0
+rope,874,C + DINO,surface,98.4375
+rope,874,D + zoom + DINO,all,99.44385593220339
+rope,874,D + zoom + DINO,geometric,100.0
+rope,874,D + zoom + DINO,surface,98.4375
+rope,589,A current,all,96.74258474576271
+rope,589,A current,geometric,100.0
+rope,589,A current,surface,91.64402173913044
+rope,589,B + zoom,all,96.74258474576271
+rope,589,B + zoom,geometric,100.0
+rope,589,B + zoom,surface,91.64402173913044
+rope,589,C + DINO,all,95.97457627118644
+rope,589,C + DINO,geometric,100.0
+rope,589,C + DINO,surface,89.67391304347827
+rope,589,D + zoom + DINO,all,95.97457627118644
+rope,589,D + zoom + DINO,geometric,100.0
+rope,589,D + zoom + DINO,surface,89.67391304347827
+tire,333,A current,all,72.72727272727273
+tire,333,A current,geometric,70.65217391304348
+tire,333,A current,surface,74.81481481481482
+tire,333,A current,mixed,82.5
+tire,333,B + zoom,all,72.72727272727273
+tire,333,B + zoom,geometric,70.65217391304348
+tire,333,B + zoom,surface,74.81481481481482
+tire,333,B + zoom,mixed,82.5
+tire,333,C + DINO,all,68.15584415584416
+tire,333,C + DINO,geometric,66.65217391304348
+tire,333,C + DINO,surface,68.59259259259258
+tire,333,C + DINO,mixed,82.5
+tire,333,D + zoom + DINO,all,68.15584415584416
+tire,333,D + zoom + DINO,geometric,66.65217391304348
+tire,333,D + zoom + DINO,surface,68.59259259259258
+tire,333,D + zoom + DINO,mixed,82.5
+tire,576,A current,all,74.54545454545455
+tire,576,A current,geometric,70.5217391304348
+tire,576,A current,surface,78.96296296296296
+tire,576,A current,mixed,90.99999999999999
+tire,576,B + zoom,all,74.54545454545455
+tire,576,B + zoom,geometric,70.5217391304348
+tire,576,B + zoom,surface,78.96296296296296
+tire,576,B + zoom,mixed,90.99999999999999
+tire,576,C + DINO,all,71.45454545454545
+tire,576,C + DINO,geometric,70.34782608695652
+tire,576,C + DINO,surface,72.0
+tire,576,C + DINO,mixed,80.5
+tire,576,D + zoom + DINO,all,71.45454545454545
+tire,576,D + zoom + DINO,geometric,70.34782608695652
+tire,576,D + zoom + DINO,surface,72.0
+tire,576,D + zoom + DINO,mixed,80.5
+tire,725,A current,all,71.68831168831169
+tire,725,A current,geometric,69.25
+tire,725,A current,surface,73.6
+tire,725,A current,mixed,89.0
+tire,725,B + zoom,all,71.68831168831169
+tire,725,B + zoom,geometric,69.25
+tire,725,B + zoom,surface,73.6
+tire,725,B + zoom,mixed,89.0
+tire,725,C + DINO,all,68.8051948051948
+tire,725,C + DINO,geometric,66.625
+tire,725,C + DINO,surface,70.88
+tire,725,C + DINO,mixed,82.0
+tire,725,D + zoom + DINO,all,68.8051948051948
+tire,725,D + zoom + DINO,geometric,66.625
+tire,725,D + zoom + DINO,surface,70.88
+tire,725,D + zoom + DINO,mixed,82.0
+tire,823,A current,all,69.37662337662337
+tire,823,A current,geometric,64.0
+tire,823,A current,surface,76.07692307692308
+tire,823,A current,mixed,89.0
+tire,823,B + zoom,all,69.37662337662337
+tire,823,B + zoom,geometric,64.0
+tire,823,B + zoom,surface,76.07692307692308
+tire,823,B + zoom,mixed,89.0
+tire,823,C + DINO,all,64.54545454545455
+tire,823,C + DINO,geometric,59.87234042553191
+tire,823,C + DINO,surface,70.84615384615385
+tire,823,C + DINO,mixed,78.5
+tire,823,D + zoom + DINO,all,64.54545454545455
+tire,823,D + zoom + DINO,geometric,59.87234042553191
+tire,823,D + zoom + DINO,surface,70.84615384615385
+tire,823,D + zoom + DINO,mixed,78.5
+tire,831,A current,all,73.35064935064935
+tire,831,A current,geometric,71.48
+tire,831,A current,surface,75.73913043478261
+tire,831,A current,mixed,83.0
+tire,831,B + zoom,all,73.35064935064935
+tire,831,B + zoom,geometric,71.48
+tire,831,B + zoom,surface,75.73913043478261
+tire,831,B + zoom,mixed,83.0
+tire,831,C + DINO,all,70.88311688311688
+tire,831,C + DINO,geometric,69.28
+tire,831,C + DINO,surface,72.78260869565217
+tire,831,C + DINO,mixed,80.0
+tire,831,D + zoom + DINO,all,70.88311688311688
+tire,831,D + zoom + DINO,geometric,69.28
+tire,831,D + zoom + DINO,surface,72.78260869565217
+tire,831,D + zoom + DINO,mixed,80.0
+tire,902,A current,all,72.93506493506494
+tire,902,A current,geometric,70.20833333333333
+tire,902,A current,surface,76.16666666666666
+tire,902,A current,mixed,83.6
+tire,902,B + zoom,all,72.93506493506494
+tire,902,B + zoom,geometric,70.20833333333333
+tire,902,B + zoom,surface,76.16666666666666
+tire,902,B + zoom,mixed,83.6
+tire,902,C + DINO,all,74.7012987012987
+tire,902,C + DINO,geometric,72.0
+tire,902,C + DINO,surface,81.25000000000001
+tire,902,C + DINO,mixed,69.19999999999999
+tire,902,D + zoom + DINO,all,74.7012987012987
+tire,902,D + zoom + DINO,geometric,72.0
+tire,902,D + zoom + DINO,surface,81.25000000000001
+tire,902,D + zoom + DINO,mixed,69.19999999999999
+tire,226,A current,all,65.92207792207792
+tire,226,A current,geometric,64.62222222222222
+tire,226,A current,surface,65.55555555555556
+tire,226,A current,mixed,79.60000000000001
+tire,226,B + zoom,all,65.92207792207792
+tire,226,B + zoom,geometric,64.62222222222222
+tire,226,B + zoom,surface,65.55555555555556
+tire,226,B + zoom,mixed,79.60000000000001
+tire,226,C + DINO,all,64.77922077922078
+tire,226,C + DINO,geometric,61.91111111111112
+tire,226,C + DINO,surface,69.70370370370371
+tire,226,C + DINO,mixed,64.0
+tire,226,D + zoom + DINO,all,64.77922077922078
+tire,226,D + zoom + DINO,geometric,61.91111111111112
+tire,226,D + zoom + DINO,surface,69.70370370370371
+tire,226,D + zoom + DINO,mixed,64.0
+tire,598,A current,all,78.20779220779221
+tire,598,A current,geometric,77.29411764705881
+tire,598,A current,surface,78.0909090909091
+tire,598,A current,mixed,90.5
+tire,598,B + zoom,all,78.20779220779221
+tire,598,B + zoom,geometric,77.29411764705881
+tire,598,B + zoom,surface,78.0909090909091
+tire,598,B + zoom,mixed,90.5
+tire,598,C + DINO,all,73.1948051948052
+tire,598,C + DINO,geometric,71.72549019607844
+tire,598,C + DINO,surface,78.54545454545455
+tire,598,C + DINO,mixed,62.5
+tire,598,D + zoom + DINO,all,73.1948051948052
+tire,598,D + zoom + DINO,geometric,71.72549019607844
+tire,598,D + zoom + DINO,surface,78.54545454545455
+tire,598,D + zoom + DINO,mixed,62.5
+tire,874,A current,all,74.2077922077922
+tire,874,A current,geometric,72.48979591836735
+tire,874,A current,surface,76.49999999999999
+tire,874,A current,mixed,81.5
+tire,874,B + zoom,all,74.2077922077922
+tire,874,B + zoom,geometric,72.48979591836735
+tire,874,B + zoom,surface,76.49999999999999
+tire,874,B + zoom,mixed,81.5
+tire,874,C + DINO,all,68.44155844155844
+tire,874,C + DINO,geometric,66.24489795918367
+tire,874,C + DINO,surface,73.25
+tire,874,C + DINO,mixed,66.5
+tire,874,D + zoom + DINO,all,68.44155844155844
+tire,874,D + zoom + DINO,geometric,66.24489795918367
+tire,874,D + zoom + DINO,surface,73.25
+tire,874,D + zoom + DINO,mixed,66.5
+tire,589,A current,all,61.6103896103896
+tire,589,A current,geometric,62.69565217391304
+tire,589,A current,surface,60.53846153846154
+tire,589,A current,mixed,57.199999999999996
+tire,589,B + zoom,all,61.6103896103896
+tire,589,B + zoom,geometric,62.69565217391304
+tire,589,B + zoom,surface,60.53846153846154
+tire,589,B + zoom,mixed,57.199999999999996
+tire,589,C + DINO,all,65.81818181818181
+tire,589,C + DINO,geometric,66.52173913043478
+tire,589,C + DINO,surface,66.46153846153847
+tire,589,C + DINO,mixed,56.00000000000001
+tire,589,D + zoom + DINO,all,65.81818181818181
+tire,589,D + zoom + DINO,geometric,66.52173913043478
+tire,589,D + zoom + DINO,surface,66.46153846153847
+tire,589,D + zoom + DINO,mixed,56.00000000000001

@@ -33,7 +33,7 @@ SIZE = parts.SIZE
 N_KMEANS_IMAGES = 40   # train/good images whose SAM masks define the part types
 SEEDS = [333, 576, 725, 823, 831, 902, 226, 598, 874, 589]   # official SegAD seeds
 BAD_PARTS = 10         # defective images the head sees per seed (SegAD is supervised)
-COOL = 0.5             # GPU rest after each SAM image, x its compute time (0.2 + batch 64 hit 117 W, watchdog kill 09-28)
+COOL = 1.0             # GPU rest after each SAM image, x its compute time. 0.2+batch 64 hit 117 W (13:07); 0.5 hit 136 W twice in a row (15:09)
 VLM_ID = "Qwen/Qwen3-VL-2B-Instruct"
 
 GEOMETRIC = {"bent", "cut", "hole", "crack", "open", "thread"}

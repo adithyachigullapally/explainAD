@@ -1,0 +1,102 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]Loading weights: 100%|██████████| 314/314 [00:00<00:00, 20596.33it/s]
+[transformers] You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+[sam-train] cable_gland: 223 part maps
+patchcore fit:   0%|          | 0/56 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 56/56 [00:01<00:00, 31.67batch/s]
+[wrn_zoom] cable_gland: scored 131
+patchcore fit:   0%|          | 0/56 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 12652.89it/s]
+patchcore fit: 100%|██████████| 56/56 [00:03<00:00, 16.00batch/s]
+[dino_full] cable_gland: scored 131
+patchcore fit:   0%|          | 0/56 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 21980.05it/s]
+patchcore fit: 100%|██████████| 56/56 [00:03<00:00, 18.27batch/s]
+[dino_zoom] cable_gland: scored 131
+[sam-train] carrot: 286 part maps
+patchcore fit:   0%|          | 0/72 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 72/72 [00:02<00:00, 35.85batch/s]
+[wrn_zoom] carrot: scored 188
+patchcore fit:   0%|          | 0/72 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 6324.37it/s]
+patchcore fit: 100%|██████████| 72/72 [00:03<00:00, 18.48batch/s]
+[dino_full] carrot: scored 188
+patchcore fit:   0%|          | 0/72 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 12652.31it/s]
+patchcore fit: 100%|██████████| 72/72 [00:03<00:00, 18.01batch/s]
+[dino_zoom] carrot: scored 188
+[sam-train] cookie: 210 part maps
+patchcore fit:   0%|          | 0/53 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 53/53 [00:01<00:00, 33.54batch/s]
+[wrn_zoom] cookie: scored 153
+patchcore fit:   0%|          | 0/53 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 12589.97it/s]
+patchcore fit: 100%|██████████| 53/53 [00:03<00:00, 14.96batch/s]
+[dino_full] cookie: scored 153
+patchcore fit:   0%|          | 0/53 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 12593.41it/s]
+patchcore fit: 100%|██████████| 53/53 [00:03<00:00, 16.25batch/s]
+[dino_zoom] cookie: scored 153
+[sam-train] dowel: 288 part maps
+patchcore fit:   0%|          | 0/72 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 72/72 [00:01<00:00, 38.03batch/s]
+[wrn_zoom] dowel: scored 164
+patchcore fit:   0%|          | 0/72 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 38597.89it/s]
+patchcore fit: 100%|██████████| 72/72 [00:05<00:00, 14.20batch/s]
+[dino_full] dowel: scored 164
+patchcore fit:   0%|          | 0/72 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 20520.18it/s]
+patchcore fit: 100%|██████████| 72/72 [00:03<00:00, 19.95batch/s]
+[dino_zoom] dowel: scored 164
+[sam-train] foam: 236 part maps
+patchcore fit:   0%|          | 0/59 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 59/59 [00:01<00:00, 34.25batch/s]
+[wrn_zoom] foam: scored 127
+patchcore fit:   0%|          | 0/59 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 20525.25it/s]
+patchcore fit: 100%|██████████| 59/59 [00:03<00:00, 15.56batch/s]
+[dino_full] foam: scored 127
+patchcore fit:   0%|          | 0/59 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 12658.48it/s]
+patchcore fit: 100%|██████████| 59/59 [00:03<00:00, 16.35batch/s]
+[dino_zoom] foam: scored 127
+[sam-train] peach: 361 part maps
+patchcore fit:   0%|          | 0/91 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 91/91 [00:02<00:00, 38.06batch/s]
+[wrn_zoom] peach: scored 174
+patchcore fit:   0%|          | 0/91 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 8660.13it/s]
+patchcore fit: 100%|██████████| 91/91 [00:05<00:00, 17.01batch/s]
+[dino_full] peach: scored 174
+patchcore fit:   0%|          | 0/91 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 7878.42it/s]
+patchcore fit: 100%|██████████| 91/91 [00:04<00:00, 19.04batch/s]
+[dino_zoom] peach: scored 174
+[sam-train] potato: 300 part maps
+patchcore fit:   0%|          | 0/75 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 75/75 [00:02<00:00, 32.22batch/s]
+[wrn_zoom] potato: scored 147
+patchcore fit:   0%|          | 0/75 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 15913.09it/s]
+patchcore fit: 100%|██████████| 75/75 [00:06<00:00, 12.27batch/s]
+[dino_full] potato: scored 147
+patchcore fit:   0%|          | 0/75 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 12179.69it/s]
+patchcore fit: 100%|██████████| 75/75 [00:04<00:00, 18.42batch/s]
+[dino_zoom] potato: scored 147
+[sam-train] rope: 298 part maps
+patchcore fit:   0%|          | 0/75 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 75/75 [00:02<00:00, 34.21batch/s]
+[wrn_zoom] rope: scored 134
+patchcore fit:   0%|          | 0/75 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 5736.37it/s]
+patchcore fit: 100%|██████████| 75/75 [00:04<00:00, 16.25batch/s]
+[dino_full] rope: scored 134
+patchcore fit:   0%|          | 0/75 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 12654.24it/s]
+patchcore fit: 100%|██████████| 75/75 [00:04<00:00, 17.36batch/s]
+[dino_zoom] rope: scored 134
+[sam-train] tire: 210 part maps
+patchcore fit:   0%|          | 0/53 [00:00<?, ?batch/s]patchcore fit: 100%|██████████| 53/53 [00:01<00:00, 32.65batch/s]
+[wrn_zoom] tire: scored 141
+patchcore fit:   0%|          | 0/53 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 16946.34it/s]
+patchcore fit: 100%|██████████| 53/53 [00:03<00:00, 15.23batch/s]
+[dino_full] tire: scored 141
+patchcore fit:   0%|          | 0/53 [00:00<?, ?batch/s]
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 198/198 [00:00<00:00, 48989.63it/s]
+patchcore fit: 100%|██████████| 53/53 [00:03<00:00, 15.49batch/s]
+[dino_zoom] tire: scored 141
