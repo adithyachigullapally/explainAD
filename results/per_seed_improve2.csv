@@ -1,0 +1,1481 @@
+cls,seed,arm,group,auroc
+bagel,333,C v2 (256),all,95.6876456876457
+bagel,333,C v2 (256),geometric,97.22222222222223
+bagel,333,C v2 (256),surface,91.36363636363636
+bagel,333,C v2 (256),mixed,97.10743801652893
+bagel,333,E + 384 px,all,85.83916083916084
+bagel,333,E + 384 px,geometric,84.6590909090909
+bagel,333,E + 384 px,surface,83.29545454545455
+bagel,333,E + 384 px,mixed,90.08264462809917
+bagel,333,F + CLIP,all,93.35664335664336
+bagel,333,F + CLIP,geometric,94.06565656565657
+bagel,333,F + CLIP,surface,92.27272727272727
+bagel,333,F + CLIP,mixed,93.18181818181819
+bagel,333,G + 384 px + CLIP,all,91.2878787878788
+bagel,333,G + 384 px + CLIP,geometric,90.02525252525253
+bagel,333,G + 384 px + CLIP,surface,93.29545454545455
+bagel,333,G + 384 px + CLIP,mixed,91.52892561983471
+bagel,576,C v2 (256),all,92.16200466200465
+bagel,576,C v2 (256),geometric,91.41414141414141
+bagel,576,C v2 (256),surface,88.41991341991343
+bagel,576,C v2 (256),mixed,97.18614718614718
+bagel,576,E + 384 px,all,88.28671328671328
+bagel,576,E + 384 px,geometric,88.00505050505052
+bagel,576,E + 384 px,surface,83.33333333333334
+bagel,576,E + 384 px,mixed,93.72294372294373
+bagel,576,F + CLIP,all,96.18298368298368
+bagel,576,F + CLIP,geometric,94.50757575757575
+bagel,576,F + CLIP,surface,96.1038961038961
+bagel,576,F + CLIP,mixed,99.13419913419914
+bagel,576,G + 384 px + CLIP,all,88.6072261072261
+bagel,576,G + 384 px + CLIP,geometric,90.40404040404042
+bagel,576,G + 384 px + CLIP,surface,84.3073593073593
+bagel,576,G + 384 px + CLIP,mixed,89.82683982683983
+bagel,725,C v2 (256),all,90.53030303030303
+bagel,725,C v2 (256),geometric,89.05502392344498
+bagel,725,C v2 (256),surface,94.54545454545455
+bagel,725,C v2 (256),mixed,89.31818181818181
+bagel,725,E + 384 px,all,91.78321678321679
+bagel,725,E + 384 px,geometric,91.02870813397129
+bagel,725,E + 384 px,surface,95.9090909090909
+bagel,725,E + 384 px,mixed,89.0909090909091
+bagel,725,F + CLIP,all,91.11305361305362
+bagel,725,F + CLIP,geometric,89.29425837320574
+bagel,725,F + CLIP,surface,96.24999999999999
+bagel,725,F + CLIP,mixed,89.43181818181819
+bagel,725,G + 384 px + CLIP,all,91.84149184149184
+bagel,725,G + 384 px + CLIP,geometric,90.9090909090909
+bagel,725,G + 384 px + CLIP,surface,96.36363636363636
+bagel,725,G + 384 px + CLIP,mixed,89.0909090909091
+bagel,823,C v2 (256),all,92.36596736596736
+bagel,823,C v2 (256),geometric,90.9090909090909
+bagel,823,C v2 (256),surface,92.92929292929293
+bagel,823,C v2 (256),mixed,94.58874458874459
+bagel,823,E + 384 px,all,89.39393939393939
+bagel,823,E + 384 px,geometric,87.06293706293707
+bagel,823,E + 384 px,surface,90.40404040404042
+bagel,823,E + 384 px,mixed,92.85714285714285
+bagel,823,F + CLIP,all,92.65734265734267
+bagel,823,F + CLIP,geometric,90.20979020979021
+bagel,823,F + CLIP,surface,95.45454545454545
+bagel,823,F + CLIP,mixed,94.80519480519482
+bagel,823,G + 384 px + CLIP,all,90.96736596736595
+bagel,823,G + 384 px + CLIP,geometric,89.16083916083916
+bagel,823,G + 384 px + CLIP,surface,92.42424242424242
+bagel,823,G + 384 px + CLIP,mixed,93.07359307359307
+bagel,831,C v2 (256),all,92.13286713286713
+bagel,831,C v2 (256),geometric,90.67599067599068
+bagel,831,C v2 (256),surface,90.11363636363636
+bagel,831,C v2 (256),mixed,97.24880382775119
+bagel,831,E + 384 px,all,92.33682983682984
+bagel,831,E + 384 px,geometric,91.55011655011656
+bagel,831,E + 384 px,surface,93.4090909090909
+bagel,831,E + 384 px,mixed,92.82296650717703
+bagel,831,F + CLIP,all,93.997668997669
+bagel,831,F + CLIP,geometric,92.65734265734265
+bagel,831,F + CLIP,surface,94.43181818181817
+bagel,831,F + CLIP,mixed,96.29186602870813
+bagel,831,G + 384 px + CLIP,all,89.48135198135198
+bagel,831,G + 384 px + CLIP,geometric,89.56876456876456
+bagel,831,G + 384 px + CLIP,surface,92.38636363636363
+bagel,831,G + 384 px + CLIP,mixed,86.24401913875597
+bagel,902,C v2 (256),all,96.56177156177156
+bagel,902,C v2 (256),geometric,97.05159705159704
+bagel,902,C v2 (256),surface,94.21487603305785
+bagel,902,C v2 (256),mixed,98.32535885167464
+bagel,902,E + 384 px,all,93.18181818181817
+bagel,902,E + 384 px,geometric,93.24324324324323
+bagel,902,E + 384 px,surface,89.6694214876033
+bagel,902,E + 384 px,mixed,97.1291866028708
+bagel,902,F + CLIP,all,97.31934731934732
+bagel,902,F + CLIP,geometric,97.66584766584768
+bagel,902,F + CLIP,surface,96.28099173553719
+bagel,902,F + CLIP,mixed,97.8468899521531
+bagel,902,G + 384 px + CLIP,all,93.38578088578089
+bagel,902,G + 384 px + CLIP,geometric,94.22604422604422
+bagel,902,G + 384 px + CLIP,surface,89.35950413223142
+bagel,902,G + 384 px + CLIP,mixed,96.41148325358851
+bagel,226,C v2 (256),all,93.73543123543124
+bagel,226,C v2 (256),geometric,90.24064171122996
+bagel,226,C v2 (256),surface,95.35123966942149
+bagel,226,C v2 (256),mixed,97.52066115702479
+bagel,226,E + 384 px,all,91.49184149184148
+bagel,226,E + 384 px,geometric,88.16844919786095
+bagel,226,E + 384 px,surface,92.4586776859504
+bagel,226,E + 384 px,mixed,95.6611570247934
+bagel,226,F + CLIP,all,93.7937062937063
+bagel,226,F + CLIP,geometric,91.17647058823529
+bagel,226,F + CLIP,surface,96.17768595041322
+bagel,226,F + CLIP,mixed,95.45454545454545
+bagel,226,G + 384 px + CLIP,all,93.24009324009323
+bagel,226,G + 384 px + CLIP,geometric,90.37433155080214
+bagel,226,G + 384 px + CLIP,surface,94.62809917355372
+bagel,226,G + 384 px + CLIP,mixed,96.28099173553719
+bagel,598,C v2 (256),all,94.34731934731934
+bagel,598,C v2 (256),geometric,93.63636363636364
+bagel,598,C v2 (256),surface,94.37229437229438
+bagel,598,C v2 (256),mixed,95.98930481283422
+bagel,598,E + 384 px,all,92.27855477855478
+bagel,598,E + 384 px,geometric,90.05681818181817
+bagel,598,E + 384 px,surface,94.69696969696969
+bagel,598,E + 384 px,mixed,94.5187165775401
+bagel,598,F + CLIP,all,93.7062937062937
+bagel,598,F + CLIP,geometric,92.38636363636364
+bagel,598,F + CLIP,surface,94.37229437229436
+bagel,598,F + CLIP,mixed,95.98930481283422
+bagel,598,G + 384 px + CLIP,all,90.7925407925408
+bagel,598,G + 384 px + CLIP,geometric,89.0909090909091
+bagel,598,G + 384 px + CLIP,surface,93.61471861471861
+bagel,598,G + 384 px + CLIP,mixed,91.31016042780749
+bagel,874,C v2 (256),all,93.73543123543125
+bagel,874,C v2 (256),geometric,92.10526315789474
+bagel,874,C v2 (256),surface,94.43181818181819
+bagel,874,C v2 (256),mixed,96.13636363636363
+bagel,874,E + 384 px,all,91.43356643356645
+bagel,874,E + 384 px,geometric,89.35406698564593
+bagel,874,E + 384 px,surface,94.77272727272727
+bagel,874,E + 384 px,mixed,92.04545454545453
+bagel,874,F + CLIP,all,94.23076923076923
+bagel,874,F + CLIP,geometric,91.98564593301435
+bagel,874,F + CLIP,surface,96.36363636363636
+bagel,874,F + CLIP,mixed,96.36363636363636
+bagel,874,G + 384 px + CLIP,all,90.85081585081586
+bagel,874,G + 384 px + CLIP,geometric,90.07177033492823
+bagel,874,G + 384 px + CLIP,surface,93.63636363636364
+bagel,874,G + 384 px + CLIP,mixed,89.54545454545453
+bagel,589,C v2 (256),all,92.48251748251748
+bagel,589,C v2 (256),geometric,92.99754299754301
+bagel,589,C v2 (256),surface,87.27272727272727
+bagel,589,C v2 (256),mixed,96.53679653679654
+bagel,589,E + 384 px,all,89.80186480186481
+bagel,589,E + 384 px,geometric,91.03194103194103
+bagel,589,E + 384 px,surface,84.54545454545455
+bagel,589,E + 384 px,mixed,92.64069264069263
+bagel,589,F + CLIP,all,94.98834498834499
+bagel,589,F + CLIP,geometric,97.05159705159704
+bagel,589,F + CLIP,surface,89.54545454545455
+bagel,589,F + CLIP,mixed,96.53679653679653
+bagel,589,G + 384 px + CLIP,all,93.93939393939394
+bagel,589,G + 384 px + CLIP,geometric,95.57739557739558
+bagel,589,G + 384 px + CLIP,surface,92.27272727272727
+bagel,589,G + 384 px + CLIP,mixed,92.64069264069263
+cable_gland,333,C v2 (256),all,77.05627705627707
+cable_gland,333,C v2 (256),geometric,77.05627705627707
+cable_gland,333,E + 384 px,all,79.09709338280767
+cable_gland,333,E + 384 px,geometric,79.09709338280767
+cable_gland,333,F + CLIP,all,84.32282003710576
+cable_gland,333,F + CLIP,geometric,84.32282003710576
+cable_gland,333,G + 384 px + CLIP,all,82.6221397649969
+cable_gland,333,G + 384 px + CLIP,geometric,82.6221397649969
+cable_gland,576,C v2 (256),all,82.25108225108227
+cable_gland,576,C v2 (256),geometric,82.25108225108227
+cable_gland,576,E + 384 px,all,78.16944959802103
+cable_gland,576,E + 384 px,geometric,78.16944959802103
+cable_gland,576,F + CLIP,all,90.1669758812616
+cable_gland,576,F + CLIP,geometric,90.1669758812616
+cable_gland,576,G + 384 px + CLIP,all,80.39579468150897
+cable_gland,576,G + 384 px + CLIP,geometric,80.39579468150897
+cable_gland,725,C v2 (256),all,84.53927025355597
+cable_gland,725,C v2 (256),geometric,84.53927025355597
+cable_gland,725,E + 384 px,all,84.16821273964132
+cable_gland,725,E + 384 px,geometric,84.16821273964132
+cable_gland,725,F + CLIP,all,90.4143475572047
+cable_gland,725,F + CLIP,geometric,90.4143475572047
+cable_gland,725,G + 384 px + CLIP,all,87.44588744588745
+cable_gland,725,G + 384 px + CLIP,geometric,87.44588744588745
+cable_gland,823,C v2 (256),all,79.83920841063699
+cable_gland,823,C v2 (256),geometric,79.83920841063699
+cable_gland,823,E + 384 px,all,72.5417439703154
+cable_gland,823,E + 384 px,geometric,72.5417439703154
+cable_gland,823,F + CLIP,all,86.70377241805814
+cable_gland,823,F + CLIP,geometric,86.70377241805814
+cable_gland,823,G + 384 px + CLIP,all,82.56029684601111
+cable_gland,823,G + 384 px + CLIP,geometric,82.56029684601111
+cable_gland,831,C v2 (256),all,80.95238095238095
+cable_gland,831,C v2 (256),geometric,80.95238095238095
+cable_gland,831,E + 384 px,all,72.17068645640073
+cable_gland,831,E + 384 px,geometric,72.17068645640073
+cable_gland,831,F + CLIP,all,86.70377241805814
+cable_gland,831,F + CLIP,geometric,86.70377241805814
+cable_gland,831,G + 384 px + CLIP,all,79.83920841063699
+cable_gland,831,G + 384 px + CLIP,geometric,79.83920841063699
+cable_gland,902,C v2 (256),all,87.87878787878788
+cable_gland,902,C v2 (256),geometric,87.87878787878788
+cable_gland,902,E + 384 px,all,89.1156462585034
+cable_gland,902,E + 384 px,geometric,89.1156462585034
+cable_gland,902,F + CLIP,all,90.1669758812616
+cable_gland,902,F + CLIP,geometric,90.1669758812616
+cable_gland,902,G + 384 px + CLIP,all,86.20902906617192
+cable_gland,902,G + 384 px + CLIP,geometric,86.20902906617192
+cable_gland,226,C v2 (256),all,79.34446505875077
+cable_gland,226,C v2 (256),geometric,79.34446505875077
+cable_gland,226,E + 384 px,all,75.32467532467533
+cable_gland,226,E + 384 px,geometric,75.32467532467533
+cable_gland,226,F + CLIP,all,87.87878787878786
+cable_gland,226,F + CLIP,geometric,87.87878787878786
+cable_gland,226,G + 384 px + CLIP,all,73.22201607915893
+cable_gland,226,G + 384 px + CLIP,geometric,73.22201607915893
+cable_gland,598,C v2 (256),all,71.36672850958566
+cable_gland,598,C v2 (256),geometric,71.36672850958566
+cable_gland,598,E + 384 px,all,80.45763760049473
+cable_gland,598,E + 384 px,geometric,80.45763760049473
+cable_gland,598,F + CLIP,all,78.16944959802102
+cable_gland,598,F + CLIP,geometric,78.16944959802102
+cable_gland,598,G + 384 px + CLIP,all,83.05504019789734
+cable_gland,598,G + 384 px + CLIP,geometric,83.05504019789734
+cable_gland,874,C v2 (256),all,82.31292517006801
+cable_gland,874,C v2 (256),geometric,82.31292517006801
+cable_gland,874,E + 384 px,all,82.18923933209648
+cable_gland,874,E + 384 px,geometric,82.18923933209648
+cable_gland,874,F + CLIP,all,88.00247371675944
+cable_gland,874,F + CLIP,geometric,88.00247371675944
+cable_gland,874,G + 384 px + CLIP,all,89.42486085343228
+cable_gland,874,G + 384 px + CLIP,geometric,89.42486085343228
+cable_gland,589,C v2 (256),all,82.31292517006803
+cable_gland,589,C v2 (256),geometric,82.31292517006803
+cable_gland,589,E + 384 px,all,85.59059987631416
+cable_gland,589,E + 384 px,geometric,85.59059987631416
+cable_gland,589,F + CLIP,all,89.61038961038962
+cable_gland,589,F + CLIP,geometric,89.61038961038962
+cable_gland,589,G + 384 px + CLIP,all,86.64192949907236
+cable_gland,589,G + 384 px + CLIP,geometric,86.64192949907236
+carrot,333,C v2 (256),all,92.69884638737098
+carrot,333,C v2 (256),geometric,90.0462962962963
+carrot,333,C v2 (256),surface,94.29012345679013
+carrot,333,C v2 (256),mixed,98.57549857549857
+carrot,333,E + 384 px,all,91.1050394656952
+carrot,333,E + 384 px,geometric,87.70576131687243
+carrot,333,E + 384 px,surface,96.14197530864197
+carrot,333,E + 384 px,mixed,95.86894586894587
+carrot,333,F + CLIP,all,95.08196721311477
+carrot,333,F + CLIP,geometric,93.41563786008228
+carrot,333,F + CLIP,surface,95.21604938271604
+carrot,333,F + CLIP,mixed,99.57264957264957
+carrot,333,G + 384 px + CLIP,all,94.71766848816029
+carrot,333,G + 384 px + CLIP,geometric,92.6954732510288
+carrot,333,G + 384 px + CLIP,surface,97.8395061728395
+carrot,333,G + 384 px + CLIP,mixed,97.43589743589743
+carrot,576,C v2 (256),all,94.08014571948999
+carrot,576,C v2 (256),geometric,91.07981220657277
+carrot,576,C v2 (256),surface,96.86609686609687
+carrot,576,C v2 (256),mixed,99.70370370370371
+carrot,576,E + 384 px,all,93.19975713418336
+carrot,576,E + 384 px,geometric,90.14084507042254
+carrot,576,E + 384 px,surface,98.29059829059828
+carrot,576,E + 384 px,mixed,96.5925925925926
+carrot,576,F + CLIP,all,94.0649666059502
+carrot,576,F + CLIP,geometric,91.41888367240479
+carrot,576,F + CLIP,surface,96.01139601139602
+carrot,576,F + CLIP,mixed,99.55555555555556
+carrot,576,G + 384 px + CLIP,all,93.95871281117181
+carrot,576,G + 384 px + CLIP,geometric,91.13197704747
+carrot,576,G + 384 px + CLIP,surface,97.86324786324786
+carrot,576,G + 384 px + CLIP,mixed,97.92592592592592
+carrot,725,C v2 (256),all,92.16757741347905
+carrot,725,C v2 (256),geometric,90.89506172839506
+carrot,725,C v2 (256),surface,90.17094017094017
+carrot,725,C v2 (256),mixed,98.14814814814815
+carrot,725,E + 384 px,all,92.38008500303582
+carrot,725,E + 384 px,geometric,88.8888888888889
+carrot,725,E + 384 px,surface,98.86039886039887
+carrot,725,E + 384 px,mixed,95.83333333333334
+carrot,725,F + CLIP,all,92.22829386763813
+carrot,725,F + CLIP,geometric,90.74074074074075
+carrot,725,F + CLIP,surface,90.17094017094017
+carrot,725,F + CLIP,mixed,98.91975308641976
+carrot,725,G + 384 px + CLIP,all,91.19611414693382
+carrot,725,G + 384 px + CLIP,geometric,88.68312757201645
+carrot,725,G + 384 px + CLIP,surface,94.58689458689459
+carrot,725,G + 384 px + CLIP,mixed,95.06172839506173
+carrot,823,C v2 (256),all,94.68731026108074
+carrot,823,C v2 (256),geometric,92.79835390946502
+carrot,823,C v2 (256),surface,95.98765432098764
+carrot,823,C v2 (256),mixed,98.71794871794873
+carrot,823,E + 384 px,all,93.01760777170614
+carrot,823,E + 384 px,geometric,89.86625514403292
+carrot,823,E + 384 px,surface,99.07407407407408
+carrot,823,E + 384 px,mixed,96.15384615384616
+carrot,823,F + CLIP,all,94.83910139647844
+carrot,823,F + CLIP,geometric,93.15843621399176
+carrot,823,F + CLIP,surface,95.83333333333333
+carrot,823,F + CLIP,mixed,98.57549857549857
+carrot,823,G + 384 px + CLIP,all,94.41408621736491
+carrot,823,G + 384 px + CLIP,geometric,92.46399176954732
+carrot,823,G + 384 px + CLIP,surface,98.30246913580247
+carrot,823,G + 384 px + CLIP,mixed,96.22507122507125
+carrot,831,C v2 (256),all,94.26229508196721
+carrot,831,C v2 (256),geometric,92.59259259259261
+carrot,831,C v2 (256),surface,95.5246913580247
+carrot,831,C v2 (256),mixed,98.38969404186795
+carrot,831,E + 384 px,all,92.57741347905282
+carrot,831,E + 384 px,geometric,89.7037037037037
+carrot,831,E + 384 px,surface,98.61111111111111
+carrot,831,E + 384 px,mixed,95.65217391304347
+carrot,831,F + CLIP,all,94.53551912568305
+carrot,831,F + CLIP,geometric,93.13580246913581
+carrot,831,F + CLIP,surface,95.679012345679
+carrot,831,F + CLIP,mixed,97.90660225442835
+carrot,831,G + 384 px + CLIP,all,93.29083181542197
+carrot,831,G + 384 px + CLIP,geometric,90.81481481481482
+carrot,831,G + 384 px + CLIP,surface,98.76543209876543
+carrot,831,G + 384 px + CLIP,mixed,95.65217391304348
+carrot,902,C v2 (256),all,92.39526411657559
+carrot,902,C v2 (256),geometric,90.14917695473251
+carrot,902,C v2 (256),surface,93.96433470507543
+carrot,902,C v2 (256),mixed,97.58454106280193
+carrot,902,E + 384 px,all,92.38008500303583
+carrot,902,E + 384 px,geometric,89.19753086419753
+carrot,902,E + 384 px,surface,96.84499314128944
+carrot,902,E + 384 px,mixed,97.10144927536233
+carrot,902,F + CLIP,all,93.12386156648452
+carrot,902,F + CLIP,geometric,91.28086419753087
+carrot,902,F + CLIP,surface,94.78737997256516
+carrot,902,F + CLIP,mixed,96.94041867954913
+carrot,902,G + 384 px + CLIP,all,93.3211900425015
+carrot,902,G + 384 px + CLIP,geometric,91.0493827160494
+carrot,902,G + 384 px + CLIP,surface,96.98216735253772
+carrot,902,G + 384 px + CLIP,mixed,96.1352657004831
+carrot,226,C v2 (256),all,92.16757741347905
+carrot,226,C v2 (256),geometric,90.49919484702093
+carrot,226,C v2 (256),surface,90.5982905982906
+carrot,226,C v2 (256),mixed,97.94238683127571
+carrot,226,E + 384 px,all,90.61930783242259
+carrot,226,E + 384 px,geometric,87.76167471819647
+carrot,226,E + 384 px,surface,93.01994301994301
+carrot,226,E + 384 px,mixed,95.61042524005487
+carrot,226,F + CLIP,all,91.01396478445659
+carrot,226,F + CLIP,geometric,89.80139559849705
+carrot,226,F + CLIP,surface,86.8945868945869
+carrot,226,F + CLIP,mixed,98.079561042524
+carrot,226,G + 384 px + CLIP,all,93.13904068002428
+carrot,226,G + 384 px + CLIP,geometric,91.78743961352657
+carrot,226,G + 384 px + CLIP,surface,94.01709401709402
+carrot,226,G + 384 px + CLIP,mixed,95.74759945130316
+carrot,598,C v2 (256),all,94.68731026108075
+carrot,598,C v2 (256),geometric,92.98765432098767
+carrot,598,C v2 (256),surface,97.68518518518519
+carrot,598,C v2 (256),mixed,97.10144927536231
+carrot,598,E + 384 px,all,91.43897996357012
+carrot,598,E + 384 px,geometric,88.98765432098766
+carrot,598,E + 384 px,surface,94.59876543209876
+carrot,598,E + 384 px,mixed,96.1352657004831
+carrot,598,F + CLIP,all,93.80692167577413
+carrot,598,F + CLIP,geometric,92.64197530864199
+carrot,598,F + CLIP,surface,95.21604938271606
+carrot,598,F + CLIP,mixed,96.1352657004831
+carrot,598,G + 384 px + CLIP,all,91.59077109896782
+carrot,598,G + 384 px + CLIP,geometric,89.58024691358024
+carrot,598,G + 384 px + CLIP,surface,95.37037037037037
+carrot,598,G + 384 px + CLIP,mixed,94.20289855072464
+carrot,874,C v2 (256),all,92.42562234365514
+carrot,874,C v2 (256),geometric,90.11511511511512
+carrot,874,C v2 (256),surface,93.28703703703704
+carrot,874,C v2 (256),mixed,98.68827160493827
+carrot,874,E + 384 px,all,91.77292046144505
+carrot,874,E + 384 px,geometric,88.988988988989
+carrot,874,E + 384 px,surface,96.14197530864197
+carrot,874,E + 384 px,mixed,95.98765432098766
+carrot,874,F + CLIP,all,91.49969641772921
+carrot,874,F + CLIP,geometric,89.01401401401401
+carrot,874,F + CLIP,surface,92.05246913580247
+carrot,874,F + CLIP,mixed,98.6111111111111
+carrot,874,G + 384 px + CLIP,all,92.16757741347905
+carrot,874,G + 384 px + CLIP,geometric,89.93993993993993
+carrot,874,G + 384 px + CLIP,surface,95.67901234567901
+carrot,874,G + 384 px + CLIP,mixed,95.52469135802471
+carrot,589,C v2 (256),all,92.85063752276868
+carrot,589,C v2 (256),geometric,90.42328042328043
+carrot,589,C v2 (256),surface,92.51851851851852
+carrot,589,C v2 (256),mixed,99.45130315500685
+carrot,589,E + 384 px,all,93.57923497267761
+carrot,589,E + 384 px,geometric,90.55555555555556
+carrot,589,E + 384 px,surface,97.92592592592592
+carrot,589,E + 384 px,mixed,97.39368998628258
+carrot,589,F + CLIP,all,93.57923497267761
+carrot,589,F + CLIP,geometric,91.82539682539682
+carrot,589,F + CLIP,surface,91.85185185185185
+carrot,589,F + CLIP,mixed,99.72565157750344
+carrot,589,G + 384 px + CLIP,all,94.52034001214328
+carrot,589,G + 384 px + CLIP,geometric,91.9047619047619
+carrot,589,G + 384 px + CLIP,surface,98.22222222222223
+carrot,589,G + 384 px + CLIP,mixed,97.87379972565158
+cookie,333,C v2 (256),all,78.12980030721967
+cookie,333,C v2 (256),geometric,89.59627329192547
+cookie,333,C v2 (256),surface,76.3975155279503
+cookie,333,C v2 (256),mixed,57.812500000000014
+cookie,333,E + 384 px,all,76.20967741935485
+cookie,333,E + 384 px,geometric,87.11180124223603
+cookie,333,E + 384 px,surface,74.9223602484472
+cookie,333,E + 384 px,mixed,56.547619047619044
+cookie,333,F + CLIP,all,79.62749615975423
+cookie,333,F + CLIP,geometric,90.48913043478262
+cookie,333,F + CLIP,surface,79.19254658385093
+cookie,333,F + CLIP,mixed,59.226190476190474
+cookie,333,G + 384 px + CLIP,all,78.9362519201229
+cookie,333,G + 384 px + CLIP,geometric,90.21739130434783
+cookie,333,G + 384 px + CLIP,surface,78.64906832298138
+cookie,333,G + 384 px + CLIP,mixed,57.58928571428571
+cookie,576,C v2 (256),all,79.56989247311827
+cookie,576,C v2 (256),geometric,88.74223602484473
+cookie,576,C v2 (256),surface,77.23214285714286
+cookie,576,C v2 (256),mixed,63.66459627329193
+cookie,576,E + 384 px,all,75.09600614439324
+cookie,576,E + 384 px,geometric,87.15062111801242
+cookie,576,E + 384 px,surface,67.85714285714286
+cookie,576,E + 384 px,mixed,58.540372670807464
+cookie,576,F + CLIP,all,81.18279569892472
+cookie,576,F + CLIP,geometric,90.37267080745342
+cookie,576,F + CLIP,surface,77.08333333333333
+cookie,576,F + CLIP,mixed,67.08074534161491
+cookie,576,G + 384 px + CLIP,all,78.32181259600614
+cookie,576,G + 384 px + CLIP,geometric,88.8975155279503
+cookie,576,G + 384 px + CLIP,surface,69.71726190476191
+cookie,576,G + 384 px + CLIP,mixed,66.14906832298138
+cookie,725,C v2 (256),all,77.28494623655914
+cookie,725,C v2 (256),geometric,86.23511904761905
+cookie,725,C v2 (256),surface,73.83540372670807
+cookie,725,C v2 (256),mixed,61.36363636363635
+cookie,725,E + 384 px,all,72.56144393241168
+cookie,725,E + 384 px,geometric,81.21279761904762
+cookie,725,E + 384 px,surface,64.90683229813665
+cookie,725,E + 384 px,mixed,61.68831168831168
+cookie,725,F + CLIP,all,80.60675883256529
+cookie,725,F + CLIP,geometric,91.81547619047619
+cookie,725,F + CLIP,surface,75.62111801242236
+cookie,725,F + CLIP,mixed,61.36363636363637
+cookie,725,G + 384 px + CLIP,all,69.70046082949308
+cookie,725,G + 384 px + CLIP,geometric,77.75297619047619
+cookie,725,G + 384 px + CLIP,surface,61.64596273291926
+cookie,725,G + 384 px + CLIP,mixed,60.55194805194806
+cookie,823,C v2 (256),all,78.09139784946237
+cookie,823,C v2 (256),geometric,85.9375
+cookie,823,C v2 (256),surface,75.93537414965986
+cookie,823,C v2 (256),mixed,64.28571428571429
+cookie,823,E + 384 px,all,73.0030721966206
+cookie,823,E + 384 px,geometric,78.64583333333334
+cookie,823,E + 384 px,surface,74.82993197278913
+cookie,823,E + 384 px,mixed,60.11904761904761
+cookie,823,F + CLIP,all,77.13133640552995
+cookie,823,F + CLIP,geometric,85.19345238095238
+cookie,823,F + CLIP,surface,72.95918367346938
+cookie,823,F + CLIP,mixed,64.65773809523809
+cookie,823,G + 384 px + CLIP,all,71.94700460829493
+cookie,823,G + 384 px + CLIP,geometric,78.05059523809523
+cookie,823,G + 384 px + CLIP,surface,74.14965986394559
+cookie,823,G + 384 px + CLIP,mixed,57.8125
+cookie,831,C v2 (256),all,77.61136712749615
+cookie,831,C v2 (256),geometric,83.21428571428572
+cookie,831,C v2 (256),surface,74.53416149068323
+cookie,831,C v2 (256),mixed,67.14285714285715
+cookie,831,E + 384 px,all,70.81413210445469
+cookie,831,E + 384 px,geometric,74.57142857142857
+cookie,831,E + 384 px,surface,65.37267080745342
+cookie,831,E + 384 px,mixed,67.67857142857142
+cookie,831,F + CLIP,all,79.3394777265745
+cookie,831,F + CLIP,geometric,84.35714285714285
+cookie,831,F + CLIP,surface,77.32919254658385
+cookie,831,F + CLIP,mixed,69.10714285714286
+cookie,831,G + 384 px + CLIP,all,74.96159754224271
+cookie,831,G + 384 px + CLIP,geometric,78.92857142857143
+cookie,831,G + 384 px + CLIP,surface,65.99378881987577
+cookie,831,G + 384 px + CLIP,mixed,75.35714285714286
+cookie,902,C v2 (256),all,80.03072196620585
+cookie,902,C v2 (256),geometric,85.56231003039514
+cookie,902,C v2 (256),surface,69.28571428571428
+cookie,902,C v2 (256),mixed,80.44217687074831
+cookie,902,E + 384 px,all,81.29800307219661
+cookie,902,E + 384 px,geometric,86.70212765957447
+cookie,902,E + 384 px,surface,69.42857142857143
+cookie,902,E + 384 px,mixed,83.33333333333333
+cookie,902,F + CLIP,all,81.95084485407065
+cookie,902,F + CLIP,geometric,88.67781155015197
+cookie,902,F + CLIP,surface,70.28571428571428
+cookie,902,F + CLIP,mixed,80.78231292517006
+cookie,902,G + 384 px + CLIP,all,82.7188940092166
+cookie,902,G + 384 px + CLIP,geometric,88.67781155015197
+cookie,902,G + 384 px + CLIP,surface,70.85714285714285
+cookie,902,G + 384 px + CLIP,mixed,83.50340136054423
+cookie,226,C v2 (256),all,82.1236559139785
+cookie,226,C v2 (256),geometric,93.9935064935065
+cookie,226,C v2 (256),surface,78.5
+cookie,226,C v2 (256),mixed,64.13690476190477
+cookie,226,E + 384 px,all,81.37480798771122
+cookie,226,E + 384 px,geometric,94.07467532467533
+cookie,226,E + 384 px,surface,77.64285714285714
+cookie,226,E + 384 px,mixed,61.979166666666664
+cookie,226,F + CLIP,all,75.17281105990784
+cookie,226,F + CLIP,geometric,87.37824675324674
+cookie,226,F + CLIP,surface,69.5
+cookie,226,F + CLIP,mixed,58.70535714285714
+cookie,226,G + 384 px + CLIP,all,81.29800307219662
+cookie,226,G + 384 px + CLIP,geometric,93.83116883116884
+cookie,226,G + 384 px + CLIP,surface,77.0
+cookie,226,G + 384 px + CLIP,mixed,62.797619047619044
+cookie,598,C v2 (256),all,82.33486943164363
+cookie,598,C v2 (256),geometric,92.14285714285715
+cookie,598,C v2 (256),surface,77.63975155279503
+cookie,598,C v2 (256),mixed,63.21428571428571
+cookie,598,E + 384 px,all,76.6705069124424
+cookie,598,E + 384 px,geometric,86.71428571428571
+cookie,598,E + 384 px,surface,67.62422360248446
+cookie,598,E + 384 px,mixed,61.964285714285715
+cookie,598,F + CLIP,all,82.14285714285714
+cookie,598,F + CLIP,geometric,91.85714285714286
+cookie,598,F + CLIP,surface,77.48447204968944
+cookie,598,F + CLIP,mixed,63.21428571428571
+cookie,598,G + 384 px + CLIP,all,74.76958525345621
+cookie,598,G + 384 px + CLIP,geometric,86.28571428571429
+cookie,598,G + 384 px + CLIP,surface,61.645962732919244
+cookie,598,G + 384 px + CLIP,mixed,61.07142857142858
+cookie,874,C v2 (256),all,76.1520737327189
+cookie,874,C v2 (256),geometric,84.365889212828
+cookie,874,C v2 (256),surface,76.13636363636364
+cookie,874,C v2 (256),mixed,57.87337662337663
+cookie,874,E + 384 px,all,72.94546850998465
+cookie,874,E + 384 px,geometric,81.92419825072886
+cookie,874,E + 384 px,surface,71.26623376623377
+cookie,874,E + 384 px,mixed,54.62662337662337
+cookie,874,F + CLIP,all,79.16666666666666
+cookie,874,F + CLIP,geometric,88.08309037900874
+cookie,874,F + CLIP,surface,79.22077922077922
+cookie,874,F + CLIP,mixed,59.25324675324675
+cookie,874,G + 384 px + CLIP,all,74.15514592933948
+cookie,874,G + 384 px + CLIP,geometric,83.74635568513119
+cookie,874,G + 384 px + CLIP,surface,72.80844155844154
+cookie,874,G + 384 px + CLIP,mixed,54.13961038961038
+cookie,589,C v2 (256),all,80.12672811059909
+cookie,589,C v2 (256),geometric,83.01671732522796
+cookie,589,C v2 (256),surface,68.01948051948052
+cookie,589,C v2 (256),mixed,85.56547619047619
+cookie,589,E + 384 px,all,78.68663594470046
+cookie,589,E + 384 px,geometric,84.95440729483282
+cookie,589,E + 384 px,surface,60.87662337662337
+cookie,589,E + 384 px,mixed,82.73809523809523
+cookie,589,F + CLIP,all,81.22119815668202
+cookie,589,F + CLIP,geometric,84.04255319148936
+cookie,589,F + CLIP,surface,69.64285714285715
+cookie,589,F + CLIP,mixed,86.30952380952381
+cookie,589,G + 384 px + CLIP,all,78.76344086021506
+cookie,589,G + 384 px + CLIP,geometric,85.41033434650456
+cookie,589,G + 384 px + CLIP,surface,62.175324675324674
+cookie,589,G + 384 px + CLIP,mixed,80.95238095238095
+dowel,333,C v2 (256),all,97.17675941080196
+dowel,333,C v2 (256),geometric,100.0
+dowel,333,C v2 (256),surface,89.38461538461537
+dowel,333,C v2 (256),mixed,100.0
+dowel,333,E + 384 px,all,97.91325695581014
+dowel,333,E + 384 px,geometric,100.0
+dowel,333,E + 384 px,surface,92.15384615384615
+dowel,333,E + 384 px,mixed,100.0
+dowel,333,F + CLIP,all,97.13584288052373
+dowel,333,F + CLIP,geometric,100.0
+dowel,333,F + CLIP,surface,89.23076923076924
+dowel,333,F + CLIP,mixed,100.0
+dowel,333,G + 384 px + CLIP,all,97.97463175122749
+dowel,333,G + 384 px + CLIP,geometric,100.0
+dowel,333,G + 384 px + CLIP,surface,92.38461538461537
+dowel,333,G + 384 px + CLIP,mixed,100.0
+dowel,576,C v2 (256),all,96.4607201309329
+dowel,576,C v2 (256),geometric,99.74358974358975
+dowel,576,C v2 (256),surface,86.61858974358974
+dowel,576,C v2 (256),mixed,100.0
+dowel,576,E + 384 px,all,97.38134206219313
+dowel,576,E + 384 px,geometric,100.0
+dowel,576,E + 384 px,surface,89.74358974358975
+dowel,576,E + 384 px,mixed,100.0
+dowel,576,F + CLIP,all,96.68576104746319
+dowel,576,F + CLIP,geometric,99.91452991452991
+dowel,576,F + CLIP,surface,87.17948717948718
+dowel,576,F + CLIP,mixed,100.0
+dowel,576,G + 384 px + CLIP,all,98.42471358428806
+dowel,576,G + 384 px + CLIP,geometric,100.0
+dowel,576,G + 384 px + CLIP,surface,93.8301282051282
+dowel,576,G + 384 px + CLIP,mixed,100.0
+dowel,725,C v2 (256),all,96.84942716857611
+dowel,725,C v2 (256),geometric,100.0
+dowel,725,C v2 (256),surface,87.12374581939798
+dowel,725,C v2 (256),mixed,100.0
+dowel,725,E + 384 px,all,98.17921440261865
+dowel,725,E + 384 px,geometric,100.0
+dowel,725,E + 384 px,surface,92.55852842809364
+dowel,725,E + 384 px,mixed,100.0
+dowel,725,F + CLIP,all,96.76759410801964
+dowel,725,F + CLIP,geometric,100.0
+dowel,725,F + CLIP,surface,86.78929765886288
+dowel,725,F + CLIP,mixed,100.0
+dowel,725,G + 384 px + CLIP,all,98.19967266775777
+dowel,725,G + 384 px + CLIP,geometric,100.0
+dowel,725,G + 384 px + CLIP,surface,92.64214046822742
+dowel,725,G + 384 px + CLIP,mixed,100.0
+dowel,823,C v2 (256),all,96.60392798690671
+dowel,823,C v2 (256),geometric,100.0
+dowel,823,C v2 (256),surface,87.23076923076923
+dowel,823,C v2 (256),mixed,100.0
+dowel,823,E + 384 px,all,98.44517184942715
+dowel,823,E + 384 px,geometric,100.0
+dowel,823,E + 384 px,surface,94.15384615384616
+dowel,823,E + 384 px,mixed,100.0
+dowel,823,F + CLIP,all,97.15630114566285
+dowel,823,F + CLIP,geometric,100.0
+dowel,823,F + CLIP,surface,89.3076923076923
+dowel,823,F + CLIP,mixed,100.0
+dowel,823,G + 384 px + CLIP,all,97.83142389525368
+dowel,823,G + 384 px + CLIP,geometric,100.0
+dowel,823,G + 384 px + CLIP,surface,91.84615384615384
+dowel,823,G + 384 px + CLIP,mixed,100.0
+dowel,831,C v2 (256),all,96.01063829787235
+dowel,831,C v2 (256),geometric,100.0
+dowel,831,C v2 (256),surface,84.375
+dowel,831,C v2 (256),mixed,100.0
+dowel,831,E + 384 px,all,98.73158756137481
+dowel,831,E + 384 px,geometric,100.0
+dowel,831,E + 384 px,surface,95.03205128205128
+dowel,831,E + 384 px,mixed,100.0
+dowel,831,F + CLIP,all,95.51963993453356
+dowel,831,F + CLIP,geometric,100.0
+dowel,831,F + CLIP,surface,82.45192307692307
+dowel,831,F + CLIP,mixed,100.0
+dowel,831,G + 384 px + CLIP,all,98.64975450081835
+dowel,831,G + 384 px + CLIP,geometric,100.0
+dowel,831,G + 384 px + CLIP,surface,94.71153846153847
+dowel,831,G + 384 px + CLIP,mixed,100.0
+dowel,902,C v2 (256),all,97.50409165302781
+dowel,902,C v2 (256),geometric,100.0
+dowel,902,C v2 (256),surface,89.79933110367892
+dowel,902,C v2 (256),mixed,100.0
+dowel,902,E + 384 px,all,98.58837970540098
+dowel,902,E + 384 px,geometric,100.0
+dowel,902,E + 384 px,surface,94.23076923076923
+dowel,902,E + 384 px,mixed,100.0
+dowel,902,F + CLIP,all,97.42225859247135
+dowel,902,F + CLIP,geometric,100.0
+dowel,902,F + CLIP,surface,89.4648829431438
+dowel,902,F + CLIP,mixed,100.0
+dowel,902,G + 384 px + CLIP,all,98.0973813420622
+dowel,902,G + 384 px + CLIP,geometric,100.0
+dowel,902,G + 384 px + CLIP,surface,92.22408026755853
+dowel,902,G + 384 px + CLIP,mixed,100.0
+dowel,226,C v2 (256),all,97.38134206219313
+dowel,226,C v2 (256),geometric,100.0
+dowel,226,C v2 (256),surface,88.81118881118881
+dowel,226,C v2 (256),mixed,100.0
+dowel,226,E + 384 px,all,98.48608837970541
+dowel,226,E + 384 px,geometric,100.0
+dowel,226,E + 384 px,surface,93.53146853146853
+dowel,226,E + 384 px,mixed,100.0
+dowel,226,F + CLIP,all,97.0949263502455
+dowel,226,F + CLIP,geometric,100.0
+dowel,226,F + CLIP,surface,87.58741258741259
+dowel,226,F + CLIP,mixed,100.0
+dowel,226,G + 384 px + CLIP,all,98.62929623567922
+dowel,226,G + 384 px + CLIP,geometric,100.0
+dowel,226,G + 384 px + CLIP,surface,94.14335664335664
+dowel,226,G + 384 px + CLIP,mixed,100.0
+dowel,598,C v2 (256),all,96.54255319148936
+dowel,598,C v2 (256),geometric,99.91452991452991
+dowel,598,C v2 (256),surface,87.15384615384615
+dowel,598,C v2 (256),mixed,100.0
+dowel,598,E + 384 px,all,98.48608837970541
+dowel,598,E + 384 px,geometric,100.0
+dowel,598,E + 384 px,surface,94.3076923076923
+dowel,598,E + 384 px,mixed,100.0
+dowel,598,F + CLIP,all,96.86988543371523
+dowel,598,F + CLIP,geometric,99.82905982905983
+dowel,598,F + CLIP,surface,88.53846153846155
+dowel,598,F + CLIP,mixed,100.0
+dowel,598,G + 384 px + CLIP,all,97.64729950900164
+dowel,598,G + 384 px + CLIP,geometric,100.0
+dowel,598,G + 384 px + CLIP,surface,91.15384615384615
+dowel,598,G + 384 px + CLIP,mixed,100.0
+dowel,874,C v2 (256),all,97.17675941080198
+dowel,874,C v2 (256),geometric,100.0
+dowel,874,C v2 (256),surface,88.9423076923077
+dowel,874,C v2 (256),mixed,100.0
+dowel,874,E + 384 px,all,97.58592471358428
+dowel,874,E + 384 px,geometric,100.0
+dowel,874,E + 384 px,surface,90.5448717948718
+dowel,874,E + 384 px,mixed,100.0
+dowel,874,F + CLIP,all,97.2176759410802
+dowel,874,F + CLIP,geometric,100.0
+dowel,874,F + CLIP,surface,89.1025641025641
+dowel,874,F + CLIP,mixed,100.0
+dowel,874,G + 384 px + CLIP,all,98.93617021276594
+dowel,874,G + 384 px + CLIP,geometric,100.0
+dowel,874,G + 384 px + CLIP,surface,95.83333333333333
+dowel,874,G + 384 px + CLIP,mixed,100.0
+dowel,589,C v2 (256),all,96.19476268412438
+dowel,589,C v2 (256),geometric,98.82260596546311
+dowel,589,C v2 (256),surface,86.81318681318682
+dowel,589,C v2 (256),mixed,99.03846153846153
+dowel,589,E + 384 px,all,98.3633387888707
+dowel,589,E + 384 px,geometric,100.0
+dowel,589,E + 384 px,surface,92.67399267399267
+dowel,589,E + 384 px,mixed,100.0
+dowel,589,F + CLIP,all,95.90834697217676
+dowel,589,F + CLIP,geometric,99.29356357927787
+dowel,589,F + CLIP,surface,83.33333333333333
+dowel,589,F + CLIP,mixed,100.0
+dowel,589,G + 384 px + CLIP,all,99.09983633387888
+dowel,589,G + 384 px + CLIP,geometric,100.0
+dowel,589,G + 384 px + CLIP,surface,95.97069597069596
+dowel,589,G + 384 px + CLIP,mixed,100.0
+foam,333,C v2 (256),all,96.35714285714285
+foam,333,C v2 (256),geometric,90.0
+foam,333,C v2 (256),surface,98.28947368421052
+foam,333,C v2 (256),mixed,97.22222222222221
+foam,333,E + 384 px,all,98.78571428571428
+foam,333,E + 384 px,geometric,94.28571428571428
+foam,333,E + 384 px,surface,99.86842105263158
+foam,333,E + 384 px,mixed,100.0
+foam,333,F + CLIP,all,96.92857142857143
+foam,333,F + CLIP,geometric,88.92857142857143
+foam,333,F + CLIP,surface,98.94736842105263
+foam,333,F + CLIP,mixed,98.88888888888889
+foam,333,G + 384 px + CLIP,all,96.14285714285714
+foam,333,G + 384 px + CLIP,geometric,89.28571428571429
+foam,333,G + 384 px + CLIP,surface,98.42105263157896
+foam,333,G + 384 px + CLIP,mixed,96.66666666666669
+foam,576,C v2 (256),all,98.42857142857143
+foam,576,C v2 (256),geometric,92.66666666666667
+foam,576,C v2 (256),surface,100.0
+foam,576,C v2 (256),mixed,100.0
+foam,576,E + 384 px,all,95.28571428571428
+foam,576,E + 384 px,geometric,78.00000000000001
+foam,576,E + 384 px,surface,100.0
+foam,576,E + 384 px,mixed,100.0
+foam,576,F + CLIP,all,97.85714285714285
+foam,576,F + CLIP,geometric,89.99999999999999
+foam,576,F + CLIP,surface,100.0
+foam,576,F + CLIP,mixed,100.0
+foam,576,G + 384 px + CLIP,all,95.71428571428571
+foam,576,G + 384 px + CLIP,geometric,80.0
+foam,576,G + 384 px + CLIP,surface,100.0
+foam,576,G + 384 px + CLIP,mixed,100.0
+foam,725,C v2 (256),all,97.42857142857143
+foam,725,C v2 (256),geometric,91.11111111111111
+foam,725,C v2 (256),surface,100.0
+foam,725,C v2 (256),mixed,98.88888888888889
+foam,725,E + 384 px,all,93.64285714285715
+foam,725,E + 384 px,geometric,80.0
+foam,725,E + 384 px,surface,98.38235294117646
+foam,725,E + 384 px,mixed,98.33333333333333
+foam,725,F + CLIP,all,97.21428571428572
+foam,725,F + CLIP,geometric,89.72222222222223
+foam,725,F + CLIP,surface,100.0
+foam,725,F + CLIP,mixed,99.44444444444444
+foam,725,G + 384 px + CLIP,all,96.85714285714286
+foam,725,G + 384 px + CLIP,geometric,87.77777777777777
+foam,725,G + 384 px + CLIP,surface,100.0
+foam,725,G + 384 px + CLIP,mixed,100.0
+foam,823,C v2 (256),all,98.42857142857143
+foam,823,C v2 (256),geometric,94.70588235294117
+foam,823,C v2 (256),surface,99.86842105263158
+foam,823,C v2 (256),mixed,99.0
+foam,823,E + 384 px,all,96.35714285714286
+foam,823,E + 384 px,geometric,86.17647058823529
+foam,823,E + 384 px,surface,99.60526315789473
+foam,823,E + 384 px,mixed,99.66666666666666
+foam,823,F + CLIP,all,98.07142857142857
+foam,823,F + CLIP,geometric,92.64705882352942
+foam,823,F + CLIP,surface,99.73684210526315
+foam,823,F + CLIP,mixed,100.0
+foam,823,G + 384 px + CLIP,all,95.89285714285715
+foam,823,G + 384 px + CLIP,geometric,86.61764705882354
+foam,823,G + 384 px + CLIP,surface,99.21052631578947
+foam,823,G + 384 px + CLIP,mixed,98.00000000000001
+foam,831,C v2 (256),all,97.14285714285715
+foam,831,C v2 (256),geometric,89.47368421052632
+foam,831,C v2 (256),surface,100.0
+foam,831,C v2 (256),mixed,100.0
+foam,831,E + 384 px,all,93.46428571428571
+foam,831,E + 384 px,geometric,75.92105263157895
+foam,831,E + 384 px,surface,100.0
+foam,831,E + 384 px,mixed,100.0
+foam,831,F + CLIP,all,96.71428571428574
+foam,831,F + CLIP,geometric,88.15789473684211
+foam,831,F + CLIP,surface,99.84848484848484
+foam,831,F + CLIP,mixed,100.0
+foam,831,G + 384 px + CLIP,all,94.75
+foam,831,G + 384 px + CLIP,geometric,81.1842105263158
+foam,831,G + 384 px + CLIP,surface,99.69696969696969
+foam,831,G + 384 px + CLIP,mixed,100.0
+foam,902,C v2 (256),all,98.07142857142857
+foam,902,C v2 (256),geometric,92.64705882352942
+foam,902,C v2 (256),surface,100.0
+foam,902,C v2 (256),mixed,99.5
+foam,902,E + 384 px,all,96.00000000000001
+foam,902,E + 384 px,geometric,83.52941176470588
+foam,902,E + 384 px,surface,100.0
+foam,902,E + 384 px,mixed,100.0
+foam,902,F + CLIP,all,98.71428571428572
+foam,902,F + CLIP,geometric,94.70588235294117
+foam,902,F + CLIP,surface,100.0
+foam,902,F + CLIP,mixed,100.0
+foam,902,G + 384 px + CLIP,all,97.0
+foam,902,G + 384 px + CLIP,geometric,88.23529411764706
+foam,902,G + 384 px + CLIP,surface,99.6969696969697
+foam,902,G + 384 px + CLIP,mixed,100.0
+foam,226,C v2 (256),all,95.57142857142857
+foam,226,C v2 (256),geometric,93.07692307692308
+foam,226,C v2 (256),surface,96.35135135135135
+foam,226,C v2 (256),mixed,95.75
+foam,226,E + 384 px,all,99.64285714285714
+foam,226,E + 384 px,geometric,98.07692307692308
+foam,226,E + 384 px,surface,100.0
+foam,226,E + 384 px,mixed,100.0
+foam,226,F + CLIP,all,96.35714285714285
+foam,226,F + CLIP,geometric,90.38461538461539
+foam,226,F + CLIP,surface,98.1081081081081
+foam,226,F + CLIP,mixed,97.0
+foam,226,G + 384 px + CLIP,all,98.5
+foam,226,G + 384 px + CLIP,geometric,93.46153846153845
+foam,226,G + 384 px + CLIP,surface,99.59459459459458
+foam,226,G + 384 px + CLIP,mixed,99.75
+foam,598,C v2 (256),all,96.71428571428572
+foam,598,C v2 (256),geometric,88.8888888888889
+foam,598,C v2 (256),surface,99.55882352941175
+foam,598,C v2 (256),mixed,99.16666666666666
+foam,598,E + 384 px,all,96.67857142857143
+foam,598,E + 384 px,geometric,87.08333333333333
+foam,598,E + 384 px,surface,100.0
+foam,598,E + 384 px,mixed,100.0
+foam,598,F + CLIP,all,96.14285714285715
+foam,598,F + CLIP,geometric,85.27777777777779
+foam,598,F + CLIP,surface,99.8529411764706
+foam,598,F + CLIP,mixed,100.0
+foam,598,G + 384 px + CLIP,all,96.5
+foam,598,G + 384 px + CLIP,geometric,86.66666666666667
+foam,598,G + 384 px + CLIP,surface,99.8529411764706
+foam,598,G + 384 px + CLIP,mixed,100.0
+foam,874,C v2 (256),all,95.85714285714286
+foam,874,C v2 (256),geometric,84.73684210526315
+foam,874,C v2 (256),surface,100.0
+foam,874,C v2 (256),mixed,100.0
+foam,874,E + 384 px,all,94.25000000000001
+foam,874,E + 384 px,geometric,78.81578947368419
+foam,874,E + 384 px,surface,100.0
+foam,874,E + 384 px,mixed,100.0
+foam,874,F + CLIP,all,96.07142857142857
+foam,874,F + CLIP,geometric,85.52631578947368
+foam,874,F + CLIP,surface,100.0
+foam,874,F + CLIP,mixed,100.0
+foam,874,G + 384 px + CLIP,all,95.57142857142857
+foam,874,G + 384 px + CLIP,geometric,83.94736842105263
+foam,874,G + 384 px + CLIP,surface,99.8529411764706
+foam,874,G + 384 px + CLIP,mixed,100.0
+foam,589,C v2 (256),all,97.42857142857143
+foam,589,C v2 (256),geometric,91.05263157894737
+foam,589,C v2 (256),surface,99.69696969696969
+foam,589,C v2 (256),mixed,100.0
+foam,589,E + 384 px,all,96.21428571428572
+foam,589,E + 384 px,geometric,86.05263157894737
+foam,589,E + 384 px,surface,100.0
+foam,589,E + 384 px,mixed,100.0
+foam,589,F + CLIP,all,95.64285714285714
+foam,589,F + CLIP,geometric,86.05263157894736
+foam,589,F + CLIP,surface,99.3939393939394
+foam,589,F + CLIP,mixed,98.88888888888889
+foam,589,G + 384 px + CLIP,all,96.28571428571429
+foam,589,G + 384 px + CLIP,geometric,86.3157894736842
+foam,589,G + 384 px + CLIP,surface,100.0
+foam,589,G + 384 px + CLIP,mixed,100.0
+peach,333,C v2 (256),all,81.73076923076923
+peach,333,C v2 (256),geometric,80.20833333333334
+peach,333,C v2 (256),surface,81.08974358974359
+peach,333,C v2 (256),mixed,85.41666666666667
+peach,333,E + 384 px,all,82.57211538461539
+peach,333,E + 384 px,geometric,84.61538461538461
+peach,333,E + 384 px,surface,73.07692307692308
+peach,333,E + 384 px,mixed,87.98076923076923
+peach,333,F + CLIP,all,91.90705128205127
+peach,333,F + CLIP,geometric,88.9423076923077
+peach,333,F + CLIP,surface,93.91025641025641
+peach,333,F + CLIP,mixed,95.83333333333334
+peach,333,G + 384 px + CLIP,all,90.06410256410257
+peach,333,G + 384 px + CLIP,geometric,88.9423076923077
+peach,333,G + 384 px + CLIP,surface,89.26282051282051
+peach,333,G + 384 px + CLIP,mixed,93.10897435897436
+peach,576,C v2 (256),all,84.17467948717949
+peach,576,C v2 (256),geometric,81.66939443535188
+peach,576,C v2 (256),surface,80.9171597633136
+peach,576,C v2 (256),mixed,92.97658862876254
+peach,576,E + 384 px,all,86.21794871794873
+peach,576,E + 384 px,geometric,83.63338788870703
+peach,576,E + 384 px,surface,82.10059171597634
+peach,576,E + 384 px,mixed,96.15384615384616
+peach,576,F + CLIP,all,92.3076923076923
+peach,576,F + CLIP,geometric,88.379705400982
+peach,576,F + CLIP,surface,95.85798816568047
+peach,576,F + CLIP,mixed,96.32107023411372
+peach,576,G + 384 px + CLIP,all,91.98717948717949
+peach,576,G + 384 px + CLIP,geometric,90.75286415711948
+peach,576,G + 384 px + CLIP,surface,90.38461538461539
+peach,576,G + 384 px + CLIP,mixed,96.3210702341137
+peach,725,C v2 (256),all,82.9326923076923
+peach,725,C v2 (256),geometric,80.76923076923077
+peach,725,C v2 (256),surface,80.92307692307692
+peach,725,C v2 (256),mixed,90.03496503496503
+peach,725,E + 384 px,all,83.41346153846155
+peach,725,E + 384 px,geometric,81.16169544740973
+peach,725,E + 384 px,surface,79.84615384615385
+peach,725,E + 384 px,mixed,92.48251748251748
+peach,725,F + CLIP,all,91.74679487179486
+peach,725,F + CLIP,geometric,88.54003139717426
+peach,725,F + CLIP,surface,93.38461538461537
+peach,725,F + CLIP,mixed,97.02797202797203
+peach,725,G + 384 px + CLIP,all,87.6201923076923
+peach,725,G + 384 px + CLIP,geometric,84.14442700156987
+peach,725,G + 384 px + CLIP,surface,87.53846153846153
+peach,725,G + 384 px + CLIP,mixed,95.45454545454545
+peach,823,C v2 (256),all,84.05448717948718
+peach,823,C v2 (256),geometric,83.92307692307692
+peach,823,C v2 (256),surface,83.74125874125873
+peach,823,C v2 (256),mixed,84.61538461538461
+peach,823,E + 384 px,all,88.70192307692307
+peach,823,E + 384 px,geometric,87.53846153846153
+peach,823,E + 384 px,surface,83.74125874125873
+peach,823,E + 384 px,mixed,95.67307692307692
+peach,823,F + CLIP,all,93.34935897435898
+peach,823,F + CLIP,geometric,91.61538461538461
+peach,823,F + CLIP,surface,94.93006993006993
+peach,823,F + CLIP,mixed,95.51282051282051
+peach,823,G + 384 px + CLIP,all,91.54647435897436
+peach,823,G + 384 px + CLIP,geometric,89.6923076923077
+peach,823,G + 384 px + CLIP,surface,90.38461538461539
+peach,823,G + 384 px + CLIP,mixed,96.47435897435898
+peach,831,C v2 (256),all,84.21474358974359
+peach,831,C v2 (256),geometric,83.46153846153847
+peach,831,C v2 (256),surface,77.40384615384615
+peach,831,C v2 (256),mixed,93.35664335664336
+peach,831,E + 384 px,all,84.4551282051282
+peach,831,E + 384 px,geometric,82.15384615384616
+peach,831,E + 384 px,surface,83.17307692307692
+peach,831,E + 384 px,mixed,91.08391608391608
+peach,831,F + CLIP,all,93.58974358974359
+peach,831,F + CLIP,geometric,89.61538461538461
+peach,831,F + CLIP,surface,96.47435897435896
+peach,831,F + CLIP,mixed,99.47552447552448
+peach,831,G + 384 px + CLIP,all,90.22435897435896
+peach,831,G + 384 px + CLIP,geometric,88.38461538461539
+peach,831,G + 384 px + CLIP,surface,89.1025641025641
+peach,831,G + 384 px + CLIP,mixed,95.62937062937063
+peach,902,C v2 (256),all,79.28685897435899
+peach,902,C v2 (256),geometric,78.52564102564102
+peach,902,C v2 (256),surface,78.34757834757833
+peach,902,C v2 (256),mixed,82.23443223443223
+peach,902,E + 384 px,all,78.52564102564104
+peach,902,E + 384 px,geometric,78.36538461538461
+peach,902,E + 384 px,surface,73.36182336182335
+peach,902,E + 384 px,mixed,85.53113553113553
+peach,902,F + CLIP,all,88.06089743589743
+peach,902,F + CLIP,geometric,82.7724358974359
+peach,902,F + CLIP,surface,93.3048433048433
+peach,902,F + CLIP,mixed,93.4065934065934
+peach,902,G + 384 px + CLIP,all,89.38301282051282
+peach,902,G + 384 px + CLIP,geometric,88.70192307692307
+peach,902,G + 384 px + CLIP,surface,87.6068376068376
+peach,902,G + 384 px + CLIP,mixed,93.22344322344323
+peach,226,C v2 (256),all,85.53685897435899
+peach,226,C v2 (256),geometric,86.66666666666667
+peach,226,C v2 (256),surface,81.05413105413105
+peach,226,C v2 (256),mixed,88.46153846153847
+peach,226,E + 384 px,all,82.8525641025641
+peach,226,E + 384 px,geometric,81.45299145299145
+peach,226,E + 384 px,surface,80.19943019943018
+peach,226,E + 384 px,mixed,88.46153846153845
+peach,226,F + CLIP,all,88.9823717948718
+peach,226,F + CLIP,geometric,89.23076923076924
+peach,226,F + CLIP,surface,89.45868945868945
+peach,226,F + CLIP,mixed,87.98076923076923
+peach,226,G + 384 px + CLIP,all,84.57532051282051
+peach,226,G + 384 px + CLIP,geometric,83.84615384615385
+peach,226,G + 384 px + CLIP,surface,80.48433048433048
+peach,226,G + 384 px + CLIP,mixed,90.5448717948718
+peach,598,C v2 (256),all,82.13141025641026
+peach,598,C v2 (256),geometric,81.22171945701358
+peach,598,C v2 (256),surface,78.0
+peach,598,C v2 (256),mixed,89.61538461538461
+peach,598,E + 384 px,all,81.69070512820512
+peach,598,E + 384 px,geometric,78.95927601809954
+peach,598,E + 384 px,surface,81.84615384615384
+peach,598,E + 384 px,mixed,88.46153846153845
+peach,598,F + CLIP,all,89.82371794871796
+peach,598,F + CLIP,geometric,84.38914027149322
+peach,598,F + CLIP,surface,94.92307692307693
+peach,598,F + CLIP,mixed,97.3076923076923
+peach,598,G + 384 px + CLIP,all,84.4951923076923
+peach,598,G + 384 px + CLIP,geometric,82.57918552036197
+peach,598,G + 384 px + CLIP,surface,82.76923076923077
+peach,598,G + 384 px + CLIP,mixed,91.53846153846153
+peach,874,C v2 (256),all,82.01121794871796
+peach,874,C v2 (256),geometric,81.46153846153847
+peach,874,C v2 (256),surface,77.08333333333334
+peach,874,C v2 (256),mixed,88.63636363636364
+peach,874,E + 384 px,all,83.33333333333333
+peach,874,E + 384 px,geometric,80.3076923076923
+peach,874,E + 384 px,surface,83.17307692307693
+peach,874,E + 384 px,mixed,90.38461538461537
+peach,874,F + CLIP,all,92.2275641025641
+peach,874,F + CLIP,geometric,88.15384615384616
+peach,874,F + CLIP,surface,95.51282051282051
+peach,874,F + CLIP,mixed,97.9020979020979
+peach,874,G + 384 px + CLIP,all,89.86378205128204
+peach,874,G + 384 px + CLIP,geometric,88.07692307692308
+peach,874,G + 384 px + CLIP,surface,89.74358974358975
+peach,874,G + 384 px + CLIP,mixed,94.05594405594405
+peach,589,C v2 (256),all,83.09294871794872
+peach,589,C v2 (256),geometric,80.92948717948718
+peach,589,C v2 (256),surface,81.89102564102565
+peach,589,C v2 (256),mixed,88.62179487179486
+peach,589,E + 384 px,all,81.3301282051282
+peach,589,E + 384 px,geometric,80.12820512820514
+peach,589,E + 384 px,surface,79.96794871794872
+peach,589,E + 384 px,mixed,85.09615384615384
+peach,589,F + CLIP,all,93.7099358974359
+peach,589,F + CLIP,geometric,90.22435897435898
+peach,589,F + CLIP,surface,95.99358974358975
+peach,589,F + CLIP,mixed,98.3974358974359
+peach,589,G + 384 px + CLIP,all,89.1826923076923
+peach,589,G + 384 px + CLIP,geometric,87.5
+peach,589,G + 384 px + CLIP,surface,88.78205128205127
+peach,589,G + 384 px + CLIP,mixed,92.94871794871796
+potato,333,C v2 (256),all,65.46563192904655
+potato,333,C v2 (256),geometric,66.2004662004662
+potato,333,C v2 (256),surface,68.61471861471861
+potato,333,C v2 (256),mixed,61.15702479338842
+potato,333,E + 384 px,all,51.164079822616415
+potato,333,E + 384 px,geometric,57.22610722610722
+potato,333,E + 384 px,surface,49.35064935064935
+potato,333,E + 384 px,mixed,42.14876033057851
+potato,333,F + CLIP,all,70.06651884700665
+potato,333,F + CLIP,geometric,71.91142191142191
+potato,333,F + CLIP,surface,70.99567099567099
+potato,333,F + CLIP,mixed,65.90909090909092
+potato,333,G + 384 px + CLIP,all,55.931263858093125
+potato,333,G + 384 px + CLIP,geometric,57.692307692307686
+potato,333,G + 384 px + CLIP,surface,56.49350649350649
+potato,333,G + 384 px + CLIP,mixed,52.27272727272727
+potato,576,C v2 (256),all,69.06873614190687
+potato,576,C v2 (256),geometric,66.78321678321679
+potato,576,C v2 (256),surface,77.27272727272727
+potato,576,C v2 (256),mixed,64.7186147186147
+potato,576,E + 384 px,all,53.60310421286031
+potato,576,E + 384 px,geometric,49.06759906759907
+potato,576,E + 384 px,surface,63.84297520661158
+potato,576,E + 384 px,mixed,51.298701298701296
+potato,576,F + CLIP,all,76.94013303769401
+potato,576,F + CLIP,geometric,74.82517482517483
+potato,576,F + CLIP,surface,80.57851239669421
+potato,576,F + CLIP,mixed,77.05627705627705
+potato,576,G + 384 px + CLIP,all,63.359201773835906
+potato,576,G + 384 px + CLIP,geometric,56.75990675990676
+potato,576,G + 384 px + CLIP,surface,77.47933884297521
+potato,576,G + 384 px + CLIP,mixed,60.82251082251082
+potato,725,C v2 (256),all,50.49889135254989
+potato,725,C v2 (256),geometric,45.565410199556545
+potato,725,C v2 (256),surface,51.73160173160174
+potato,725,C v2 (256),mixed,59.31818181818183
+potato,725,E + 384 px,all,57.37250554323725
+potato,725,E + 384 px,geometric,48.78048780487805
+potato,725,E + 384 px,surface,69.9134199134199
+potato,725,E + 384 px,mixed,61.81818181818181
+potato,725,F + CLIP,all,62.02882483370288
+potato,725,F + CLIP,geometric,52.54988913525498
+potato,725,F + CLIP,surface,67.31601731601732
+potato,725,F + CLIP,mixed,75.9090909090909
+potato,725,G + 384 px + CLIP,all,60.36585365853659
+potato,725,G + 384 px + CLIP,geometric,47.5609756097561
+potato,725,G + 384 px + CLIP,surface,75.54112554112554
+potato,725,G + 384 px + CLIP,mixed,70.68181818181817
+potato,823,C v2 (256),all,52.827050997782706
+potato,823,C v2 (256),geometric,55.4112554112554
+potato,823,C v2 (256),surface,64.14141414141415
+potato,823,C v2 (256),mixed,38.63636363636363
+potato,823,E + 384 px,all,42.79379157427938
+potato,823,E + 384 px,geometric,47.61904761904761
+potato,823,E + 384 px,surface,55.80808080808081
+potato,823,E + 384 px,mixed,22.93388429752066
+potato,823,F + CLIP,all,62.36141906873613
+potato,823,F + CLIP,geometric,63.095238095238095
+potato,823,F + CLIP,surface,75.25252525252525
+potato,823,F + CLIP,mixed,50.413223140495866
+potato,823,G + 384 px + CLIP,all,63.35920177383591
+potato,823,G + 384 px + CLIP,geometric,53.67965367965368
+potato,823,G + 384 px + CLIP,surface,85.1010101010101
+potato,823,G + 384 px + CLIP,mixed,64.0495867768595
+potato,831,C v2 (256),all,54.32372505543237
+potato,831,C v2 (256),geometric,48.73150105708245
+potato,831,C v2 (256),surface,60.17316017316017
+potato,831,C v2 (256),mixed,60.858585858585855
+potato,831,E + 384 px,all,44.01330376940133
+potato,831,E + 384 px,geometric,38.90063424947145
+potato,831,E + 384 px,surface,50.43290043290043
+potato,831,E + 384 px,mixed,48.73737373737374
+potato,831,F + CLIP,all,62.6940133037694
+potato,831,F + CLIP,geometric,57.08245243128963
+potato,831,F + CLIP,surface,68.61471861471861
+potato,831,F + CLIP,mixed,69.1919191919192
+potato,831,G + 384 px + CLIP,all,63.91352549889135
+potato,831,G + 384 px + CLIP,geometric,55.39112050739957
+potato,831,G + 384 px + CLIP,surface,75.75757575757575
+potato,831,G + 384 px + CLIP,mixed,70.45454545454545
+potato,902,C v2 (256),all,60.69844789356984
+potato,902,C v2 (256),geometric,61.59090909090909
+potato,902,C v2 (256),surface,70.35573122529644
+potato,902,C v2 (256),mixed,47.12918660287081
+potato,902,E + 384 px,all,52.9379157427938
+potato,902,E + 384 px,geometric,56.5909090909091
+potato,902,E + 384 px,surface,57.114624505928845
+potato,902,E + 384 px,mixed,40.191387559808604
+potato,902,F + CLIP,all,65.68736141906874
+potato,902,F + CLIP,geometric,68.97727272727273
+potato,902,F + CLIP,surface,70.35573122529645
+potato,902,F + CLIP,mixed,53.110047846889955
+potato,902,G + 384 px + CLIP,all,54.71175166297117
+potato,902,G + 384 px + CLIP,geometric,56.02272727272728
+potato,902,G + 384 px + CLIP,surface,66.20553359683795
+potato,902,G + 384 px + CLIP,mixed,38.038277511961724
+potato,226,C v2 (256),all,69.62305986696231
+potato,226,C v2 (256),geometric,66.95331695331697
+potato,226,C v2 (256),surface,78.65612648221342
+potato,226,C v2 (256),mixed,64.6694214876033
+potato,226,E + 384 px,all,51.274944567627486
+potato,226,E + 384 px,geometric,51.105651105651106
+potato,226,E + 384 px,surface,55.73122529644269
+potato,226,E + 384 px,mixed,46.90082644628099
+potato,226,F + CLIP,all,73.00443458980044
+potato,226,F + CLIP,geometric,68.05896805896808
+potato,226,F + CLIP,surface,83.201581027668
+potato,226,F + CLIP,mixed,70.66115702479338
+potato,226,G + 384 px + CLIP,all,68.18181818181817
+potato,226,G + 384 px + CLIP,geometric,58.476658476658486
+potato,226,G + 384 px + CLIP,surface,76.87747035573122
+potato,226,G + 384 px + CLIP,mixed,75.41322314049587
+potato,598,C v2 (256),all,70.34368070953437
+potato,598,C v2 (256),geometric,67.75898520084567
+potato,598,C v2 (256),surface,79.00432900432901
+potato,598,C v2 (256),mixed,66.41414141414141
+potato,598,E + 384 px,all,51.385809312638585
+potato,598,E + 384 px,geometric,44.82029598308668
+potato,598,E + 384 px,surface,59.09090909090909
+potato,598,E + 384 px,mixed,58.08080808080809
+potato,598,F + CLIP,all,70.95343680709534
+potato,598,F + CLIP,geometric,64.90486257928119
+potato,598,F + CLIP,surface,77.48917748917748
+potato,598,F + CLIP,mixed,77.77777777777777
+potato,598,G + 384 px + CLIP,all,71.06430155210643
+potato,598,G + 384 px + CLIP,geometric,62.896405919661724
+potato,598,G + 384 px + CLIP,surface,80.95238095238095
+potato,598,G + 384 px + CLIP,mixed,79.04040404040404
+potato,874,C v2 (256),all,68.07095343680707
+potato,874,C v2 (256),geometric,62.63858093126387
+potato,874,C v2 (256),surface,77.27272727272727
+potato,874,C v2 (256),mixed,69.54545454545455
+potato,874,E + 384 px,all,58.758314855875824
+potato,874,E + 384 px,geometric,52.66075388026608
+potato,874,E + 384 px,surface,67.96536796536797
+potato,874,E + 384 px,mixed,61.59090909090909
+potato,874,F + CLIP,all,71.11973392461198
+potato,874,F + CLIP,geometric,64.30155210643017
+potato,874,F + CLIP,surface,76.62337662337663
+potato,874,F + CLIP,mixed,79.31818181818181
+potato,874,G + 384 px + CLIP,all,68.56984478935698
+potato,874,G + 384 px + CLIP,geometric,58.2039911308204
+potato,874,G + 384 px + CLIP,surface,79.43722943722942
+potato,874,G + 384 px + CLIP,mixed,78.4090909090909
+potato,589,C v2 (256),all,54.379157427937905
+potato,589,C v2 (256),geometric,49.31818181818182
+potato,589,C v2 (256),surface,58.87445887445888
+potato,589,C v2 (256),mixed,59.52380952380951
+potato,589,E + 384 px,all,45.509977827050996
+potato,589,E + 384 px,geometric,43.52272727272727
+potato,589,E + 384 px,surface,47.18614718614719
+potato,589,E + 384 px,mixed,47.61904761904761
+potato,589,F + CLIP,all,62.86031042128604
+potato,589,F + CLIP,geometric,53.40909090909092
+potato,589,F + CLIP,surface,73.37662337662337
+potato,589,F + CLIP,mixed,70.34632034632034
+potato,589,G + 384 px + CLIP,all,69.01330376940133
+potato,589,G + 384 px + CLIP,geometric,58.409090909090914
+potato,589,G + 384 px + CLIP,surface,82.68398268398268
+potato,589,G + 384 px + CLIP,mixed,75.54112554112554
+rope,333,C v2 (256),all,96.37182203389831
+rope,333,C v2 (256),geometric,100.0
+rope,333,C v2 (256),surface,90.69293478260869
+rope,333,E + 384 px,all,98.38453389830508
+rope,333,E + 384 px,geometric,100.0
+rope,333,E + 384 px,surface,95.85597826086956
+rope,333,F + CLIP,all,95.92161016949153
+rope,333,F + CLIP,geometric,100.0
+rope,333,F + CLIP,surface,89.53804347826086
+rope,333,G + 384 px + CLIP,all,98.22563559322035
+rope,333,G + 384 px + CLIP,geometric,100.0
+rope,333,G + 384 px + CLIP,surface,95.44836956521738
+rope,576,C v2 (256),all,99.73516949152543
+rope,576,C v2 (256),geometric,100.0
+rope,576,C v2 (256),surface,99.32065217391303
+rope,576,E + 384 px,all,99.3114406779661
+rope,576,E + 384 px,geometric,99.21875
+rope,576,E + 384 px,surface,99.45652173913044
+rope,576,F + CLIP,all,99.3114406779661
+rope,576,F + CLIP,geometric,99.56597222222221
+rope,576,F + CLIP,surface,98.91304347826086
+rope,576,G + 384 px + CLIP,all,99.57627118644068
+rope,576,G + 384 px + CLIP,geometric,99.47916666666666
+rope,576,G + 384 px + CLIP,surface,99.7282608695652
+rope,725,C v2 (256),all,99.1260593220339
+rope,725,C v2 (256),geometric,100.0
+rope,725,C v2 (256),surface,97.54464285714285
+rope,725,E + 384 px,all,99.3114406779661
+rope,725,E + 384 px,geometric,100.0
+rope,725,E + 384 px,surface,98.06547619047619
+rope,725,F + CLIP,all,99.07309322033899
+rope,725,F + CLIP,geometric,100.0
+rope,725,F + CLIP,surface,97.39583333333333
+rope,725,G + 384 px + CLIP,all,99.3114406779661
+rope,725,G + 384 px + CLIP,geometric,100.0
+rope,725,G + 384 px + CLIP,surface,98.06547619047619
+rope,823,C v2 (256),all,96.55720338983052
+rope,823,C v2 (256),geometric,100.0
+rope,823,C v2 (256),surface,90.76704545454545
+rope,823,E + 384 px,all,98.78177966101696
+rope,823,E + 384 px,geometric,100.0
+rope,823,E + 384 px,surface,96.73295454545455
+rope,823,F + CLIP,all,95.86864406779661
+rope,823,F + CLIP,geometric,100.0
+rope,823,F + CLIP,surface,88.92045454545455
+rope,823,G + 384 px + CLIP,all,98.46398305084746
+rope,823,G + 384 px + CLIP,geometric,100.0
+rope,823,G + 384 px + CLIP,surface,95.88068181818181
+rope,831,C v2 (256),all,99.60275423728814
+rope,831,C v2 (256),geometric,100.0
+rope,831,C v2 (256),surface,98.76644736842105
+rope,831,E + 384 px,all,99.89406779661016
+rope,831,E + 384 px,geometric,100.0
+rope,831,E + 384 px,surface,99.67105263157895
+rope,831,F + CLIP,all,99.52330508474576
+rope,831,F + CLIP,geometric,100.0
+rope,831,F + CLIP,surface,98.51973684210526
+rope,831,G + 384 px + CLIP,all,99.89406779661016
+rope,831,G + 384 px + CLIP,geometric,100.0
+rope,831,G + 384 px + CLIP,surface,99.67105263157895
+rope,902,C v2 (256),all,99.73516949152543
+rope,902,C v2 (256),geometric,100.0
+rope,902,C v2 (256),surface,99.25595238095238
+rope,902,E + 384 px,all,99.94703389830508
+rope,902,E + 384 px,geometric,100.0
+rope,902,E + 384 px,surface,99.85119047619048
+rope,902,F + CLIP,all,99.73516949152543
+rope,902,F + CLIP,geometric,100.0
+rope,902,F + CLIP,surface,99.25595238095238
+rope,902,G + 384 px + CLIP,all,99.89406779661016
+rope,902,G + 384 px + CLIP,geometric,100.0
+rope,902,G + 384 px + CLIP,surface,99.70238095238095
+rope,226,C v2 (256),all,95.02118644067798
+rope,226,C v2 (256),geometric,100.0
+rope,226,C v2 (256),surface,87.76041666666666
+rope,226,E + 384 px,all,97.45762711864407
+rope,226,E + 384 px,geometric,100.0
+rope,226,E + 384 px,surface,93.75
+rope,226,F + CLIP,all,95.89512711864407
+rope,226,F + CLIP,geometric,100.0
+rope,226,F + CLIP,surface,89.90885416666667
+rope,226,G + 384 px + CLIP,all,97.9872881355932
+rope,226,G + 384 px + CLIP,geometric,100.0
+rope,226,G + 384 px + CLIP,surface,95.05208333333334
+rope,598,C v2 (256),all,98.9406779661017
+rope,598,C v2 (256),geometric,98.93292682926828
+rope,598,C v2 (256),surface,98.95833333333333
+rope,598,E + 384 px,all,99.3114406779661
+rope,598,E + 384 px,geometric,99.46646341463415
+rope,598,E + 384 px,surface,98.95833333333333
+rope,598,F + CLIP,all,98.88771186440678
+rope,598,F + CLIP,geometric,98.85670731707317
+rope,598,F + CLIP,surface,98.95833333333334
+rope,598,G + 384 px + CLIP,all,99.36440677966102
+rope,598,G + 384 px + CLIP,geometric,99.58079268292683
+rope,598,G + 384 px + CLIP,surface,98.87152777777779
+rope,874,C v2 (256),all,99.44385593220339
+rope,874,C v2 (256),geometric,100.0
+rope,874,C v2 (256),surface,98.4375
+rope,874,E + 384 px,all,99.73516949152543
+rope,874,E + 384 px,geometric,100.0
+rope,874,E + 384 px,surface,99.25595238095238
+rope,874,F + CLIP,all,99.6292372881356
+rope,874,F + CLIP,geometric,100.0
+rope,874,F + CLIP,surface,98.95833333333333
+rope,874,G + 384 px + CLIP,all,99.57627118644068
+rope,874,G + 384 px + CLIP,geometric,100.0
+rope,874,G + 384 px + CLIP,surface,98.80952380952381
+rope,589,C v2 (256),all,95.97457627118644
+rope,589,C v2 (256),geometric,100.0
+rope,589,C v2 (256),surface,89.67391304347827
+rope,589,E + 384 px,all,97.08686440677965
+rope,589,E + 384 px,geometric,100.0
+rope,589,E + 384 px,surface,92.52717391304348
+rope,589,F + CLIP,all,96.71610169491525
+rope,589,F + CLIP,geometric,100.0
+rope,589,F + CLIP,surface,91.57608695652173
+rope,589,G + 384 px + CLIP,all,98.33156779661017
+rope,589,G + 384 px + CLIP,geometric,100.0
+rope,589,G + 384 px + CLIP,surface,95.72010869565217
+tire,333,C v2 (256),all,68.15584415584416
+tire,333,C v2 (256),geometric,66.65217391304348
+tire,333,C v2 (256),surface,68.59259259259258
+tire,333,C v2 (256),mixed,82.5
+tire,333,E + 384 px,all,77.68831168831169
+tire,333,E + 384 px,geometric,73.47826086956522
+tire,333,E + 384 px,surface,82.29629629629629
+tire,333,E + 384 px,mixed,95.0
+tire,333,F + CLIP,all,68.62337662337661
+tire,333,F + CLIP,geometric,65.95652173913044
+tire,333,F + CLIP,surface,72.14814814814815
+tire,333,F + CLIP,mixed,75.50000000000001
+tire,333,G + 384 px + CLIP,all,75.48051948051948
+tire,333,G + 384 px + CLIP,geometric,71.26086956521739
+tire,333,G + 384 px + CLIP,surface,80.22222222222221
+tire,333,G + 384 px + CLIP,mixed,92.0
+tire,576,C v2 (256),all,71.45454545454545
+tire,576,C v2 (256),geometric,70.34782608695652
+tire,576,C v2 (256),surface,72.0
+tire,576,C v2 (256),mixed,80.5
+tire,576,E + 384 px,all,73.24675324675324
+tire,576,E + 384 px,geometric,71.56521739130433
+tire,576,E + 384 px,surface,73.48148148148148
+tire,576,E + 384 px,mixed,91.0
+tire,576,F + CLIP,all,70.46753246753246
+tire,576,F + CLIP,geometric,69.1304347826087
+tire,576,F + CLIP,surface,71.25925925925925
+tire,576,F + CLIP,mixed,80.5
+tire,576,G + 384 px + CLIP,all,71.63636363636363
+tire,576,G + 384 px + CLIP,geometric,67.0
+tire,576,G + 384 px + CLIP,surface,78.44444444444446
+tire,576,G + 384 px + CLIP,mixed,79.0
+tire,725,C v2 (256),all,68.8051948051948
+tire,725,C v2 (256),geometric,66.625
+tire,725,C v2 (256),surface,70.88
+tire,725,C v2 (256),mixed,82.0
+tire,725,E + 384 px,all,77.27272727272728
+tire,725,E + 384 px,geometric,73.33333333333334
+tire,725,E + 384 px,surface,82.32
+tire,725,E + 384 px,mixed,93.0
+tire,725,F + CLIP,all,69.74025974025975
+tire,725,F + CLIP,geometric,66.79166666666667
+tire,725,F + CLIP,surface,73.28
+tire,725,F + CLIP,mixed,83.0
+tire,725,G + 384 px + CLIP,all,72.36363636363636
+tire,725,G + 384 px + CLIP,geometric,66.45833333333333
+tire,725,G + 384 px + CLIP,surface,80.88
+tire,725,G + 384 px + CLIP,mixed,90.0
+tire,823,C v2 (256),all,64.54545454545455
+tire,823,C v2 (256),geometric,59.87234042553191
+tire,823,C v2 (256),surface,70.84615384615385
+tire,823,C v2 (256),mixed,78.5
+tire,823,E + 384 px,all,76.0
+tire,823,E + 384 px,geometric,74.00000000000001
+tire,823,E + 384 px,surface,77.0
+tire,823,E + 384 px,mixed,93.0
+tire,823,F + CLIP,all,64.31168831168831
+tire,823,F + CLIP,geometric,59.02127659574467
+tire,823,F + CLIP,surface,72.0
+tire,823,F + CLIP,mixed,76.5
+tire,823,G + 384 px + CLIP,all,69.16883116883116
+tire,823,G + 384 px + CLIP,geometric,66.2127659574468
+tire,823,G + 384 px + CLIP,surface,73.23076923076923
+tire,823,G + 384 px + CLIP,mixed,77.49999999999999
+tire,831,C v2 (256),all,70.88311688311688
+tire,831,C v2 (256),geometric,69.28
+tire,831,C v2 (256),surface,72.78260869565217
+tire,831,C v2 (256),mixed,80.0
+tire,831,E + 384 px,all,74.83116883116882
+tire,831,E + 384 px,geometric,74.36
+tire,831,E + 384 px,surface,74.78260869565216
+tire,831,E + 384 px,mixed,81.0
+tire,831,F + CLIP,all,69.27272727272728
+tire,831,F + CLIP,geometric,67.96
+tire,831,F + CLIP,surface,72.17391304347825
+tire,831,F + CLIP,mixed,69.0
+tire,831,G + 384 px + CLIP,all,71.55844155844156
+tire,831,G + 384 px + CLIP,geometric,69.39999999999999
+tire,831,G + 384 px + CLIP,surface,74.43478260869566
+tire,831,G + 384 px + CLIP,mixed,82.0
+tire,902,C v2 (256),all,74.7012987012987
+tire,902,C v2 (256),geometric,72.0
+tire,902,C v2 (256),surface,81.25000000000001
+tire,902,C v2 (256),mixed,69.19999999999999
+tire,902,E + 384 px,all,73.19480519480518
+tire,902,E + 384 px,geometric,71.04166666666667
+tire,902,E + 384 px,surface,74.91666666666667
+tire,902,E + 384 px,mixed,85.6
+tire,902,F + CLIP,all,70.72727272727273
+tire,902,F + CLIP,geometric,69.25
+tire,902,F + CLIP,surface,74.58333333333333
+tire,902,F + CLIP,mixed,66.4
+tire,902,G + 384 px + CLIP,all,71.35064935064935
+tire,902,G + 384 px + CLIP,geometric,68.79166666666667
+tire,902,G + 384 px + CLIP,surface,75.33333333333333
+tire,902,G + 384 px + CLIP,mixed,76.8
+tire,226,C v2 (256),all,64.77922077922078
+tire,226,C v2 (256),geometric,61.91111111111112
+tire,226,C v2 (256),surface,69.70370370370371
+tire,226,C v2 (256),mixed,64.0
+tire,226,E + 384 px,all,73.2987012987013
+tire,226,E + 384 px,geometric,71.33333333333334
+tire,226,E + 384 px,surface,72.88888888888889
+tire,226,E + 384 px,mixed,93.19999999999999
+tire,226,F + CLIP,all,69.1948051948052
+tire,226,F + CLIP,geometric,65.28888888888889
+tire,226,F + CLIP,surface,74.8888888888889
+tire,226,F + CLIP,mixed,73.6
+tire,226,G + 384 px + CLIP,all,73.4025974025974
+tire,226,G + 384 px + CLIP,geometric,69.46666666666667
+tire,226,G + 384 px + CLIP,surface,76.88888888888889
+tire,226,G + 384 px + CLIP,mixed,90.0
+tire,598,C v2 (256),all,73.1948051948052
+tire,598,C v2 (256),geometric,71.72549019607844
+tire,598,C v2 (256),surface,78.54545454545455
+tire,598,C v2 (256),mixed,62.5
+tire,598,E + 384 px,all,74.25974025974025
+tire,598,E + 384 px,geometric,69.72549019607843
+tire,598,E + 384 px,surface,82.36363636363636
+tire,598,E + 384 px,mixed,87.5
+tire,598,F + CLIP,all,70.96103896103895
+tire,598,F + CLIP,geometric,68.31372549019608
+tire,598,F + CLIP,surface,77.63636363636364
+tire,598,F + CLIP,mixed,68.0
+tire,598,G + 384 px + CLIP,all,70.5974025974026
+tire,598,G + 384 px + CLIP,geometric,62.8235294117647
+tire,598,G + 384 px + CLIP,surface,86.54545454545455
+tire,598,G + 384 px + CLIP,mixed,82.0
+tire,874,C v2 (256),all,68.44155844155844
+tire,874,C v2 (256),geometric,66.24489795918367
+tire,874,C v2 (256),surface,73.25
+tire,874,C v2 (256),mixed,66.5
+tire,874,E + 384 px,all,74.7012987012987
+tire,874,E + 384 px,geometric,70.16326530612244
+tire,874,E + 384 px,surface,82.91666666666666
+tire,874,E + 384 px,mixed,81.0
+tire,874,F + CLIP,all,71.06493506493507
+tire,874,F + CLIP,geometric,68.89795918367346
+tire,874,F + CLIP,surface,76.0
+tire,874,F + CLIP,mixed,68.0
+tire,874,G + 384 px + CLIP,all,76.75324675324676
+tire,874,G + 384 px + CLIP,geometric,71.63265306122449
+tire,874,G + 384 px + CLIP,surface,85.41666666666667
+tire,874,G + 384 px + CLIP,mixed,87.5
+tire,589,C v2 (256),all,65.81818181818181
+tire,589,C v2 (256),geometric,66.52173913043478
+tire,589,C v2 (256),surface,66.46153846153847
+tire,589,C v2 (256),mixed,56.00000000000001
+tire,589,E + 384 px,all,57.324675324675326
+tire,589,E + 384 px,geometric,64.82608695652175
+tire,589,E + 384 px,surface,44.692307692307686
+tire,589,E + 384 px,mixed,54.0
+tire,589,F + CLIP,all,71.11688311688312
+tire,589,F + CLIP,geometric,69.56521739130434
+tire,589,F + CLIP,surface,74.92307692307692
+tire,589,F + CLIP,mixed,65.60000000000001
+tire,589,G + 384 px + CLIP,all,55.61038961038961
+tire,589,G + 384 px + CLIP,geometric,55.913043478260875
+tire,589,G + 384 px + CLIP,surface,56.00000000000001
+tire,589,G + 384 px + CLIP,mixed,50.8
