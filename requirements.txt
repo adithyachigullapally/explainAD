@@ -1,0 +1,14 @@
+# Versions this was run with (Python 3.12, RTX 4060 Laptop 8 GB, CUDA 13.0 build of torch)
+torch==2.14.0
+torchvision==0.29.0
+transformers==5.16.1
+xgboost==3.4.1
+scikit-learn==1.9.0
+scikit-image==0.26.0
+scipy==1.18.1
+numpy==2.5.3
+pandas==3.0.5
+joblib==1.6.0
+matplotlib==3.11.1
+pillow==12.3.0
+tqdm==4.70.0
