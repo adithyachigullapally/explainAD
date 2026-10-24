@@ -3,6 +3,10 @@ bagel,333,1 segment,all,95.92074592074592
 bagel,333,1 segment,geometric,96.96969696969697
 bagel,333,1 segment,surface,91.02272727272728
 bagel,333,1 segment,mixed,98.65702479338843
+bagel,333,1 segment + real depth,all,97.6107226107226
+bagel,333,1 segment + real depth,geometric,99.49494949494951
+bagel,333,1 segment + real depth,surface,91.81818181818181
+bagel,333,1 segment + real depth,mixed,99.79338842975207
 bagel,333,SAM parts,all,92.51165501165501
 bagel,333,SAM parts,geometric,91.28787878787878
 bagel,333,SAM parts,surface,93.97727272727272
@@ -27,6 +31,10 @@ bagel,576,1 segment,all,92.48251748251748
 bagel,576,1 segment,geometric,94.1919191919192
 bagel,576,1 segment,surface,84.84848484848484
 bagel,576,1 segment,mixed,97.18614718614718
+bagel,576,1 segment + real depth,all,90.8216783216783
+bagel,576,1 segment + real depth,geometric,89.9621212121212
+bagel,576,1 segment + real depth,surface,84.95670995670996
+bagel,576,1 segment + real depth,mixed,98.16017316017314
 bagel,576,SAM parts,all,89.77272727272727
 bagel,576,SAM parts,geometric,88.88888888888889
 bagel,576,SAM parts,surface,84.95670995670996
@@ -51,6 +59,10 @@ bagel,725,1 segment,all,93.38578088578089
 bagel,725,1 segment,geometric,94.377990430622
 bagel,725,1 segment,surface,87.38636363636364
 bagel,725,1 segment,mixed,97.5
+bagel,725,1 segment + real depth,all,94.17249417249415
+bagel,725,1 segment + real depth,geometric,96.17224880382776
+bagel,725,1 segment + real depth,surface,86.59090909090908
+bagel,725,1 segment + real depth,mixed,97.95454545454545
 bagel,725,SAM parts,all,87.0920745920746
 bagel,725,SAM parts,geometric,84.80861244019138
 bagel,725,SAM parts,surface,91.81818181818181
@@ -75,6 +87,10 @@ bagel,823,1 segment,all,89.80186480186481
 bagel,823,1 segment,geometric,90.50116550116549
 bagel,823,1 segment,surface,81.69191919191918
 bagel,823,1 segment,mixed,95.45454545454545
+bagel,823,1 segment + real depth,all,87.5874125874126
+bagel,823,1 segment + real depth,geometric,86.18881118881119
+bagel,823,1 segment + real depth,surface,79.92424242424244
+bagel,823,1 segment + real depth,mixed,96.75324675324674
 bagel,823,SAM parts,all,88.1993006993007
 bagel,823,SAM parts,geometric,85.13986013986013
 bagel,823,SAM parts,surface,88.88888888888889
@@ -99,6 +115,10 @@ bagel,831,1 segment,all,91.25874125874127
 bagel,831,1 segment,geometric,92.48251748251748
 bagel,831,1 segment,surface,85.79545454545455
 bagel,831,1 segment,mixed,94.49760765550239
+bagel,831,1 segment + real depth,all,91.52097902097903
+bagel,831,1 segment + real depth,geometric,92.8904428904429
+bagel,831,1 segment + real depth,surface,84.7727272727273
+bagel,831,1 segment + real depth,mixed,95.81339712918661
 bagel,831,SAM parts,all,86.42191142191142
 bagel,831,SAM parts,geometric,83.97435897435899
 bagel,831,SAM parts,surface,85.9090909090909
@@ -123,6 +143,10 @@ bagel,902,1 segment,all,93.2109557109557
 bagel,902,1 segment,geometric,95.14742014742015
 bagel,902,1 segment,surface,86.98347107438018
 bagel,902,1 segment,mixed,96.65071770334929
+bagel,902,1 segment + real depth,all,86.04312354312354
+bagel,902,1 segment + real depth,geometric,86.67076167076168
+bagel,902,1 segment + real depth,surface,80.57851239669421
+bagel,902,1 segment + real depth,mixed,91.14832535885168
 bagel,902,SAM parts,all,91.49184149184148
 bagel,902,SAM parts,geometric,89.31203931203932
 bagel,902,SAM parts,surface,94.83471074380165
@@ -147,6 +171,10 @@ bagel,226,1 segment,all,95.13403263403262
 bagel,226,1 segment,geometric,96.99197860962568
 bagel,226,1 segment,surface,89.0495867768595
 bagel,226,1 segment,mixed,98.34710743801652
+bagel,226,1 segment + real depth,all,95.92074592074592
+bagel,226,1 segment + real depth,geometric,97.05882352941177
+bagel,226,1 segment + real depth,surface,90.49586776859503
+bagel,226,1 segment + real depth,mixed,99.58677685950413
 bagel,226,SAM parts,all,85.08158508158508
 bagel,226,SAM parts,geometric,81.28342245989305
 bagel,226,SAM parts,surface,84.91735537190084
@@ -171,6 +199,10 @@ bagel,598,1 segment,all,92.80303030303031
 bagel,598,1 segment,geometric,93.57954545454545
 bagel,598,1 segment,surface,86.58008658008657
 bagel,598,1 segment,mixed,98.66310160427807
+bagel,598,1 segment + real depth,all,92.04545454545455
+bagel,598,1 segment + real depth,geometric,92.5
+bagel,598,1 segment + real depth,surface,84.84848484848484
+bagel,598,1 segment + real depth,mixed,99.8663101604278
 bagel,598,SAM parts,all,90.3846153846154
 bagel,598,SAM parts,geometric,87.8409090909091
 bagel,598,SAM parts,surface,90.36796536796537
@@ -195,6 +227,10 @@ bagel,874,1 segment,all,94.02680652680652
 bagel,874,1 segment,geometric,95.0358851674641
 bagel,874,1 segment,surface,87.27272727272727
 bagel,874,1 segment,mixed,98.86363636363636
+bagel,874,1 segment + real depth,all,90.85081585081585
+bagel,874,1 segment + real depth,geometric,90.66985645933016
+bagel,874,1 segment + real depth,surface,82.27272727272728
+bagel,874,1 segment + real depth,mixed,99.77272727272727
 bagel,874,SAM parts,all,88.43240093240094
 bagel,874,SAM parts,geometric,85.46650717703349
 bagel,874,SAM parts,surface,90.68181818181817
@@ -219,6 +255,10 @@ bagel,589,1 segment,all,91.60839160839161
 bagel,589,1 segment,geometric,92.93611793611794
 bagel,589,1 segment,surface,85.56818181818183
 bagel,589,1 segment,mixed,95.02164502164501
+bagel,589,1 segment + real depth,all,86.71328671328669
+bagel,589,1 segment + real depth,geometric,86.85503685503684
+bagel,589,1 segment + real depth,surface,80.3409090909091
+bagel,589,1 segment + real depth,mixed,92.53246753246754
 bagel,589,SAM parts,all,88.78205128205127
 bagel,589,SAM parts,geometric,86.67076167076166
 bagel,589,SAM parts,surface,87.5
@@ -241,6 +281,8 @@ bagel,589,with 3D scanner: + real depth,surface,87.27272727272728
 bagel,589,with 3D scanner: + real depth,mixed,88.96103896103897
 cable_gland,333,1 segment,all,73.87136672850959
 cable_gland,333,1 segment,geometric,73.87136672850959
+cable_gland,333,1 segment + real depth,all,90.87816944959802
+cable_gland,333,1 segment + real depth,geometric,90.87816944959802
 cable_gland,333,SAM parts,all,65.18243661100804
 cable_gland,333,SAM parts,geometric,65.18243661100804
 cable_gland,333,SAM object/bg,all,72.10884353741497
@@ -253,6 +295,8 @@ cable_gland,333,with 3D scanner: + real depth,all,95.11440940012368
 cable_gland,333,with 3D scanner: + real depth,geometric,95.11440940012368
 cable_gland,576,1 segment,all,76.9016697588126
 cable_gland,576,1 segment,geometric,76.9016697588126
+cable_gland,576,1 segment + real depth,all,91.03277674706247
+cable_gland,576,1 segment + real depth,geometric,91.03277674706247
 cable_gland,576,SAM parts,all,62.46134817563389
 cable_gland,576,SAM parts,geometric,62.46134817563389
 cable_gland,576,SAM object/bg,all,76.25231910946196
@@ -265,6 +309,8 @@ cable_gland,576,with 3D scanner: + real depth,all,95.36178107606679
 cable_gland,576,with 3D scanner: + real depth,geometric,95.36178107606679
 cable_gland,725,1 segment,all,70.9647495361781
 cable_gland,725,1 segment,geometric,70.9647495361781
+cable_gland,725,1 segment + real depth,all,90.4143475572047
+cable_gland,725,1 segment + real depth,geometric,90.4143475572047
 cable_gland,725,SAM parts,all,65.67717996289424
 cable_gland,725,SAM parts,geometric,65.67717996289424
 cable_gland,725,SAM object/bg,all,77.92207792207792
@@ -277,6 +323,8 @@ cable_gland,725,with 3D scanner: + real depth,all,98.57761286332715
 cable_gland,725,with 3D scanner: + real depth,geometric,98.57761286332715
 cable_gland,823,1 segment,all,70.1917130488559
 cable_gland,823,1 segment,geometric,70.1917130488559
+cable_gland,823,1 segment + real depth,all,86.36363636363636
+cable_gland,823,1 segment + real depth,geometric,86.36363636363636
 cable_gland,823,SAM parts,all,70.68645640074212
 cable_gland,823,SAM parts,geometric,70.68645640074212
 cable_gland,823,SAM object/bg,all,74.21150278293135
@@ -289,6 +337,8 @@ cable_gland,823,with 3D scanner: + real depth,all,97.40259740259741
 cable_gland,823,with 3D scanner: + real depth,geometric,97.40259740259741
 cable_gland,831,1 segment,all,66.1100803957947
 cable_gland,831,1 segment,geometric,66.1100803957947
+cable_gland,831,1 segment + real depth,all,88.18800247371676
+cable_gland,831,1 segment + real depth,geometric,88.18800247371676
 cable_gland,831,SAM parts,all,66.91403834260977
 cable_gland,831,SAM parts,geometric,66.91403834260977
 cable_gland,831,SAM object/bg,all,81.57081014223871
@@ -301,6 +351,8 @@ cable_gland,831,with 3D scanner: + real depth,all,94.18676561533704
 cable_gland,831,with 3D scanner: + real depth,geometric,94.18676561533704
 cable_gland,902,1 segment,all,69.60420531849104
 cable_gland,902,1 segment,geometric,69.60420531849104
+cable_gland,902,1 segment + real depth,all,91.12554112554112
+cable_gland,902,1 segment + real depth,geometric,91.12554112554112
 cable_gland,902,SAM parts,all,70.81014223871367
 cable_gland,902,SAM parts,geometric,70.81014223871367
 cable_gland,902,SAM object/bg,all,77.36549165120594
@@ -313,6 +365,8 @@ cable_gland,902,with 3D scanner: + real depth,all,97.64996907854051
 cable_gland,902,with 3D scanner: + real depth,geometric,97.64996907854051
 cable_gland,226,1 segment,all,75.47928262213975
 cable_gland,226,1 segment,geometric,75.47928262213975
+cable_gland,226,1 segment + real depth,all,88.5899814471243
+cable_gland,226,1 segment + real depth,geometric,88.5899814471243
 cable_gland,226,SAM parts,all,73.5930735930736
 cable_gland,226,SAM parts,geometric,73.5930735930736
 cable_gland,226,SAM object/bg,all,78.2312925170068
@@ -325,6 +379,8 @@ cable_gland,226,with 3D scanner: + real depth,all,88.3116883116883
 cable_gland,226,with 3D scanner: + real depth,geometric,88.3116883116883
 cable_gland,598,1 segment,all,69.44959802102659
 cable_gland,598,1 segment,geometric,69.44959802102659
+cable_gland,598,1 segment + real depth,all,92.79529993815707
+cable_gland,598,1 segment + real depth,geometric,92.79529993815707
 cable_gland,598,SAM parts,all,60.04947433518863
 cable_gland,598,SAM parts,geometric,60.04947433518863
 cable_gland,598,SAM object/bg,all,69.44959802102659
@@ -337,6 +393,8 @@ cable_gland,598,with 3D scanner: + real depth,all,91.65120593692022
 cable_gland,598,with 3D scanner: + real depth,geometric,91.65120593692022
 cable_gland,874,1 segment,all,63.9764996907854
 cable_gland,874,1 segment,geometric,63.9764996907854
+cable_gland,874,1 segment + real depth,all,90.47619047619048
+cable_gland,874,1 segment + real depth,geometric,90.47619047619048
 cable_gland,874,SAM parts,all,66.91403834260976
 cable_gland,874,SAM parts,geometric,66.91403834260976
 cable_gland,874,SAM object/bg,all,73.65491651205937
@@ -349,6 +407,8 @@ cable_gland,874,with 3D scanner: + real depth,all,95.60915275200989
 cable_gland,874,with 3D scanner: + real depth,geometric,95.60915275200989
 cable_gland,589,1 segment,all,68.42918985776129
 cable_gland,589,1 segment,geometric,68.42918985776129
+cable_gland,589,1 segment + real depth,all,91.24922696351267
+cable_gland,589,1 segment + real depth,geometric,91.24922696351267
 cable_gland,589,SAM parts,all,68.95485466914039
 cable_gland,589,SAM parts,geometric,68.95485466914039
 cable_gland,589,SAM object/bg,all,79.15893630179343
@@ -363,6 +423,10 @@ carrot,333,1 segment,all,89.25318761384335
 carrot,333,1 segment,geometric,87.1141975308642
 carrot,333,1 segment,surface,92.43827160493827
 carrot,333,1 segment,mixed,92.23646723646725
+carrot,333,1 segment + real depth,all,95.84092289010322
+carrot,333,1 segment + real depth,geometric,95.8590534979424
+carrot,333,1 segment + real depth,surface,94.98456790123457
+carrot,333,1 segment + real depth,mixed,96.58119658119658
 carrot,333,SAM parts,all,80.57073466909532
 carrot,333,SAM parts,geometric,81.79012345679013
 carrot,333,SAM parts,surface,76.23456790123456
@@ -387,6 +451,10 @@ carrot,576,1 segment,all,91.19611414693382
 carrot,576,1 segment,geometric,88.54981742305687
 carrot,576,1 segment,surface,96.86609686609687
 carrot,576,1 segment,mixed,92.81481481481481
+carrot,576,1 segment + real depth,all,95.52216150576807
+carrot,576,1 segment + real depth,geometric,95.53990610328637
+carrot,576,1 segment + real depth,surface,95.08547008547008
+carrot,576,1 segment + real depth,mixed,95.92592592592592
 carrot,576,SAM parts,all,74.07407407407408
 carrot,576,SAM parts,geometric,76.16066770996348
 carrot,576,SAM parts,surface,69.51566951566952
@@ -411,6 +479,10 @@ carrot,725,1 segment,all,84.9271402550091
 carrot,725,1 segment,geometric,83.71913580246914
 carrot,725,1 segment,surface,85.61253561253562
 carrot,725,1 segment,mixed,87.80864197530865
+carrot,725,1 segment + real depth,all,94.4140862173649
+carrot,725,1 segment + real depth,geometric,94.59876543209876
+carrot,725,1 segment + real depth,surface,92.45014245014245
+carrot,725,1 segment + real depth,mixed,95.98765432098766
 carrot,725,SAM parts,all,85.36733454766242
 carrot,725,SAM parts,geometric,84.41358024691358
 carrot,725,SAM parts,surface,84.75783475783476
@@ -435,6 +507,10 @@ carrot,823,1 segment,all,86.09593199757134
 carrot,823,1 segment,geometric,82.87037037037037
 carrot,823,1 segment,surface,88.73456790123458
 carrot,823,1 segment,mixed,92.5925925925926
+carrot,823,1 segment + real depth,all,93.09350333940498
+carrot,823,1 segment + real depth,geometric,92.72119341563784
+carrot,823,1 segment + real depth,surface,91.0493827160494
+carrot,823,1 segment + real depth,mixed,96.01139601139602
 carrot,823,SAM parts,all,75.34911961141468
 carrot,823,SAM parts,geometric,76.38888888888889
 carrot,823,SAM parts,surface,78.24074074074075
@@ -459,6 +535,10 @@ carrot,831,1 segment,all,86.23254401942927
 carrot,831,1 segment,geometric,83.62962962962963
 carrot,831,1 segment,surface,89.35185185185185
 carrot,831,1 segment,mixed,91.46537842190017
+carrot,831,1 segment + real depth,all,93.94353369763206
+carrot,831,1 segment + real depth,geometric,93.25925925925927
+carrot,831,1 segment + real depth,surface,93.67283950617285
+carrot,831,1 segment + real depth,mixed,96.4573268921095
 carrot,831,SAM parts,all,81.51183970856101
 carrot,831,SAM parts,geometric,79.80246913580248
 carrot,831,SAM parts,surface,88.42592592592592
@@ -483,6 +563,10 @@ carrot,902,1 segment,all,87.03703703703702
 carrot,902,1 segment,geometric,85.13374485596708
 carrot,902,1 segment,surface,91.76954732510288
 carrot,902,1 segment,mixed,87.43961352657004
+carrot,902,1 segment + real depth,all,94.48998178506376
+carrot,902,1 segment + real depth,geometric,94.29012345679013
+carrot,902,1 segment + real depth,surface,94.71879286694102
+carrot,902,1 segment + real depth,mixed,94.84702093397745
 carrot,902,SAM parts,all,83.54584092289011
 carrot,902,SAM parts,geometric,84.10493827160494
 carrot,902,SAM parts,surface,84.0877914951989
@@ -507,6 +591,10 @@ carrot,226,1 segment,all,86.35397692774741
 carrot,226,1 segment,geometric,82.76972624798711
 carrot,226,1 segment,surface,91.02564102564104
 carrot,226,1 segment,mixed,91.01508916323732
+carrot,226,1 segment + real depth,all,94.71766848816029
+carrot,226,1 segment + real depth,geometric,94.79334406870639
+carrot,226,1 segment + real depth,surface,94.72934472934472
+carrot,226,1 segment + real depth,mixed,94.51303155006858
 carrot,226,SAM parts,all,78.82513661202186
 carrot,226,SAM parts,geometric,78.39506172839506
 carrot,226,SAM parts,surface,81.05413105413105
@@ -531,6 +619,10 @@ carrot,598,1 segment,all,87.14329083181542
 carrot,598,1 segment,geometric,85.87654320987654
 carrot,598,1 segment,surface,93.20987654320987
 carrot,598,1 segment,mixed,84.94363929146537
+carrot,598,1 segment + real depth,all,96.1445051608986
+carrot,598,1 segment + real depth,geometric,96.24691358024691
+carrot,598,1 segment + real depth,surface,95.98765432098764
+carrot,598,1 segment + real depth,mixed,95.97423510466989
 carrot,598,SAM parts,all,75.4401942926533
 carrot,598,SAM parts,geometric,76.93827160493827
 carrot,598,SAM parts,surface,74.84567901234568
@@ -555,6 +647,10 @@ carrot,874,1 segment,all,85.94414086217364
 carrot,874,1 segment,geometric,84.2092092092092
 carrot,874,1 segment,surface,88.42592592592592
 carrot,874,1 segment,mixed,88.81172839506172
+carrot,874,1 segment + real depth,all,94.38372799028537
+carrot,874,1 segment + real depth,geometric,94.36936936936937
+carrot,874,1 segment + real depth,surface,93.44135802469135
+carrot,874,1 segment + real depth,mixed,95.37037037037037
 carrot,874,SAM parts,all,75.68306010928961
 carrot,874,SAM parts,geometric,75.37537537537537
 carrot,874,SAM parts,surface,77.62345679012346
@@ -579,6 +675,10 @@ carrot,589,1 segment,all,87.46205221615057
 carrot,589,1 segment,geometric,84.84126984126983
 carrot,589,1 segment,surface,89.92592592592592
 carrot,589,1 segment,mixed,91.9753086419753
+carrot,589,1 segment + real depth,all,91.04432301153612
+carrot,589,1 segment + real depth,geometric,90.84656084656085
+carrot,589,1 segment + real depth,surface,89.03703703703704
+carrot,589,1 segment + real depth,mixed,93.4156378600823
 carrot,589,SAM parts,all,81.23861566484517
 carrot,589,SAM parts,geometric,77.61904761904763
 carrot,589,SAM parts,surface,91.4074074074074
@@ -603,6 +703,10 @@ cookie,333,1 segment,all,75.57603686635946
 cookie,333,1 segment,geometric,82.41459627329193
 cookie,333,1 segment,surface,77.48447204968944
 cookie,333,1 segment,mixed,60.639880952380956
+cookie,333,1 segment + real depth,all,99.61597542242703
+cookie,333,1 segment + real depth,geometric,99.22360248447204
+cookie,333,1 segment + real depth,surface,100.0
+cookie,333,1 segment + real depth,mixed,100.0
 cookie,333,SAM parts,all,83.41013824884791
 cookie,333,SAM parts,geometric,94.56521739130434
 cookie,333,SAM parts,surface,80.04658385093167
@@ -627,6 +731,10 @@ cookie,576,1 segment,all,75.84485407066052
 cookie,576,1 segment,geometric,82.80279503105591
 cookie,576,1 segment,surface,71.94940476190477
 cookie,576,1 segment,mixed,65.99378881987577
+cookie,576,1 segment + real depth,all,99.73118279569893
+cookie,576,1 segment + real depth,geometric,99.45652173913044
+cookie,576,1 segment + real depth,surface,99.99999999999999
+cookie,576,1 segment + real depth,mixed,100.0
 cookie,576,SAM parts,all,83.48694316436251
 cookie,576,SAM parts,geometric,93.86645962732919
 cookie,576,SAM parts,surface,77.38095238095238
@@ -651,6 +759,10 @@ cookie,725,1 segment,all,66.39784946236558
 cookie,725,1 segment,geometric,69.7172619047619
 cookie,725,1 segment,surface,62.732919254658384
 cookie,725,1 segment,mixed,62.98701298701299
+cookie,725,1 segment + real depth,all,85.52227342549924
+cookie,725,1 segment + real depth,geometric,89.80654761904762
+cookie,725,1 segment + real depth,surface,81.36645962732919
+cookie,725,1 segment + real depth,mixed,80.51948051948052
 cookie,725,SAM parts,all,81.605222734255
 cookie,725,SAM parts,geometric,89.80654761904762
 cookie,725,SAM parts,surface,71.11801242236024
@@ -675,6 +787,10 @@ cookie,823,1 segment,all,74.61597542242704
 cookie,823,1 segment,geometric,80.17113095238095
 cookie,823,1 segment,surface,72.95918367346938
 cookie,823,1 segment,mixed,64.95535714285714
+cookie,823,1 segment + real depth,all,99.4431643625192
+cookie,823,1 segment + real depth,geometric,98.92113095238095
+cookie,823,1 segment + real depth,surface,100.0
+cookie,823,1 segment + real depth,mixed,100.0
 cookie,823,SAM parts,all,82.93010752688173
 cookie,823,SAM parts,geometric,92.78273809523809
 cookie,823,SAM parts,surface,76.0204081632653
@@ -699,6 +815,10 @@ cookie,831,1 segment,all,66.95468509984639
 cookie,831,1 segment,geometric,71.07142857142857
 cookie,831,1 segment,surface,53.649068322981364
 cookie,831,1 segment,mixed,71.96428571428571
+cookie,831,1 segment + real depth,all,99.53917050691244
+cookie,831,1 segment + real depth,geometric,99.14285714285714
+cookie,831,1 segment + real depth,surface,100.0
+cookie,831,1 segment + real depth,mixed,100.0
 cookie,831,SAM parts,all,81.6820276497696
 cookie,831,SAM parts,geometric,86.35714285714286
 cookie,831,SAM parts,surface,78.1055900621118
@@ -723,6 +843,10 @@ cookie,902,1 segment,all,70.08448540706605
 cookie,902,1 segment,geometric,72.3404255319149
 cookie,902,1 segment,surface,69.71428571428572
 cookie,902,1 segment,mixed,65.47619047619048
+cookie,902,1 segment + real depth,all,98.77112135176651
+cookie,902,1 segment + real depth,geometric,98.70820668693008
+cookie,902,1 segment + real depth,surface,97.85714285714285
+cookie,902,1 segment + real depth,mixed,100.0
 cookie,902,SAM parts,all,79.83870967741936
 cookie,902,SAM parts,geometric,87.15805471124621
 cookie,902,SAM parts,surface,68.42857142857143
@@ -747,6 +871,10 @@ cookie,226,1 segment,all,72.2926267281106
 cookie,226,1 segment,geometric,77.96266233766234
 cookie,226,1 segment,surface,70.85714285714285
 cookie,226,1 segment,mixed,63.39285714285714
+cookie,226,1 segment + real depth,all,99.23195084485407
+cookie,226,1 segment + real depth,geometric,98.62012987012987
+cookie,226,1 segment + real depth,surface,99.57142857142858
+cookie,226,1 segment + real depth,mixed,100.0
 cookie,226,SAM parts,all,83.10291858678956
 cookie,226,SAM parts,geometric,95.45454545454545
 cookie,226,SAM parts,surface,77.42857142857143
@@ -771,6 +899,10 @@ cookie,598,1 segment,all,71.02534562211981
 cookie,598,1 segment,geometric,74.28571428571429
 cookie,598,1 segment,surface,64.51863354037268
 cookie,598,1 segment,mixed,70.35714285714285
+cookie,598,1 segment + real depth,all,99.4431643625192
+cookie,598,1 segment + real depth,geometric,98.96428571428572
+cookie,598,1 segment + real depth,surface,100.0
+cookie,598,1 segment + real depth,mixed,100.0
 cookie,598,SAM parts,all,85.52227342549925
 cookie,598,SAM parts,geometric,95.14285714285714
 cookie,598,SAM parts,surface,77.32919254658385
@@ -795,6 +927,10 @@ cookie,874,1 segment,all,74.23195084485407
 cookie,874,1 segment,geometric,81.04956268221575
 cookie,874,1 segment,surface,71.67207792207792
 cookie,874,1 segment,mixed,61.60714285714286
+cookie,874,1 segment + real depth,all,99.50076804915514
+cookie,874,1 segment + real depth,geometric,99.12536443148689
+cookie,874,1 segment + real depth,surface,99.83766233766234
+cookie,874,1 segment + real depth,mixed,100.0
 cookie,874,SAM parts,all,74.73118279569893
 cookie,874,SAM parts,geometric,81.81486880466473
 cookie,874,SAM parts,surface,72.8896103896104
@@ -819,6 +955,10 @@ cookie,589,1 segment,all,67.97235023041475
 cookie,589,1 segment,geometric,70.97264437689971
 cookie,589,1 segment,surface,63.798701298701296
 cookie,589,1 segment,mixed,65.92261904761905
+cookie,589,1 segment + real depth,all,99.65437788018434
+cookie,589,1 segment + real depth,geometric,99.3161094224924
+cookie,589,1 segment + real depth,surface,100.0
+cookie,589,1 segment + real depth,mixed,100.0
 cookie,589,SAM parts,all,68.5483870967742
 cookie,589,SAM parts,geometric,72.41641337386018
 cookie,589,SAM parts,surface,53.57142857142857
@@ -843,6 +983,10 @@ dowel,333,1 segment,all,88.7684124386252
 dowel,333,1 segment,geometric,99.23076923076923
 dowel,333,1 segment,surface,59.15384615384616
 dowel,333,1 segment,mixed,100.0
+dowel,333,1 segment + real depth,all,92.55319148936171
+dowel,333,1 segment + real depth,geometric,100.0
+dowel,333,1 segment + real depth,surface,72.0
+dowel,333,1 segment + real depth,mixed,100.0
 dowel,333,SAM parts,all,91.61211129296235
 dowel,333,SAM parts,geometric,100.0
 dowel,333,SAM parts,surface,68.46153846153847
@@ -867,6 +1011,10 @@ dowel,576,1 segment,all,92.32815057283143
 dowel,576,1 segment,geometric,97.86324786324786
 dowel,576,1 segment,surface,73.95833333333334
 dowel,576,1 segment,mixed,100.0
+dowel,576,1 segment + real depth,all,94.16939443535189
+dowel,576,1 segment + real depth,geometric,97.94871794871794
+dowel,576,1 segment + real depth,surface,81.00961538461537
+dowel,576,1 segment + real depth,mixed,100.0
 dowel,576,SAM parts,all,93.98527004909984
 dowel,576,SAM parts,geometric,100.0
 dowel,576,SAM parts,surface,76.4423076923077
@@ -891,6 +1039,10 @@ dowel,725,1 segment,all,91.22340425531914
 dowel,725,1 segment,geometric,98.03600654664484
 dowel,725,1 segment,surface,68.1438127090301
 dowel,725,1 segment,mixed,100.0
+dowel,725,1 segment + real depth,all,93.08510638297872
+dowel,725,1 segment + real depth,geometric,98.07692307692307
+dowel,725,1 segment + real depth,surface,75.66889632107024
+dowel,725,1 segment + real depth,mixed,100.0
 dowel,725,SAM parts,all,92.94189852700492
 dowel,725,SAM parts,geometric,99.01800327332242
 dowel,725,SAM parts,surface,73.16053511705685
@@ -915,6 +1067,10 @@ dowel,823,1 segment,all,89.68903436988543
 dowel,823,1 segment,geometric,98.03600654664486
 dowel,823,1 segment,surface,64.92307692307692
 dowel,823,1 segment,mixed,100.0
+dowel,823,1 segment + real depth,all,93.06464811783961
+dowel,823,1 segment + real depth,geometric,98.3633387888707
+dowel,823,1 segment + real depth,surface,77.0
+dowel,823,1 segment + real depth,mixed,100.0
 dowel,823,SAM parts,all,94.18985270049099
 dowel,823,SAM parts,geometric,100.0
 dowel,823,SAM parts,surface,78.15384615384615
@@ -939,6 +1095,10 @@ dowel,831,1 segment,all,92.10310965630116
 dowel,831,1 segment,geometric,98.20234113712375
 dowel,831,1 segment,surface,72.51602564102564
 dowel,831,1 segment,mixed,100.0
+dowel,831,1 segment + real depth,all,93.1873977086743
+dowel,831,1 segment + real depth,geometric,98.28595317725753
+dowel,831,1 segment + real depth,surface,76.6025641025641
+dowel,831,1 segment + real depth,mixed,100.0
 dowel,831,SAM parts,all,95.06955810147299
 dowel,831,SAM parts,geometric,99.33110367892976
 dowel,831,SAM parts,surface,81.97115384615384
@@ -963,6 +1123,10 @@ dowel,902,1 segment,all,91.0392798690671
 dowel,902,1 segment,geometric,97.69230769230768
 dowel,902,1 segment,surface,67.89297658862877
 dowel,902,1 segment,mixed,100.0
+dowel,902,1 segment + real depth,all,92.83960720130932
+dowel,902,1 segment + real depth,geometric,97.52136752136751
+dowel,902,1 segment + real depth,surface,75.58528428093645
+dowel,902,1 segment + real depth,mixed,100.0
 dowel,902,SAM parts,all,93.33060556464812
 dowel,902,SAM parts,geometric,99.65811965811966
 dowel,902,SAM parts,surface,73.4113712374582
@@ -987,6 +1151,10 @@ dowel,226,1 segment,all,91.7962356792144
 dowel,226,1 segment,geometric,97.9933110367893
 dowel,226,1 segment,surface,69.14335664335664
 dowel,226,1 segment,mixed,100.0
+dowel,226,1 segment + real depth,all,93.33060556464812
+dowel,226,1 segment + real depth,geometric,97.90969899665552
+dowel,226,1 segment + real depth,surface,75.87412587412585
+dowel,226,1 segment + real depth,mixed,100.0
 dowel,226,SAM parts,all,93.57610474631751
 dowel,226,SAM parts,geometric,99.5819397993311
 dowel,226,SAM parts,surface,73.42657342657341
@@ -1011,6 +1179,10 @@ dowel,598,1 segment,all,92.34860883797054
 dowel,598,1 segment,geometric,98.03418803418802
 dowel,598,1 segment,surface,74.76923076923079
 dowel,598,1 segment,mixed,100.0
+dowel,598,1 segment + real depth,all,94.31260229132569
+dowel,598,1 segment + real depth,geometric,98.2051282051282
+dowel,598,1 segment + real depth,surface,81.84615384615385
+dowel,598,1 segment + real depth,mixed,100.0
 dowel,598,SAM parts,all,95.3355155482815
 dowel,598,SAM parts,geometric,99.40170940170941
 dowel,598,SAM parts,surface,83.6923076923077
@@ -1035,6 +1207,10 @@ dowel,874,1 segment,all,93.0441898527005
 dowel,874,1 segment,geometric,97.90969899665552
 dowel,874,1 segment,surface,76.76282051282051
 dowel,874,1 segment,mixed,100.0
+dowel,874,1 segment + real depth,all,94.84451718494272
+dowel,874,1 segment + real depth,geometric,97.82608695652173
+dowel,874,1 segment + real depth,surface,83.97435897435898
+dowel,874,1 segment + real depth,mixed,100.0
 dowel,874,SAM parts,all,92.81914893617024
 dowel,874,SAM parts,geometric,98.66220735785954
 dowel,874,SAM parts,surface,76.84294871794872
@@ -1059,6 +1235,10 @@ dowel,589,1 segment,all,88.99345335515548
 dowel,589,1 segment,geometric,95.76138147566718
 dowel,589,1 segment,surface,60.62271062271062
 dowel,589,1 segment,mixed,100.0
+dowel,589,1 segment + real depth,all,93.12602291325696
+dowel,589,1 segment + real depth,geometric,97.56671899529043
+dowel,589,1 segment + real depth,surface,74.9084249084249
+dowel,589,1 segment + real depth,mixed,100.0
 dowel,589,SAM parts,all,94.96726677577742
 dowel,589,SAM parts,geometric,99.84301412872841
 dowel,589,SAM parts,surface,78.20512820512819
@@ -1083,6 +1263,10 @@ foam,333,1 segment,all,96.32142857142857
 foam,333,1 segment,geometric,87.67857142857143
 foam,333,1 segment,surface,98.28947368421052
 foam,333,1 segment,mixed,98.88888888888889
+foam,333,1 segment + real depth,all,91.57142857142858
+foam,333,1 segment + real depth,geometric,79.64285714285714
+foam,333,1 segment + real depth,surface,93.8157894736842
+foam,333,1 segment + real depth,mixed,96.1111111111111
 foam,333,SAM parts,all,96.71428571428572
 foam,333,SAM parts,geometric,92.14285714285715
 foam,333,SAM parts,surface,98.42105263157896
@@ -1107,6 +1291,10 @@ foam,576,1 segment,all,96.25000000000001
 foam,576,1 segment,geometric,91.16666666666667
 foam,576,1 segment,surface,97.08333333333333
 foam,576,1 segment,mixed,98.6842105263158
+foam,576,1 segment + real depth,all,92.07142857142857
+foam,576,1 segment + real depth,geometric,83.66666666666667
+foam,576,1 segment + real depth,surface,93.75
+foam,576,1 segment + real depth,mixed,95.52631578947368
 foam,576,SAM parts,all,97.14285714285714
 foam,576,SAM parts,geometric,88.99999999999999
 foam,576,SAM parts,surface,99.30555555555554
@@ -1131,6 +1319,10 @@ foam,725,1 segment,all,93.78571428571428
 foam,725,1 segment,geometric,81.80555555555557
 foam,725,1 segment,surface,97.27941176470588
 foam,725,1 segment,mixed,99.16666666666666
+foam,725,1 segment + real depth,all,91.85714285714286
+foam,725,1 segment + real depth,geometric,75.55555555555556
+foam,725,1 segment + real depth,surface,96.17647058823529
+foam,725,1 segment + real depth,mixed,100.0
 foam,725,SAM parts,all,96.71428571428571
 foam,725,SAM parts,geometric,89.44444444444444
 foam,725,SAM parts,surface,99.11764705882354
@@ -1155,6 +1347,10 @@ foam,823,1 segment,all,95.07142857142857
 foam,823,1 segment,geometric,82.94117647058823
 foam,823,1 segment,surface,98.81578947368422
 foam,823,1 segment,mixed,99.33333333333333
+foam,823,1 segment + real depth,all,93.21428571428572
+foam,823,1 segment + real depth,geometric,80.0
+foam,823,1 segment + real depth,surface,96.71052631578947
+foam,823,1 segment + real depth,mixed,99.33333333333333
 foam,823,SAM parts,all,94.57142857142857
 foam,823,SAM parts,geometric,80.0
 foam,823,SAM parts,surface,99.3421052631579
@@ -1179,6 +1375,10 @@ foam,831,1 segment,all,95.71428571428572
 foam,831,1 segment,geometric,89.4736842105263
 foam,831,1 segment,surface,96.96969696969697
 foam,831,1 segment,mixed,100.0
+foam,831,1 segment + real depth,all,94.5
+foam,831,1 segment + real depth,geometric,91.57894736842105
+foam,831,1 segment + real depth,surface,93.93939393939394
+foam,831,1 segment + real depth,mixed,98.61111111111111
 foam,831,SAM parts,all,96.57142857142858
 foam,831,SAM parts,geometric,87.36842105263158
 foam,831,SAM parts,surface,100.0
@@ -1203,6 +1403,10 @@ foam,902,1 segment,all,94.03571428571429
 foam,902,1 segment,geometric,85.44117647058823
 foam,902,1 segment,surface,96.36363636363636
 foam,902,1 segment,mixed,97.50000000000001
+foam,902,1 segment + real depth,all,93.5
+foam,902,1 segment + real depth,geometric,82.94117647058825
+foam,902,1 segment + real depth,surface,96.21212121212122
+foam,902,1 segment + real depth,mixed,98.0
 foam,902,SAM parts,all,96.78571428571429
 foam,902,SAM parts,geometric,87.3529411764706
 foam,902,SAM parts,surface,99.84848484848484
@@ -1227,6 +1431,10 @@ foam,226,1 segment,all,92.64285714285714
 foam,226,1 segment,geometric,83.84615384615385
 foam,226,1 segment,surface,94.45945945945947
 foam,226,1 segment,mixed,95.0
+foam,226,1 segment + real depth,all,89.78571428571428
+foam,226,1 segment + real depth,geometric,81.53846153846153
+foam,226,1 segment + real depth,surface,91.89189189189189
+foam,226,1 segment + real depth,mixed,91.25
 foam,226,SAM parts,all,99.50000000000001
 foam,226,SAM parts,geometric,99.23076923076923
 foam,226,SAM parts,surface,100.0
@@ -1251,6 +1459,10 @@ foam,598,1 segment,all,94.92857142857143
 foam,598,1 segment,geometric,85.27777777777777
 foam,598,1 segment,surface,97.94117647058825
 foam,598,1 segment,mixed,98.88888888888889
+foam,598,1 segment + real depth,all,94.35714285714285
+foam,598,1 segment + real depth,geometric,85.0
+foam,598,1 segment + real depth,surface,97.6470588235294
+foam,598,1 segment + real depth,mixed,97.50000000000001
 foam,598,SAM parts,all,96.07142857142857
 foam,598,SAM parts,geometric,85.55555555555556
 foam,598,SAM parts,surface,99.70588235294117
@@ -1275,6 +1487,10 @@ foam,874,1 segment,all,88.28571428571429
 foam,874,1 segment,geometric,68.15789473684211
 foam,874,1 segment,surface,94.85294117647058
 foam,874,1 segment,mixed,97.64705882352942
+foam,874,1 segment + real depth,all,86.14285714285714
+foam,874,1 segment + real depth,geometric,66.57894736842105
+foam,874,1 segment + real depth,surface,92.20588235294117
+foam,874,1 segment + real depth,mixed,95.88235294117646
 foam,874,SAM parts,all,95.71428571428571
 foam,874,SAM parts,geometric,84.47368421052632
 foam,874,SAM parts,surface,99.8529411764706
@@ -1299,6 +1515,10 @@ foam,589,1 segment,all,94.82142857142857
 foam,589,1 segment,geometric,86.97368421052632
 foam,589,1 segment,surface,97.87878787878789
 foam,589,1 segment,mixed,97.5
+foam,589,1 segment + real depth,all,92.57142857142858
+foam,589,1 segment + real depth,geometric,83.68421052631578
+foam,589,1 segment + real depth,surface,96.51515151515153
+foam,589,1 segment + real depth,mixed,94.72222222222221
 foam,589,SAM parts,all,95.21428571428572
 foam,589,SAM parts,geometric,82.63157894736841
 foam,589,SAM parts,surface,100.0
@@ -1323,6 +1543,10 @@ peach,333,1 segment,all,53.004807692307686
 peach,333,1 segment,geometric,51.522435897435905
 peach,333,1 segment,surface,57.53205128205129
 peach,333,1 segment,mixed,51.442307692307686
+peach,333,1 segment + real depth,all,90.86538461538461
+peach,333,1 segment + real depth,geometric,89.90384615384616
+peach,333,1 segment + real depth,surface,86.37820512820514
+peach,333,1 segment + real depth,mixed,97.27564102564102
 peach,333,SAM parts,all,64.3830128205128
 peach,333,SAM parts,geometric,60.416666666666664
 peach,333,SAM parts,surface,64.74358974358975
@@ -1347,6 +1571,10 @@ peach,576,1 segment,all,47.41586538461539
 peach,576,1 segment,geometric,48.117839607201304
 peach,576,1 segment,surface,51.109467455621306
 peach,576,1 segment,mixed,41.80602006688963
+peach,576,1 segment + real depth,all,83.81410256410255
+peach,576,1 segment + real depth,geometric,84.77905073649754
+peach,576,1 segment + real depth,surface,72.18934911242604
+peach,576,1 segment + real depth,mixed,94.98327759197325
 peach,576,SAM parts,all,66.58653846153847
 peach,576,SAM parts,geometric,63.82978723404255
 peach,576,SAM parts,surface,62.8698224852071
@@ -1371,6 +1599,10 @@ peach,725,1 segment,all,54.22676282051282
 peach,725,1 segment,geometric,54.631083202511775
 peach,725,1 segment,surface,54.84615384615385
 peach,725,1 segment,mixed,52.62237762237763
+peach,725,1 segment + real depth,all,86.93910256410257
+peach,725,1 segment + real depth,geometric,86.42072213500785
+peach,725,1 segment + real depth,surface,78.76923076923077
+peach,725,1 segment + real depth,mixed,97.37762237762237
 peach,725,SAM parts,all,58.85416666666667
 peach,725,SAM parts,geometric,53.37519623233909
 peach,725,SAM parts,surface,66.92307692307692
@@ -1395,6 +1627,10 @@ peach,823,1 segment,all,52.00320512820513
 peach,823,1 segment,geometric,56.00000000000001
 peach,823,1 segment,surface,47.9020979020979
 peach,823,1 segment,mixed,47.43589743589744
+peach,823,1 segment + real depth,all,86.53846153846153
+peach,823,1 segment + real depth,geometric,86.53846153846153
+peach,823,1 segment + real depth,surface,73.6013986013986
+peach,823,1 segment + real depth,mixed,98.3974358974359
 peach,823,SAM parts,all,67.66826923076924
 peach,823,SAM parts,geometric,68.61538461538461
 peach,823,SAM parts,surface,72.2027972027972
@@ -1419,6 +1655,10 @@ peach,831,1 segment,all,66.20592948717949
 peach,831,1 segment,geometric,61.999999999999986
 peach,831,1 segment,surface,66.18589743589743
 peach,831,1 segment,mixed,75.7867132867133
+peach,831,1 segment + real depth,all,86.69871794871796
+peach,831,1 segment + real depth,geometric,85.92307692307692
+peach,831,1 segment + real depth,surface,79.48717948717949
+peach,831,1 segment + real depth,mixed,96.32867132867133
 peach,831,SAM parts,all,56.69070512820513
 peach,831,SAM parts,geometric,55.84615384615385
 peach,831,SAM parts,surface,59.294871794871796
@@ -1443,6 +1683,10 @@ peach,902,1 segment,all,60.877403846153854
 peach,902,1 segment,geometric,58.77403846153847
 peach,902,1 segment,surface,60.61253561253561
 peach,902,1 segment,mixed,66.02564102564102
+peach,902,1 segment + real depth,all,87.80048076923077
+peach,902,1 segment + real depth,geometric,88.90224358974359
+peach,902,1 segment + real depth,surface,76.78062678062678
+peach,902,1 segment + real depth,mixed,99.45054945054946
 peach,902,SAM parts,all,60.416666666666664
 peach,902,SAM parts,geometric,58.01282051282052
 peach,902,SAM parts,surface,64.81481481481481
@@ -1467,6 +1711,10 @@ peach,226,1 segment,all,56.22996794871795
 peach,226,1 segment,geometric,56.02564102564103
 peach,226,1 segment,surface,59.82905982905983
 peach,226,1 segment,mixed,52.564102564102555
+peach,226,1 segment + real depth,all,86.53846153846155
+peach,226,1 segment + real depth,geometric,85.98290598290598
+peach,226,1 segment + real depth,surface,83.19088319088318
+peach,226,1 segment + real depth,mixed,91.34615384615384
 peach,226,SAM parts,all,62.6201923076923
 peach,226,SAM parts,geometric,63.07692307692307
 peach,226,SAM parts,surface,62.1082621082621
@@ -1491,6 +1739,10 @@ peach,598,1 segment,all,55.328525641025635
 peach,598,1 segment,geometric,54.67571644042232
 peach,598,1 segment,surface,58.38461538461538
 peach,598,1 segment,mixed,53.17307692307692
+peach,598,1 segment + real depth,all,87.94070512820514
+peach,598,1 segment + real depth,geometric,88.0844645550528
+peach,598,1 segment + real depth,surface,81.38461538461539
+peach,598,1 segment + real depth,mixed,95.76923076923076
 peach,598,SAM parts,all,59.334935897435905
 peach,598,SAM parts,geometric,57.01357466063348
 peach,598,SAM parts,surface,58.30769230769231
@@ -1515,6 +1767,10 @@ peach,874,1 segment,all,54.767628205128204
 peach,874,1 segment,geometric,52.42307692307693
 peach,874,1 segment,surface,56.57051282051282
 peach,874,1 segment,mixed,58.12937062937063
+peach,874,1 segment + real depth,all,86.69871794871794
+peach,874,1 segment + real depth,geometric,85.6923076923077
+peach,874,1 segment + real depth,surface,78.04487179487181
+peach,874,1 segment + real depth,mixed,98.42657342657343
 peach,874,SAM parts,all,66.94711538461537
 peach,874,SAM parts,geometric,67.38461538461537
 peach,874,SAM parts,surface,66.34615384615384
@@ -1539,6 +1795,10 @@ peach,589,1 segment,all,56.1298076923077
 peach,589,1 segment,geometric,57.171474358974365
 peach,589,1 segment,surface,56.891025641025635
 peach,589,1 segment,mixed,53.28525641025641
+peach,589,1 segment + real depth,all,81.49038461538461
+peach,589,1 segment + real depth,geometric,80.12820512820512
+peach,589,1 segment + real depth,surface,78.20512820512822
+peach,589,1 segment + real depth,mixed,87.5
 peach,589,SAM parts,all,59.895833333333336
 peach,589,SAM parts,geometric,64.1025641025641
 peach,589,SAM parts,surface,60.256410256410255
@@ -1563,6 +1823,10 @@ potato,333,1 segment,all,63.109756097560975
 potato,333,1 segment,geometric,66.66666666666667
 potato,333,1 segment,surface,58.76623376623377
 potato,333,1 segment,mixed,60.9504132231405
+potato,333,1 segment + real depth,all,82.45565410199556
+potato,333,1 segment + real depth,geometric,88.28671328671328
+potato,333,1 segment + real depth,surface,69.04761904761905
+potato,333,1 segment + real depth,mixed,84.91735537190083
 potato,333,SAM parts,all,57.15077605321508
 potato,333,SAM parts,geometric,57.342657342657354
 potato,333,SAM parts,surface,54.54545454545454
@@ -1587,6 +1851,10 @@ potato,576,1 segment,all,51.38580931263858
 potato,576,1 segment,geometric,46.32867132867133
 potato,576,1 segment,surface,50.9297520661157
 potato,576,1 segment,mixed,61.25541125541126
+potato,576,1 segment + real depth,all,83.28713968957871
+potato,576,1 segment + real depth,geometric,84.38228438228438
+potato,576,1 segment + real depth,surface,76.34297520661157
+potato,576,1 segment + real depth,mixed,88.52813852813853
 potato,576,SAM parts,all,56.1529933481153
 potato,576,SAM parts,geometric,56.75990675990676
 potato,576,SAM parts,surface,51.446280991735534
@@ -1611,6 +1879,10 @@ potato,725,1 segment,all,55.764966740576504
 potato,725,1 segment,geometric,50.44345898004434
 potato,725,1 segment,surface,57.57575757575757
 potato,725,1 segment,mixed,64.77272727272727
+potato,725,1 segment + real depth,all,85.61529933481154
+potato,725,1 segment + real depth,geometric,87.58314855875831
+potato,725,1 segment + real depth,surface,77.16450216450217
+potato,725,1 segment + real depth,mixed,90.45454545454544
 potato,725,SAM parts,all,41.68514412416852
 potato,725,SAM parts,geometric,38.24833702882483
 potato,725,SAM parts,surface,49.134199134199136
@@ -1635,6 +1907,10 @@ potato,823,1 segment,all,53.3259423503326
 potato,823,1 segment,geometric,54.27489177489178
 potato,823,1 segment,surface,57.82828282828283
 potato,823,1 segment,mixed,47.83057851239669
+potato,823,1 segment + real depth,all,85.78159645232817
+potato,823,1 segment + real depth,geometric,89.39393939393938
+potato,823,1 segment + real depth,surface,76.38888888888889
+potato,823,1 segment + real depth,mixed,86.57024793388429
 potato,823,SAM parts,all,49.77827050997783
 potato,823,SAM parts,geometric,54.00432900432901
 potato,823,SAM parts,surface,52.27272727272728
@@ -1659,6 +1935,10 @@ potato,831,1 segment,all,52.494456762749444
 potato,831,1 segment,geometric,50.79281183932347
 potato,831,1 segment,surface,54.87012987012987
 potato,831,1 segment,mixed,53.78787878787878
+potato,831,1 segment + real depth,all,89.9390243902439
+potato,831,1 segment + real depth,geometric,95.2431289640592
+potato,831,1 segment + real depth,surface,76.2987012987013
+potato,831,1 segment + real depth,mixed,93.18181818181817
 potato,831,SAM parts,all,54.933481152993345
 potato,831,SAM parts,geometric,52.2198731501057
 potato,831,SAM parts,surface,55.84415584415584
@@ -1683,6 +1963,10 @@ potato,902,1 segment,all,50.80376940133038
 potato,902,1 segment,geometric,47.272727272727266
 potato,902,1 segment,surface,57.41106719367589
 potato,902,1 segment,mixed,50.23923444976076
+potato,902,1 segment + real depth,all,87.86031042128603
+potato,902,1 segment + real depth,geometric,92.27272727272728
+potato,902,1 segment + real depth,surface,75.49407114624505
+potato,902,1 segment + real depth,mixed,93.54066985645932
 potato,902,SAM parts,all,50.66518847006651
 potato,902,SAM parts,geometric,57.04545454545455
 potato,902,SAM parts,surface,50.19762845849802
@@ -1707,6 +1991,10 @@ potato,226,1 segment,all,45.45454545454545
 potato,226,1 segment,geometric,42.07616707616707
 potato,226,1 segment,surface,47.233201581027664
 potato,226,1 segment,mixed,49.27685950413223
+potato,226,1 segment + real depth,all,89.66186252771618
+potato,226,1 segment + real depth,geometric,95.33169533169534
+potato,226,1 segment + real depth,surface,76.77865612648222
+potato,226,1 segment + real depth,mixed,93.59504132231406
 potato,226,SAM parts,all,41.24168514412417
 potato,226,SAM parts,geometric,49.14004914004914
 potato,226,SAM parts,surface,38.33992094861661
@@ -1731,6 +2019,10 @@ potato,598,1 segment,all,50.388026607538805
 potato,598,1 segment,geometric,44.71458773784355
 potato,598,1 segment,surface,52.38095238095237
 potato,598,1 segment,mixed,61.61616161616163
+potato,598,1 segment + real depth,all,88.41463414634146
+potato,598,1 segment + real depth,geometric,92.17758985200845
+potato,598,1 segment + real depth,surface,74.67532467532467
+potato,598,1 segment + real depth,mixed,95.45454545454545
 potato,598,SAM parts,all,51.21951219512195
 potato,598,SAM parts,geometric,44.92600422832981
 potato,598,SAM parts,surface,52.38095238095237
@@ -1755,6 +2047,10 @@ potato,874,1 segment,all,35.310421286031044
 potato,874,1 segment,geometric,34.368070953436806
 potato,874,1 segment,surface,35.71428571428571
 potato,874,1 segment,mixed,36.81818181818181
+potato,874,1 segment + real depth,all,85.97560975609755
+potato,874,1 segment + real depth,geometric,87.58314855875831
+potato,874,1 segment + real depth,surface,76.1904761904762
+potato,874,1 segment + real depth,mixed,92.95454545454545
 potato,874,SAM parts,all,38.69179600886918
 potato,874,SAM parts,geometric,39.24611973392462
 potato,874,SAM parts,surface,41.34199134199134
@@ -1779,6 +2075,10 @@ potato,589,1 segment,all,59.28492239467849
 potato,589,1 segment,geometric,56.81818181818182
 potato,589,1 segment,surface,66.12554112554113
 potato,589,1 segment,mixed,57.14285714285714
+potato,589,1 segment + real depth,all,89.24611973392462
+potato,589,1 segment + real depth,geometric,93.97727272727273
+potato,589,1 segment + real depth,surface,76.83982683982683
+potato,589,1 segment + real depth,mixed,92.64069264069263
 potato,589,SAM parts,all,53.215077605321504
 potato,589,SAM parts,geometric,52.84090909090909
 potato,589,SAM parts,surface,52.81385281385281
@@ -1802,6 +2102,9 @@ potato,589,with 3D scanner: + real depth,mixed,85.06493506493507
 rope,333,1 segment,all,97.29872881355932
 rope,333,1 segment,geometric,99.82638888888889
 rope,333,1 segment,surface,93.34239130434783
+rope,333,1 segment + real depth,all,97.74894067796612
+rope,333,1 segment + real depth,geometric,100.0
+rope,333,1 segment + real depth,surface,94.22554347826086
 rope,333,SAM parts,all,95.28601694915254
 rope,333,SAM parts,geometric,100.0
 rope,333,SAM parts,surface,87.90760869565217
@@ -1820,6 +2123,9 @@ rope,333,with 3D scanner: + real depth,surface,88.99456521739131
 rope,576,1 segment,all,99.15254237288136
 rope,576,1 segment,geometric,99.65277777777779
 rope,576,1 segment,surface,98.36956521739131
+rope,576,1 segment + real depth,all,99.3114406779661
+rope,576,1 segment + real depth,geometric,99.47916666666667
+rope,576,1 segment + real depth,surface,99.04891304347827
 rope,576,SAM parts,all,98.41101694915254
 rope,576,SAM parts,geometric,99.13194444444444
 rope,576,SAM parts,surface,97.28260869565217
@@ -1838,6 +2144,9 @@ rope,576,with 3D scanner: + real depth,surface,99.45652173913044
 rope,725,1 segment,all,99.70868644067797
 rope,725,1 segment,geometric,99.95888157894737
 rope,725,1 segment,surface,99.25595238095238
+rope,725,1 segment + real depth,all,99.47033898305084
+rope,725,1 segment + real depth,geometric,100.0
+rope,725,1 segment + real depth,surface,98.51190476190477
 rope,725,SAM parts,all,99.20550847457626
 rope,725,SAM parts,geometric,100.0
 rope,725,SAM parts,surface,97.76785714285714
@@ -1856,6 +2165,9 @@ rope,725,with 3D scanner: + real depth,surface,97.17261904761905
 rope,823,1 segment,all,98.14618644067797
 rope,823,1 segment,geometric,100.0
 rope,823,1 segment,surface,95.0284090909091
+rope,823,1 segment + real depth,all,99.20550847457628
+rope,823,1 segment + real depth,geometric,100.0
+rope,823,1 segment + real depth,surface,97.86931818181819
 rope,823,SAM parts,all,96.23940677966102
 rope,823,SAM parts,geometric,100.0
 rope,823,SAM parts,surface,89.91477272727273
@@ -1874,6 +2186,9 @@ rope,823,with 3D scanner: + real depth,surface,88.99147727272727
 rope,831,1 segment,all,98.4375
 rope,831,1 segment,geometric,100.0
 rope,831,1 segment,surface,95.14802631578947
+rope,831,1 segment + real depth,all,99.57627118644068
+rope,831,1 segment + real depth,geometric,100.0
+rope,831,1 segment + real depth,surface,98.6842105263158
 rope,831,SAM parts,all,99.81461864406779
 rope,831,SAM parts,geometric,100.0
 rope,831,SAM parts,surface,99.42434210526316
@@ -1892,6 +2207,9 @@ rope,831,with 3D scanner: + real depth,surface,98.60197368421053
 rope,902,1 segment,all,99.54978813559322
 rope,902,1 segment,geometric,99.8766447368421
 rope,902,1 segment,surface,98.95833333333333
+rope,902,1 segment + real depth,all,99.78813559322035
+rope,902,1 segment + real depth,geometric,100.0
+rope,902,1 segment + real depth,surface,99.40476190476191
 rope,902,SAM parts,all,99.3114406779661
 rope,902,SAM parts,geometric,100.0
 rope,902,SAM parts,surface,98.0654761904762
@@ -1910,6 +2228,9 @@ rope,902,with 3D scanner: + real depth,surface,99.40476190476191
 rope,226,1 segment,all,98.80826271186442
 rope,226,1 segment,geometric,100.0
 rope,226,1 segment,surface,97.0703125
+rope,226,1 segment + real depth,all,99.17902542372882
+rope,226,1 segment + real depth,geometric,100.0
+rope,226,1 segment + real depth,surface,97.98177083333333
 rope,226,SAM parts,all,93.90889830508475
 rope,226,SAM parts,geometric,100.0
 rope,226,SAM parts,surface,85.02604166666666
@@ -1928,6 +2249,9 @@ rope,226,with 3D scanner: + real depth,surface,89.2578125
 rope,598,1 segment,all,99.41737288135593
 rope,598,1 segment,geometric,99.46646341463415
 rope,598,1 segment,surface,99.30555555555556
+rope,598,1 segment + real depth,all,99.54978813559322
+rope,598,1 segment + real depth,geometric,99.77134146341463
+rope,598,1 segment + real depth,surface,99.04513888888889
 rope,598,SAM parts,all,98.75529661016948
 rope,598,SAM parts,geometric,98.85670731707317
 rope,598,SAM parts,surface,98.52430555555556
@@ -1946,6 +2270,9 @@ rope,598,with 3D scanner: + real depth,surface,98.95833333333333
 rope,874,1 segment,all,99.70868644067797
 rope,874,1 segment,geometric,100.0
 rope,874,1 segment,surface,99.18154761904762
+rope,874,1 segment + real depth,all,99.84110169491525
+rope,874,1 segment + real depth,geometric,100.0
+rope,874,1 segment + real depth,surface,99.55357142857143
 rope,874,SAM parts,all,99.28495762711864
 rope,874,SAM parts,geometric,100.0
 rope,874,SAM parts,surface,97.99107142857143
@@ -1964,6 +2291,9 @@ rope,874,with 3D scanner: + real depth,surface,98.66071428571428
 rope,589,1 segment,all,98.91419491525424
 rope,589,1 segment,geometric,100.0
 rope,589,1 segment,surface,97.21467391304348
+rope,589,1 segment + real depth,all,99.36440677966102
+rope,589,1 segment + real depth,geometric,100.0
+rope,589,1 segment + real depth,surface,98.36956521739131
 rope,589,SAM parts,all,96.08050847457626
 rope,589,SAM parts,geometric,100.0
 rope,589,SAM parts,surface,89.94565217391305
@@ -1983,6 +2313,10 @@ tire,333,1 segment,all,73.8961038961039
 tire,333,1 segment,geometric,71.3913043478261
 tire,333,1 segment,surface,75.48148148148148
 tire,333,1 segment,mixed,92.0
+tire,333,1 segment + real depth,all,71.6103896103896
+tire,333,1 segment + real depth,geometric,70.56521739130434
+tire,333,1 segment + real depth,surface,70.66666666666667
+tire,333,1 segment + real depth,mixed,90.0
 tire,333,SAM parts,all,69.03896103896105
 tire,333,SAM parts,geometric,67.82608695652173
 tire,333,SAM parts,surface,68.44444444444444
@@ -2007,6 +2341,10 @@ tire,576,1 segment,all,72.96103896103897
 tire,576,1 segment,geometric,68.3913043478261
 tire,576,1 segment,surface,78.07407407407408
 tire,576,1 segment,mixed,91.0
+tire,576,1 segment + real depth,all,74.85714285714286
+tire,576,1 segment + real depth,geometric,72.43478260869566
+tire,576,1 segment + real depth,surface,75.70370370370371
+tire,576,1 segment + real depth,mixed,97.0
 tire,576,SAM parts,all,77.87012987012987
 tire,576,SAM parts,geometric,73.43478260869564
 tire,576,SAM parts,surface,83.03703703703704
@@ -2031,6 +2369,10 @@ tire,725,1 segment,all,73.81818181818181
 tire,725,1 segment,geometric,68.16666666666667
 tire,725,1 segment,surface,81.28
 tire,725,1 segment,mixed,95.0
+tire,725,1 segment + real depth,all,74.23376623376625
+tire,725,1 segment + real depth,geometric,70.375
+tire,725,1 segment + real depth,surface,77.52
+tire,725,1 segment + real depth,mixed,100.0
 tire,725,SAM parts,all,69.71428571428572
 tire,725,SAM parts,geometric,68.20833333333333
 tire,725,SAM parts,surface,70.08
@@ -2055,6 +2397,10 @@ tire,823,1 segment,all,74.85714285714286
 tire,823,1 segment,geometric,69.57446808510637
 tire,823,1 segment,surface,81.15384615384616
 tire,823,1 segment,mixed,96.0
+tire,823,1 segment + real depth,all,75.11688311688312
+tire,823,1 segment + real depth,geometric,69.02127659574468
+tire,823,1 segment + real depth,surface,83.07692307692308
+tire,823,1 segment + real depth,mixed,95.0
 tire,823,SAM parts,all,72.28571428571429
 tire,823,SAM parts,geometric,66.97872340425532
 tire,823,SAM parts,surface,78.84615384615385
@@ -2079,6 +2425,10 @@ tire,831,1 segment,all,71.58441558441558
 tire,831,1 segment,geometric,70.52
 tire,831,1 segment,surface,70.86956521739131
 tire,831,1 segment,mixed,89.0
+tire,831,1 segment + real depth,all,67.06493506493506
+tire,831,1 segment + real depth,geometric,65.48
+tire,831,1 segment + real depth,surface,68.6086956521739
+tire,831,1 segment + real depth,mixed,78.0
 tire,831,SAM parts,all,69.58441558441558
 tire,831,SAM parts,geometric,70.4
 tire,831,SAM parts,surface,65.56521739130434
@@ -2103,6 +2453,10 @@ tire,902,1 segment,all,80.4155844155844
 tire,902,1 segment,geometric,75.95833333333334
 tire,902,1 segment,surface,86.66666666666667
 tire,902,1 segment,mixed,93.2
+tire,902,1 segment + real depth,all,74.12987012987013
+tire,902,1 segment + real depth,geometric,72.29166666666667
+tire,902,1 segment + real depth,surface,74.16666666666667
+tire,902,1 segment + real depth,mixed,91.6
 tire,902,SAM parts,all,76.77922077922078
 tire,902,SAM parts,geometric,74.08333333333333
 tire,902,SAM parts,surface,79.75000000000001
@@ -2127,6 +2481,10 @@ tire,226,1 segment,all,71.61038961038962
 tire,226,1 segment,geometric,70.53333333333333
 tire,226,1 segment,surface,69.7037037037037
 tire,226,1 segment,mixed,91.60000000000001
+tire,226,1 segment + real depth,all,66.9090909090909
+tire,226,1 segment + real depth,geometric,66.93333333333334
+tire,226,1 segment + real depth,surface,64.37037037037037
+tire,226,1 segment + real depth,mixed,80.4
 tire,226,SAM parts,all,68.31168831168831
 tire,226,SAM parts,geometric,67.42222222222223
 tire,226,SAM parts,surface,68.5185185185185
@@ -2151,6 +2509,10 @@ tire,598,1 segment,all,70.12987012987013
 tire,598,1 segment,geometric,67.84313725490196
 tire,598,1 segment,surface,73.0909090909091
 tire,598,1 segment,mixed,83.0
+tire,598,1 segment + real depth,all,72.72727272727273
+tire,598,1 segment + real depth,geometric,72.31372549019608
+tire,598,1 segment + real depth,surface,73.0909090909091
+tire,598,1 segment + real depth,mixed,76.0
 tire,598,SAM parts,all,70.77922077922078
 tire,598,SAM parts,geometric,68.15686274509804
 tire,598,SAM parts,surface,74.09090909090908
@@ -2175,6 +2537,10 @@ tire,874,1 segment,all,75.24675324675326
 tire,874,1 segment,geometric,73.3469387755102
 tire,874,1 segment,surface,77.66666666666666
 tire,874,1 segment,mixed,84.0
+tire,874,1 segment + real depth,all,76.41558441558442
+tire,874,1 segment + real depth,geometric,75.18367346938774
+tire,874,1 segment + real depth,surface,78.0
+tire,874,1 segment + real depth,mixed,82.0
 tire,874,SAM parts,all,75.81818181818181
 tire,874,SAM parts,geometric,74.0
 tire,874,SAM parts,surface,78.66666666666666
@@ -2199,6 +2565,10 @@ tire,589,1 segment,all,59.97402597402598
 tire,589,1 segment,geometric,62.43478260869565
 tire,589,1 segment,surface,56.15384615384615
 tire,589,1 segment,mixed,57.2
+tire,589,1 segment + real depth,all,59.74025974025974
+tire,589,1 segment + real depth,geometric,62.08695652173913
+tire,589,1 segment + real depth,surface,55.692307692307686
+tire,589,1 segment + real depth,mixed,59.199999999999996
 tire,589,SAM parts,all,64.1038961038961
 tire,589,SAM parts,geometric,66.30434782608697
 tire,589,SAM parts,surface,61.15384615384616

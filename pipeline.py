@@ -1,12 +1,14 @@
 """ExplainAD: SAM (object/background) -> SegAD on PatchCore maps from WRN50, DINO and CLIP (is it defective,
 where) -> Qwen3-VL (what is wrong, in words).
 
-MVTec 3D-AD RGB images, read from GeoAD's data folder (never written). Every stage caches
+MVTec 3D-AD images, read from data/mvtec3d (never written). Every stage caches
 per class, so a killed run resumes.
 
     python pipeline.py fit                    # SAM part maps + PatchCore (WRN50, DINO, CLIP) per class (GPU)
     python pipeline.py eval                   # SegAD heads for every setup -> results/report.txt (CPU)
-    python pipeline.py explain <image.png>    # full pipeline on one image -> results/*.png
+    python pipeline.py calibrate              # per-class demo threshold -> cache/thresholds.json (CPU)
+    python pipeline.py explain <image.png> [--3d]   # full pipeline on one image -> results/*.png
+    streamlit run app.py                      # the same, as a web demo
 """
 from __future__ import annotations
 
@@ -27,7 +29,7 @@ from explainad.features import segment_stats
 from explainad.patchcore import ClipCore, DinoCore, PatchCore
 
 ROOT = Path(__file__).resolve().parent
-MV = ROOT.parent / "GeoAD" / "data" / "mvtec3d"
+MV = ROOT / "data" / "mvtec3d"
 CACHE, RESULTS = ROOT / "cache", ROOT / "results"
 CLASSES = sorted(p.name for p in MV.iterdir() if p.is_dir())
 SIZE = parts.SIZE
@@ -61,8 +63,7 @@ def load_rgb(p: Path) -> np.ndarray:
 
 def load_depth(p: Path) -> np.ndarray:
     """Real 3D-sensor depth for the RGB image at p (optional 3D mode): z channel of the xyz scan,
-    sensor holes filled with the nearest valid reading, near = high, min-max to [0, 1], SIZE px.
-    Same processing as GeoAD's real-depth run."""
+    sensor holes filled with the nearest valid reading, near = high, min-max to [0, 1], SIZE px."""
     import tifffile
     from scipy import ndimage
     z = tifffile.imread(p.parent.parent / "xyz" / f"{p.stem}.tiff")[..., 2].astype(np.float32)
@@ -125,7 +126,11 @@ def features(cls: str) -> dict[str, np.ndarray]:
     segs = np.load(CACHE / f"segs_{cls}.npy").astype(np.int32)
     one = np.zeros((SIZE, SIZE), np.int32)
     obj = object_mask(cls, segs).astype(np.int32)
-    return {"1 segment": np.stack([segment_stats(m, one, 1) for m in maps]),
+    single = np.stack([segment_stats(m, one, 1) for m in maps])
+    depth = np.load(detectors(cls)[3][3]).astype(np.float32)
+    return {"1 segment": single,
+            # baseline: plain SegAD + real depth, no SAM (was GeoAD's mvtec3d_segad.py "RGB + real depth")
+            "1 segment + real depth": np.hstack([single, np.stack([segment_stats(m, one, 1) for m in depth])]),
             "SAM parts": np.stack([segment_stats(m, s, parts.K + 1) for m, s in zip(maps, segs)]),
             "SAM object/bg": np.stack([segment_stats(m, o, 2) for m, o in zip(maps, obj)]),
             **{arm: np.hstack([np.stack([segment_stats(m, o, 2) for m, o in zip(
@@ -154,6 +159,10 @@ def object_mask(cls: str, segs: np.ndarray) -> np.ndarray:
     return segs != bg_cluster(cls)
 
 
+OPS: list = []   # (cls, seed, arm, recall %, false-alarm %) at threshold 0.5, held-out images
+DEMO_HEADS = {"SAM object/bg + DINO + CLIP": "head", "with 3D scanner: + real depth": "head3d"}
+
+
 def evaluate(cls: str, feats=None) -> list[tuple]:
     todo = paths(cls, "validation") + paths(cls, "test")
     split = np.array([p.parts[-4] for p in todo])
@@ -167,12 +176,15 @@ def evaluate(cls: str, feats=None) -> list[tuple]:
         for arm, Xa in X.items():
             clf = head.fit(Xa[tr], y[tr], seed=seed)
             p = clf.predict_proba(Xa)[:, 1]
+            if arm in DEMO_HEADS:
+                m = ~tr
+                OPS.append((cls, seed, arm, 100 * (p[m & (y == 1)] >= .5).mean(), 100 * (p[m & (y == 0)] >= .5).mean()))
             for g in ("all", "geometric", "surface", "mixed"):
                 m = ~tr & ((y == 0) | ((groups == g) if g != "all" else True))
                 if (y[m] == 1).any():
                     rows.append((cls, seed, arm, g, 100 * roc_auc_score(y[m], p[m])))
-            if seed == SEEDS[0] and arm == "SAM object/bg + DINO + CLIP":   # the demo head (best arm)
-                clf.save_model(CACHE / f"head_{cls}.json")
+            if seed == SEEDS[0] and arm in DEMO_HEADS:   # the demo heads: camera mode, 3D mode
+                clf.save_model(CACHE / f"{DEMO_HEADS[arm]}_{cls}.json")
                 (CACHE / f"head_{cls}_train.json").write_text(json.dumps([uid(todo[i]) for i in np.flatnonzero(tr)]))
     return rows
 
@@ -189,6 +201,46 @@ def report(classes: list[str], feats=None, name: str = "report") -> None:
                      "AUROC per class (all defects, mean over seeds):", per_cls.to_string()])
     (RESULTS / f"{name}.txt").write_text(txt, encoding="utf-8")
     print(txt)
+    if not OPS:   # improve.py / improve2.py arms are not demo heads: keep the existing file
+        return
+    op = pd.DataFrame(OPS, columns=["cls", "seed", "arm", "recall", "false_alarm"])
+    op = op.groupby(["arm", "cls"])[["recall", "false_alarm"]].mean().round(1)
+    (RESULTS / "operating_point.txt").write_text("Threshold 0.5, held-out images, mean over seeds (%):\n"
+                                                 + op.to_string(), encoding="utf-8")
+
+
+# ---------------------------------------------------------------- calibrate
+# Per-class defect threshold for the demo (does not touch AUROC). Rule fixed 2026-10-13 before
+# looking at its test results: leave-one-out over the demo head's own training images (validation
+# good + its 10 defective), then the slider value (0.05 steps) with the best balanced accuracy on
+# those left-out probabilities; ties go to the value nearest 0.5. Test images are never used.
+THRESHOLDS = CACHE / "thresholds.json"
+GRID = np.round(np.arange(0.05, 0.96, 0.05), 2)
+
+
+def pick_threshold(y: np.ndarray, p: np.ndarray) -> float:
+    bal = np.array([((p[y == 1] >= t).mean() + (p[y == 0] < t).mean()) / 2 for t in GRID])
+    best = GRID[np.isclose(bal, bal.max())]
+    return float(best[np.abs(best - 0.5).argmin()])
+
+
+def calibrate(cls: str) -> dict[str, float]:
+    todo = paths(cls, "validation") + paths(cls, "test")
+    used = set(json.loads((CACHE / f"head_{cls}_train.json").read_text()))
+    tr = np.flatnonzero([uid(p) in used for p in todo])
+    y = np.array([todo[i].parts[-3] != "good" for i in tr]).astype(int)
+    X, out = features(cls), {}
+    for arm, name in DEMO_HEADS.items():
+        Xa = X[arm][tr]
+        p = np.array([head.fit(np.delete(Xa, i, 0), np.delete(y, i), seed=SEEDS[0]).predict_proba(Xa[i:i + 1])[0, 1]
+                      for i in range(len(y))])
+        out["3D" if name == "head3d" else "camera"] = pick_threshold(y, p)
+    return out
+
+
+def demo_threshold(cls: str, mode: str = "camera") -> float:
+    """The class's calibrated threshold (python pipeline.py calibrate), 0.5 if it was never calibrated."""
+    return json.loads(THRESHOLDS.read_text()).get(cls, {}).get(mode, 0.5) if THRESHOLDS.exists() else 0.5
 
 
 # ---------------------------------------------------------------- explain
@@ -207,10 +259,16 @@ def defect_box(amap: np.ndarray, pad: float = 0.35) -> tuple[int, int, int, int]
     return (int(max(cx - h, 0)), int(max(cy - h, 0)), int(min(cx + h, SIZE)), int(min(cy + h, SIZE)))
 
 
-def describe(image: Image.Image, cls: str) -> str:
+_VLM: dict = {}
+
+
+def describe(image: Image.Image, cls: str, free: bool = True) -> str:
+    """One-sentence description. free=False keeps the VLM on the GPU for batch use (vlm_eval.py)."""
     from transformers import AutoModelForImageTextToText, AutoProcessor
-    proc = AutoProcessor.from_pretrained(VLM_ID)
-    model = AutoModelForImageTextToText.from_pretrained(VLM_ID, dtype=torch.bfloat16).to("cuda").eval()
+    if "m" not in _VLM:
+        _VLM["p"] = AutoProcessor.from_pretrained(VLM_ID)
+        _VLM["m"] = AutoModelForImageTextToText.from_pretrained(VLM_ID, dtype=torch.bfloat16).to("cuda").eval()
+    proc, model = _VLM["p"], _VLM["m"]
     q = (f"An inspection system found a defect on this {cls.replace('_', ' ')} inside the red box. "
          "In one sentence, describe the defect in the red box (e.g. crack, hole, cut, bent, "
          "missing piece, contamination, colour spot).")
@@ -218,30 +276,36 @@ def describe(image: Image.Image, cls: str) -> str:
     inp = proc.apply_chat_template(msgs, tokenize=True, add_generation_prompt=True,
                                    return_dict=True, return_tensors="pt").to("cuda")
     out = model.generate(**inp, max_new_tokens=60, do_sample=False)
-    return proc.batch_decode(out[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0].strip()
+    text = proc.batch_decode(out[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0].strip()
+    if free:
+        _VLM.clear()
+    del model, out, inp
+    torch.cuda.empty_cache()
+    return text
 
 
-def explain(path: Path, threshold: float = 0.5) -> dict:
+_DETS: dict = {}   # backbones stay loaded between calls (demo app); only the per-class bank is swapped
+
+
+def inspect(rgb: np.ndarray, cls: str, depth: np.ndarray | None = None, threshold: float = 0.5,
+            out: Path | None = None) -> dict:
+    """Full pipeline on one (SIZE, SIZE, 3) image of class cls. depth given = 3D mode (scanner), else camera mode."""
     from xgboost import XGBClassifier
-    cls = path.parts[-5]
-    if uid(path) in json.loads((CACHE / f"head_{cls}_train.json").read_text()):
-        print(f"warning: {uid(path)} was used to train the demo head; pick another image")
-    rgb = load_rgb(path)
     seg = parts.part_map(rgb, parts.sam_masks(rgb), joblib.load(CACHE / f"parts_{cls}.joblib"))
     maps = []
-    for _, Det, bank_f, _, _, _ in detectors(cls)[:3]:   # the demo is camera-only
-        det = Det(seed=0)
+    for name, Det, bank_f, _, _, _ in detectors(cls)[:4 if depth is not None else 3]:
+        det = _DETS.setdefault(name, Det(seed=0))
         det.bank = torch.load(bank_f).to(det.device)
-        maps.append(det.score(rgb[None], batch=1)[0])
-        del det
-    amap = maps[0]   # WRN50 map: heatmap and box in the panel
+        maps.append(det.score((depth if name == "depth" else rgb)[None], batch=1)[0])
+    amap = maps[-1] if depth is not None else maps[0]   # depth map in 3D mode, else WRN50: heatmap and box in the panel
     clf = XGBClassifier()
-    clf.load_model(CACHE / f"head_{cls}.json")
+    clf.load_model(CACHE / f"{'head3d' if depth is not None else 'head'}_{cls}.json")
     obj = (seg != bg_cluster(cls)).astype(np.int32)
     x = np.concatenate([segment_stats(m, obj, 2) for m in maps])
     prob = float(clf.predict_proba(x[None])[0, 1])
     torch.cuda.empty_cache()
-    res = {"image": str(path), "class": cls, "defect_probability": round(prob, 3), "defective": prob >= threshold}
+    res = {"class": cls, "mode": "3D" if depth is not None else "camera",
+           "defect_probability": round(prob, 3), "defective": prob >= threshold}
     box = None
     if res["defective"]:
         box = defect_box(amap)
@@ -252,8 +316,20 @@ def explain(path: Path, threshold: float = 0.5) -> dict:
         s = 448 / SIZE
         ImageDraw.Draw(img).rectangle([v * s for v in box], outline=(255, 0, 0), width=4)
         res["description"] = describe(img, cls)
-    _panel(rgb, seg, amap, box, res, RESULTS / f"explain_{cls}_{uid(path)}.png")
+    if out:
+        _panel(rgb, seg, amap, box, res, out)
     return res
+
+
+def explain(path: Path, threshold: float | None = None, use_depth: bool = False) -> dict:
+    cls = path.parts[-5]
+    if threshold is None:
+        threshold = demo_threshold(cls, "3D" if use_depth else "camera")
+    if uid(path) in json.loads((CACHE / f"head_{cls}_train.json").read_text()):
+        print(f"warning: {uid(path)} was used to train the demo head; pick another image")
+    res = inspect(load_rgb(path), cls, load_depth(path) if use_depth else None, threshold,
+                  RESULTS / f"explain_{cls}_{uid(path)}{'_3d' if use_depth else ''}.png")
+    return {"image": str(path), **res}
 
 
 def _panel(rgb, seg, amap, box, res, out: Path) -> None:
@@ -270,7 +346,7 @@ def _panel(rgb, seg, amap, box, res, out: Path) -> None:
     for a in ax:
         a.axis("off")
     verdict = "DEFECT" if res["defective"] else "OK"
-    fig.suptitle(f"{verdict}  (p = {res['defect_probability']:.2f})   {res.get('description', '')}", wrap=True)
+    fig.suptitle(f"[{res['mode']} mode] {verdict}  (p = {res['defect_probability']:.2f})   {res.get('description', '')}", wrap=True)
     fig.tight_layout()
     RESULTS.mkdir(exist_ok=True)
     fig.savefig(out, dpi=120)
@@ -280,17 +356,24 @@ def _panel(rgb, seg, amap, box, res, out: Path) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("stage", choices=["fit", "eval", "explain"])
+    ap.add_argument("stage", choices=["fit", "eval", "calibrate", "explain"])
     ap.add_argument("image", nargs="?", type=Path)
     ap.add_argument("--classes", nargs="+", default=CLASSES)
+    ap.add_argument("--3d", dest="use_depth", action="store_true", help="explain: use the scanner depth (3D mode)")
     a = ap.parse_args()
     if a.stage == "fit":
         for c in a.classes:
             fit(c)
     elif a.stage == "eval":
         report(a.classes)
+    elif a.stage == "calibrate":
+        t = json.loads(THRESHOLDS.read_text()) if THRESHOLDS.exists() else {}
+        for c in a.classes:
+            t[c] = calibrate(c)
+            print(c, t[c], flush=True)
+        THRESHOLDS.write_text(json.dumps(t, indent=1))
     else:
-        print(json.dumps(explain(a.image), indent=2))
+        print(json.dumps(explain(a.image, use_depth=a.use_depth), indent=2))
 
 
 if __name__ == "__main__":
@@ -299,4 +382,5 @@ if __name__ == "__main__":
     b = np.zeros((SIZE, SIZE)); b[100:110, 50:60] = 1
     x0, y0, x1, y1 = defect_box(b)
     assert x0 <= 50 and y0 <= 100 and x1 >= 60 and y1 >= 110, (x0, y0, x1, y1)
+    assert pick_threshold(np.array([0, 0, 1, 1]), np.array([.1, .12, .33, .9])) == 0.3   # 0.15-0.30 all perfect: nearest 0.5
     main()

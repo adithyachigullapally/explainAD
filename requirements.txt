@@ -11,4 +11,6 @@ pandas==3.0.5
 joblib==1.6.0
 matplotlib==3.11.1
 pillow==12.3.0
+tifffile==2026.9.9
 tqdm==4.70.0
+streamlit==1.63.0

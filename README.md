@@ -1,6 +1,6 @@
 # ExplainAD
 
-Factory defect inspection that works from an ordinary camera image and becomes more accurate when a 3D
+Factory defect inspection that works from the colour image of a fixed inspection camera and becomes more accurate when a 3D
 scanner is also available, built from published models:
 
 1. **SAM** (Kirillov et al., *Segment Anything*, ICCV 2023) separates the object from the background.
@@ -22,7 +22,7 @@ scanner is also available, built from published models:
 | SegAD + SAM object/background + DINO (v2) | no | 85.2 ± 1.1 |
 | **ExplainAD camera mode: + CLIP (v3)** | **no** | **87.5 ± 0.9** |
 | **ExplainAD 3D mode: + real depth (v4)** | **yes** | **92.1 ± 1.3** |
-| SegAD, 1 segment + real 3D-sensor depth (separate GeoAD run) | yes | 90.4 ± 1.0 |
+| SegAD, 1 segment + real 3D-sensor depth | yes | 90.3 ± 0.9 |
 
 SAM object/background adds +3.8 AUROC, DINO as a second detector +2.8, CLIP as a third +2.3. Adding the 3D
 scanner's depth adds another +4.6 (largest on potato, cookie and cable gland).
@@ -35,19 +35,28 @@ SAM object/background, cropping each image to the SAM object ("zoom") gives 79.4
 Round 2 (`improve2.py`, `results/report_improve2.txt`), from v2: 384 px input 83.9, CLIP 87.5, both 86.2.
 
 Known limitations: colour-clustered parts are not consistent across images (`results/parts_carrot_gland.png`);
-tire (black on black) cannot be separated from the background; the VLM usually localises correctly but often
-names the wrong defect type.
+tire (black on black) cannot be separated from the background; the VLM explanation is weak: on 316 held-out
+defective images (`python vlm_eval.py`, `results/vlm_eval.txt`) the box centre lies on the defect in 37.7 %, and a
+keyword match finds the right type in 41.5 % (lenient; bent, cut and open are near 0 %). At threshold 0.5 the false-alarm
+rate is high on some classes (tire 66 %, cookie 48 %; `results/operating_point.txt`). Each class's detector is tied
+to its capture setup: on 74 phone photos of carrots (other camera, lighting and carrot variety) it scored 45.2 AUROC,
+chance level. It suits a fixed inspection station and has to be refitted for a new setup (expected to work, not tested).
+Zero-shot Qwen3-VL as a yes/no detector (`python vlm_detect_probe.py`, `results/vlm_detect.txt`) reaches 73.0 on the
+10 classes, so the language model alone is not a substitute.
 
 ## Run
 
-Data: MVTec 3D-AD, expected at `../GeoAD/data/mvtec3d/<class>/{train,validation,test}/...`.
+Data: MVTec 3D-AD (CC BY-NC-SA 4.0, download from mvtec.com), extracted to `data/mvtec3d/<class>/{train,validation,test}/...`.
 
 ```
+python -m venv .venv && .venv\Scripts\activate
 pip install -r requirements.txt
 powershell -ExecutionPolicy Bypass -File scripts\watchdog.ps1   # optional laptop GPU guard
 python pipeline.py fit         # SAM part maps + PatchCore (WRN50, DINO, CLIP, real depth) per class (~5 min/class, 8 GB laptop GPU)
 python pipeline.py eval        # SegAD heads for camera and 3D modes -> results/report.txt
-python pipeline.py explain ../GeoAD/data/mvtec3d/dowel/test/bent/rgb/000.png   # camera-mode demo -> results/explain_*.png
+python pipeline.py calibrate   # per-class demo threshold -> cache/thresholds.json (else 0.5)
+python pipeline.py explain data/mvtec3d/dowel/test/bent/rgb/000.png   # camera-mode demo -> results/explain_*.png (add --3d for 3D mode)
+streamlit run app.py           # web demo: pick a class and image (or upload), camera or 3D mode
 ```
 
 Models download from Hugging Face on first use (`facebook/sam-vit-base`, `facebook/dino-vitb8`,

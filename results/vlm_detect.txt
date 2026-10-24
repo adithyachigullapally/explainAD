@@ -1,0 +1,14 @@
+Zero-shot VLM (Qwen/Qwen3-VL-2B-Instruct), MVTec 3D-AD test, flagged = score > 0 (%)
+                 n  auroc  good_flagged  bad_flagged
+cls                                                 
+bagel        110.0   85.5          22.7         78.4
+cable_gland  108.0   83.3           0.0          4.6
+carrot       159.0   89.7           0.0         53.0
+cookie       131.0   75.7           0.0         40.8
+dowel        130.0   65.2           0.0          0.0
+foam         100.0   73.0           0.0         18.8
+peach        132.0   66.4          50.0         69.8
+potato       114.0   59.3          36.4         45.7
+rope         101.0   67.6           0.0          7.2
+tire         112.0   64.7           0.0          3.4
+mean AUROC over classes: 73.0

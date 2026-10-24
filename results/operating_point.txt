@@ -1,0 +1,23 @@
+Threshold 0.5, held-out images, mean over seeds (%):
+                                           recall  false_alarm
+arm                           cls                             
+SAM object/bg + DINO + CLIP   bagel          90.4         31.4
+                              cable_gland    68.3         15.2
+                              carrot         75.1          5.2
+                              cookie         83.4         47.9
+                              dowel          82.2          0.0
+                              foam           88.1          4.5
+                              peach          59.3          1.9
+                              potato         56.2         30.5
+                              rope           88.5          6.2
+                              tire           91.4         66.4
+with 3D scanner: + real depth bagel          90.0         34.5
+                              cable_gland    74.3          3.3
+                              carrot         80.3          8.1
+                              cookie         87.8         25.4
+                              dowel          83.6          0.4
+                              foam           87.7          4.5
+                              peach          69.2          0.0
+                              potato         78.7         21.8
+                              rope           88.5          6.2
+                              tire           91.4         66.4
