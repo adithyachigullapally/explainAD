@@ -33,6 +33,9 @@ evaluated on the remaining test images.
 Ablation (`python improve.py fit && python improve.py eval`, `results/report_improve.txt`): starting from
 SAM object/background, cropping each image to the SAM object ("zoom") gives 79.4, DINO 85.2, both 84.2.
 Round 2 (`improve2.py`, `results/report_improve2.txt`), from v2: 384 px input 83.9, CLIP 87.5, both 86.2.
+More labelled defects (`python more_defects.py`, `results/more_defects.txt`; same held-out 30 % of defects in every
+setting, so not the SegAD protocol): 10 / 60 % / 70 % of the defective images give 87.1 / 89.2 / 89.4 in camera mode
+and 92.0 / 93.6 / 93.9 in 3D mode. A fitted threshold is no better than 0.5.
 
 Known limitations: colour-clustered parts are not consistent across images (`results/parts_carrot_gland.png`);
 tire (black on black) cannot be separated from the background; the VLM explanation is weak: on 316 held-out

@@ -1,0 +1,36 @@
+Does the SegAD head (and its threshold) get better with more defective training images? Pre-registered
+Test = same held-out 30 % of defects + all test/good, per seed. Mean (std over 10 seeds) of the class mean, %:
+                 auroc      bal_acc_05      bal_acc_fitted      recall      false_alarm     
+                  mean  std       mean  std           mean  std   mean  std        mean  std
+mode   setting                                                                              
+3D     10 images  92.0  0.8       82.7  1.4           82.6  1.6   88.5  3.0        23.2  5.6
+       60 %       93.6  0.7       86.3  0.6           85.3  1.6   94.0  1.7        23.5  2.9
+       70 %       93.9  0.5       86.0  0.7           85.8  1.8   93.6  0.7        22.0  3.4
+camera 10 images  87.1  1.5       78.4  1.8           77.1  2.0   85.5  3.3        31.3  5.3
+       60 %       89.2  0.9       79.8  1.0           79.2  1.7   92.6  1.7        34.2  3.6
+       70 %       89.4  0.8       79.4  0.8           79.1  2.3   90.5  1.9        32.3  3.4
+
+Per class (mean over seeds):
+                       auroc             bal_acc_fitted            
+setting            10 images  60 %  70 %      10 images  60 %  70 %
+mode   cls                                                         
+3D     bagel            94.1  94.3  94.4           79.5  73.0  74.2
+       cable_gland      94.0  96.3  96.2           83.7  85.0  86.6
+       carrot           96.1  95.6  95.5           87.6  88.0  88.5
+       cookie           94.0  99.8  99.6           84.5  99.0  99.2
+       dowel            97.1  97.9  97.9           91.6  94.8  95.0
+       foam             96.7  97.8  97.7           88.9  92.2  92.1
+       peach            95.8  98.3  98.2           86.9  92.5  91.6
+       potato           86.2  87.8  88.9           79.8  82.2  83.0
+       rope             97.3  99.5  99.6           84.9  88.7  89.8
+       tire             69.0  69.0  70.9           58.9  57.1  57.9
+camera bagel            93.6  94.4  93.2           77.0  73.0  74.3
+       cable_gland      82.8  86.6  86.7           75.3  76.4  73.4
+       carrot           92.7  93.7  93.6           85.0  89.3  89.5
+       cookie           78.7  81.0  82.0           65.9  64.4  65.3
+       dowel            97.1  97.6  97.8           92.3  93.9  95.2
+       foam             97.0  97.8  97.8           88.0  91.6  92.4
+       peach            92.3  96.5  96.4           82.8  90.3  90.8
+       potato           70.2  75.3  76.3           62.8  63.7  62.9
+       rope             96.7  99.5  99.3           83.1  90.8  89.4
+       tire             69.5  69.5  70.2           58.5  58.4  57.9
