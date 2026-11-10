@@ -33,20 +33,6 @@ def segment_stats(amap: np.ndarray, segments: np.ndarray, n_segments: int) -> np
     return np.nan_to_num(out.ravel(), nan=0.0, posinf=0.0, neginf=0.0)
 
 
-def feature_names(stream: str, n_segments: int) -> list[str]:
-    return [f"{stream}_seg{l}_{s}" for l in range(n_segments) for s in STATS]
-
-
-def build_matrix(maps: dict[str, np.ndarray], segments: np.ndarray, n_segments: int):
-    """maps: {stream_name: (N, H, W)} -> (X, names), streams concatenated in key order."""
-    cols, names = [], []
-    for stream in sorted(maps):
-        arr = maps[stream]
-        cols.append(np.stack([segment_stats(a, segments, n_segments) for a in arr]))
-        names += feature_names(stream, n_segments)
-    return np.concatenate(cols, axis=1), names
-
-
 if __name__ == "__main__":
     rng = np.random.default_rng(0)
     seg = np.zeros((64, 64), dtype=int)
@@ -65,8 +51,4 @@ if __name__ == "__main__":
     # an empty segment must give zeros, not NaN
     f2 = segment_stats(amap, np.zeros_like(seg), 3)
     assert np.allclose(f2[4:], 0.0)
-
-    X, names = build_matrix({"rgb": amap[None], "depth": amap[None] * 2}, seg, 3)
-    assert X.shape == (1, 24) and len(names) == 24
-    assert names[0] == "depth_seg0_q995"  # sorted key order
     print("features ok")

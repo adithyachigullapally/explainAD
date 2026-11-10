@@ -1,7 +1,8 @@
 """How good is the VLM explanation? Pre-registered 2026-10-07 before any number.
 
 Sample: 8 random defective test images per (class, defect type), seed 0, excluding images the demo head
-trained on. The box comes from the cached WRN50 map (same rule as the demo), no detection gate.
+trained on. The box comes from the cached DINO map (same rule as the demo; WRN50 until 11-10: 37.7 % localised),
+no detection gate.
   localised = box centre lies inside the ground-truth defect mask.
   type match = description contains a keyword for the true type (table below; 'combined' = any keyword).
 Run: python vlm_eval.py -> results/vlm_eval.txt
@@ -27,7 +28,7 @@ def match(text: str, kind: str) -> bool:
 
 
 def first_type(text: str) -> str:
-    """The defect type whose keyword comes first in a description (demo label; right ~42 % of the time)."""
+    """The defect type whose keyword comes first in a description (demo label; right ~41 % of the time)."""
     t = text.lower()
     hits = {k: min(t.find(w) for w in ws if w in t) for k, ws in KEYS.items() if k != "combined" and match(t, k)}
     return min(hits, key=hits.get) if hits else "type unclear"
@@ -39,7 +40,7 @@ if __name__ == "__main__":
     rows = []
     for cls in pl.CLASSES:
         todo = pl.paths(cls, "validation") + pl.paths(cls, "test")
-        maps = np.load(pl.CACHE / f"maps_{cls}.npy").astype(np.float32)
+        maps = np.load(pl.detectors(cls)[1][3]).astype(np.float32)   # DINO, as in pl.inspect
         used = set(json.loads((pl.CACHE / f"head_{cls}_train.json").read_text()))
         by_kind = {}
         for i, p in enumerate(todo):

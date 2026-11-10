@@ -1,5 +1,5 @@
-# Laptop-safety watchdog (copied from GeoAD): kills any running ExplainAD job (python pipeline.py ...) the moment a
-# limit is crossed. Runs alongside every heavy stage; every job here is resumable, so a
+# Laptop-safety watchdog: kills any running ExplainAD job (pipeline, ablations, VLM scripts, the Streamlit demo)
+# once a limit is crossed on two checks in a row. Runs alongside every heavy stage; every job here is resumable, so a
 # kill costs minutes. While a job or dataset download runs it also keeps Windows from
 # sleeping (sleep killed a download's connections on 09-27); the request is dropped as
 # soon as nothing runs or this script exits. The screen may still turn off.
@@ -20,7 +20,7 @@ function Log($m) { $l = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $m"; Add-Cont
 
 function Jobs {
     Get-CimInstance Win32_Process -Filter "Name='python.exe'" |
-        Where-Object { $_.CommandLine -match 'pipeline.py|improve2?.py|explainad.' }
+        Where-Object { $_.CommandLine -match 'pipeline\.py|improve2?\.py|more_defects\.py|visa\.py|vlm_\w+\.py|app\.py|explainad\.' }
     # dataset unpacks: no GPU, but they can fill the disk and must not be slept through
     Get-CimInstance Win32_Process -Filter "Name='tar.exe'" |
         Where-Object { $_.CommandLine -match 'mvtec' }

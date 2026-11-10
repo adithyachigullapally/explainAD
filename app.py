@@ -2,9 +2,7 @@
 import json
 import random
 
-import numpy as np
 import streamlit as st
-from PIL import Image
 
 import pipeline as pl
 from vlm_eval import first_type
@@ -12,18 +10,28 @@ from vlm_eval import first_type
 st.set_page_config(page_title="ExplainAD", layout="wide")
 st.title("ExplainAD: find the defect, show where, say what it is")
 
-cls = st.sidebar.selectbox("Object class", pl.CLASSES)
-src = st.sidebar.radio("Image", ["MVTec test sample", "Upload"])
+# (images, fitted models, fit/eval script) per dataset; the pipeline reads MV and CACHE at call time (as visa.py does)
+DATASETS = {"MVTec 3D-AD": (pl.ROOT / "data" / "mvtec3d", pl.ROOT / "cache", "pipeline.py"),
+            "VisA": (pl.ROOT / "data" / "visa", pl.ROOT / "cache_visa", "visa.py")}
+ds = st.sidebar.radio("Dataset", list(DATASETS), horizontal=True)
+pl.MV, pl.CACHE, script = DATASETS[ds]
+has_depth = ds == "MVTec 3D-AD"   # VisA has no 3D scans: camera mode only
+classes = sorted(p.name for p in pl.MV.iterdir() if p.is_dir()) if pl.MV.is_dir() else []
+cls = st.sidebar.selectbox("Object class", classes)
+if cls is None or not (pl.CACHE / f"head_{cls}_train.json").exists():
+    st.error(f"No fitted model found. Run `python {script} fit` and `python {script} eval` first (see README).")
+    st.stop()
+src = st.sidebar.radio("Image", [f"{ds} test sample", "Upload"])
 rgb = depth = truth = None
 
-if src == "MVTec test sample":
+if src != "Upload":
     # only test images the SegAD head never saw, shuffled so the position does not give the answer away;
     # the ground truth is shown after the verdict, not before
     used = set(json.loads((pl.CACHE / f"head_{cls}_train.json").read_text()))
     files = [p for p in pl.paths(cls, "test") if pl.uid(p) not in used]
     random.Random(0).shuffle(files)
     f = files[st.sidebar.selectbox("Image", range(len(files)), format_func=lambda i: f"image {i + 1}")]
-    scanner = st.sidebar.toggle("3D mode (use scanner depth)")
+    scanner = has_depth and st.sidebar.toggle("3D mode (use scanner depth)")
     rgb, truth = pl.load_rgb(f), f.parts[-3]
     if scanner:
         try:
@@ -33,8 +41,8 @@ if src == "MVTec test sample":
 else:
     up = st.sidebar.file_uploader("Photo of the object", type=["png", "jpg", "jpeg"])
     if up:
-        rgb = np.asarray(Image.open(up).convert("RGB").resize((pl.SIZE, pl.SIZE)))
-    st.sidebar.caption("Camera mode only. The model is fitted per class on MVTec 3D-AD images: "
+        rgb = pl.load_rgb(up)   # same resize as the dataset images (was bicubic here, bilinear there)
+    st.sidebar.caption(f"Camera mode only. The model is fitted per class on {ds} images: "
                        "results are only meaningful for the same object and a similar camera setup.")
 
 mode = "3D" if depth is not None else "camera"
@@ -58,5 +66,5 @@ if st.button("Inspect", type="primary"):
     if res.get("description"):
         st.write("**Description (Qwen3-VL):** " + res["description"])
         st.caption("The detector decides and localises; the language model only describes. "
-                   "Measured: the box lands on the defect ~38 % of the time and the type is right ~42 % (README). Treat it as a hint.")
+                   "Measured: the box lands on the defect ~49 % of the time and the type is right ~41 % (README). Treat it as a hint.")
     st.image(str(out), width="stretch")

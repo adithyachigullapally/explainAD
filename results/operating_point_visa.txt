@@ -1,0 +1,15 @@
+Threshold 0.5, held-out images, mean over seeds (%):
+                                        recall  false_alarm
+arm                         cls                            
+SAM object/bg + DINO + CLIP candle        66.1          2.4
+                            capsules      38.8          6.8
+                            cashew        80.6          2.2
+                            chewinggum    87.1          0.0
+                            fryum         76.0          4.0
+                            macaroni1     61.8          3.6
+                            macaroni2     50.0          2.7
+                            pcb1          83.4          2.7
+                            pcb2          71.2          2.2
+                            pcb3          49.9          3.4
+                            pcb4          86.3          0.7
+                            pipe_fryum    85.9          0.4

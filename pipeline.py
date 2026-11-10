@@ -31,7 +31,7 @@ from explainad.patchcore import ClipCore, DinoCore, PatchCore
 ROOT = Path(__file__).resolve().parent
 MV = ROOT / "data" / "mvtec3d"
 CACHE, RESULTS = ROOT / "cache", ROOT / "results"
-CLASSES = sorted(p.name for p in MV.iterdir() if p.is_dir())
+CLASSES = sorted(p.name for p in MV.iterdir() if p.is_dir()) if MV.is_dir() else []   # empty: dataset not downloaded
 SIZE = parts.SIZE
 N_KMEANS_IMAGES = 40   # train/good images whose SAM masks define the part types
 SEEDS = [333, 576, 725, 823, 831, 902, 226, 598, 874, 589]   # official SegAD seeds
@@ -50,7 +50,7 @@ def group_of(t: str) -> str:
 
 
 def paths(cls: str, split: str) -> list[Path]:
-    return sorted((MV / cls / split).glob("*/rgb/*.png"))
+    return sorted((MV / cls / split).glob("*/rgb/*.*"))   # .png in MVTec 3D-AD, .JPG in VisA (visa.py)
 
 
 def uid(p: Path) -> str:
@@ -75,7 +75,8 @@ def load_depth(p: Path) -> np.ndarray:
 
 
 # ---------------------------------------------------------------- fit
-def fit(cls: str) -> None:
+def fit(cls: str, dets: int = 4) -> None:
+    """dets = 3 skips the depth detector (visa.py: a dataset without 3D scans)."""
     CACHE.mkdir(exist_ok=True)
     todo = paths(cls, "validation") + paths(cls, "test")
     km_f, seg_f = CACHE / f"parts_{cls}.joblib", CACHE / f"segs_{cls}.npy"
@@ -88,7 +89,7 @@ def fit(cls: str) -> None:
         segs = np.stack([parts.part_map(r, _masks(r), km) for r in map(load_rgb, todo)]).astype(np.uint8)
         np.save(seg_f, segs)
         print(f"[sam] {cls}: {len(todo)} part maps", flush=True)
-    for name, Det, bank_f, maps_f, batch, load in detectors(cls):
+    for name, Det, bank_f, maps_f, batch, load in detectors(cls)[:dets]:
         if bank_f.exists() and maps_f.exists():
             continue
         det = Det(seed=0).fit([load(p) for p in paths(cls, "train")], batch=batch)
@@ -129,7 +130,7 @@ def features(cls: str) -> dict[str, np.ndarray]:
     single = np.stack([segment_stats(m, one, 1) for m in maps])
     depth = np.load(detectors(cls)[3][3]).astype(np.float32)
     return {"1 segment": single,
-            # baseline: plain SegAD + real depth, no SAM (was GeoAD's mvtec3d_segad.py "RGB + real depth")
+            # baseline: plain SegAD + real depth, no SAM
             "1 segment + real depth": np.hstack([single, np.stack([segment_stats(m, one, 1) for m in depth])]),
             "SAM parts": np.stack([segment_stats(m, s, parts.K + 1) for m, s in zip(maps, segs)]),
             "SAM object/bg": np.stack([segment_stats(m, o, 2) for m, o in zip(maps, obj)]),
@@ -197,7 +198,8 @@ def report(classes: list[str], feats=None, name: str = "report") -> None:
     pooled = r.groupby(["arm", "group", "seed"]).auroc.mean().groupby(["arm", "group"]).agg(["mean", "std"])
     table = (pooled["mean"].round(2).astype(str) + " ±" + pooled["std"].round(2).astype(str)).unstack("group")
     per_cls = r[r.group == "all"].groupby(["cls", "arm"]).auroc.mean().unstack("arm").round(1)
-    txt = "\n".join([table[["all", "geometric", "surface", "mixed"]].to_string(), "",
+    groups = [g for g in ("all", "geometric", "surface", "mixed") if g in table]   # VisA has no defect-type folders
+    txt = "\n".join([table[groups].to_string(), "",
                      "AUROC per class (all defects, mean over seeds):", per_cls.to_string()])
     (RESULTS / f"{name}.txt").write_text(txt, encoding="utf-8")
     print(txt)
@@ -205,7 +207,7 @@ def report(classes: list[str], feats=None, name: str = "report") -> None:
         return
     op = pd.DataFrame(OPS, columns=["cls", "seed", "arm", "recall", "false_alarm"])
     op = op.groupby(["arm", "cls"])[["recall", "false_alarm"]].mean().round(1)
-    (RESULTS / "operating_point.txt").write_text("Threshold 0.5, held-out images, mean over seeds (%):\n"
+    (RESULTS / f"operating_point{name[6:]}.txt").write_text("Threshold 0.5, held-out images, mean over seeds (%):\n"
                                                  + op.to_string(), encoding="utf-8")
 
 
@@ -231,6 +233,8 @@ def calibrate(cls: str) -> dict[str, float]:
     y = np.array([todo[i].parts[-3] != "good" for i in tr]).astype(int)
     X, out = features(cls), {}
     for arm, name in DEMO_HEADS.items():
+        if arm not in X:   # VisA (visa.py): no depth, camera head only
+            continue
         Xa = X[arm][tr]
         p = np.array([head.fit(np.delete(Xa, i, 0), np.delete(y, i), seed=SEEDS[0]).predict_proba(Xa[i:i + 1])[0, 1]
                       for i in range(len(y))])
@@ -240,7 +244,8 @@ def calibrate(cls: str) -> dict[str, float]:
 
 def demo_threshold(cls: str, mode: str = "camera") -> float:
     """The class's calibrated threshold (python pipeline.py calibrate), 0.5 if it was never calibrated."""
-    return json.loads(THRESHOLDS.read_text()).get(cls, {}).get(mode, 0.5) if THRESHOLDS.exists() else 0.5
+    f = CACHE / "thresholds.json"   # at call time: the demo app switches CACHE between datasets
+    return json.loads(f.read_text()).get(cls, {}).get(mode, 0.5) if f.exists() else 0.5
 
 
 # ---------------------------------------------------------------- explain
@@ -263,7 +268,8 @@ _VLM: dict = {}
 
 
 def describe(image: Image.Image, cls: str, free: bool = True) -> str:
-    """One-sentence description. free=False keeps the VLM on the GPU for batch use (vlm_eval.py)."""
+    """One-sentence description. free=False keeps the VLM on the GPU for batch use (vlm_eval.py).
+    Tried 11-10: adding a defect-free image of the class as a reference; type named right 34.6 % vs 41.0 % (78 images), dropped."""
     from transformers import AutoModelForImageTextToText, AutoProcessor
     if "m" not in _VLM:
         _VLM["p"] = AutoProcessor.from_pretrained(VLM_ID)
@@ -297,7 +303,9 @@ def inspect(rgb: np.ndarray, cls: str, depth: np.ndarray | None = None, threshol
         det = _DETS.setdefault(name, Det(seed=0))
         det.bank = torch.load(bank_f).to(det.device)
         maps.append(det.score((depth if name == "depth" else rgb)[None], batch=1)[0])
-    amap = maps[-1] if depth is not None else maps[0]   # depth map in 3D mode, else WRN50: heatmap and box in the panel
+    # heatmap and box in the panel: depth map in 3D mode, else DINO. The DINO box centre lies on the defect in 56.0 %
+    # of 632 defective images outside vlm_eval's sample, WRN50 38.3 %, CLIP 47.5 %, the three averaged 49.4 % (11-10)
+    amap = maps[-1] if depth is not None else maps[1]
     clf = XGBClassifier()
     clf.load_model(CACHE / f"{'head3d' if depth is not None else 'head'}_{cls}.json")
     obj = (seg != bg_cluster(cls)).astype(np.int32)
@@ -361,6 +369,10 @@ def main() -> None:
     ap.add_argument("--classes", nargs="+", default=CLASSES)
     ap.add_argument("--3d", dest="use_depth", action="store_true", help="explain: use the scanner depth (3D mode)")
     a = ap.parse_args()
+    if not CLASSES:
+        ap.error(f"no dataset in {MV}: download MVTec 3D-AD first (README, Run)")
+    if unknown := set(a.classes) - set(CLASSES):
+        ap.error(f"unknown classes {sorted(unknown)}; choose from {CLASSES}")
     if a.stage == "fit":
         for c in a.classes:
             fit(c)
@@ -373,7 +385,10 @@ def main() -> None:
             print(c, t[c], flush=True)
         THRESHOLDS.write_text(json.dumps(t, indent=1))
     else:
-        print(json.dumps(explain(a.image, use_depth=a.use_depth), indent=2))
+        img = a.image and a.image.resolve()   # explain reads the class and the depth scan from the dataset layout
+        if not (img and img.is_file() and list(img.parents)[4:5] == [MV]):
+            ap.error("explain needs a dataset image, e.g. data/mvtec3d/dowel/test/bent/rgb/000.png")
+        print(json.dumps(explain(img, use_depth=a.use_depth), indent=2))
 
 
 if __name__ == "__main__":

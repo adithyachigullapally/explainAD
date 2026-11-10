@@ -1,4 +1,4 @@
-"""Improvement ablation, pre-registered in the Obsidian note ExplainAD (2026-09-28 ~15:10).
+"""Improvement ablation, pre-registered: arms fixed in the project notes before any code or number (2026-09-28 ~15:10).
 
 Four arms, run once, all reported. Segments = SAM object/background in every arm.
   A  full image,       PatchCore-WRN50                     (= the 82.4 result)

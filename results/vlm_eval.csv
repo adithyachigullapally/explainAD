@@ -1,252 +1,252 @@
 cls,kind,localised,type_match,text
 bagel,combined,True,True,"A small, irregular cut or tear is visible on the surface of the bagel within the red box."
 bagel,combined,True,True,A crack has appeared on the bagel in the red box.
-bagel,combined,False,True,"A small, dark, irregular spot is visible on the surface of the bagel within the red box."
+bagel,combined,True,True,"The defect in the red box is a small, round, dark spot on the surface of the bagel."
+bagel,combined,True,True,"A small, dark, circular spot, likely a contamination or a minor discoloration, is visible on the surface of the bagel within the red box."
 bagel,combined,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
-bagel,combined,False,True,"A small, dark, circular spot is visible on the surface of the bagel within the red box."
-bagel,combined,True,True,"A small, dark, round spot, likely a contamination or a minor discoloration, is visible on the surface of the bagel within the red box."
+bagel,combined,True,True,"A small, irregularly shaped hole is visible on the top surface of the bagel within the red box."
 bagel,combined,False,True,A crack is present in the red box on the bagel.
-bagel,combined,True,True,"A small, dark, circular hole is visible on the surface of the bagel within the red box."
-bagel,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
-bagel,contamination,False,False,A hole in the center of the bagel.
-bagel,contamination,False,False,"A small, irregularly shaped crack is visible on the right side of the bagel within the red box."
+bagel,combined,True,True,"A small, dark hole is visible in the red box on the bagel."
 bagel,contamination,False,False,"A small, irregularly shaped hole is visible on the surface of the bagel within the red box."
-bagel,contamination,False,False,"A small, irregularly shaped hole is visible on the surface of the bagel within the red box."
+bagel,contamination,False,False,"The defect in the red box is a missing piece, specifically a portion of the bagel's crust that has been lost or removed."
+bagel,contamination,False,False,"A small, irregularly shaped crack is visible on the surface of the bagel in the red box."
+bagel,contamination,True,True,"A small, irregularly shaped, light-colored spot is visible on the surface of the bagel within the red box."
+bagel,contamination,False,False,A hole in the bagel.
+bagel,contamination,True,True,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
+bagel,contamination,False,True,"A small, irregularly shaped white spot is visible on the surface of the bagel within the red box."
 bagel,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
-bagel,contamination,False,False,A hole in the center of the bagel.
-bagel,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
-bagel,crack,True,True,A crack is present on the bagel inside the red box.
-bagel,crack,True,True,"A crack runs through the center of the bagel, passing through the hole."
-bagel,crack,True,True,"A crack has appeared in the bagel, running through the center of the red box."
+bagel,crack,True,True,"A small, linear crack is visible on the surface of the bagel within the red box."
+bagel,crack,True,True,"A crack has formed in the center of the bagel, extending from the top to the bottom of the hole."
+bagel,crack,True,True,"A crack has appeared in the bagel, running vertically through the center of the red box."
 bagel,crack,False,True,"A small, irregular crack is visible on the surface of the bagel within the red box."
-bagel,crack,True,True,A crack has appeared on the surface of the bagel in the red box.
-bagel,crack,True,True,The defect in the red box is a torn or broken section of the bagel's crust.
-bagel,crack,True,True,A crack is visible in the red box on the bagel.
+bagel,crack,True,True,A vertical crack runs through the bagel in the red box.
+bagel,crack,True,True,The defect in the red box is a torn or broken section in the bagel's crust.
+bagel,crack,True,True,A crack is visible on the surface of the bagel within the red box.
 bagel,crack,True,True,A crack is present on the surface of the bagel within the red box.
-bagel,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
-bagel,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
-bagel,hole,False,True,"A small, dark, irregularly shaped hole is visible on the surface of the bagel within the red box."
-bagel,hole,False,False,"A small, dark spot is visible on the surface of the bagel within the red box."
-bagel,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
-bagel,hole,False,False,"A small, dark, circular defect is visible on the surface of the bagel within the red box."
-bagel,hole,True,True,"A small, dark, circular hole is visible in the red box on the bagel."
+bagel,hole,False,True,"A small, dark, circular hole is visible in the center of the bagel, located within the red box."
+bagel,hole,True,False,"A small, dark, irregularly shaped spot is visible on the surface of the bagel within the red box."
+bagel,hole,True,True,A small hole is present in the red box on the bagel.
+bagel,hole,True,False,"The defect in the red box is a small, dark spot on the surface of the bagel."
+bagel,hole,True,False,"A small, dark spot is visible on the surface of the bagel within the red box."
+bagel,hole,True,True,"A small, dark, circular hole is visible on the surface of the bagel within the red box."
+bagel,hole,True,False,"A small, dark, circular defect is visible on the surface of the bagel within the red box."
 bagel,hole,False,True,A hole in the center of the bagel.
 cable_gland,bent,True,False,The defect in the red box is a missing piece on the threaded section of the cable gland.
-cable_gland,bent,True,False,The defect in the red box is a missing piece on the threaded section of the cable gland.
+cable_gland,bent,False,False,"The defect in the red box is a missing piece, specifically a missing flange or section of the threaded collar."
 cable_gland,bent,True,False,"The defect in the red box is a missing piece, specifically a section of the internal flange that is missing from the cable gland."
+cable_gland,bent,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the cable gland within the red box."
+cable_gland,bent,True,False,"The defect in the red box is a missing piece, specifically a missing section of the flange."
+cable_gland,bent,True,False,"The defect in the red box is a missing piece, specifically a missing flange or section of the threaded collar."
+cable_gland,bent,False,False,"A small, circular indentation or pit is visible on the surface of the cable gland within the red box."
 cable_gland,bent,False,False,A missing piece on the cable gland inside the red box.
-cable_gland,bent,True,False,"The defect in the red box is a missing piece, specifically a section of the threaded collar that is missing from the cable gland."
-cable_gland,bent,True,False,"The defect in the red box is a missing piece, specifically a section of the internal flange that is missing from the cable gland."
-cable_gland,bent,False,False,The defect in the red box is a missing piece on the threaded section of the cable gland.
-cable_gland,bent,False,False,"The defect in the red box is a missing piece, specifically a section of the internal flange that is missing from the cable gland."
-cable_gland,cut,False,False,The defect in the red box is a missing piece on the hexagonal nut.
-cable_gland,cut,True,False,"A small, shallow crack is visible on the side of the cable gland."
-cable_gland,cut,True,False,A hole is present in the red box.
-cable_gland,cut,True,False,"A small, irregularly shaped white speck, likely a piece of debris or contamination, is visible on the inner surface of the cable gland."
-cable_gland,cut,False,False,The defect in the red box is a missing piece on the threaded section of the cable gland.
-cable_gland,cut,False,False,"The cable gland in the red box appears to have a missing piece, specifically the outer hexagonal flange, which is not fully present."
-cable_gland,cut,True,False,A missing piece on the cable gland inside the red box.
+cable_gland,cut,False,False,A missing piece on the cable gland inside the red box.
+cable_gland,cut,True,False,"A small, shallow crack is visible on the side of the cable gland inside the red box."
+cable_gland,cut,True,False,"A small, shallow hole is visible on the inside of the cable gland, located in the red box."
+cable_gland,cut,True,False,"A small, irregular white speck, likely a piece of debris or contamination, is visible on the inner surface of the cable gland."
+cable_gland,cut,False,False,A missing piece on the cable gland inside the red box.
+cable_gland,cut,True,False,"A small, shallow indentation or pit is visible on the side of the cable gland, which is located within the red box."
+cable_gland,cut,True,False,"A small, irregularly shaped indentation or chip is visible on the inner surface of the cable gland, located within the red box."
 cable_gland,cut,False,False,A hole is present in the red box.
-cable_gland,hole,True,False,"A small, dark spot, likely a contamination or a minor defect, is visible on the surface of the cable gland within the red box."
+cable_gland,hole,True,False,"A small, dark, circular defect is visible on the surface of the cable gland within the red box."
 cable_gland,hole,True,False,"A small, circular indentation or pit is visible on the surface of the cable gland within the red box."
-cable_gland,hole,True,False,"A small, metallic, irregularly shaped object, possibly a piece of debris or a loose component, is visible inside the red box."
-cable_gland,hole,False,False,"A small, dark, irregularly shaped defect is visible on the side of the cable gland inside the red box."
-cable_gland,hole,False,True,A hole is present in the red box.
-cable_gland,hole,False,True,The defect in the red box is a missing piece on the threaded section of the cable gland.
-cable_gland,hole,False,True,"A small, circular hole is present on the side of the cable gland inside the red box."
-cable_gland,hole,False,True,A hole is present in the red box.
-cable_gland,thread,False,False,"The cable gland in the red box appears to have a missing piece on its side, which is a defect."
-cable_gland,thread,False,False,A missing piece on the cable gland inside the red box.
-cable_gland,thread,True,False,"The defect in the red box is a missing piece, specifically a section of the internal flange that is missing from the cable gland."
+cable_gland,hole,True,False,"A small, metallic, irregularly shaped object, possibly a piece of debris or a small metal fragment, is visible inside the red box."
+cable_gland,hole,True,False,"A small, dark, circular defect is visible on the surface of the cable gland within the red box."
+cable_gland,hole,True,True,"A small, circular hole is present in the red box, indicating a missing piece."
+cable_gland,hole,False,False,"A small, dark spot is visible on the surface of the cable gland within the red box."
+cable_gland,hole,True,False,"A small, circular indentation or pit is visible on the side of the cable gland, which is located within the red box."
+cable_gland,hole,True,True,A small hole is present in the red box.
+cable_gland,thread,False,True,The cable gland in the red box has a missing piece on its threaded section.
 cable_gland,thread,False,True,The defect in the red box is a missing piece on the threaded section of the cable gland.
-cable_gland,thread,True,True,The defect in the red box is a missing piece on the threaded section of the cable gland.
 cable_gland,thread,False,False,A missing piece on the cable gland inside the red box.
+cable_gland,thread,True,True,"A small, shallow indentation or pit is visible on the threaded section of the cable gland, within the red box."
+cable_gland,thread,False,False,"A small, shallow indentation or pit is visible on the surface of the cable gland within the red box."
+cable_gland,thread,False,False,"A small, dark, irregularly shaped mark is visible on the surface of the cable gland inside the red box."
 cable_gland,thread,True,True,"A small, shallow indentation or pit is visible on the threaded section of the cable gland, which appears to be a minor surface defect."
 cable_gland,thread,True,True,The defect in the red box is a missing piece on the threaded section of the cable gland.
+carrot,combined,False,True,"A small, reddish-orange spot is visible on the surface of the carrot within the red box."
+carrot,combined,True,True,"A small, dark, circular spot is visible on the surface of the carrot within the red box."
+carrot,combined,False,True,"A small, irregular orange spot is visible on the surface of the carrot within the red box."
+carrot,combined,True,True,"A small, dark hole is present on the carrot inside the red box."
+carrot,combined,True,True,"A small, dark, irregularly shaped spot is visible on the surface of the carrot within the red box."
 carrot,combined,False,True,"A small, dark, irregular spot is visible on the surface of the carrot within the red box."
-carrot,combined,False,True,"A small, dark, circular spot is visible on the surface of the carrot within the red box."
-carrot,combined,False,True,The defect in the red box is a cut on the carrot.
-carrot,combined,True,True,"A small, dark hole is present on the surface of the carrot within the red box."
-carrot,combined,False,True,"A small, irregularly shaped, light-colored spot is visible on the surface of the carrot within the red box."
-carrot,combined,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the carrot within the red box."
-carrot,combined,True,True,A crack is present on the carrot in the red box.
+carrot,combined,False,True,"A small, linear crack is visible on the surface of the carrot within the red box."
 carrot,combined,True,True,"A small, dark spot is visible on the surface of the carrot within the red box."
-carrot,contamination,True,True,"A small, irregular brownish spot is visible on the surface of the carrot within the red box."
-carrot,contamination,False,True,"A small, circular, yellowish spot is visible on the surface of the carrot within the red box."
+carrot,contamination,True,True,"A small, dark, irregularly shaped spot is visible on the surface of the carrot within the red box."
+carrot,contamination,True,True,"A small, circular, yellowish spot is visible on the surface of the carrot within the red box."
 carrot,contamination,False,True,"A small, dark, irregular spot is visible on the surface of the carrot within the red box."
 carrot,contamination,False,True,"A small, dark, irregular spot is visible on the surface of the carrot within the red box."
 carrot,contamination,True,True,"A small, dark, irregularly shaped spot is visible on the surface of the carrot within the red box."
 carrot,contamination,True,True,"A small, dark, irregularly shaped spot is visible on the surface of the carrot within the red box."
-carrot,contamination,False,True,"A small, light-colored spot is visible on the surface of the carrot within the red box."
-carrot,contamination,False,False,"A small, irregularly shaped, light-colored patch is visible on the surface of the carrot within the red box."
-carrot,crack,False,True,"The defect in the red box is a small, faint crack on the surface of the carrot."
-carrot,crack,True,True,The defect in the red box is a split or break in the carrot.
-carrot,crack,False,False,"The defect on the carrot inside the red box is a small, light-colored, irregularly shaped spot on the surface."
+carrot,contamination,True,True,"A small, light-colored spot is visible on the surface of the carrot within the red box."
+carrot,contamination,True,False,"A small, irregularly shaped indentation or blemish is visible on the surface of the carrot within the red box."
+carrot,crack,False,False,"The defect in the red box is a small, irregularly shaped indentation on the surface of the carrot."
+carrot,crack,True,True,The defect in the red box is a split or fracture in the carrot.
+carrot,crack,False,False,"The defect in the red box is a small, light-colored, irregularly shaped bump on the surface of the carrot."
 carrot,crack,True,False,A vertical cut is present in the red box on the carrot.
-carrot,crack,True,True,"A vertical crack runs through the center of the carrot, located within the red box."
-carrot,crack,False,False,A cut is visible on the carrot within the red box.
-carrot,crack,False,False,"The defect in the red box is a missing piece, specifically a section of the carrot that is missing from the lower end."
-carrot,crack,False,True,"The defect in the red box is a small, visible crack on the carrot."
-carrot,cut,False,False,"The defect on the carrot within the red box is a small, circular, light-colored spot on the surface."
+carrot,crack,True,True,"A vertical crack runs through the center of the carrot, as highlighted by the red box."
+carrot,crack,True,False,A cut is present on the carrot in the red box.
+carrot,crack,False,False,"A small, reddish-orange discoloration is visible on the surface of the carrot within the red box."
+carrot,crack,True,True,"The defect in the red box is a small, vertical crack on the carrot."
+carrot,cut,False,False,"The defect on the carrot inside the red box is a small, irregularly shaped brownish spot on the surface."
+carrot,cut,True,False,"A small, reddish-orange spot is visible on the surface of the carrot within the red box."
+carrot,cut,False,False,"The defect in the red box is a small, irregularly shaped brownish spot on the surface of the carrot."
+carrot,cut,False,False,"The defect on the carrot inside the red box is a small, irregularly shaped brownish spot on the surface."
+carrot,cut,False,False,"The defect on the carrot is a small, light-colored, elongated spot on the surface, which appears to be a minor discoloration or blemish."
+carrot,cut,False,False,"A small, circular colour spot is visible on the right side of the carrot within the red box."
 carrot,cut,False,False,"A small, reddish-orange spot is visible on the surface of the carrot within the red box."
-carrot,cut,False,True,"The defect on the carrot within the red box is a small, irregularly shaped cut or bruise on the lower portion of the vegetable."
-carrot,cut,True,False,"The defect in the red box is a small, irregularly shaped brownish spot on the surface of the carrot."
-carrot,cut,False,False,"The defect on the carrot is a small, irregularly shaped brownish spot on the surface, located near the center of the vegetable."
-carrot,cut,False,False,"A small, circular, orange-colored spot is visible on the right side of the carrot within the red box."
-carrot,cut,False,False,"A small, irregularly shaped brownish spot is visible on the surface of the carrot within the red box."
 carrot,cut,False,False,The defect in the red box is a bent carrot.
 carrot,hole,True,False,"A small, dark spot is visible on the surface of the carrot within the red box."
-carrot,hole,False,False,"The defect on the carrot inside the red box is a small, dark, irregularly shaped spot on the surface."
+carrot,hole,True,False,"The defect in the red box is a small, irregularly shaped indentation or blemish on the carrot's surface."
 carrot,hole,False,False,"A small, dark spot is visible on the surface of the carrot within the red box."
 carrot,hole,False,False,"A small, dark spot is visible on the surface of the carrot within the red box."
 carrot,hole,True,False,"A small, dark spot is visible on the surface of the carrot within the red box."
+carrot,hole,False,False,"A small, dark, irregular spot is visible on the surface of the carrot within the red box."
+carrot,hole,False,False,"A small, circular, orange-colored spot is visible on the surface of the carrot within the red box."
 carrot,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the carrot within the red box."
-carrot,hole,False,False,"The defect in the red box is a small, dark, circular spot on the carrot."
-carrot,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the carrot within the red box."
 cookie,combined,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
 cookie,combined,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
-cookie,combined,False,True,"The defect in the red box is a small, dark, irregularly shaped spot on the surface of the cookie."
-cookie,combined,True,True,"A small, irregularly shaped chip or piece of cookie has broken off from the main body of the cookie, creating a noticeable gap and a rough, uneven surface within the red box."
-cookie,combined,True,True,"A cut on the cookie, specifically a bite taken from the left side of the cookie, is visible in the red box."
-cookie,combined,True,True,"A dark, irregularly shaped area, likely a contamination or a burnt spot, is present in the center of the cookie within the red box."
-cookie,combined,False,True,"The defect in the red box is a missing piece, specifically a portion of the cookie's surface that is absent."
+cookie,combined,False,True,"The defect in the red box is a small, dark, irregularly shaped spot on the cookie's surface."
+cookie,combined,True,True,"A small, irregularly shaped, light-colored chip or piece of cookie dough has broken off from the main body of the cookie, creating a missing piece."
+cookie,combined,True,True,"A cut on the cookie, specifically a missing piece on the left side of the red box."
+cookie,combined,False,True,"A large, irregularly shaped hole is present in the center of the cookie, which is located within the red box."
+cookie,combined,True,True,"The defect in the red box is a missing piece, specifically a chocolate chip that is missing from the cookie."
 cookie,combined,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
-cookie,contamination,False,False,"The defect in the red box is a missing piece, specifically a portion of the cookie's surface that is absent."
-cookie,contamination,True,False,"A dark, irregularly shaped chocolate chip is missing from the center of the red box."
+cookie,contamination,False,False,"The defect in the red box is a missing piece, specifically a portion of the cookie's surface that appears to be missing."
+cookie,contamination,False,False,"The defect in the red box is a missing piece, specifically a chocolate chip that is missing from the cookie."
 cookie,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
 cookie,contamination,False,True,"The defect in the red box is a small, dark, irregularly shaped spot on the surface of the cookie."
-cookie,contamination,True,False,"A small, irregularly shaped hole is visible in the center of the cookie within the red box."
+cookie,contamination,True,False,"The defect in the red box is a small, irregularly shaped hole in the center of the cookie."
 cookie,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
-cookie,contamination,False,True,"A small, irregularly shaped white patch, likely a piece of dough or a contamination, is visible on the surface of the cookie within the red box."
-cookie,contamination,True,True,"A small, irregularly shaped dark spot is visible on the surface of the cookie within the red box."
-cookie,crack,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
-cookie,crack,True,True,A crack has appeared on the cookie in the red box.
-cookie,crack,False,True,"A small, irregularly shaped crack is visible on the surface of the cookie within the red box."
-cookie,crack,True,False,"The defect in the red box is a missing piece, specifically a portion of the cookie that has been completely removed."
+cookie,contamination,False,False,"A small, irregularly shaped white patch is visible on the surface of the cookie within the red box."
+cookie,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
+cookie,crack,True,True,"A small, irregularly shaped crack is visible on the surface of the cookie within the red box."
+cookie,crack,True,True,"A large, vertical crack runs through the center of the cookie, extending from the top to the bottom of the red box."
+cookie,crack,False,True,A crack is present on the surface of the cookie within the red box.
+cookie,crack,True,False,"A missing piece of the cookie, which appears to be a portion of the dough that has been completely removed from the surface."
 cookie,crack,False,True,A crack is visible on the cookie in the red box.
-cookie,crack,True,False,"A missing piece on the right side of the cookie, which is a bite taken out of the cookie."
-cookie,crack,False,False,"A small, irregularly shaped hole is visible on the surface of the cookie within the red box."
-cookie,crack,True,False,"A small, irregularly shaped chip or missing piece is visible on the top left of the cookie, within the red box."
-cookie,hole,False,True,"The defect in the red box is a missing piece, specifically a portion of the cookie's surface that is absent."
-cookie,hole,True,False,"A dark, irregularly shaped patch of discoloration and possible contamination is present on the surface of the cookie within the red box."
+cookie,crack,False,False,"A missing piece on the cookie, specifically a bite taken from the right side of the cookie."
+cookie,crack,False,False,"A cut on the right side of the cookie, near the edge of the red box."
+cookie,crack,True,False,"A small, irregularly shaped chip or missing piece is visible on the left side of the cookie, within the red box."
 cookie,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
-cookie,hole,False,True,A hole is present in the red box on the cookie.
-cookie,hole,False,True,"A hole is present in the center of the cookie, located within the red box."
+cookie,hole,True,False,"A dark, irregularly shaped patch of discoloration and possible contamination is present on the cookie within the red box."
+cookie,hole,True,False,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
+cookie,hole,True,True,A hole is present in the red box on the cookie.
+cookie,hole,False,True,"A small, dark, irregularly shaped piece of chocolate has been missing from the cookie, creating a noticeable hole in the surface."
 cookie,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
-cookie,hole,True,True,"A large, irregularly shaped hole is present in the center of the cookie, located within the red box."
-cookie,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the cookie within the red box."
+cookie,hole,True,True,"A large, irregularly shaped hole is visible in the center of the cookie, which is located within the red box."
+cookie,hole,False,True,"A small, dark, irregularly shaped hole is visible on the surface of the cookie within the red box."
+dowel,bent,False,False,A missing piece on the dowel.
 dowel,bent,True,False,The defect in the red box is a missing piece on the dowel.
-dowel,bent,True,False,"A small, dark, irregular-shaped defect is visible on the surface of the dowel within the red box."
-dowel,bent,True,False,A missing piece on the dowel.
-dowel,bent,True,False,A missing piece on the dowel.
-dowel,bent,True,False,The defect in the red box is a missing piece on the dowel.
+dowel,bent,True,False,A hole is present in the red box.
 dowel,bent,True,False,A missing piece on the dowel.
 dowel,bent,True,False,The defect in the red box is a missing piece.
 dowel,bent,True,False,The defect in the red box is a missing piece on the dowel.
-dowel,combined,False,True,A missing piece on the dowel.
-dowel,combined,True,True,The defect in the red box is a missing piece.
-dowel,combined,True,True,A hole is present on the dowel inside the red box.
+dowel,bent,True,False,A missing piece on the dowel.
+dowel,bent,True,False,The defect in the red box is a missing piece on the dowel.
 dowel,combined,True,True,The defect in the red box is a missing piece on the dowel.
 dowel,combined,True,True,The defect in the red box is a missing piece on the dowel.
+dowel,combined,True,True,A crack is present on the surface of the dowel inside the red box.
+dowel,combined,True,True,A missing piece on the dowel.
 dowel,combined,True,True,The defect in the red box is a missing piece on the dowel.
 dowel,combined,True,True,A missing piece on the dowel.
-dowel,combined,True,True,A missing piece on the dowel.
-dowel,contamination,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the dowel within the red box."
+dowel,combined,True,True,The defect in the red box is a missing piece on the dowel.
+dowel,combined,False,True,A missing piece on the dowel inside the red box.
 dowel,contamination,False,False,The defect in the red box is a missing piece on the dowel.
+dowel,contamination,False,False,The defect in the red box is a missing piece on the dowel.
+dowel,contamination,True,False,A crack is present on the dowel inside the red box.
 dowel,contamination,True,False,A missing piece on the dowel.
-dowel,contamination,True,False,The defect in the red box is a missing piece on the dowel.
-dowel,contamination,True,False,A hole is present in the red box.
-dowel,contamination,True,False,The defect in the red box is a missing piece on the dowel.
+dowel,contamination,True,False,A missing piece on the dowel.
+dowel,contamination,True,False,A missing piece on the dowel.
 dowel,contamination,True,False,A missing piece on the dowel.
 dowel,contamination,False,False,A crack is present on the dowel inside the red box.
-dowel,cut,True,False,A hole has been found in the dowel inside the red box.
+dowel,cut,True,False,A hole has been found in the red box.
 dowel,cut,False,False,The defect in the red box is a missing piece on the dowel.
+dowel,cut,False,False,A missing piece on the dowel.
 dowel,cut,True,False,A missing piece on the dowel.
 dowel,cut,False,False,The defect in the red box is a missing piece on the dowel.
-dowel,cut,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the dowel within the red box."
-dowel,cut,True,False,A missing piece on the dowel.
+dowel,cut,False,False,A missing piece on the dowel inside the red box.
 dowel,cut,True,False,The defect in the red box is a missing piece on the top of the dowel.
 dowel,cut,True,False,The defect in the red box is a missing piece on the dowel.
-foam,color,True,True,"A small, orange-colored contamination spot is visible on the foam inside the red box."
+foam,color,False,True,"A small, bright orange colour spot is visible on the foam inside the red box."
 foam,color,True,True,"A small, bright orange, circular contamination spot is visible on the foam inside the red box."
 foam,color,True,True,"A small, reddish-brown contamination spot is visible on the foam inside the red box."
-foam,color,False,True,"A small, dark blue contamination spot is visible on the foam inside the red box."
-foam,color,True,True,"A small, bright green, irregularly shaped contamination spot is visible on the foam within the red box."
-foam,color,False,True,"A small, reddish-orange colour spot is visible on the foam inside the red box."
-foam,color,False,True,"A small, irregularly shaped, dark-colored spot is visible on the foam inside the red box."
-foam,color,True,True,"A small, circular, orange-colored contamination spot is visible on the foam inside the red box."
-foam,combined,True,True,"A small, reddish-brown contamination spot is visible on the foam inside the red box."
-foam,combined,True,True,"A small, dark green contamination spot is visible on the foam inside the red box."
-foam,combined,True,True,"A small, reddish-brown contamination spot is visible on the foam inside the red box."
-foam,combined,False,True,"A small, bright green contamination spot is visible on the foam inside the red box."
-foam,combined,True,True,"A small, bright green spot, likely a contamination or a defect, is visible on the foam inside the red box."
-foam,combined,False,True,"A small, irregularly shaped hole is visible on the foam inside the red box."
+foam,color,True,True,"A small, dark, circular contamination spot is visible in the center of the foam within the red box."
+foam,color,True,False,"A small, bright green, irregularly shaped contamination is visible on the foam within the red box."
+foam,color,True,True,"A small, reddish-orange colour spot is present on the foam inside the red box."
+foam,color,False,True,"A small, irregularly shaped, dark-colored spot is visible on the foam within the red box."
+foam,color,True,True,"A small, reddish-orange contamination spot is visible on the foam inside the red box."
+foam,combined,True,True,"A small, reddish-brown, irregularly shaped contamination spot is visible on the foam inside the red box."
+foam,combined,True,True,"A small, dark green, irregularly shaped contamination spot is visible on the foam inside the red box."
+foam,combined,True,True,"A small, reddish-orange contamination spot is visible on the foam inside the red box."
+foam,combined,True,True,"A small, dark hole is present in the foam within the red box."
+foam,combined,False,True,"A small, bright green spot is visible on the foam inside the red box."
+foam,combined,False,True,The defect in the red box is a missing piece of foam.
 foam,combined,False,True,"A small, irregularly shaped hole is visible in the foam within the red box."
 foam,combined,False,True,"A small, irregularly shaped hole is visible on the foam inside the red box."
-foam,contamination,False,False,"A small, irregularly shaped hole is visible in the foam within the red box."
+foam,contamination,False,False,"A small, dark hole is present in the foam within the red box."
 foam,contamination,False,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
 foam,contamination,False,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
-foam,contamination,False,False,"A small, irregularly shaped hole is present in the foam within the red box."
+foam,contamination,False,False,"A small, irregularly shaped hole is visible on the foam within the red box."
 foam,contamination,False,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
 foam,contamination,False,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
-foam,contamination,False,False,"A small, irregularly shaped hole is visible in the foam within the red box."
+foam,contamination,False,False,"A small, irregularly shaped hole is visible on the foam within the red box."
 foam,contamination,False,False,A small hole is present in the foam inside the red box.
-foam,cut,False,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
+foam,cut,False,False,"A small, irregularly shaped hole is visible in the foam within the red box."
 foam,cut,True,False,"A small, irregularly shaped hole is visible in the foam within the red box."
-foam,cut,False,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
+foam,cut,False,False,The defect in the red box is a missing piece on the foam.
 foam,cut,False,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
 foam,cut,False,False,"A small, irregularly shaped hole is visible in the foam within the red box."
 foam,cut,False,False,"A small, irregularly shaped hole is visible in the foam within the red box."
 foam,cut,True,False,"A small, irregularly shaped hole is visible in the foam within the red box."
 foam,cut,True,False,"A small, irregularly shaped hole is visible on the foam inside the red box."
-peach,combined,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
-peach,combined,False,True,"A small, irregularly shaped brownish spot is visible on the surface of the peach within the red box."
-peach,combined,False,True,"A small, irregularly shaped brown spot is visible on the surface of the peach within the red box."
+peach,combined,True,True,"A small, dark, circular spot is visible on the surface of the peach within the red box."
+peach,combined,False,True,"A dark, discolored, and slightly shriveled area is present on the surface of the peach within the red box."
+peach,combined,True,True,"A small, light-colored, irregularly shaped blemish is visible on the surface of the peach within the red box."
 peach,combined,False,True,"A small, dark, irregular spot is visible on the surface of the peach within the red box."
 peach,combined,False,True,"A small, irregularly shaped brownish spot is visible on the surface of the peach within the red box."
-peach,combined,True,True,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
-peach,combined,False,True,"A large, irregular brownish-red spot is present on the surface of the peach within the red box."
-peach,combined,False,True,"A small, dark spot is visible on the surface of the peach within the red box."
-peach,contamination,False,True,"A small, dark, irregular spot is visible on the surface of the peach within the red box."
+peach,combined,True,True,"A small, irregularly shaped, dark brown spot is visible on the surface of the peach within the red box."
+peach,combined,True,True,"A small, dark, circular spot is visible on the surface of the peach within the red box."
+peach,combined,False,True,"A small, irregularly shaped, light-colored spot is visible on the surface of the peach within the red box."
+peach,contamination,True,True,"A small, dark, irregular spot is visible on the surface of the peach within the red box."
 peach,contamination,False,True,"A small, dark, circular spot is visible on the surface of the peach within the red box."
 peach,contamination,False,True,"A small, dark spot is visible on the right side of the peach within the red box."
-peach,contamination,False,True,"A small, dark, irregular spot is visible on the surface of the peach within the red box."
-peach,contamination,False,True,"A small, dark, circular spot is visible on the surface of the peach within the red box."
-peach,contamination,False,False,"A small, dark hole is visible on the peach within the red box."
-peach,contamination,False,True,"A small, light-colored spot is visible on the surface of the peach within the red box."
 peach,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
-peach,cut,False,False,"A small, irregularly shaped hole is visible on the surface of the peach within the red box."
+peach,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
+peach,contamination,True,False,"A small, dark, circular hole is visible on the surface of the peach within the red box."
+peach,contamination,False,True,"A small, light-colored spot is visible on the surface of the peach within the red box."
+peach,contamination,False,True,"The defect in the red box is a small, dark, circular spot on the peach."
 peach,cut,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
-peach,cut,False,False,"A small, irregularly shaped brownish spot is visible on the right side of the peach within the red box."
-peach,cut,True,False,"A small, elongated, light-colored object, likely a piece of a worm or insect, is visible inside the red box on the peach."
-peach,cut,False,False,"A small, irregular, light-colored spot is visible on the surface of the peach within the red box."
-peach,cut,False,False,"A small, irregular red spot is visible on the peach's surface within the red box."
-peach,cut,False,False,"A small, irregularly shaped, light-colored blemish is visible on the surface of the peach within the red box."
-peach,cut,False,False,"A small, yellowish, irregular spot is visible on the surface of the peach within the red box."
+peach,cut,True,False,"A small, irregularly shaped, pale-yellow area with a slightly raised, uneven surface is visible on the peach, located within the red box."
+peach,cut,True,False,"A small, irregularly shaped blemish or spot is visible on the surface of the peach within the red box."
+peach,cut,True,False,"A small, elongated, light-colored object, likely a seed or a piece of fruit, is visible inside the red box."
+peach,cut,False,False,"A small, irregular, yellowish spot is visible on the surface of the peach within the red box."
+peach,cut,True,False,"A small, light-colored, irregularly shaped blemish is visible on the surface of the peach within the red box."
+peach,cut,True,False,"The defect in the red box is a small, elongated, light-colored blemish or spot on the peach's skin."
+peach,cut,False,False,"The defect in the red box is a small, irregular, yellowish spot on the peach's skin."
 peach,hole,True,True,"A small, dark, circular hole is visible in the center of the peach within the red box."
-peach,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
+peach,hole,True,False,"A small, irregularly shaped, slightly raised area with a lighter coloration and a rough texture is visible on the surface of the peach within the red box."
+peach,hole,True,False,"A small, circular, brownish spot is visible on the surface of the peach within the red box."
 peach,hole,False,False,"A small, dark, circular spot is visible on the surface of the peach within the red box."
-peach,hole,False,False,"A small, dark, circular spot is visible on the peach within the red box."
-peach,hole,False,False,"A small, light-colored spot is visible on the surface of the peach within the red box."
-peach,hole,False,False,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
-peach,hole,False,False,"A red, circular spot is present on the peach, which is located in the red box."
-peach,hole,False,False,"A small, dark, circular spot is visible on the surface of the peach within the red box."
+peach,hole,True,False,"A small, raised, yellowish spot is visible on the surface of the peach within the red box."
+peach,hole,True,False,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
+peach,hole,True,False,"A small, dark, irregularly shaped spot is visible on the surface of the peach within the red box."
+peach,hole,True,False,"A small, dark, circular spot is visible on the surface of the peach within the red box."
 potato,combined,False,True,"A small, light-colored, elongated mark is visible on the surface of the potato within the red box."
-potato,combined,False,True,"A small, dark brown spot is visible on the surface of the potato within the red box."
+potato,combined,True,True,"A small, linear crack is visible on the surface of the potato within the red box."
 potato,combined,True,True,"A small, dark, irregular spot is visible on the surface of the potato within the red box."
-potato,combined,False,True,"A small, white, circular spot is visible on the surface of the potato within the red box."
+potato,combined,False,True,"A small, white, round spot is visible on the surface of the potato within the red box."
 potato,combined,False,True,"A small, dark, irregular spot is visible on the surface of the potato within the red box."
 potato,combined,False,True,"A small, dark spot is visible on the surface of the potato within the red box."
 potato,combined,False,True,"A small, dark, circular hole is visible on the surface of the potato within the red box."
 potato,combined,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the potato within the red box."
 potato,contamination,False,True,"A small, dark, irregular spot is visible on the surface of the potato within the red box."
 potato,contamination,False,True,"A small, dark, irregular spot is visible on the surface of the potato within the red box."
-potato,contamination,False,True,"A small, bright white spot, likely a blemish or a tiny speck, is visible on the surface of the potato within the red box."
-potato,contamination,True,False,"A small, circular hole is visible on the surface of the potato within the red box."
+potato,contamination,True,True,"A small, bright white dot, likely a speck of contamination, is visible on the surface of the potato within the red box."
+potato,contamination,False,False,"A small, circular hole is visible on the surface of the potato within the red box."
 potato,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the potato within the red box."
-potato,contamination,False,True,"A small, dark, irregularly shaped spot is visible on the surface of the potato within the red box."
+potato,contamination,False,True,"A small, dark spot is visible on the surface of the potato within the red box."
 potato,contamination,False,True,"A small, dark brown spot is visible on the surface of the potato within the red box."
-potato,contamination,False,True,"A small, irregularly shaped brownish spot is visible on the surface of the potato within the red box."
+potato,contamination,True,True,"A small, irregularly shaped brown spot is visible on the surface of the potato within the red box."
 potato,cut,False,False,"A small, dark, irregular spot is visible on the surface of the potato within the red box."
 potato,cut,False,False,"A small, dark, irregular spot is visible on the surface of the potato within the red box."
 potato,cut,False,False,"A small, irregularly shaped yellowish spot is visible on the surface of the potato within the red box."
@@ -254,8 +254,8 @@ potato,cut,False,False,"A small, dark, irregular spot is visible on the surface 
 potato,cut,False,True,"A small, linear cut is visible on the surface of the potato within the red box."
 potato,cut,False,False,"A small, dark brown spot is visible on the surface of the potato within the red box."
 potato,cut,False,False,"A small, irregularly shaped brownish spot is visible on the surface of the potato within the red box."
-potato,cut,False,False,"A small, irregularly shaped brownish spot is visible on the surface of the potato within the red box."
-potato,hole,False,False,"A small, dark brown spot is visible on the surface of the potato within the red box."
+potato,cut,False,False,"A small, irregularly shaped brown spot is visible on the surface of the potato within the red box."
+potato,hole,False,False,"A small, dark, irregular spot is visible on the surface of the potato within the red box."
 potato,hole,False,False,"A small, dark spot is visible on the surface of the potato within the red box."
 potato,hole,False,False,"A small, dark brown, irregularly shaped spot is visible on the surface of the potato within the red box."
 potato,hole,False,False,"A small, dark brown spot is visible on the surface of the potato within the red box."
@@ -263,55 +263,55 @@ potato,hole,False,False,"A small, dark, circular spot is visible on the surface 
 potato,hole,False,False,"A small, dark brown spot is visible on the surface of the potato within the red box."
 potato,hole,False,False,"A small, dark brown spot is visible on the surface of the potato within the red box."
 potato,hole,False,False,"A small, dark brown spot is visible on the surface of the potato within the red box."
-rope,contamination,True,False,"A small, dark, round defect is visible on the rope within the red box."
-rope,contamination,False,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the otherwise continuous strand."
-rope,contamination,True,False,"A small, dark, vertical flaw, possibly a tiny hole or a thread break, is visible in the center of the red box."
-rope,contamination,True,False,"A small, dark, vertical defect is visible on the rope within the red box."
-rope,contamination,True,False,"A small, dark, irregularly shaped contaminant is visible on the surface of the rope within the red box."
-rope,contamination,False,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the main body of the rope."
+rope,contamination,True,False,"A small, dark, oval-shaped defect is present on the rope within the red box."
 rope,contamination,False,False,The defect in the red box is a missing piece of the rope.
-rope,contamination,True,True,"A small, dark, irregularly shaped object, likely a piece of debris or a small piece of contamination, is embedded within the woven fabric of the rope inside the red box."
-rope,cut,True,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the twisted pattern."
-rope,cut,True,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the main body of the rope."
+rope,contamination,True,False,"A small, dark, vertical defect is visible on the surface of the rope within the red box."
+rope,contamination,True,False,"A small, dark, circular defect is visible on the rope within the red box."
+rope,contamination,True,True,"A small, dark, irregularly shaped object, likely a piece of debris or a small insect, is lodged within the red box, which is a defect in the rope's surface."
+rope,contamination,False,False,The defect in the red box is a missing piece of the rope.
+rope,contamination,False,False,"A small, dark, irregularly shaped speck is visible on the surface of the rope within the red box."
+rope,contamination,True,True,"A small, dark, irregularly shaped object, likely a piece of debris or a small insect, is embedded within the woven fabric of the rope, located in the red box."
+rope,cut,True,False,A defect in the red box is a missing piece of the rope.
 rope,cut,True,False,The defect in the red box is a missing piece of the rope.
+rope,cut,True,False,"A small, irregularly shaped hole is present in the center of the rope, located within the red box."
 rope,cut,True,False,The defect in the red box is a missing piece of the rope.
-rope,cut,False,False,The defect in the red box is a missing piece of the rope.
+rope,cut,False,False,A missing piece of the rope is visible in the red box.
 rope,cut,True,False,"A small, dark, irregularly shaped defect is visible on the surface of the rope within the red box."
-rope,cut,False,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the main body of the rope."
+rope,cut,False,False,"The defect in the red box is a missing piece of the rope's woven pattern, creating an open gap in the otherwise continuous, twisted structure."
 rope,cut,True,False,The defect in the red box is a missing piece of the rope.
-rope,open,True,False,"The defect in the red box is a missing piece of the rope, where a section has been lost or broken."
-rope,open,True,False,A defect in the red box is a missing piece of the rope.
-rope,open,True,False,"The defect in the red box is a missing piece of the rope, which appears as a gap in the otherwise continuous, twisted pattern."
-rope,open,True,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the otherwise continuous strand."
-rope,open,True,False,"The defect in the red box is a missing piece of the rope, where a segment is missing from the otherwise continuous, twisted pattern."
-rope,open,True,False,"The defect in the red box is a missing piece of the rope, specifically a broken or missing segment in the twisted pattern."
-rope,open,False,False,The defect in the red box is a missing piece of the rope.
-rope,open,True,False,The defect in the red box is a missing piece of the rope.
-tire,combined,False,False,"A small, circular indentation is visible on the tire's tread pattern within the red box."
-tire,combined,False,False,"A small, dark, irregularly shaped defect is visible on the tire's tread, located within the red box."
-tire,combined,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
-tire,combined,True,True,"A small, bright, circular spot, likely a light reflection or a tiny defect, is visible on the tire's tread surface within the red box."
-tire,contamination,True,False,"A small, dark, irregularly shaped hole is visible on the tire's tread in the red box."
-tire,contamination,True,False,"A small, dark, irregularly shaped defect is visible in the center of the tire's tread, within the red box."
-tire,contamination,False,False,"A small, circular hole is visible in the center of the tire's tread, located within the red box."
+rope,open,True,False,"The defect in the red box is a missing piece of the rope, specifically a section that appears to be broken or missing from the otherwise continuous strand."
+rope,open,True,False,"A small, dark, irregularly shaped knot or knot-like defect is visible in the center of the red box."
+rope,open,True,False,"The defect in the red box is a missing piece of the rope, which appears as a gap in the twisted pattern."
+rope,open,True,False,"The defect in the red box is a missing piece of the rope, specifically a section where the twisted strands are not properly joined."
+rope,open,True,False,"The defect in the red box is a missing piece of the rope, where a segment is missing from the otherwise continuous, twisted rope."
+rope,open,True,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the twisted, braided structure."
+rope,open,False,False,"The defect in the red box is a missing piece of the rope, specifically a section that is missing from the central part of the rope."
+rope,open,False,False,A defect in the red box is a missing piece of the rope.
+tire,combined,False,False,"A small, dark, irregularly shaped defect is visible on the tire's tread surface within the red box."
+tire,combined,True,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
+tire,combined,False,True,The defect in the red box is a missing piece on the tire's tread.
+tire,combined,False,True,"A small, bright yellowish spot, likely a light reflection or a minor defect, is visible on the tire's tread surface within the red box."
+tire,contamination,True,False,"A small, dark, irregularly shaped hole is visible in the center of the tire's tread, located within the red box."
+tire,contamination,True,False,"A missing piece on the tire's tread, specifically a missing section of the tread pattern."
+tire,contamination,False,False,"A small, circular hole is visible in the tread of the tire, located within the red box."
 tire,contamination,True,False,"A small, dark, irregularly shaped defect is visible on the tire's tread, located within the red box."
 tire,contamination,True,False,"A small, dark, irregularly shaped defect is visible on the tire's tread, located within the red box."
-tire,contamination,True,True,"A small, circular, light-colored spot is visible on the tire's tread, located within the red box."
-tire,contamination,False,False,"A small, circular hole is visible on the tire's tread surface within the red box."
+tire,contamination,False,False,"A small, bright, circular reflection on the tire's tread, likely a light reflection from a camera or sensor, is visible within the red box."
+tire,contamination,True,False,"A small, circular hole is visible in the tire's tread, located within the red box."
 tire,contamination,False,False,"A missing piece on the tire tread, specifically a missing tread block."
 tire,cut,False,False,"A small, circular indentation is visible on the tire's tread pattern within the red box."
-tire,cut,False,False,"A small, circular indentation is visible on the tire's tread pattern within the red box."
-tire,cut,False,False,"A small, bright, circular reflection on the tire's tread surface, likely a light reflection from a camera or sensor, is visible within the red box."
-tire,cut,True,False,"A small, linear crack is visible on the tire's tread, running horizontally through the center of the red box."
-tire,cut,False,False,"A small, circular indentation is visible on the tire's tread in the red box."
-tire,cut,False,False,"A small, circular indentation is visible on the tire's tread pattern within the red box."
-tire,cut,False,False,A crack is visible on the tire tread in the red box.
-tire,cut,False,False,A missing piece on the tire's tread.
-tire,hole,False,False,"A small, irregularly shaped indentation or pit is visible on the tire's tread pattern within the red box."
-tire,hole,False,True,A missing piece on the tire tread.
+tire,cut,False,False,The defect in the red box is a missing piece on the tire's tread.
+tire,cut,False,False,"A small, bright, reflective spot on the tire's tread, likely a light reflection from a camera or light source, is visible within the red box."
+tire,cut,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
+tire,cut,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
+tire,cut,True,False,"A small, circular, light-colored spot is visible on the tire's tread, which appears to be a defect."
+tire,cut,True,False,"A small, dark, irregular-shaped defect is visible on the tire's tread, located within the red box."
+tire,cut,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
+tire,hole,False,False,"A small, circular indentation is visible on the tire's tread pattern within the red box."
+tire,hole,True,False,"A small, dark, irregularly shaped defect is visible on the tire's tread in the red box."
 tire,hole,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
-tire,hole,False,False,"A small, linear crack is visible on the tire's tread, running horizontally through the center of the red box."
-tire,hole,False,False,"A small, irregularly shaped indentation or pit is visible on the tire's tread surface within the red box."
-tire,hole,False,False,"A small, circular, shiny spot is visible on the tire's tread surface within the red box."
-tire,hole,False,True,"A missing piece on the tire tread, specifically a missing segment in the tread pattern."
-tire,hole,False,False,"A bright, reflective spot, likely a light reflection, is visible on the tire's tread surface within the red box."
+tire,hole,False,False,"A small, linear crack is visible on the surface of the tire within the red box."
+tire,hole,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
+tire,hole,False,False,"A small, circular, light-colored spot is visible on the tire's tread surface within the red box."
+tire,hole,False,False,"A small, dark, irregularly shaped defect is visible on the surface of the tire within the red box."
+tire,hole,False,True,The defect in the red box is a missing piece on the tire's tread.

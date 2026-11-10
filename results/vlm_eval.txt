@@ -1,14 +1,14 @@
-n = 316  box on defect: 37.7 %  type named right: 41.5 %
-type right when box on defect: 42.9 %
+n = 316  box on defect: 49.1 %  type named right: 40.8 %
+type right when box on defect: 44.5 %
 
                localised  type_match
 kind                                
-bent                81.2         0.0
-color               62.5       100.0
-combined            40.0        95.0
-contamination       30.6        43.1
-crack               58.3        62.5
-cut                 32.8         3.1
-hole                16.1        25.0
-open                87.5         0.0
-thread              50.0        50.0
+bent                68.8         0.0
+color               75.0        87.5
+combined            51.7        96.7
+contamination       38.9        43.1
+crack               66.7        62.5
+cut                 40.6         1.6
+hole                50.0        21.4
+open                75.0         0.0
+thread              37.5        62.5

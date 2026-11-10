@@ -1,4 +1,5 @@
-"""Round 2 ablation, pre-registered in the Obsidian note ExplainAD (2026-09-28 ~17:20). Last round.
+"""Round 2 ablation, pre-registered: arms fixed in the project notes before any code or number (2026-09-28 ~17:20).
+Last round.
 
 All arms: SAM object/background segments, same SegAD head, seeds and splits.
   C  WRN50 + DINO         at 256 px   (= v2, 85.2)

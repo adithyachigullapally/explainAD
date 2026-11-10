@@ -1,0 +1,961 @@
+cls,seed,arm,group,auroc
+candle,333,1 segment,all,94.82777777777778
+candle,333,1 segment,mixed,94.82777777777778
+candle,333,SAM object/bg,all,95.51111111111112
+candle,333,SAM object/bg,mixed,95.51111111111112
+candle,333,SAM object/bg + DINO,all,94.91111111111113
+candle,333,SAM object/bg + DINO,mixed,94.91111111111113
+candle,333,SAM object/bg + DINO + CLIP,all,95.71111111111111
+candle,333,SAM object/bg + DINO + CLIP,mixed,95.71111111111111
+candle,576,1 segment,all,89.4
+candle,576,1 segment,mixed,89.4
+candle,576,SAM object/bg,all,91.72777777777776
+candle,576,SAM object/bg,mixed,91.72777777777776
+candle,576,SAM object/bg + DINO,all,92.02222222222221
+candle,576,SAM object/bg + DINO,mixed,92.02222222222221
+candle,576,SAM object/bg + DINO + CLIP,all,90.88888888888889
+candle,576,SAM object/bg + DINO + CLIP,mixed,90.88888888888889
+candle,725,1 segment,all,94.43333333333334
+candle,725,1 segment,mixed,94.43333333333334
+candle,725,SAM object/bg,all,95.32222222222222
+candle,725,SAM object/bg,mixed,95.32222222222222
+candle,725,SAM object/bg + DINO,all,95.21111111111111
+candle,725,SAM object/bg + DINO,mixed,95.21111111111111
+candle,725,SAM object/bg + DINO + CLIP,all,95.7
+candle,725,SAM object/bg + DINO + CLIP,mixed,95.7
+candle,823,1 segment,all,95.03333333333335
+candle,823,1 segment,mixed,95.03333333333335
+candle,823,SAM object/bg,all,96.06666666666666
+candle,823,SAM object/bg,mixed,96.06666666666666
+candle,823,SAM object/bg + DINO,all,95.7
+candle,823,SAM object/bg + DINO,mixed,95.7
+candle,823,SAM object/bg + DINO + CLIP,all,95.31111111111113
+candle,823,SAM object/bg + DINO + CLIP,mixed,95.31111111111113
+candle,831,1 segment,all,94.22777777777777
+candle,831,1 segment,mixed,94.22777777777777
+candle,831,SAM object/bg,all,95.63333333333333
+candle,831,SAM object/bg,mixed,95.63333333333333
+candle,831,SAM object/bg + DINO,all,95.81111111111112
+candle,831,SAM object/bg + DINO,mixed,95.81111111111112
+candle,831,SAM object/bg + DINO + CLIP,all,96.93333333333334
+candle,831,SAM object/bg + DINO + CLIP,mixed,96.93333333333334
+candle,902,1 segment,all,92.97222222222223
+candle,902,1 segment,mixed,92.97222222222223
+candle,902,SAM object/bg,all,93.03333333333333
+candle,902,SAM object/bg,mixed,93.03333333333333
+candle,902,SAM object/bg + DINO,all,95.25555555555555
+candle,902,SAM object/bg + DINO,mixed,95.25555555555555
+candle,902,SAM object/bg + DINO + CLIP,all,95.88888888888889
+candle,902,SAM object/bg + DINO + CLIP,mixed,95.88888888888889
+candle,226,1 segment,all,91.22222222222223
+candle,226,1 segment,mixed,91.22222222222223
+candle,226,SAM object/bg,all,95.65555555555557
+candle,226,SAM object/bg,mixed,95.65555555555557
+candle,226,SAM object/bg + DINO,all,94.78888888888889
+candle,226,SAM object/bg + DINO,mixed,94.78888888888889
+candle,226,SAM object/bg + DINO + CLIP,all,95.24444444444444
+candle,226,SAM object/bg + DINO + CLIP,mixed,95.24444444444444
+candle,598,1 segment,all,94.61666666666667
+candle,598,1 segment,mixed,94.61666666666667
+candle,598,SAM object/bg,all,95.02222222222223
+candle,598,SAM object/bg,mixed,95.02222222222223
+candle,598,SAM object/bg + DINO,all,95.22222222222223
+candle,598,SAM object/bg + DINO,mixed,95.22222222222223
+candle,598,SAM object/bg + DINO + CLIP,all,96.82222222222222
+candle,598,SAM object/bg + DINO + CLIP,mixed,96.82222222222222
+candle,874,1 segment,all,94.66666666666667
+candle,874,1 segment,mixed,94.66666666666667
+candle,874,SAM object/bg,all,95.25555555555556
+candle,874,SAM object/bg,mixed,95.25555555555556
+candle,874,SAM object/bg + DINO,all,95.4888888888889
+candle,874,SAM object/bg + DINO,mixed,95.4888888888889
+candle,874,SAM object/bg + DINO + CLIP,all,96.03888888888889
+candle,874,SAM object/bg + DINO + CLIP,mixed,96.03888888888889
+candle,589,1 segment,all,95.03333333333335
+candle,589,1 segment,mixed,95.03333333333335
+candle,589,SAM object/bg,all,96.4888888888889
+candle,589,SAM object/bg,mixed,96.4888888888889
+candle,589,SAM object/bg + DINO,all,97.06666666666666
+candle,589,SAM object/bg + DINO,mixed,97.06666666666666
+candle,589,SAM object/bg + DINO + CLIP,all,96.18333333333334
+candle,589,SAM object/bg + DINO + CLIP,mixed,96.18333333333334
+capsules,333,1 segment,all,72.15740740740742
+capsules,333,1 segment,mixed,72.15740740740742
+capsules,333,SAM object/bg,all,68.53703703703704
+capsules,333,SAM object/bg,mixed,68.53703703703704
+capsules,333,SAM object/bg + DINO,all,77.51851851851852
+capsules,333,SAM object/bg + DINO,mixed,77.51851851851852
+capsules,333,SAM object/bg + DINO + CLIP,all,77.83333333333334
+capsules,333,SAM object/bg + DINO + CLIP,mixed,77.83333333333334
+capsules,576,1 segment,all,74.91666666666667
+capsules,576,1 segment,mixed,74.91666666666667
+capsules,576,SAM object/bg,all,67.57407407407408
+capsules,576,SAM object/bg,mixed,67.57407407407408
+capsules,576,SAM object/bg + DINO,all,75.75925925925927
+capsules,576,SAM object/bg + DINO,mixed,75.75925925925927
+capsules,576,SAM object/bg + DINO + CLIP,all,79.35185185185185
+capsules,576,SAM object/bg + DINO + CLIP,mixed,79.35185185185185
+capsules,725,1 segment,all,70.68518518518519
+capsules,725,1 segment,mixed,70.68518518518519
+capsules,725,SAM object/bg,all,73.25925925925927
+capsules,725,SAM object/bg,mixed,73.25925925925927
+capsules,725,SAM object/bg + DINO,all,75.88888888888889
+capsules,725,SAM object/bg + DINO,mixed,75.88888888888889
+capsules,725,SAM object/bg + DINO + CLIP,all,79.35185185185185
+capsules,725,SAM object/bg + DINO + CLIP,mixed,79.35185185185185
+capsules,823,1 segment,all,68.00925925925925
+capsules,823,1 segment,mixed,68.00925925925925
+capsules,823,SAM object/bg,all,73.31481481481481
+capsules,823,SAM object/bg,mixed,73.31481481481481
+capsules,823,SAM object/bg + DINO,all,72.6111111111111
+capsules,823,SAM object/bg + DINO,mixed,72.6111111111111
+capsules,823,SAM object/bg + DINO + CLIP,all,80.12962962962963
+capsules,823,SAM object/bg + DINO + CLIP,mixed,80.12962962962963
+capsules,831,1 segment,all,72.33333333333334
+capsules,831,1 segment,mixed,72.33333333333334
+capsules,831,SAM object/bg,all,69.05555555555556
+capsules,831,SAM object/bg,mixed,69.05555555555556
+capsules,831,SAM object/bg + DINO,all,74.33333333333333
+capsules,831,SAM object/bg + DINO,mixed,74.33333333333333
+capsules,831,SAM object/bg + DINO + CLIP,all,82.31481481481482
+capsules,831,SAM object/bg + DINO + CLIP,mixed,82.31481481481482
+capsules,902,1 segment,all,69.85185185185186
+capsules,902,1 segment,mixed,69.85185185185186
+capsules,902,SAM object/bg,all,62.129629629629626
+capsules,902,SAM object/bg,mixed,62.129629629629626
+capsules,902,SAM object/bg + DINO,all,78.29629629629629
+capsules,902,SAM object/bg + DINO,mixed,78.29629629629629
+capsules,902,SAM object/bg + DINO + CLIP,all,75.46296296296296
+capsules,902,SAM object/bg + DINO + CLIP,mixed,75.46296296296296
+capsules,226,1 segment,all,68.43518518518519
+capsules,226,1 segment,mixed,68.43518518518519
+capsules,226,SAM object/bg,all,70.90740740740742
+capsules,226,SAM object/bg,mixed,70.90740740740742
+capsules,226,SAM object/bg + DINO,all,79.16666666666666
+capsules,226,SAM object/bg + DINO,mixed,79.16666666666666
+capsules,226,SAM object/bg + DINO + CLIP,all,79.05555555555556
+capsules,226,SAM object/bg + DINO + CLIP,mixed,79.05555555555556
+capsules,598,1 segment,all,62.53703703703704
+capsules,598,1 segment,mixed,62.53703703703704
+capsules,598,SAM object/bg,all,63.70370370370371
+capsules,598,SAM object/bg,mixed,63.70370370370371
+capsules,598,SAM object/bg + DINO,all,69.40740740740742
+capsules,598,SAM object/bg + DINO,mixed,69.40740740740742
+capsules,598,SAM object/bg + DINO + CLIP,all,73.5
+capsules,598,SAM object/bg + DINO + CLIP,mixed,73.5
+capsules,874,1 segment,all,69.20370370370371
+capsules,874,1 segment,mixed,69.20370370370371
+capsules,874,SAM object/bg,all,69.22222222222223
+capsules,874,SAM object/bg,mixed,69.22222222222223
+capsules,874,SAM object/bg + DINO,all,74.01851851851853
+capsules,874,SAM object/bg + DINO,mixed,74.01851851851853
+capsules,874,SAM object/bg + DINO + CLIP,all,75.31481481481481
+capsules,874,SAM object/bg + DINO + CLIP,mixed,75.31481481481481
+capsules,589,1 segment,all,68.8425925925926
+capsules,589,1 segment,mixed,68.8425925925926
+capsules,589,SAM object/bg,all,67.31481481481481
+capsules,589,SAM object/bg,mixed,67.31481481481481
+capsules,589,SAM object/bg + DINO,all,78.48148148148148
+capsules,589,SAM object/bg + DINO,mixed,78.48148148148148
+capsules,589,SAM object/bg + DINO + CLIP,all,82.5
+capsules,589,SAM object/bg + DINO + CLIP,mixed,82.5
+cashew,333,1 segment,all,97.55555555555556
+cashew,333,1 segment,mixed,97.55555555555556
+cashew,333,SAM object/bg,all,96.35555555555555
+cashew,333,SAM object/bg,mixed,96.35555555555555
+cashew,333,SAM object/bg + DINO,all,97.22222222222221
+cashew,333,SAM object/bg + DINO,mixed,97.22222222222221
+cashew,333,SAM object/bg + DINO + CLIP,all,97.47777777777777
+cashew,333,SAM object/bg + DINO + CLIP,mixed,97.47777777777777
+cashew,576,1 segment,all,98.8111111111111
+cashew,576,1 segment,mixed,98.8111111111111
+cashew,576,SAM object/bg,all,97.9
+cashew,576,SAM object/bg,mixed,97.9
+cashew,576,SAM object/bg + DINO,all,99.3111111111111
+cashew,576,SAM object/bg + DINO,mixed,99.3111111111111
+cashew,576,SAM object/bg + DINO + CLIP,all,98.93333333333332
+cashew,576,SAM object/bg + DINO + CLIP,mixed,98.93333333333332
+cashew,725,1 segment,all,99.1
+cashew,725,1 segment,mixed,99.1
+cashew,725,SAM object/bg,all,98.35555555555557
+cashew,725,SAM object/bg,mixed,98.35555555555557
+cashew,725,SAM object/bg + DINO,all,98.55555555555556
+cashew,725,SAM object/bg + DINO,mixed,98.55555555555556
+cashew,725,SAM object/bg + DINO + CLIP,all,99.08888888888889
+cashew,725,SAM object/bg + DINO + CLIP,mixed,99.08888888888889
+cashew,823,1 segment,all,98.68888888888887
+cashew,823,1 segment,mixed,98.68888888888887
+cashew,823,SAM object/bg,all,98.4888888888889
+cashew,823,SAM object/bg,mixed,98.4888888888889
+cashew,823,SAM object/bg + DINO,all,96.55555555555556
+cashew,823,SAM object/bg + DINO,mixed,96.55555555555556
+cashew,823,SAM object/bg + DINO + CLIP,all,97.86666666666667
+cashew,823,SAM object/bg + DINO + CLIP,mixed,97.86666666666667
+cashew,831,1 segment,all,99.20000000000002
+cashew,831,1 segment,mixed,99.20000000000002
+cashew,831,SAM object/bg,all,98.73333333333333
+cashew,831,SAM object/bg,mixed,98.73333333333333
+cashew,831,SAM object/bg + DINO,all,98.37777777777778
+cashew,831,SAM object/bg + DINO,mixed,98.37777777777778
+cashew,831,SAM object/bg + DINO + CLIP,all,98.86666666666667
+cashew,831,SAM object/bg + DINO + CLIP,mixed,98.86666666666667
+cashew,902,1 segment,all,98.91111111111111
+cashew,902,1 segment,mixed,98.91111111111111
+cashew,902,SAM object/bg,all,98.1888888888889
+cashew,902,SAM object/bg,mixed,98.1888888888889
+cashew,902,SAM object/bg + DINO,all,98.53333333333335
+cashew,902,SAM object/bg + DINO,mixed,98.53333333333335
+cashew,902,SAM object/bg + DINO + CLIP,all,98.77777777777777
+cashew,902,SAM object/bg + DINO + CLIP,mixed,98.77777777777777
+cashew,226,1 segment,all,98.58888888888887
+cashew,226,1 segment,mixed,98.58888888888887
+cashew,226,SAM object/bg,all,98.02222222222224
+cashew,226,SAM object/bg,mixed,98.02222222222224
+cashew,226,SAM object/bg + DINO,all,98.22222222222223
+cashew,226,SAM object/bg + DINO,mixed,98.22222222222223
+cashew,226,SAM object/bg + DINO + CLIP,all,98.14444444444445
+cashew,226,SAM object/bg + DINO + CLIP,mixed,98.14444444444445
+cashew,598,1 segment,all,97.97777777777779
+cashew,598,1 segment,mixed,97.97777777777779
+cashew,598,SAM object/bg,all,98.06666666666666
+cashew,598,SAM object/bg,mixed,98.06666666666666
+cashew,598,SAM object/bg + DINO,all,97.41111111111111
+cashew,598,SAM object/bg + DINO,mixed,97.41111111111111
+cashew,598,SAM object/bg + DINO + CLIP,all,98.2
+cashew,598,SAM object/bg + DINO + CLIP,mixed,98.2
+cashew,874,1 segment,all,97.6
+cashew,874,1 segment,mixed,97.6
+cashew,874,SAM object/bg,all,97.94444444444444
+cashew,874,SAM object/bg,mixed,97.94444444444444
+cashew,874,SAM object/bg + DINO,all,98.35555555555557
+cashew,874,SAM object/bg + DINO,mixed,98.35555555555557
+cashew,874,SAM object/bg + DINO + CLIP,all,98.3111111111111
+cashew,874,SAM object/bg + DINO + CLIP,mixed,98.3111111111111
+cashew,589,1 segment,all,92.69999999999999
+cashew,589,1 segment,mixed,92.69999999999999
+cashew,589,SAM object/bg,all,95.60000000000001
+cashew,589,SAM object/bg,mixed,95.60000000000001
+cashew,589,SAM object/bg + DINO,all,97.88888888888889
+cashew,589,SAM object/bg + DINO,mixed,97.88888888888889
+cashew,589,SAM object/bg + DINO + CLIP,all,98.42222222222222
+cashew,589,SAM object/bg + DINO + CLIP,mixed,98.42222222222222
+chewinggum,333,1 segment,all,97.93333333333334
+chewinggum,333,1 segment,mixed,97.93333333333334
+chewinggum,333,SAM object/bg,all,97.63333333333334
+chewinggum,333,SAM object/bg,mixed,97.63333333333334
+chewinggum,333,SAM object/bg + DINO,all,97.95555555555555
+chewinggum,333,SAM object/bg + DINO,mixed,97.95555555555555
+chewinggum,333,SAM object/bg + DINO + CLIP,all,98.45555555555556
+chewinggum,333,SAM object/bg + DINO + CLIP,mixed,98.45555555555556
+chewinggum,576,1 segment,all,97.64444444444445
+chewinggum,576,1 segment,mixed,97.64444444444445
+chewinggum,576,SAM object/bg,all,98.71111111111112
+chewinggum,576,SAM object/bg,mixed,98.71111111111112
+chewinggum,576,SAM object/bg + DINO,all,98.63333333333334
+chewinggum,576,SAM object/bg + DINO,mixed,98.63333333333334
+chewinggum,576,SAM object/bg + DINO + CLIP,all,98.67777777777778
+chewinggum,576,SAM object/bg + DINO + CLIP,mixed,98.67777777777778
+chewinggum,725,1 segment,all,96.8
+chewinggum,725,1 segment,mixed,96.8
+chewinggum,725,SAM object/bg,all,98.8
+chewinggum,725,SAM object/bg,mixed,98.8
+chewinggum,725,SAM object/bg + DINO,all,97.81111111111112
+chewinggum,725,SAM object/bg + DINO,mixed,97.81111111111112
+chewinggum,725,SAM object/bg + DINO + CLIP,all,99.36666666666666
+chewinggum,725,SAM object/bg + DINO + CLIP,mixed,99.36666666666666
+chewinggum,823,1 segment,all,98.74444444444445
+chewinggum,823,1 segment,mixed,98.74444444444445
+chewinggum,823,SAM object/bg,all,98.24444444444444
+chewinggum,823,SAM object/bg,mixed,98.24444444444444
+chewinggum,823,SAM object/bg + DINO,all,99.22222222222223
+chewinggum,823,SAM object/bg + DINO,mixed,99.22222222222223
+chewinggum,823,SAM object/bg + DINO + CLIP,all,98.46666666666667
+chewinggum,823,SAM object/bg + DINO + CLIP,mixed,98.46666666666667
+chewinggum,831,1 segment,all,97.63333333333334
+chewinggum,831,1 segment,mixed,97.63333333333334
+chewinggum,831,SAM object/bg,all,98.77777777777779
+chewinggum,831,SAM object/bg,mixed,98.77777777777779
+chewinggum,831,SAM object/bg + DINO,all,99.3888888888889
+chewinggum,831,SAM object/bg + DINO,mixed,99.3888888888889
+chewinggum,831,SAM object/bg + DINO + CLIP,all,98.87777777777778
+chewinggum,831,SAM object/bg + DINO + CLIP,mixed,98.87777777777778
+chewinggum,902,1 segment,all,96.63333333333334
+chewinggum,902,1 segment,mixed,96.63333333333334
+chewinggum,902,SAM object/bg,all,98.45555555555555
+chewinggum,902,SAM object/bg,mixed,98.45555555555555
+chewinggum,902,SAM object/bg + DINO,all,99.24444444444444
+chewinggum,902,SAM object/bg + DINO,mixed,99.24444444444444
+chewinggum,902,SAM object/bg + DINO + CLIP,all,99.36666666666667
+chewinggum,902,SAM object/bg + DINO + CLIP,mixed,99.36666666666667
+chewinggum,226,1 segment,all,98.84444444444445
+chewinggum,226,1 segment,mixed,98.84444444444445
+chewinggum,226,SAM object/bg,all,98.22222222222223
+chewinggum,226,SAM object/bg,mixed,98.22222222222223
+chewinggum,226,SAM object/bg + DINO,all,99.45555555555555
+chewinggum,226,SAM object/bg + DINO,mixed,99.45555555555555
+chewinggum,226,SAM object/bg + DINO + CLIP,all,99.08888888888889
+chewinggum,226,SAM object/bg + DINO + CLIP,mixed,99.08888888888889
+chewinggum,598,1 segment,all,98.63333333333334
+chewinggum,598,1 segment,mixed,98.63333333333334
+chewinggum,598,SAM object/bg,all,99.1888888888889
+chewinggum,598,SAM object/bg,mixed,99.1888888888889
+chewinggum,598,SAM object/bg + DINO,all,98.8
+chewinggum,598,SAM object/bg + DINO,mixed,98.8
+chewinggum,598,SAM object/bg + DINO + CLIP,all,98.8
+chewinggum,598,SAM object/bg + DINO + CLIP,mixed,98.8
+chewinggum,874,1 segment,all,96.10000000000001
+chewinggum,874,1 segment,mixed,96.10000000000001
+chewinggum,874,SAM object/bg,all,98.77777777777779
+chewinggum,874,SAM object/bg,mixed,98.77777777777779
+chewinggum,874,SAM object/bg + DINO,all,99.36666666666667
+chewinggum,874,SAM object/bg + DINO,mixed,99.36666666666667
+chewinggum,874,SAM object/bg + DINO + CLIP,all,99.5111111111111
+chewinggum,874,SAM object/bg + DINO + CLIP,mixed,99.5111111111111
+chewinggum,589,1 segment,all,98.51111111111112
+chewinggum,589,1 segment,mixed,98.51111111111112
+chewinggum,589,SAM object/bg,all,98.75555555555555
+chewinggum,589,SAM object/bg,mixed,98.75555555555555
+chewinggum,589,SAM object/bg + DINO,all,98.96666666666667
+chewinggum,589,SAM object/bg + DINO,mixed,98.96666666666667
+chewinggum,589,SAM object/bg + DINO + CLIP,all,97.77777777777777
+chewinggum,589,SAM object/bg + DINO + CLIP,mixed,97.77777777777777
+fryum,333,1 segment,all,92.93333333333334
+fryum,333,1 segment,mixed,92.93333333333334
+fryum,333,SAM object/bg,all,93.46666666666667
+fryum,333,SAM object/bg,mixed,93.46666666666667
+fryum,333,SAM object/bg + DINO,all,95.53333333333333
+fryum,333,SAM object/bg + DINO,mixed,95.53333333333333
+fryum,333,SAM object/bg + DINO + CLIP,all,96.77777777777777
+fryum,333,SAM object/bg + DINO + CLIP,mixed,96.77777777777777
+fryum,576,1 segment,all,94.76666666666667
+fryum,576,1 segment,mixed,94.76666666666667
+fryum,576,SAM object/bg,all,90.72222222222223
+fryum,576,SAM object/bg,mixed,90.72222222222223
+fryum,576,SAM object/bg + DINO,all,92.16666666666666
+fryum,576,SAM object/bg + DINO,mixed,92.16666666666666
+fryum,576,SAM object/bg + DINO + CLIP,all,92.07777777777778
+fryum,576,SAM object/bg + DINO + CLIP,mixed,92.07777777777778
+fryum,725,1 segment,all,91.62222222222223
+fryum,725,1 segment,mixed,91.62222222222223
+fryum,725,SAM object/bg,all,92.37777777777777
+fryum,725,SAM object/bg,mixed,92.37777777777777
+fryum,725,SAM object/bg + DINO,all,93.97777777777779
+fryum,725,SAM object/bg + DINO,mixed,93.97777777777779
+fryum,725,SAM object/bg + DINO + CLIP,all,95.83333333333333
+fryum,725,SAM object/bg + DINO + CLIP,mixed,95.83333333333333
+fryum,823,1 segment,all,94.4
+fryum,823,1 segment,mixed,94.4
+fryum,823,SAM object/bg,all,91.66666666666666
+fryum,823,SAM object/bg,mixed,91.66666666666666
+fryum,823,SAM object/bg + DINO,all,93.95555555555555
+fryum,823,SAM object/bg + DINO,mixed,93.95555555555555
+fryum,823,SAM object/bg + DINO + CLIP,all,94.03333333333333
+fryum,823,SAM object/bg + DINO + CLIP,mixed,94.03333333333333
+fryum,831,1 segment,all,94.6
+fryum,831,1 segment,mixed,94.6
+fryum,831,SAM object/bg,all,94.11111111111111
+fryum,831,SAM object/bg,mixed,94.11111111111111
+fryum,831,SAM object/bg + DINO,all,95.88888888888889
+fryum,831,SAM object/bg + DINO,mixed,95.88888888888889
+fryum,831,SAM object/bg + DINO + CLIP,all,97.04444444444445
+fryum,831,SAM object/bg + DINO + CLIP,mixed,97.04444444444445
+fryum,902,1 segment,all,92.5
+fryum,902,1 segment,mixed,92.5
+fryum,902,SAM object/bg,all,90.45555555555556
+fryum,902,SAM object/bg,mixed,90.45555555555556
+fryum,902,SAM object/bg + DINO,all,92.78888888888889
+fryum,902,SAM object/bg + DINO,mixed,92.78888888888889
+fryum,902,SAM object/bg + DINO + CLIP,all,92.5
+fryum,902,SAM object/bg + DINO + CLIP,mixed,92.5
+fryum,226,1 segment,all,92.9888888888889
+fryum,226,1 segment,mixed,92.9888888888889
+fryum,226,SAM object/bg,all,93.62222222222222
+fryum,226,SAM object/bg,mixed,93.62222222222222
+fryum,226,SAM object/bg + DINO,all,97.71111111111111
+fryum,226,SAM object/bg + DINO,mixed,97.71111111111111
+fryum,226,SAM object/bg + DINO + CLIP,all,97.13333333333333
+fryum,226,SAM object/bg + DINO + CLIP,mixed,97.13333333333333
+fryum,598,1 segment,all,92.95555555555556
+fryum,598,1 segment,mixed,92.95555555555556
+fryum,598,SAM object/bg,all,92.64444444444445
+fryum,598,SAM object/bg,mixed,92.64444444444445
+fryum,598,SAM object/bg + DINO,all,95.46666666666668
+fryum,598,SAM object/bg + DINO,mixed,95.46666666666668
+fryum,598,SAM object/bg + DINO + CLIP,all,96.02222222222223
+fryum,598,SAM object/bg + DINO + CLIP,mixed,96.02222222222223
+fryum,874,1 segment,all,92.03333333333335
+fryum,874,1 segment,mixed,92.03333333333335
+fryum,874,SAM object/bg,all,95.80000000000001
+fryum,874,SAM object/bg,mixed,95.80000000000001
+fryum,874,SAM object/bg + DINO,all,96.93333333333334
+fryum,874,SAM object/bg + DINO,mixed,96.93333333333334
+fryum,874,SAM object/bg + DINO + CLIP,all,98.55555555555556
+fryum,874,SAM object/bg + DINO + CLIP,mixed,98.55555555555556
+fryum,589,1 segment,all,94.62222222222222
+fryum,589,1 segment,mixed,94.62222222222222
+fryum,589,SAM object/bg,all,96.53333333333333
+fryum,589,SAM object/bg,mixed,96.53333333333333
+fryum,589,SAM object/bg + DINO,all,98.0
+fryum,589,SAM object/bg + DINO,mixed,98.0
+fryum,589,SAM object/bg + DINO + CLIP,all,94.97777777777777
+fryum,589,SAM object/bg + DINO + CLIP,mixed,94.97777777777777
+macaroni1,333,1 segment,all,80.61111111111111
+macaroni1,333,1 segment,mixed,80.61111111111111
+macaroni1,333,SAM object/bg,all,73.97222222222221
+macaroni1,333,SAM object/bg,mixed,73.97222222222221
+macaroni1,333,SAM object/bg + DINO,all,88.92222222222222
+macaroni1,333,SAM object/bg + DINO,mixed,88.92222222222222
+macaroni1,333,SAM object/bg + DINO + CLIP,all,91.35555555555555
+macaroni1,333,SAM object/bg + DINO + CLIP,mixed,91.35555555555555
+macaroni1,576,1 segment,all,83.32222222222222
+macaroni1,576,1 segment,mixed,83.32222222222222
+macaroni1,576,SAM object/bg,all,75.63333333333333
+macaroni1,576,SAM object/bg,mixed,75.63333333333333
+macaroni1,576,SAM object/bg + DINO,all,87.37777777777778
+macaroni1,576,SAM object/bg + DINO,mixed,87.37777777777778
+macaroni1,576,SAM object/bg + DINO + CLIP,all,90.46666666666667
+macaroni1,576,SAM object/bg + DINO + CLIP,mixed,90.46666666666667
+macaroni1,725,1 segment,all,64.58333333333334
+macaroni1,725,1 segment,mixed,64.58333333333334
+macaroni1,725,SAM object/bg,all,69.32222222222222
+macaroni1,725,SAM object/bg,mixed,69.32222222222222
+macaroni1,725,SAM object/bg + DINO,all,83.81111111111112
+macaroni1,725,SAM object/bg + DINO,mixed,83.81111111111112
+macaroni1,725,SAM object/bg + DINO + CLIP,all,87.64444444444446
+macaroni1,725,SAM object/bg + DINO + CLIP,mixed,87.64444444444446
+macaroni1,823,1 segment,all,79.35
+macaroni1,823,1 segment,mixed,79.35
+macaroni1,823,SAM object/bg,all,66.41666666666669
+macaroni1,823,SAM object/bg,mixed,66.41666666666669
+macaroni1,823,SAM object/bg + DINO,all,82.80000000000001
+macaroni1,823,SAM object/bg + DINO,mixed,82.80000000000001
+macaroni1,823,SAM object/bg + DINO + CLIP,all,88.46111111111112
+macaroni1,823,SAM object/bg + DINO + CLIP,mixed,88.46111111111112
+macaroni1,831,1 segment,all,78.25555555555556
+macaroni1,831,1 segment,mixed,78.25555555555556
+macaroni1,831,SAM object/bg,all,80.21111111111111
+macaroni1,831,SAM object/bg,mixed,80.21111111111111
+macaroni1,831,SAM object/bg + DINO,all,86.52222222222221
+macaroni1,831,SAM object/bg + DINO,mixed,86.52222222222221
+macaroni1,831,SAM object/bg + DINO + CLIP,all,89.95555555555555
+macaroni1,831,SAM object/bg + DINO + CLIP,mixed,89.95555555555555
+macaroni1,902,1 segment,all,77.62222222222222
+macaroni1,902,1 segment,mixed,77.62222222222222
+macaroni1,902,SAM object/bg,all,78.53333333333333
+macaroni1,902,SAM object/bg,mixed,78.53333333333333
+macaroni1,902,SAM object/bg + DINO,all,89.37777777777778
+macaroni1,902,SAM object/bg + DINO,mixed,89.37777777777778
+macaroni1,902,SAM object/bg + DINO + CLIP,all,92.46666666666667
+macaroni1,902,SAM object/bg + DINO + CLIP,mixed,92.46666666666667
+macaroni1,226,1 segment,all,76.12777777777777
+macaroni1,226,1 segment,mixed,76.12777777777777
+macaroni1,226,SAM object/bg,all,80.55555555555556
+macaroni1,226,SAM object/bg,mixed,80.55555555555556
+macaroni1,226,SAM object/bg + DINO,all,88.52777777777779
+macaroni1,226,SAM object/bg + DINO,mixed,88.52777777777779
+macaroni1,226,SAM object/bg + DINO + CLIP,all,89.12222222222222
+macaroni1,226,SAM object/bg + DINO + CLIP,mixed,89.12222222222222
+macaroni1,598,1 segment,all,72.44444444444444
+macaroni1,598,1 segment,mixed,72.44444444444444
+macaroni1,598,SAM object/bg,all,76.87222222222223
+macaroni1,598,SAM object/bg,mixed,76.87222222222223
+macaroni1,598,SAM object/bg + DINO,all,86.82222222222225
+macaroni1,598,SAM object/bg + DINO,mixed,86.82222222222225
+macaroni1,598,SAM object/bg + DINO + CLIP,all,89.8
+macaroni1,598,SAM object/bg + DINO + CLIP,mixed,89.8
+macaroni1,874,1 segment,all,76.57777777777778
+macaroni1,874,1 segment,mixed,76.57777777777778
+macaroni1,874,SAM object/bg,all,76.01666666666665
+macaroni1,874,SAM object/bg,mixed,76.01666666666665
+macaroni1,874,SAM object/bg + DINO,all,87.1888888888889
+macaroni1,874,SAM object/bg + DINO,mixed,87.1888888888889
+macaroni1,874,SAM object/bg + DINO + CLIP,all,91.70555555555556
+macaroni1,874,SAM object/bg + DINO + CLIP,mixed,91.70555555555556
+macaroni1,589,1 segment,all,77.38333333333333
+macaroni1,589,1 segment,mixed,77.38333333333333
+macaroni1,589,SAM object/bg,all,80.5
+macaroni1,589,SAM object/bg,mixed,80.5
+macaroni1,589,SAM object/bg + DINO,all,88.88888888888889
+macaroni1,589,SAM object/bg + DINO,mixed,88.88888888888889
+macaroni1,589,SAM object/bg + DINO + CLIP,all,91.0888888888889
+macaroni1,589,SAM object/bg + DINO + CLIP,mixed,91.0888888888889
+macaroni2,333,1 segment,all,53.80555555555555
+macaroni2,333,1 segment,mixed,53.80555555555555
+macaroni2,333,SAM object/bg,all,65.06666666666666
+macaroni2,333,SAM object/bg,mixed,65.06666666666666
+macaroni2,333,SAM object/bg + DINO,all,70.64444444444445
+macaroni2,333,SAM object/bg + DINO,mixed,70.64444444444445
+macaroni2,333,SAM object/bg + DINO + CLIP,all,83.46666666666667
+macaroni2,333,SAM object/bg + DINO + CLIP,mixed,83.46666666666667
+macaroni2,576,1 segment,all,55.19444444444444
+macaroni2,576,1 segment,mixed,55.19444444444444
+macaroni2,576,SAM object/bg,all,71.02222222222223
+macaroni2,576,SAM object/bg,mixed,71.02222222222223
+macaroni2,576,SAM object/bg + DINO,all,78.53333333333333
+macaroni2,576,SAM object/bg + DINO,mixed,78.53333333333333
+macaroni2,576,SAM object/bg + DINO + CLIP,all,88.89999999999999
+macaroni2,576,SAM object/bg + DINO + CLIP,mixed,88.89999999999999
+macaroni2,725,1 segment,all,55.400000000000006
+macaroni2,725,1 segment,mixed,55.400000000000006
+macaroni2,725,SAM object/bg,all,63.433333333333344
+macaroni2,725,SAM object/bg,mixed,63.433333333333344
+macaroni2,725,SAM object/bg + DINO,all,78.54444444444444
+macaroni2,725,SAM object/bg + DINO,mixed,78.54444444444444
+macaroni2,725,SAM object/bg + DINO + CLIP,all,87.99999999999999
+macaroni2,725,SAM object/bg + DINO + CLIP,mixed,87.99999999999999
+macaroni2,823,1 segment,all,59.43888888888888
+macaroni2,823,1 segment,mixed,59.43888888888888
+macaroni2,823,SAM object/bg,all,71.97777777777779
+macaroni2,823,SAM object/bg,mixed,71.97777777777779
+macaroni2,823,SAM object/bg + DINO,all,80.33333333333333
+macaroni2,823,SAM object/bg + DINO,mixed,80.33333333333333
+macaroni2,823,SAM object/bg + DINO + CLIP,all,87.08888888888889
+macaroni2,823,SAM object/bg + DINO + CLIP,mixed,87.08888888888889
+macaroni2,831,1 segment,all,56.46666666666667
+macaroni2,831,1 segment,mixed,56.46666666666667
+macaroni2,831,SAM object/bg,all,67.92222222222222
+macaroni2,831,SAM object/bg,mixed,67.92222222222222
+macaroni2,831,SAM object/bg + DINO,all,74.56666666666666
+macaroni2,831,SAM object/bg + DINO,mixed,74.56666666666666
+macaroni2,831,SAM object/bg + DINO + CLIP,all,85.13333333333334
+macaroni2,831,SAM object/bg + DINO + CLIP,mixed,85.13333333333334
+macaroni2,902,1 segment,all,55.13888888888889
+macaroni2,902,1 segment,mixed,55.13888888888889
+macaroni2,902,SAM object/bg,all,64.83333333333333
+macaroni2,902,SAM object/bg,mixed,64.83333333333333
+macaroni2,902,SAM object/bg + DINO,all,74.26666666666667
+macaroni2,902,SAM object/bg + DINO,mixed,74.26666666666667
+macaroni2,902,SAM object/bg + DINO + CLIP,all,88.26666666666667
+macaroni2,902,SAM object/bg + DINO + CLIP,mixed,88.26666666666667
+macaroni2,226,1 segment,all,59.966666666666654
+macaroni2,226,1 segment,mixed,59.966666666666654
+macaroni2,226,SAM object/bg,all,71.9
+macaroni2,226,SAM object/bg,mixed,71.9
+macaroni2,226,SAM object/bg + DINO,all,79.91111111111111
+macaroni2,226,SAM object/bg + DINO,mixed,79.91111111111111
+macaroni2,226,SAM object/bg + DINO + CLIP,all,88.86666666666667
+macaroni2,226,SAM object/bg + DINO + CLIP,mixed,88.86666666666667
+macaroni2,598,1 segment,all,59.28888888888888
+macaroni2,598,1 segment,mixed,59.28888888888888
+macaroni2,598,SAM object/bg,all,68.64444444444445
+macaroni2,598,SAM object/bg,mixed,68.64444444444445
+macaroni2,598,SAM object/bg + DINO,all,61.011111111111106
+macaroni2,598,SAM object/bg + DINO,mixed,61.011111111111106
+macaroni2,598,SAM object/bg + DINO + CLIP,all,84.15555555555557
+macaroni2,598,SAM object/bg + DINO + CLIP,mixed,84.15555555555557
+macaroni2,874,1 segment,all,53.90555555555555
+macaroni2,874,1 segment,mixed,53.90555555555555
+macaroni2,874,SAM object/bg,all,64.08888888888889
+macaroni2,874,SAM object/bg,mixed,64.08888888888889
+macaroni2,874,SAM object/bg + DINO,all,70.12222222222222
+macaroni2,874,SAM object/bg + DINO,mixed,70.12222222222222
+macaroni2,874,SAM object/bg + DINO + CLIP,all,83.9888888888889
+macaroni2,874,SAM object/bg + DINO + CLIP,mixed,83.9888888888889
+macaroni2,589,1 segment,all,56.894444444444446
+macaroni2,589,1 segment,mixed,56.894444444444446
+macaroni2,589,SAM object/bg,all,59.37777777777779
+macaroni2,589,SAM object/bg,mixed,59.37777777777779
+macaroni2,589,SAM object/bg + DINO,all,57.10000000000001
+macaroni2,589,SAM object/bg + DINO,mixed,57.10000000000001
+macaroni2,589,SAM object/bg + DINO + CLIP,all,85.7
+macaroni2,589,SAM object/bg + DINO + CLIP,mixed,85.7
+pcb1,333,1 segment,all,94.62222222222223
+pcb1,333,1 segment,mixed,94.62222222222223
+pcb1,333,SAM object/bg,all,93.18888888888888
+pcb1,333,SAM object/bg,mixed,93.18888888888888
+pcb1,333,SAM object/bg + DINO,all,97.6111111111111
+pcb1,333,SAM object/bg + DINO,mixed,97.6111111111111
+pcb1,333,SAM object/bg + DINO + CLIP,all,97.46666666666668
+pcb1,333,SAM object/bg + DINO + CLIP,mixed,97.46666666666668
+pcb1,576,1 segment,all,92.28888888888889
+pcb1,576,1 segment,mixed,92.28888888888889
+pcb1,576,SAM object/bg,all,93.28888888888889
+pcb1,576,SAM object/bg,mixed,93.28888888888889
+pcb1,576,SAM object/bg + DINO,all,97.91111111111111
+pcb1,576,SAM object/bg + DINO,mixed,97.91111111111111
+pcb1,576,SAM object/bg + DINO + CLIP,all,98.32222222222222
+pcb1,576,SAM object/bg + DINO + CLIP,mixed,98.32222222222222
+pcb1,725,1 segment,all,92.22222222222223
+pcb1,725,1 segment,mixed,92.22222222222223
+pcb1,725,SAM object/bg,all,94.37777777777777
+pcb1,725,SAM object/bg,mixed,94.37777777777777
+pcb1,725,SAM object/bg + DINO,all,97.62222222222222
+pcb1,725,SAM object/bg + DINO,mixed,97.62222222222222
+pcb1,725,SAM object/bg + DINO + CLIP,all,97.53333333333333
+pcb1,725,SAM object/bg + DINO + CLIP,mixed,97.53333333333333
+pcb1,823,1 segment,all,95.96666666666668
+pcb1,823,1 segment,mixed,95.96666666666668
+pcb1,823,SAM object/bg,all,95.03333333333333
+pcb1,823,SAM object/bg,mixed,95.03333333333333
+pcb1,823,SAM object/bg + DINO,all,97.9888888888889
+pcb1,823,SAM object/bg + DINO,mixed,97.9888888888889
+pcb1,823,SAM object/bg + DINO + CLIP,all,98.17777777777779
+pcb1,823,SAM object/bg + DINO + CLIP,mixed,98.17777777777779
+pcb1,831,1 segment,all,94.6388888888889
+pcb1,831,1 segment,mixed,94.6388888888889
+pcb1,831,SAM object/bg,all,96.17777777777778
+pcb1,831,SAM object/bg,mixed,96.17777777777778
+pcb1,831,SAM object/bg + DINO,all,98.25555555555555
+pcb1,831,SAM object/bg + DINO,mixed,98.25555555555555
+pcb1,831,SAM object/bg + DINO + CLIP,all,98.5
+pcb1,831,SAM object/bg + DINO + CLIP,mixed,98.5
+pcb1,902,1 segment,all,93.66111111111111
+pcb1,902,1 segment,mixed,93.66111111111111
+pcb1,902,SAM object/bg,all,93.68888888888888
+pcb1,902,SAM object/bg,mixed,93.68888888888888
+pcb1,902,SAM object/bg + DINO,all,97.56666666666666
+pcb1,902,SAM object/bg + DINO,mixed,97.56666666666666
+pcb1,902,SAM object/bg + DINO + CLIP,all,98.01111111111112
+pcb1,902,SAM object/bg + DINO + CLIP,mixed,98.01111111111112
+pcb1,226,1 segment,all,94.71111111111111
+pcb1,226,1 segment,mixed,94.71111111111111
+pcb1,226,SAM object/bg,all,92.86666666666669
+pcb1,226,SAM object/bg,mixed,92.86666666666669
+pcb1,226,SAM object/bg + DINO,all,98.27777777777777
+pcb1,226,SAM object/bg + DINO,mixed,98.27777777777777
+pcb1,226,SAM object/bg + DINO + CLIP,all,97.6888888888889
+pcb1,226,SAM object/bg + DINO + CLIP,mixed,97.6888888888889
+pcb1,598,1 segment,all,93.3888888888889
+pcb1,598,1 segment,mixed,93.3888888888889
+pcb1,598,SAM object/bg,all,94.11111111111111
+pcb1,598,SAM object/bg,mixed,94.11111111111111
+pcb1,598,SAM object/bg + DINO,all,97.35555555555555
+pcb1,598,SAM object/bg + DINO,mixed,97.35555555555555
+pcb1,598,SAM object/bg + DINO + CLIP,all,98.31111111111112
+pcb1,598,SAM object/bg + DINO + CLIP,mixed,98.31111111111112
+pcb1,874,1 segment,all,92.50555555555555
+pcb1,874,1 segment,mixed,92.50555555555555
+pcb1,874,SAM object/bg,all,95.17222222222223
+pcb1,874,SAM object/bg,mixed,95.17222222222223
+pcb1,874,SAM object/bg + DINO,all,96.67777777777779
+pcb1,874,SAM object/bg + DINO,mixed,96.67777777777779
+pcb1,874,SAM object/bg + DINO + CLIP,all,97.47777777777779
+pcb1,874,SAM object/bg + DINO + CLIP,mixed,97.47777777777779
+pcb1,589,1 segment,all,92.17222222222223
+pcb1,589,1 segment,mixed,92.17222222222223
+pcb1,589,SAM object/bg,all,93.46666666666667
+pcb1,589,SAM object/bg,mixed,93.46666666666667
+pcb1,589,SAM object/bg + DINO,all,98.30555555555554
+pcb1,589,SAM object/bg + DINO,mixed,98.30555555555554
+pcb1,589,SAM object/bg + DINO + CLIP,all,98.21111111111111
+pcb1,589,SAM object/bg + DINO + CLIP,mixed,98.21111111111111
+pcb2,333,1 segment,all,88.78333333333333
+pcb2,333,1 segment,mixed,88.78333333333333
+pcb2,333,SAM object/bg,all,92.0111111111111
+pcb2,333,SAM object/bg,mixed,92.0111111111111
+pcb2,333,SAM object/bg + DINO,all,94.36666666666666
+pcb2,333,SAM object/bg + DINO,mixed,94.36666666666666
+pcb2,333,SAM object/bg + DINO + CLIP,all,96.24444444444444
+pcb2,333,SAM object/bg + DINO + CLIP,mixed,96.24444444444444
+pcb2,576,1 segment,all,87.33333333333333
+pcb2,576,1 segment,mixed,87.33333333333333
+pcb2,576,SAM object/bg,all,90.04444444444445
+pcb2,576,SAM object/bg,mixed,90.04444444444445
+pcb2,576,SAM object/bg + DINO,all,92.13888888888889
+pcb2,576,SAM object/bg + DINO,mixed,92.13888888888889
+pcb2,576,SAM object/bg + DINO + CLIP,all,93.35555555555555
+pcb2,576,SAM object/bg + DINO + CLIP,mixed,93.35555555555555
+pcb2,725,1 segment,all,89.3611111111111
+pcb2,725,1 segment,mixed,89.3611111111111
+pcb2,725,SAM object/bg,all,93.44444444444444
+pcb2,725,SAM object/bg,mixed,93.44444444444444
+pcb2,725,SAM object/bg + DINO,all,95.5
+pcb2,725,SAM object/bg + DINO,mixed,95.5
+pcb2,725,SAM object/bg + DINO + CLIP,all,96.25555555555555
+pcb2,725,SAM object/bg + DINO + CLIP,mixed,96.25555555555555
+pcb2,823,1 segment,all,82.35555555555555
+pcb2,823,1 segment,mixed,82.35555555555555
+pcb2,823,SAM object/bg,all,93.5
+pcb2,823,SAM object/bg,mixed,93.5
+pcb2,823,SAM object/bg + DINO,all,90.00555555555553
+pcb2,823,SAM object/bg + DINO,mixed,90.00555555555553
+pcb2,823,SAM object/bg + DINO + CLIP,all,88.88333333333335
+pcb2,823,SAM object/bg + DINO + CLIP,mixed,88.88333333333335
+pcb2,831,1 segment,all,86.40555555555555
+pcb2,831,1 segment,mixed,86.40555555555555
+pcb2,831,SAM object/bg,all,93.44444444444444
+pcb2,831,SAM object/bg,mixed,93.44444444444444
+pcb2,831,SAM object/bg + DINO,all,94.42777777777778
+pcb2,831,SAM object/bg + DINO,mixed,94.42777777777778
+pcb2,831,SAM object/bg + DINO + CLIP,all,95.65555555555557
+pcb2,831,SAM object/bg + DINO + CLIP,mixed,95.65555555555557
+pcb2,902,1 segment,all,82.4388888888889
+pcb2,902,1 segment,mixed,82.4388888888889
+pcb2,902,SAM object/bg,all,92.3611111111111
+pcb2,902,SAM object/bg,mixed,92.3611111111111
+pcb2,902,SAM object/bg + DINO,all,94.21111111111111
+pcb2,902,SAM object/bg + DINO,mixed,94.21111111111111
+pcb2,902,SAM object/bg + DINO + CLIP,all,96.49999999999999
+pcb2,902,SAM object/bg + DINO + CLIP,mixed,96.49999999999999
+pcb2,226,1 segment,all,89.35000000000001
+pcb2,226,1 segment,mixed,89.35000000000001
+pcb2,226,SAM object/bg,all,93.65555555555557
+pcb2,226,SAM object/bg,mixed,93.65555555555557
+pcb2,226,SAM object/bg + DINO,all,94.8111111111111
+pcb2,226,SAM object/bg + DINO,mixed,94.8111111111111
+pcb2,226,SAM object/bg + DINO + CLIP,all,94.9888888888889
+pcb2,226,SAM object/bg + DINO + CLIP,mixed,94.9888888888889
+pcb2,598,1 segment,all,78.83333333333333
+pcb2,598,1 segment,mixed,78.83333333333333
+pcb2,598,SAM object/bg,all,91.31666666666668
+pcb2,598,SAM object/bg,mixed,91.31666666666668
+pcb2,598,SAM object/bg + DINO,all,91.9888888888889
+pcb2,598,SAM object/bg + DINO,mixed,91.9888888888889
+pcb2,598,SAM object/bg + DINO + CLIP,all,94.34444444444445
+pcb2,598,SAM object/bg + DINO + CLIP,mixed,94.34444444444445
+pcb2,874,1 segment,all,88.65555555555554
+pcb2,874,1 segment,mixed,88.65555555555554
+pcb2,874,SAM object/bg,all,91.21111111111111
+pcb2,874,SAM object/bg,mixed,91.21111111111111
+pcb2,874,SAM object/bg + DINO,all,93.12222222222223
+pcb2,874,SAM object/bg + DINO,mixed,93.12222222222223
+pcb2,874,SAM object/bg + DINO + CLIP,all,95.46111111111111
+pcb2,874,SAM object/bg + DINO + CLIP,mixed,95.46111111111111
+pcb2,589,1 segment,all,89.39444444444446
+pcb2,589,1 segment,mixed,89.39444444444446
+pcb2,589,SAM object/bg,all,93.5
+pcb2,589,SAM object/bg,mixed,93.5
+pcb2,589,SAM object/bg + DINO,all,93.86666666666666
+pcb2,589,SAM object/bg + DINO,mixed,93.86666666666666
+pcb2,589,SAM object/bg + DINO + CLIP,all,95.34444444444445
+pcb2,589,SAM object/bg + DINO + CLIP,mixed,95.34444444444445
+pcb3,333,1 segment,all,85.45104510451046
+pcb3,333,1 segment,mixed,85.45104510451046
+pcb3,333,SAM object/bg,all,86.35863586358636
+pcb3,333,SAM object/bg,mixed,86.35863586358636
+pcb3,333,SAM object/bg + DINO,all,89.26292629262925
+pcb3,333,SAM object/bg + DINO,mixed,89.26292629262925
+pcb3,333,SAM object/bg + DINO + CLIP,all,90.59405940594061
+pcb3,333,SAM object/bg + DINO + CLIP,mixed,90.59405940594061
+pcb3,576,1 segment,all,83.4928492849285
+pcb3,576,1 segment,mixed,83.4928492849285
+pcb3,576,SAM object/bg,all,87.61276127612763
+pcb3,576,SAM object/bg,mixed,87.61276127612763
+pcb3,576,SAM object/bg + DINO,all,87.59075907590758
+pcb3,576,SAM object/bg + DINO,mixed,87.59075907590758
+pcb3,576,SAM object/bg + DINO + CLIP,all,93.3003300330033
+pcb3,576,SAM object/bg + DINO + CLIP,mixed,93.3003300330033
+pcb3,725,1 segment,all,83.71287128712872
+pcb3,725,1 segment,mixed,83.71287128712872
+pcb3,725,SAM object/bg,all,85.34653465346534
+pcb3,725,SAM object/bg,mixed,85.34653465346534
+pcb3,725,SAM object/bg + DINO,all,86.97469746974699
+pcb3,725,SAM object/bg + DINO,mixed,86.97469746974699
+pcb3,725,SAM object/bg + DINO + CLIP,all,91.52915291529153
+pcb3,725,SAM object/bg + DINO + CLIP,mixed,91.52915291529153
+pcb3,823,1 segment,all,83.52585258525853
+pcb3,823,1 segment,mixed,83.52585258525853
+pcb3,823,SAM object/bg,all,83.3883388338834
+pcb3,823,SAM object/bg,mixed,83.3883388338834
+pcb3,823,SAM object/bg + DINO,all,83.83938393839384
+pcb3,823,SAM object/bg + DINO,mixed,83.83938393839384
+pcb3,823,SAM object/bg + DINO + CLIP,all,90.44004400440043
+pcb3,823,SAM object/bg + DINO + CLIP,mixed,90.44004400440043
+pcb3,831,1 segment,all,85.93509350935095
+pcb3,831,1 segment,mixed,85.93509350935095
+pcb3,831,SAM object/bg,all,82.67326732673268
+pcb3,831,SAM object/bg,mixed,82.67326732673268
+pcb3,831,SAM object/bg + DINO,all,85.72057205720571
+pcb3,831,SAM object/bg + DINO,mixed,85.72057205720571
+pcb3,831,SAM object/bg + DINO + CLIP,all,89.98899889988998
+pcb3,831,SAM object/bg + DINO + CLIP,mixed,89.98899889988998
+pcb3,902,1 segment,all,76.13311331133114
+pcb3,902,1 segment,mixed,76.13311331133114
+pcb3,902,SAM object/bg,all,77.67326732673267
+pcb3,902,SAM object/bg,mixed,77.67326732673267
+pcb3,902,SAM object/bg + DINO,all,82.27172717271726
+pcb3,902,SAM object/bg + DINO,mixed,82.27172717271726
+pcb3,902,SAM object/bg + DINO + CLIP,all,88.22882288228824
+pcb3,902,SAM object/bg + DINO + CLIP,mixed,88.22882288228824
+pcb3,226,1 segment,all,76.6116611661166
+pcb3,226,1 segment,mixed,76.6116611661166
+pcb3,226,SAM object/bg,all,82.42024202420242
+pcb3,226,SAM object/bg,mixed,82.42024202420242
+pcb3,226,SAM object/bg + DINO,all,85.26952695269527
+pcb3,226,SAM object/bg + DINO,mixed,85.26952695269527
+pcb3,226,SAM object/bg + DINO + CLIP,all,90.73707370737073
+pcb3,226,SAM object/bg + DINO + CLIP,mixed,90.73707370737073
+pcb3,598,1 segment,all,80.30803080308031
+pcb3,598,1 segment,mixed,80.30803080308031
+pcb3,598,SAM object/bg,all,80.77007700770078
+pcb3,598,SAM object/bg,mixed,80.77007700770078
+pcb3,598,SAM object/bg + DINO,all,86.73267326732675
+pcb3,598,SAM object/bg + DINO,mixed,86.73267326732675
+pcb3,598,SAM object/bg + DINO + CLIP,all,91.12211221122112
+pcb3,598,SAM object/bg + DINO + CLIP,mixed,91.12211221122112
+pcb3,874,1 segment,all,80.07150715071506
+pcb3,874,1 segment,mixed,80.07150715071506
+pcb3,874,SAM object/bg,all,72.2992299229923
+pcb3,874,SAM object/bg,mixed,72.2992299229923
+pcb3,874,SAM object/bg + DINO,all,84.46644664466446
+pcb3,874,SAM object/bg + DINO,mixed,84.46644664466446
+pcb3,874,SAM object/bg + DINO + CLIP,all,91.30913091309131
+pcb3,874,SAM object/bg + DINO + CLIP,mixed,91.30913091309131
+pcb3,589,1 segment,all,83.23432343234323
+pcb3,589,1 segment,mixed,83.23432343234323
+pcb3,589,SAM object/bg,all,85.46754675467547
+pcb3,589,SAM object/bg,mixed,85.46754675467547
+pcb3,589,SAM object/bg + DINO,all,84.74147414741475
+pcb3,589,SAM object/bg + DINO,mixed,84.74147414741475
+pcb3,589,SAM object/bg + DINO + CLIP,all,91.84818481848185
+pcb3,589,SAM object/bg + DINO + CLIP,mixed,91.84818481848185
+pcb4,333,1 segment,all,98.90539053905391
+pcb4,333,1 segment,mixed,98.90539053905391
+pcb4,333,SAM object/bg,all,99.5984598459846
+pcb4,333,SAM object/bg,mixed,99.5984598459846
+pcb4,333,SAM object/bg + DINO,all,99.65346534653466
+pcb4,333,SAM object/bg + DINO,mixed,99.65346534653466
+pcb4,333,SAM object/bg + DINO + CLIP,all,99.74147414741475
+pcb4,333,SAM object/bg + DINO + CLIP,mixed,99.74147414741475
+pcb4,576,1 segment,all,99.49394939493949
+pcb4,576,1 segment,mixed,99.49394939493949
+pcb4,576,SAM object/bg,all,99.3784378437844
+pcb4,576,SAM object/bg,mixed,99.3784378437844
+pcb4,576,SAM object/bg + DINO,all,99.54345434543454
+pcb4,576,SAM object/bg + DINO,mixed,99.54345434543454
+pcb4,576,SAM object/bg + DINO + CLIP,all,99.77447744774477
+pcb4,576,SAM object/bg + DINO + CLIP,mixed,99.77447744774477
+pcb4,725,1 segment,all,99.42794279427942
+pcb4,725,1 segment,mixed,99.42794279427942
+pcb4,725,SAM object/bg,all,99.65896589658966
+pcb4,725,SAM object/bg,mixed,99.65896589658966
+pcb4,725,SAM object/bg + DINO,all,99.73597359735975
+pcb4,725,SAM object/bg + DINO,mixed,99.73597359735975
+pcb4,725,SAM object/bg + DINO + CLIP,all,99.7854785478548
+pcb4,725,SAM object/bg + DINO + CLIP,mixed,99.7854785478548
+pcb4,823,1 segment,all,99.35093509350935
+pcb4,823,1 segment,mixed,99.35093509350935
+pcb4,823,SAM object/bg,all,99.38393839383939
+pcb4,823,SAM object/bg,mixed,99.38393839383939
+pcb4,823,SAM object/bg + DINO,all,99.73597359735975
+pcb4,823,SAM object/bg + DINO,mixed,99.73597359735975
+pcb4,823,SAM object/bg + DINO + CLIP,all,99.78547854785478
+pcb4,823,SAM object/bg + DINO + CLIP,mixed,99.78547854785478
+pcb4,831,1 segment,all,99.33993399339933
+pcb4,831,1 segment,mixed,99.33993399339933
+pcb4,831,SAM object/bg,all,98.98239823982398
+pcb4,831,SAM object/bg,mixed,98.98239823982398
+pcb4,831,SAM object/bg + DINO,all,99.63696369636963
+pcb4,831,SAM object/bg + DINO,mixed,99.63696369636963
+pcb4,831,SAM object/bg + DINO + CLIP,all,99.66446644664467
+pcb4,831,SAM object/bg + DINO + CLIP,mixed,99.66446644664467
+pcb4,902,1 segment,all,99.32343234323433
+pcb4,902,1 segment,mixed,99.32343234323433
+pcb4,902,SAM object/bg,all,99.76897689768978
+pcb4,902,SAM object/bg,mixed,99.76897689768978
+pcb4,902,SAM object/bg + DINO,all,99.73597359735975
+pcb4,902,SAM object/bg + DINO,mixed,99.73597359735975
+pcb4,902,SAM object/bg + DINO + CLIP,all,99.72497249724974
+pcb4,902,SAM object/bg + DINO + CLIP,mixed,99.72497249724974
+pcb4,226,1 segment,all,99.54345434543454
+pcb4,226,1 segment,mixed,99.54345434543454
+pcb4,226,SAM object/bg,all,99.62046204620462
+pcb4,226,SAM object/bg,mixed,99.62046204620462
+pcb4,226,SAM object/bg + DINO,all,99.57645764576458
+pcb4,226,SAM object/bg + DINO,mixed,99.57645764576458
+pcb4,226,SAM object/bg + DINO + CLIP,all,99.72497249724974
+pcb4,226,SAM object/bg + DINO + CLIP,mixed,99.72497249724974
+pcb4,598,1 segment,all,99.43894389438944
+pcb4,598,1 segment,mixed,99.43894389438944
+pcb4,598,SAM object/bg,all,99.55995599559955
+pcb4,598,SAM object/bg,mixed,99.55995599559955
+pcb4,598,SAM object/bg + DINO,all,99.48294829482948
+pcb4,598,SAM object/bg + DINO,mixed,99.48294829482948
+pcb4,598,SAM object/bg + DINO + CLIP,all,99.49394939493949
+pcb4,598,SAM object/bg + DINO + CLIP,mixed,99.49394939493949
+pcb4,874,1 segment,all,98.91089108910892
+pcb4,874,1 segment,mixed,98.91089108910892
+pcb4,874,SAM object/bg,all,99.68096809680968
+pcb4,874,SAM object/bg,mixed,99.68096809680968
+pcb4,874,SAM object/bg + DINO,all,99.71397139713972
+pcb4,874,SAM object/bg + DINO,mixed,99.71397139713972
+pcb4,874,SAM object/bg + DINO + CLIP,all,99.77997799779979
+pcb4,874,SAM object/bg + DINO + CLIP,mixed,99.77997799779979
+pcb4,589,1 segment,all,98.58085808580859
+pcb4,589,1 segment,mixed,98.58085808580859
+pcb4,589,SAM object/bg,all,99.31793179317933
+pcb4,589,SAM object/bg,mixed,99.31793179317933
+pcb4,589,SAM object/bg + DINO,all,99.32893289328933
+pcb4,589,SAM object/bg + DINO,mixed,99.32893289328933
+pcb4,589,SAM object/bg + DINO + CLIP,all,99.14191419141913
+pcb4,589,SAM object/bg + DINO + CLIP,mixed,99.14191419141913
+pipe_fryum,333,1 segment,all,97.44444444444444
+pipe_fryum,333,1 segment,mixed,97.44444444444444
+pipe_fryum,333,SAM object/bg,all,97.73333333333335
+pipe_fryum,333,SAM object/bg,mixed,97.73333333333335
+pipe_fryum,333,SAM object/bg + DINO,all,98.73333333333333
+pipe_fryum,333,SAM object/bg + DINO,mixed,98.73333333333333
+pipe_fryum,333,SAM object/bg + DINO + CLIP,all,99.8888888888889
+pipe_fryum,333,SAM object/bg + DINO + CLIP,mixed,99.8888888888889
+pipe_fryum,576,1 segment,all,97.07777777777777
+pipe_fryum,576,1 segment,mixed,97.07777777777777
+pipe_fryum,576,SAM object/bg,all,97.31111111111112
+pipe_fryum,576,SAM object/bg,mixed,97.31111111111112
+pipe_fryum,576,SAM object/bg + DINO,all,98.60000000000001
+pipe_fryum,576,SAM object/bg + DINO,mixed,98.60000000000001
+pipe_fryum,576,SAM object/bg + DINO + CLIP,all,99.97777777777777
+pipe_fryum,576,SAM object/bg + DINO + CLIP,mixed,99.97777777777777
+pipe_fryum,725,1 segment,all,96.43333333333334
+pipe_fryum,725,1 segment,mixed,96.43333333333334
+pipe_fryum,725,SAM object/bg,all,97.27777777777777
+pipe_fryum,725,SAM object/bg,mixed,97.27777777777777
+pipe_fryum,725,SAM object/bg + DINO,all,98.97777777777779
+pipe_fryum,725,SAM object/bg + DINO,mixed,98.97777777777779
+pipe_fryum,725,SAM object/bg + DINO + CLIP,all,99.95555555555555
+pipe_fryum,725,SAM object/bg + DINO + CLIP,mixed,99.95555555555555
+pipe_fryum,823,1 segment,all,96.6888888888889
+pipe_fryum,823,1 segment,mixed,96.6888888888889
+pipe_fryum,823,SAM object/bg,all,97.45555555555556
+pipe_fryum,823,SAM object/bg,mixed,97.45555555555556
+pipe_fryum,823,SAM object/bg + DINO,all,98.82222222222224
+pipe_fryum,823,SAM object/bg + DINO,mixed,98.82222222222224
+pipe_fryum,823,SAM object/bg + DINO + CLIP,all,99.75555555555556
+pipe_fryum,823,SAM object/bg + DINO + CLIP,mixed,99.75555555555556
+pipe_fryum,831,1 segment,all,95.80000000000001
+pipe_fryum,831,1 segment,mixed,95.80000000000001
+pipe_fryum,831,SAM object/bg,all,95.37777777777777
+pipe_fryum,831,SAM object/bg,mixed,95.37777777777777
+pipe_fryum,831,SAM object/bg + DINO,all,98.36666666666667
+pipe_fryum,831,SAM object/bg + DINO,mixed,98.36666666666667
+pipe_fryum,831,SAM object/bg + DINO + CLIP,all,99.86666666666666
+pipe_fryum,831,SAM object/bg + DINO + CLIP,mixed,99.86666666666666
+pipe_fryum,902,1 segment,all,95.73333333333333
+pipe_fryum,902,1 segment,mixed,95.73333333333333
+pipe_fryum,902,SAM object/bg,all,96.57777777777778
+pipe_fryum,902,SAM object/bg,mixed,96.57777777777778
+pipe_fryum,902,SAM object/bg + DINO,all,98.57777777777778
+pipe_fryum,902,SAM object/bg + DINO,mixed,98.57777777777778
+pipe_fryum,902,SAM object/bg + DINO + CLIP,all,99.62222222222222
+pipe_fryum,902,SAM object/bg + DINO + CLIP,mixed,99.62222222222222
+pipe_fryum,226,1 segment,all,93.72222222222221
+pipe_fryum,226,1 segment,mixed,93.72222222222221
+pipe_fryum,226,SAM object/bg,all,96.77777777777776
+pipe_fryum,226,SAM object/bg,mixed,96.77777777777776
+pipe_fryum,226,SAM object/bg + DINO,all,98.7
+pipe_fryum,226,SAM object/bg + DINO,mixed,98.7
+pipe_fryum,226,SAM object/bg + DINO + CLIP,all,99.91111111111111
+pipe_fryum,226,SAM object/bg + DINO + CLIP,mixed,99.91111111111111
+pipe_fryum,598,1 segment,all,95.6888888888889
+pipe_fryum,598,1 segment,mixed,95.6888888888889
+pipe_fryum,598,SAM object/bg,all,96.51111111111112
+pipe_fryum,598,SAM object/bg,mixed,96.51111111111112
+pipe_fryum,598,SAM object/bg + DINO,all,98.80000000000001
+pipe_fryum,598,SAM object/bg + DINO,mixed,98.80000000000001
+pipe_fryum,598,SAM object/bg + DINO + CLIP,all,99.66666666666667
+pipe_fryum,598,SAM object/bg + DINO + CLIP,mixed,99.66666666666667
+pipe_fryum,874,1 segment,all,97.66666666666666
+pipe_fryum,874,1 segment,mixed,97.66666666666666
+pipe_fryum,874,SAM object/bg,all,98.57777777777778
+pipe_fryum,874,SAM object/bg,mixed,98.57777777777778
+pipe_fryum,874,SAM object/bg + DINO,all,98.84444444444446
+pipe_fryum,874,SAM object/bg + DINO,mixed,98.84444444444446
+pipe_fryum,874,SAM object/bg + DINO + CLIP,all,99.8
+pipe_fryum,874,SAM object/bg + DINO + CLIP,mixed,99.8
+pipe_fryum,589,1 segment,all,97.68888888888888
+pipe_fryum,589,1 segment,mixed,97.68888888888888
+pipe_fryum,589,SAM object/bg,all,97.71111111111111
+pipe_fryum,589,SAM object/bg,mixed,97.71111111111111
+pipe_fryum,589,SAM object/bg + DINO,all,99.06666666666666
+pipe_fryum,589,SAM object/bg + DINO,mixed,99.06666666666666
+pipe_fryum,589,SAM object/bg + DINO + CLIP,all,99.82222222222221
+pipe_fryum,589,SAM object/bg + DINO + CLIP,mixed,99.82222222222221
